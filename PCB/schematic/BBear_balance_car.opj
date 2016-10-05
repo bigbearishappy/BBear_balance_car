@@ -1,0 +1,31 @@
+(ExpressProject "BBear_balance_car"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\schematic_lib\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\bbear_balance_car.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\schematic_lib\library1.olb")
+      (Select "Design Resources" "Library" "..\schematic_lib\library1.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
+      (Tab 0)))
+  (PartMRUSelector))
