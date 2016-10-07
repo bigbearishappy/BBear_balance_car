@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CON4.dra                                      )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue May 10 18:16:24 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/嵌入式/百度云同步盘/毕业论文/毕业设计/PCB_Design/PCB_lib
+    Name      = con4.psm
+    User      = daxiong
+    Machine   = DAXIONG-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

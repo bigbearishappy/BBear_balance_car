@@ -9,19 +9,124 @@
     (File ".\bbear_balance_car.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\BBEAR_BALANCE_CAR.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "..\schematic_lib\session log"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\bbear_balance_car.dsn")
+      (Path "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\schematic_lib\library1.olb"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
       (Tab 0)))
-  (PartMRUSelector)
-  (MPSSessionName "daxiong"))
+  (PartMRUSelector
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (IRL3205
+      (FullPartName "IRL3205.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (IRF4905
+      (FullPartName "IRF4905.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (STM32F103C8T6
+      (FullPartName "STM32F103C8T6.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (KEY-4
+      (FullPartName "KEY-4.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (XTAL
+      (FullPartName "XTAL.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (LM1117
+      (FullPartName "LM1117.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "daxiong")
+  (ISPCBBASICLICENSE "false"))

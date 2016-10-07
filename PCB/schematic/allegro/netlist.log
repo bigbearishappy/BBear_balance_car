@@ -1,0 +1,13 @@
+{ Using PSTWRITER 16.6.0 d001Oct-07-2016 at 20:27:22 }
+
+#1 WARNING(ORCAP-36006): Part Name "STM32F103C8T6_NCU100_LQFP_48_STM32F103C8T6" is renamed to "STM32F103C8T6_NCU100_LQFP_48_ST".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... E:\嵌入式\GIT\PCB\SCHEMATIC\allegro/pstchip.dat
+
+Loading... E:\嵌入式\GIT\PCB\SCHEMATIC\allegro/pstchip.dat
+
+Loading... E:\嵌入式\GIT\PCB\SCHEMATIC\allegro/pstxprt.dat
+
+Loading... E:\嵌入式\GIT\PCB\SCHEMATIC\allegro/pstxnet.dat
+packaging the design view...
