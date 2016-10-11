@@ -27,7 +27,7 @@
     (width_start "80")
     (width_End "80")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Directory" "E:\嵌入式\GIT\PCB\SCHEMATIC\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -59,22 +59,50 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bbear_balance_car.dsn")
-      (Path "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 269"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 25 1102 25 357")
+        (Scroll "0 908")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MAIN_SCHEMATIC")))
   (PartMRUSelector
+    (KEY-4
+      (FullPartName "KEY-4.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (VCC
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SPX1117_5
+      (FullPartName "SPX1117_5.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (CON4
       (FullPartName "CON4.Normal")
@@ -83,10 +111,6 @@
     (CON2
       (FullPartName "CON2.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (CON3
       (FullPartName "CON3.Normal")
@@ -108,16 +132,8 @@
       (FullPartName "LED.Normal")
       (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
       (DeviceIndex "0"))
-    (CAP
-      (FullPartName "CAP.Normal")
-      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
     (STM32F103C8T6
       (FullPartName "STM32F103C8T6.Normal")
-      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (KEY-4
-      (FullPartName "KEY-4.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (XTAL

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : F150_180_070_1.dra                            )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue May 10 17:35:10 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FLASH
+    Directory = E:/嵌入式/百度云同步盘/毕业论文/毕业设计/PCB_Design/PCB_lib
+    Name      = f150_180_070_1.fsm
+    User      = daxiong
+    Machine   = DAXIONG-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

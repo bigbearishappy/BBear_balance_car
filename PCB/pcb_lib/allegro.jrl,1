@@ -1,0 +1,15 @@
+\t (00:47:19) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:47:19)     Journal start - Tue Oct 11 22:43:32 2016
+\t (00:47:19)         Host=DAXIONG-PC User=daxiong Pid=3480 CPUs=4
+\t (00:47:19) 
+\d (00:47:19) Database opened: E:/嵌入式/git/PCB/pcb_lib/CON3.dra
+\i (00:47:19) generaledit 
+\i (00:47:24) open 
+\i (00:47:36) fillin "E:\嵌入式\git\PCB\board\BBear_balance_car.brd"
+\i (00:47:36) cd "E:\嵌入式\git\PCB\board"
+\t (00:47:36) Opening existing design...
+\i (00:47:36) trapsize 1935
+\i (00:47:36) trapsize 1884
+\i (00:47:37) trapsize 1935
+\i (00:47:37) trapsize 1935
+\t (00:47:37)     Journal end - Tue Oct 11 22:43:50 2016

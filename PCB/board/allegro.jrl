@@ -1,0 +1,188 @@
+\t (01:11:13) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (01:11:13)     Journal start - Tue Oct 11 23:07:26 2016
+\t (01:11:13)         Host=DAXIONG-PC User=daxiong Pid=3480 CPUs=4
+\t (01:11:13) 
+\d (01:11:13) Database opened: E:/嵌入式/git/PCB/board/BBear_balance_car.brd
+\i (01:11:14) generaledit 
+\i (01:11:17) netin 
+\i (01:11:18) setwindow form.niparams
+\i (01:11:18) FORM niparams browse  
+\i (01:11:24) fillin "E:/嵌入式/git/PCB/schematic/allegro"
+\i (01:11:26) FORM niparams import  
+\t (01:11:26) Starting Cadence Logic Import...
+\t (01:11:27) Opening existing design...
+\i (01:11:27) setwindow pcb
+\i (01:11:27) trapsize 1935
+\i (01:11:28) generaledit 
+\i (01:11:33) place manual 
+\i (01:11:34) setwindow form.plc_manual
+\i (01:11:34) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\w (01:11:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:11:34) Placing C1 / CON2_C-0805_CON2 / C-0805 on Top.
+\i (01:11:34) FORM plc_manual tree  C1 'Components by refdes' 
+\i (01:11:36) FORM plc_manual tree 'MULTISEL NO' C1 'Components by refdes' 
+\i (01:11:38) FORM plc_manual tree 'MULTISEL YES' I1 'Components by refdes' 
+\w (01:11:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:11:38) Placing I1 / IRF4905_CON3_IRF4905 / CON3 on Top.
+\i (01:11:38) FORM plc_manual tree  I1 'Components by refdes' 
+\i (01:11:41) FORM plc_manual tree 'MULTISEL NO' I1 'Components by refdes' 
+\i (01:11:44) FORM plc_manual tree 'MULTISEL YES' K1 'Components by refdes' 
+\w (01:11:44) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:11:44) Placing K1 / KEY-4_BUTTON_6X6X5_KEY-4 / BUTTON_6X6X5 on Top.
+\i (01:11:44) FORM plc_manual tree  K1 'Components by refdes' 
+\i (01:11:48) FORM plc_manual tree 'MULTISEL NO' K1 'Components by refdes' 
+\i (01:11:52) FORM plc_manual tree 'MULTISEL YES' L1 'Components by refdes' 
+\w (01:11:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:11:52) Placing L1 / LM1117_LM1117_3_3_LM1117 / LM1117_3_3 on Top.
+\i (01:11:52) FORM plc_manual tree  L1 'Components by refdes' 
+\i (01:11:55) FORM plc_manual tree 'MULTISEL NO' L1 'Components by refdes' 
+\i (01:11:56) FORM plc_manual tree 'MULTISEL YES' LED1 'Components by refdes' 
+\t (01:11:56) Placing LED1 / LED_C-0805_HEARTLED / C-0805 on Top.
+\i (01:11:56) FORM plc_manual tree  LED1 'Components by refdes' 
+\i (01:11:58) FORM plc_manual tree 'MULTISEL NO' LED1 'Components by refdes' 
+\i (01:12:03) FORM plc_manual tree 'MULTISEL YES' S1 'Components by refdes' 
+\w (01:12:03) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:12:03) Placing S1 / SPX1117_5_SOT223_SPX1117 / SOT223 on Top.
+\i (01:12:03) FORM plc_manual tree  S1 'Components by refdes' 
+\i (01:12:05) FORM plc_manual tree 'MULTISEL NO' S1 'Components by refdes' 
+\i (01:12:06) FORM plc_manual tree 'MULTISEL YES' S2 'Components by refdes' 
+\w (01:12:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:12:06) Placing S2 / CON8_CON8_MPU6050 / CON8 on Top.
+\i (01:12:06) FORM plc_manual tree  S2 'Components by refdes' 
+\i (01:12:09) FORM plc_manual tree 'MULTISEL NO' S2 'Components by refdes' 
+\i (01:12:10) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\w (01:12:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:12:10) Placing U1 / STM32F103C8T6_NCU100_LQFP_48_ST / NCU100_LQFP_48 on Top.
+\i (01:12:10) FORM plc_manual tree  U1 'Components by refdes' 
+\i (01:12:12) FORM plc_manual tree 'MULTISEL NO' U1 'Components by refdes' 
+\i (01:12:14) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
+\t (01:12:14) Placing U2 / CON3_CON3_BOOT0 / CON3 on Top.
+\i (01:12:14) FORM plc_manual tree  U2 'Components by refdes' 
+\i (01:12:16) FORM plc_manual tree 'MULTISEL NO' U2 'Components by refdes' 
+\i (01:12:17) FORM plc_manual tree 'MULTISEL YES' U3 'Components by refdes' 
+\t (01:12:17) Placing U3 / CON3_CON3_BOOT1 / CON3 on Top.
+\i (01:12:17) FORM plc_manual tree  U3 'Components by refdes' 
+\i (01:12:19) FORM plc_manual tree 'MULTISEL NO' U3 'Components by refdes' 
+\i (01:12:20) FORM plc_manual tree 'MULTISEL YES' U4 'Components by refdes' 
+\w (01:12:20) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:12:20) Placing U4 / CON4_CON4_CON4 / CON4 on Top.
+\i (01:12:20) FORM plc_manual tree  U4 'Components by refdes' 
+\i (01:12:23) FORM plc_manual tree 'MULTISEL NO' U4 'Components by refdes' 
+\i (01:12:24) FORM plc_manual tree 'MULTISEL YES' U5 'Components by refdes' 
+\t (01:12:24) Placing U5 / CON4_CON4_SWD / CON4 on Top.
+\i (01:12:24) FORM plc_manual tree  U5 'Components by refdes' 
+\i (01:12:27) FORM plc_manual tree 'MULTISEL NO' U5 'Components by refdes' 
+\i (01:12:27) FORM plc_manual tree 'MULTISEL YES' X1 'Components by refdes' 
+\w (01:12:27) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (01:12:27) Placing X1 / XTAL_XTAL_XTAL / XTAL on Top.
+\i (01:12:27) FORM plc_manual tree  X1 'Components by refdes' 
+\i (01:12:30) FORM plc_manual tree 'MULTISEL NO' X1 'Components by refdes' 
+\i (01:12:31) FORM plc_manual done  
+\i (01:12:31) setwindow pcb
+\i (01:12:31) generaledit 
+\i (01:12:36) save 
+\i (01:12:39) fillin yes 
+\i (01:12:39) generaledit 
+\i (01:13:18) quickplace 
+\i (01:13:22) setwindow form.quickplc
+\i (01:13:22) FORM quickplc right_edge YES 
+\i (01:13:23) FORM quickplc left_edge YES 
+\i (01:13:37) FORM quickplc done  
+\i (01:13:37) setwindow pcb
+\i (01:13:37) generaledit 
+\i (01:13:40) pick grid -1393.67 429.65
+\t (01:13:40) last pick:  -1394.00  430.00
+\i (01:13:42) quickplace 
+\i (01:13:45) setwindow form.quickplc
+\i (01:13:45) FORM quickplc place  
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:13:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:13:47) FORM quickplc done  
+\i (01:13:47) setwindow pcb
+\i (01:13:47) generaledit 
+\i (01:13:49) zoom out 1 
+\i (01:13:49) setwindow pcb
+\i (01:13:49) zoom out -313.75 -259.33
+\i (01:13:49) trapsize 3871
+\i (01:13:50) zoom in 1 
+\i (01:13:50) setwindow pcb
+\i (01:13:50) zoom in 197.17 1497.96
+\i (01:13:50) trapsize 1935
+\i (01:13:55) save 
+\i (01:13:56) fillin yes 
+\i (01:13:56) generaledit 
+\i (01:13:57) zoom out 1 
+\i (01:13:57) setwindow pcb
+\i (01:13:57) zoom out 971.31 1323.78
+\i (01:13:57) trapsize 3871
+\i (01:13:58) zoom in 1 
+\i (01:13:58) setwindow pcb
+\i (01:13:58) zoom in 901.63 278.70
+\i (01:13:58) trapsize 1935
+\i (01:14:01) prepopup -340.85 96.78
+\i (01:14:06) pick grid -1482.70 878.66
+\t (01:14:06) last pick:  -1483.00  879.00
+\i (01:14:08) drag_start grid -1389.81 340.63
+\i (01:14:08) move 
+\t (01:14:08) last pick:  -1460.25  358.01
+\t (01:14:08) Moving X1 / XTAL_XTAL_XTAL / XTAL.
+\t (01:14:08) Pick new location for the element(s).
+\i (01:14:22) drag_stop grid -1478.83 321.28
+\i (01:14:22) generaledit 
+\i (01:14:39) drag_start grid -1362.71 305.80
+\i (01:14:39) move 
+\t (01:14:39) last pick:  -1479.00  321.00
+\t (01:14:39) Moving X1 / XTAL_XTAL_XTAL / XTAL.
+\t (01:14:39) Pick new location for the element(s).
+\i (01:14:41) drag_stop grid 1938.98 220.64
+\i (01:14:41) generaledit 
+\i (01:14:41) zoom in 1 
+\i (01:14:41) setwindow pcb
+\i (01:14:41) zoom in 1373.86 -58.05
+\i (01:14:41) trapsize 968
+\i (01:14:46) drag_start grid 1317.73 -63.86
+\i (01:14:46) move 
+\t (01:14:46) last pick:  1288.99  -55.07
+\t (01:14:46) Moving C9 / CAP_C-0805_22PF / C-0805.
+\t (01:14:46) Pick new location for the element(s).
+\i (01:14:53) drag_stop grid 1617.71 183.87
+\i (01:14:53) generaledit 
+\i (01:14:54) zoom out 1 
+\i (01:14:54) setwindow pcb
+\i (01:14:54) zoom out 781.64 -75.47
+\i (01:14:54) trapsize 1935
+\i (01:14:57) drag_start grid 2016.40 199.35
+\i (01:14:57) move 
+\t (01:14:57) last pick:  1939.00  221.00
+\t (01:14:57) Moving X1 / XTAL_XTAL_XTAL / XTAL.
+\t (01:14:57) Pick new location for the element(s).
+\i (01:15:02) drag_stop grid 1536.43 683.19
+\i (01:15:02) generaledit 
+\i (01:15:03) save 
+\i (01:15:04) fillin yes 
+\i (01:15:05) generaledit 
+\i (01:15:06) zoom out 1 
+\i (01:15:06) setwindow pcb
+\i (01:15:06) zoom out 2395.72 613.52
+\i (01:15:06) trapsize 3871
+\i (01:15:08) zoom out 1 
+\i (01:15:08) setwindow pcb
+\i (01:15:08) zoom out -2767.30 -710.26
+\i (01:15:08) trapsize 7741
+\i (01:15:08) zoom in 1 
+\i (01:15:08) setwindow pcb
+\i (01:15:08) zoom in -932.61 673.50
+\i (01:15:08) trapsize 3871
+\i (01:15:10) zoom in 1 
+\i (01:15:10) setwindow pcb
+\i (01:15:10) zoom in -538.25 1285.07
+\i (01:15:10) trapsize 1935
+\i (01:15:19) exit 
+\t (01:15:19)     Journal end - Tue Oct 11 23:11:32 2016
