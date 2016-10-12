@@ -1,15 +1,134 @@
-\t (00:47:19) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:47:19)     Journal start - Tue Oct 11 22:43:32 2016
-\t (00:47:19)         Host=DAXIONG-PC User=daxiong Pid=3480 CPUs=4
-\t (00:47:19) 
-\d (00:47:19) Database opened: E:/嵌入式/git/PCB/pcb_lib/CON3.dra
-\i (00:47:19) generaledit 
-\i (00:47:24) open 
-\i (00:47:36) fillin "E:\嵌入式\git\PCB\board\BBear_balance_car.brd"
-\i (00:47:36) cd "E:\嵌入式\git\PCB\board"
-\t (00:47:36) Opening existing design...
-\i (00:47:36) trapsize 1935
-\i (00:47:36) trapsize 1884
-\i (00:47:37) trapsize 1935
-\i (00:47:37) trapsize 1935
-\t (00:47:37)     Journal end - Tue Oct 11 22:43:50 2016
+\t (01:00:00) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (01:00:00)     Journal start - Tue Oct 11 22:56:13 2016
+\t (01:00:00)         Host=DAXIONG-PC User=daxiong Pid=3480 CPUs=4
+\t (01:00:00) 
+\d (01:00:00) Database opened: E:/嵌入式/git/PCB/pcb_lib/button_6x6x5.dra
+\i (01:00:01) generaledit 
+\i (01:00:03) zoom in 1 
+\i (01:00:03) setwindow pcb
+\i (01:00:03) zoom in 13.219 105.433
+\i (01:00:03) trapsize 7204
+\i (01:00:03) zoom in 1 
+\i (01:00:03) setwindow pcb
+\i (01:00:03) zoom in -339.790 105.433
+\i (01:00:03) trapsize 3602
+\i (01:00:06) zoom out 1 
+\i (01:00:06) setwindow pcb
+\i (01:00:06) zoom out -42.975 116.240
+\i (01:00:06) trapsize 7204
+\i (01:00:07) zoom in 1 
+\i (01:00:07) setwindow pcb
+\i (01:00:07) zoom in 11.778 94.626
+\i (01:00:07) trapsize 3602
+\i (01:00:08) zoom in 1 
+\i (01:00:08) setwindow pcb
+\i (01:00:08) zoom in -92.683 95.347
+\i (01:00:08) trapsize 1801
+\i (01:00:09) zoom out 1 
+\i (01:00:09) setwindow pcb
+\i (01:00:09) zoom out -33.968 105.794
+\i (01:00:09) trapsize 3602
+\e (01:00:19) Command not found: xdehilite
+\i (01:00:19) xname_flush 
+\i (01:00:19) done 
+\i (01:00:19) generaledit 
+\e (01:02:50) Command not found: xhilite
+\i (01:02:50) xname_flush 
+\i (01:02:50) done 
+\i (01:02:50) generaledit 
+\e (01:03:10) Command not found: xhilite
+\i (01:03:10) xname_flush 
+\i (01:03:10) done 
+\i (01:03:10) generaledit 
+\e (01:03:20) Command not found: xdehilite
+\i (01:03:20) xname_flush 
+\i (01:03:20) done 
+\i (01:03:21) generaledit 
+\e (01:03:32) Command not found: xhilite
+\i (01:03:32) xname_flush 
+\i (01:03:32) done 
+\i (01:03:32) generaledit 
+\e (01:03:44) Command not found: xhilite
+\i (01:03:44) xname_flush 
+\i (01:03:44) done 
+\i (01:03:44) generaledit 
+\e (01:03:48) Command not found: xdehilite
+\i (01:03:48) xname_flush 
+\i (01:03:48) done 
+\i (01:03:48) generaledit 
+\e (01:03:59) Command not found: xhilite
+\i (01:03:59) xname_flush 
+\i (01:03:59) done 
+\i (01:03:59) generaledit 
+\e (01:04:35) Command not found: xhilite
+\i (01:04:35) xname_flush 
+\i (01:04:35) done 
+\i (01:04:35) generaledit 
+\e (01:08:20) Command not found: xhilite
+\i (01:08:20) xname_flush 
+\i (01:08:20) done 
+\i (01:08:20) generaledit 
+\e (01:08:24) Command not found: xdehilite
+\i (01:08:24) xname_flush 
+\i (01:08:24) done 
+\i (01:08:24) generaledit 
+\e (01:08:25) Command not found: xhilite
+\i (01:08:25) xname_flush 
+\i (01:08:25) done 
+\i (01:08:25) generaledit 
+\e (01:08:27) Command not found: xdehilite
+\i (01:08:27) xname_flush 
+\i (01:08:27) done 
+\e (01:08:27) Command not found: xhilite
+\i (01:08:27) xname_flush 
+\e (01:08:27) No command active
+\i (01:08:27) done 
+\e (01:08:27) No command active
+\i (01:08:27) generaledit 
+\e (01:08:34) Command not found: xdehilite
+\i (01:08:34) xname_flush 
+\i (01:08:34) done 
+\i (01:08:34) generaledit 
+\e (01:08:35) Command not found: xhilite
+\i (01:08:35) xname_flush 
+\i (01:08:35) done 
+\i (01:08:35) generaledit 
+\e (01:08:36) Command not found: xdehilite
+\i (01:08:36) xname_flush 
+\i (01:08:36) done 
+\i (01:08:36) generaledit 
+\e (01:08:38) Command not found: xhilite
+\i (01:08:38) xname_flush 
+\i (01:08:38) done 
+\i (01:08:38) generaledit 
+\e (01:08:43) Command not found: xdehilite
+\i (01:08:43) xname_flush 
+\i (01:08:43) done 
+\i (01:08:43) generaledit 
+\e (01:08:44) Command not found: xhilite
+\i (01:08:44) xname_flush 
+\i (01:08:44) done 
+\i (01:08:44) generaledit 
+\e (01:08:45) Command not found: xdehilite
+\i (01:08:45) xname_flush 
+\i (01:08:45) done 
+\i (01:08:45) generaledit 
+\e (01:08:46) Command not found: xhilite
+\i (01:08:46) xname_flush 
+\i (01:08:46) done 
+\i (01:08:46) generaledit 
+\e (01:08:51) Command not found: xdehilite
+\i (01:08:51) xname_flush 
+\i (01:08:51) done 
+\i (01:08:51) generaledit 
+\i (01:11:02) open 
+\e (01:11:02) Do you want to save the changes you made to button_6x6x5.dra?
+\i (01:11:04) fillin no 
+\i (01:11:12) fillin "E:\嵌入式\git\PCB\board\BBear_balance_car.brd"
+\i (01:11:12) cd "E:\嵌入式\git\PCB\board"
+\t (01:11:12) Opening existing design...
+\i (01:11:13) trapsize 1935
+\i (01:11:13) trapsize 1884
+\i (01:11:13) trapsize 1935
+\i (01:11:13) trapsize 1935
+\t (01:11:13)     Journal end - Tue Oct 11 23:07:26 2016

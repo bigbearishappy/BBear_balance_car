@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Oct-11-2016 at 23:07:08}
+{ Using PSTWRITER 16.6.0 d001Oct-12-2016 at 23:08:10}
 primitive 'CON2_C-0805_CON2';
   pin
     '-':
@@ -402,40 +402,40 @@ primitive 'STM32F103C8T6_NCU100_LQFP_48_ST';
       PIN_NUMBER='(24)';
       PINUSE='UNSPEC';
     'VDD_3':
-      PIN_NUMBER='(37)';
+      PIN_NUMBER='(48)';
       PINUSE='UNSPEC';
     'VSS_3':
-      PIN_NUMBER='(38)';
-      PINUSE='UNSPEC';
-    'PB9':
-      PIN_NUMBER='(39)';
-      PINUSE='UNSPEC';
-    'PB8':
-      PIN_NUMBER='(40)';
-      PINUSE='UNSPEC';
-    'BOOT0':
-      PIN_NUMBER='(41)';
-      PINUSE='UNSPEC';
-    'PB7':
-      PIN_NUMBER='(42)';
-      PINUSE='UNSPEC';
-    'PB6':
-      PIN_NUMBER='(43)';
-      PINUSE='UNSPEC';
-    'PB5':
-      PIN_NUMBER='(44)';
-      PINUSE='UNSPEC';
-    'PB4':
-      PIN_NUMBER='(45)';
-      PINUSE='UNSPEC';
-    'PB3':
-      PIN_NUMBER='(46)';
-      PINUSE='UNSPEC';
-    'PA15':
       PIN_NUMBER='(47)';
       PINUSE='UNSPEC';
+    'PB9':
+      PIN_NUMBER='(46)';
+      PINUSE='UNSPEC';
+    'PB8':
+      PIN_NUMBER='(45)';
+      PINUSE='UNSPEC';
+    'BOOT0':
+      PIN_NUMBER='(44)';
+      PINUSE='UNSPEC';
+    'PB7':
+      PIN_NUMBER='(43)';
+      PINUSE='UNSPEC';
+    'PB6':
+      PIN_NUMBER='(42)';
+      PINUSE='UNSPEC';
+    'PB5':
+      PIN_NUMBER='(41)';
+      PINUSE='UNSPEC';
+    'PB4':
+      PIN_NUMBER='(40)';
+      PINUSE='UNSPEC';
+    'PB3':
+      PIN_NUMBER='(39)';
+      PINUSE='UNSPEC';
+    'PA15':
+      PIN_NUMBER='(38)';
+      PINUSE='UNSPEC';
     'SWCLK':
-      PIN_NUMBER='(48)';
+      PIN_NUMBER='(37)';
       PINUSE='UNSPEC';
     'VDD_2':
       PIN_NUMBER='(36)';

@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Oct-11-2016 at 22:50:13}
+{ Using PSTWRITER 16.6.0 d001Oct-12-2016 at 21:51:10}
 primitive 'CON2_C-0805_CON2';
   pin
     '-':
@@ -148,6 +148,12 @@ primitive 'KEY-4_BUTTON_6X6X5_KEY-4';
       PINUSE='UNSPEC';
     '2':
       PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
   end_pin;
   body

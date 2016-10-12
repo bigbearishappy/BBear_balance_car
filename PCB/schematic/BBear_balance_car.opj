@@ -69,25 +69,25 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 269"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 1102 25 357")
-        (Scroll "0 908")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1102 25 357")
+        (Scroll "155 0")
+        (Zoom "368")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAIN_SCHEMATIC")))
   (PartMRUSelector
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (KEY-4
       (FullPartName "KEY-4.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (CAP
       (FullPartName "CAP.Normal")
