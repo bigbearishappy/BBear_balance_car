@@ -1,0 +1,82 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : BBear_balance_car.brd                         )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Oct 13 23:30:02 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for both sides of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0 degree text rotation.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : None
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : None
+
+
+     ----- Top Silkscreen -----
+
+Text string 'C14' is not at a suitable location
+(location: 469.00, 353.00)
+Text string 'C9' is not at a suitable location
+(location: 293.00, -50.00)
+Text string 'LED2' is not at a suitable location
+(location: -631.00, -406.00)
+Text string 'R6' is not at a suitable location
+(location: -376.00, 104.00)
+Text string 'R9' is not at a suitable location
+(location: -103.00, 363.00)
+Text string 'R8' is not at a suitable location
+(location: -511.00, 343.00)
+Text string 'R4' is not at a suitable location
+(location: 109.00, 286.00)
+Text string 'R3' is not at a suitable location
+(location: -714.00, 318.00)
+Text string 'R11' is not at a suitable location
+(location: -499.00, -415.00)
+Text string 'R10' is not at a suitable location
+(location: 498.00, 298.00)
+Text string 'R2' is not at a suitable location
+(location: 676.00, 300.00)
+Text string 'R1' is not at a suitable location
+(location: 676.00, 201.00)
+Text string 'C2' is not at a suitable location
+(location: -679.00, 63.00)
+Text string 'C10' is not at a suitable location
+(location: 297.00, -228.00)
+Text string 'C8' is not at a suitable location
+(location: -390.00, -415.00)
+Text string 'C7' is not at a suitable location
+(location: -682.00, -91.00)
+Text string 'I3' is not at a suitable location
+(location: -544.00, 324.00)
+Text string 'U2' is not at a suitable location
+(location: -910.00, -1.00)
+Text string 'I5' is not at a suitable location
+(location: -347.00, 324.00)
+Text string 'U5' is not at a suitable location
+(location: 874.00, 356.00)
+Text string 'U1' is not at a suitable location
+(location: 789.00, 125.54)
+
+     ----- Bottom Silkscreen -----
+
+
+Total Failures: 21
+
+Log End
+

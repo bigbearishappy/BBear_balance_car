@@ -1,0 +1,392 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : BBear_balance_car.brd                         )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri Oct 14 00:36:49 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found ... using drawing extents
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < E:/嵌入式/git/PCB/board/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.07280                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.09300                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  SQUARE     0.07280                     0.000 NO     DARK 
+  RECTANGLE  0.04400     x 0.07200      90.000 NO     DARK 
+  RECTANGLE  0.08465     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.08465     x 0.12795       0.000 NO     DARK 
+  RECTANGLE  0.08500     x 0.10800       0.000 NO     DARK 
+  OBLONG     0.06500     x 0.00980       0.000 NO     DARK 
+  OBLONG     0.06500     x 0.00980      90.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10           0.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10          90.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10         180.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10         270.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < E:/嵌入式/git/PCB/board/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00800                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.07280                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.09300                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  SQUARE     0.07280                     0.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10          90.000 YES    DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < E:/嵌入式/git/PCB/board/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (-1073.00 -471.00)
+           ... using undefined line width of 6.00
+
+    WARNING: 0 width line found at (-1033.70 -438.43)
+           ... using undefined line width of 6.00
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01575                                  DARK 
+
+     SILKSCREEN_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_BOTTOM >
+     TO FILE < E:/嵌入式/git/PCB/board/SILKSCREEN_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+
+     SILKSCREEN_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < E:/嵌入式/git/PCB/board/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.07480                                  DARK 
+  CIRCLE     0.07680                                  DARK 
+  CIRCLE     0.09500                                  DARK 
+  CIRCLE     0.11000                                  DARK 
+  SQUARE     0.07480                     0.000 NO     DARK 
+  SQUARE     0.07680                     0.000 NO     DARK 
+  RECTANGLE  0.06400     x 0.09200      90.000 NO     DARK 
+  RECTANGLE  0.08858     x 0.04134       0.000 NO     DARK 
+  RECTANGLE  0.08858     x 0.13189       0.000 NO     DARK 
+  RECTANGLE  0.09000     x 0.11300       0.000 NO     DARK 
+  OBLONG     0.07280     x 0.01770       0.000 NO     DARK 
+  OBLONG     0.07280     x 0.01770      90.000 NO     DARK 
+  PAD SHAPE  SRX0_95Y1_55R0_10           0.000 NO     DARK 
+  PAD SHAPE  SRX0_95Y1_55R0_10          90.000 NO     DARK 
+  PAD SHAPE  SRX0_95Y1_55R0_10         180.000 NO     DARK 
+  PAD SHAPE  SRX0_95Y1_55R0_10         270.000 NO     DARK 
+
+     SOLDERMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < E:/嵌入式/git/PCB/board/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.07480                                  DARK 
+  CIRCLE     0.07680                                  DARK 
+  CIRCLE     0.09500                                  DARK 
+  CIRCLE     0.11000                                  DARK 
+  SQUARE     0.07480                     0.000 NO     DARK 
+  SQUARE     0.07680                     0.000 NO     DARK 
+  PAD SHAPE  SRX0_95Y1_55R0_10          90.000 YES    DARK 
+
+     SOLDERMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_TOP >
+     TO FILE < E:/嵌入式/git/PCB/board/PASTEMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.07087                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  RECTANGLE  0.08465     x 0.03740       0.000 NO     DARK 
+  RECTANGLE  0.08465     x 0.12795       0.000 NO     DARK 
+  RECTANGLE  0.08500     x 0.10800       0.000 NO     DARK 
+  OBLONG     0.06500     x 0.00980       0.000 NO     DARK 
+  OBLONG     0.06500     x 0.00980      90.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10           0.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10          90.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10         180.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10         270.000 NO     DARK 
+
+     PASTEMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < PASTEMASK_BOTTOM >
+     TO FILE < E:/嵌入式/git/PCB/board/PASTEMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.07087                                  DARK 
+  SQUARE     0.07087                     0.000 NO     DARK 
+  PAD SHAPE  SRX0_85Y1_45R0_10          90.000 YES    DARK 
+
+     PASTEMASK_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < E:/嵌入式/git/PCB/board/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     OUTLINE created.
+
+
+================================================================
+     PROCESSING FILM < DRILL_DRAW >
+     TO FILE < E:/嵌入式/git/PCB/board/DRILL_DRAW.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                6.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+
+     DRILL_DRAW created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        BOTTOM created.
+        SILKSCREEN_TOP created with warnings
+        SILKSCREEN_BOTTOM created.
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created.
+        PASTEMASK_TOP created.
+        PASTEMASK_BOTTOM created.
+        OUTLINE created.
+        DRILL_DRAW created.
+
+ ARTWORK finished

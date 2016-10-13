@@ -1,0 +1,105 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Silkscreen Audit Log File                                        )
+(                                                                     )
+(    Drawing          : BBear_balance_car.brd                         )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Oct 13 23:29:46 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Auditing silkscreen for both sides of the board.
+
+Element to Pad clearance is 0.00
+
+     ----- Top Silkscreen Audit -----
+
+TEXT 'C14' @ (469.00, 353.00) ... with text 'R10' @ (498.00, 298.00)
+TEXT 'C14' @ (469.00, 353.00) ... with pin @ (458.58, 209.00)
+TEXT 'C14' @ (469.00, 353.00) ... with pin @ (461.58, 298.00)
+TEXT 'C14' @ (469.00, 353.00) ... with line starting at (495.00, 180.46)
+TEXT 'C14' @ (469.00, 353.00) ... with pin @ (531.42, 209.00)
+TEXT 'C14' @ (469.00, 353.00) ... with line starting at (498.00, 269.46)
+TEXT 'C14' @ (469.00, 353.00) ... with pin @ (534.42, 298.00)
+TEXT 'C12' @ (198.01, -55.81) ... with text 'C9' @ (293.00, -50.00)
+TEXT 'C9' @ (293.00, -50.00) ... with line starting at (130.00, -476.85)
+TEXT 'C9' @ (293.00, -50.00) ... with text 'C12' @ (198.01, -55.81)
+TEXT 'C9' @ (293.00, -50.00) ... with pin @ (293.00, -86.42)
+TEXT 'C9' @ (293.00, -50.00) ... with line starting at (264.46, -50.00)
+TEXT 'C9' @ (293.00, -50.00) ... with pin @ (293.00, -13.58)
+TEXT 'LED2' @ (-631.00, -406.00) ... with line starting at (-631.00, -434.54)
+TEXT 'LED2' @ (-631.00, -406.00) ... with pin @ (-667.42, -406.00)
+TEXT 'LED2' @ (-631.00, -406.00) ... with pin @ (-594.58, -406.00)
+TEXT 'R6' @ (-376.00, 104.00) ... with via @ (-389.00, 158.00)
+TEXT 'R6' @ (-376.00, 104.00) ... with pin @ (-412.42, 104.00)
+TEXT 'R6' @ (-376.00, 104.00) ... with pin @ (-339.58, 104.00)
+TEXT 'R9' @ (-103.00, 363.00) ... with pin @ (-103.00, 326.58)
+TEXT 'R9' @ (-103.00, 363.00) ... with line starting at (-74.46, 363.00)
+TEXT 'R9' @ (-103.00, 363.00) ... with pin @ (-103.00, 399.42)
+TEXT 'R9' @ (-103.00, 363.00) ... with line starting at (-54.00, 168.52)
+TEXT 'R8' @ (-511.00, 343.00) ... with text 'I3' @ (-544.00, 324.00)
+TEXT 'R8' @ (-511.00, 343.00) ... with line starting at (-380.55, 166.52)
+TEXT 'R8' @ (-511.00, 343.00) ... with pin @ (-511.00, 306.58)
+TEXT 'R8' @ (-511.00, 343.00) ... with line starting at (-482.46, 343.00)
+TEXT 'R8' @ (-511.00, 343.00) ... with pin @ (-511.00, 379.42)
+TEXT 'R4' @ (109.00, 286.00) ... with pin @ (109.00, 249.58)
+TEXT 'R4' @ (109.00, 286.00) ... with line starting at (137.54, 286.00)
+TEXT 'R4' @ (109.00, 286.00) ... with pin @ (109.00, 322.42)
+TEXT 'R4' @ (109.00, 286.00) ... with line starting at (154.00, 169.52)
+TEXT 'R3' @ (-714.00, 318.00) ... with line starting at (-685.46, 318.00)
+TEXT 'R3' @ (-714.00, 318.00) ... with pin @ (-714.00, 281.58)
+TEXT 'R3' @ (-714.00, 318.00) ... with pin @ (-714.00, 354.42)
+TEXT 'R3' @ (-714.00, 318.00) ... with line starting at (-665.00, 166.52)
+TEXT 'R11' @ (-499.00, -415.00) ... with line starting at (-470.46, -415.00)
+TEXT 'R11' @ (-499.00, -415.00) ... with pin @ (-499.00, -378.58)
+TEXT 'R11' @ (-499.00, -415.00) ... with pin @ (-499.00, -451.42)
+TEXT 'R11' @ (-499.00, -415.00) ... with text 'C8' @ (-390.00, -415.00)
+TEXT 'R10' @ (498.00, 298.00) ... with text 'C14' @ (469.00, 353.00)
+TEXT 'R10' @ (498.00, 298.00) ... with pin @ (461.58, 298.00)
+TEXT 'R10' @ (498.00, 298.00) ... with line starting at (495.00, 180.46)
+TEXT 'R10' @ (498.00, 298.00) ... with line starting at (498.00, 269.46)
+TEXT 'R10' @ (498.00, 298.00) ... with pin @ (534.42, 298.00)
+TEXT 'R2' @ (676.00, 300.00) ... with pin @ (639.58, 300.00)
+TEXT 'R2' @ (676.00, 300.00) ... with pin @ (712.42, 300.00)
+TEXT 'R1' @ (676.00, 201.00) ... with pin @ (639.58, 201.00)
+TEXT 'R1' @ (676.00, 201.00) ... with pin @ (712.42, 201.00)
+TEXT 'C2' @ (-679.00, 63.00) ... with line starting at (-707.54, 63.00)
+TEXT 'C2' @ (-679.00, 63.00) ... with pin @ (-679.00, 26.58)
+TEXT 'C2' @ (-679.00, 63.00) ... with pin @ (-679.00, 99.42)
+TEXT 'C10' @ (297.00, -228.00) ... with line starting at (130.00, -476.85)
+TEXT 'C10' @ (297.00, -228.00) ... with pin @ (297.00, -264.42)
+TEXT 'C10' @ (297.00, -228.00) ... with line starting at (268.46, -228.00)
+TEXT 'C10' @ (297.00, -228.00) ... with pin @ (297.00, -191.58)
+TEXT 'C8' @ (-390.00, -415.00) ... with text 'R11' @ (-499.00, -415.00)
+TEXT 'C8' @ (-390.00, -415.00) ... with line starting at (-418.54, -415.00)
+TEXT 'C8' @ (-390.00, -415.00) ... with pin @ (-390.00, -451.42)
+TEXT 'C8' @ (-390.00, -415.00) ... with pin @ (-390.00, -378.58)
+TEXT 'LED1' @ (840.00, 242.00) ... with text 'U5' @ (874.00, 356.00)
+TEXT 'C7' @ (-682.00, -91.00) ... with line starting at (-710.54, -91.00)
+TEXT 'C7' @ (-682.00, -91.00) ... with pin @ (-682.00, -127.42)
+TEXT 'C7' @ (-682.00, -91.00) ... with pin @ (-682.00, -54.58)
+TEXT 'I3' @ (-544.00, 324.00) ... with line starting at (-482.46, 343.00)
+TEXT 'I3' @ (-544.00, 324.00) ... with pin @ (-511.00, 379.42)
+TEXT 'I3' @ (-544.00, 324.00) ... with text 'R8' @ (-511.00, 343.00)
+TEXT 'I3' @ (-544.00, 324.00) ... with line starting at (-380.55, 166.52)
+TEXT 'U2' @ (-910.00, -1.00) ... with line starting at (-752.52, 6.00)
+TEXT 'U2' @ (-910.00, -1.00) ... with pin @ (-910.00, 61.00)
+TEXT 'I5' @ (-347.00, 324.00) ... with line starting at (-264.00, 167.52)
+TEXT 'U5' @ (874.00, 356.00) ... with text 'LED1' @ (840.00, 242.00)
+TEXT 'U5' @ (874.00, 356.00) ... with via @ (889.00, 301.00)
+TEXT 'U1' @ (789.00, 125.54) ... with pin @ (803.58, 207.00)
+
+Audit Errors: 74
+
+
+     ----- Bottom Silkscreen Audit -----
+
+
+Audit Errors: 0
+
+
+Total Audit Errors: 74
+
+Log End
+
