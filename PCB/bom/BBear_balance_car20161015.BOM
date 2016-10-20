@@ -1,0 +1,38 @@
+RTU_BBear  Revised: Wednesday, October 12, 2016
+          Revision: v1.0
+
+
+
+
+
+
+
+Bill Of Materials        October 15,2016      12:55:33	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	2	C1,C11	CON2 				ok
+2	2	C2,C7	4.7UF				ok
+3	5	C3,C4,C5,C6,C12	0.1UF		ok
+4	1	C8	1UF						no
+5	2	C9,C10	22PF				ok
+6	1	C13	10UF					ok
+7	2	LED2,C14	POWER			ok
+8	4	I1,I2,I5,I6	IRF4905			ok
+9	4	I3,I4,I7,I8	IRF3205			ok
+10	1	K1	KEY-4					ok
+11	1	LED1	HEARTLED			ok
+12	1	L1	LM1117					ok
+13	4	R1,R2,R5,R7	10K				ok
+14	4	R3,R4,R8,R9	51R				ok
+15	1	R6	15K						ok
+16	2	R10,R11	1K					ok
+17	1	S1	SPX1117					ok
+18	1	S2	MPU6050					ok
+19	1	U1	STM32F103C8T6			ok
+20	1	U2	BOOT0					ok
+21	1	U3	BOOT1					ok
+22	1	U4	CON4					ok
+23	1	U5	SWD						ok
+24	1	X1	XTAL					ok

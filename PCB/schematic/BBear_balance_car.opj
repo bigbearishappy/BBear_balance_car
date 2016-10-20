@@ -42,7 +42,18 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "E:\嵌入式\git\PCB\board\BBear_balance_car20161015.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -54,6 +65,8 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File "..\schematic_lib\session log"
+      (Type "Report"))
+    (File "..\board\bbear_balance_car20161015.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
@@ -61,22 +74,21 @@
       (Path "Design Resources")
       (Path "Design Resources"
          "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn")
-      (Path "Design Resources"
-         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 269"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1102 25 357")
-        (Scroll "155 0")
-        (Zoom "368")
+        (Placement "44 2 3 -1 -1 -8 -30 25 1102 25 357")
+        (Scroll "-302 -6")
+        (Zoom "54")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")
