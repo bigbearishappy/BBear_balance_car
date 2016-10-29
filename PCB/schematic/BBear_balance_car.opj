@@ -45,7 +45,7 @@
     (Netlist_TAB "0")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "E:\嵌入式\git\PCB\board\BBear_balance_car20161015.BOM")
+    (BOM_Report_File "E:\嵌入式\git\PCB\bom\BBear_balance_car20161023.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_Header "Item\tQuantity\tReference\tPart")
@@ -67,6 +67,8 @@
     (File "..\schematic_lib\session log"
       (Type "Report"))
     (File "..\board\bbear_balance_car20161015.bom"
+      (Type "Report"))
+    (File "..\bom\bbear_balance_car20161023.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
@@ -74,9 +76,13 @@
       (Path "Design Resources")
       (Path "Design Resources"
          "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1"
+         "MAIN_SCHEMATIC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -87,13 +93,24 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 25 1102 25 357")
-        (Scroll "-302 -6")
-        (Zoom "54")
+        (Scroll "0 0")
+        (Zoom "248")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAIN_SCHEMATIC")))
   (PartMRUSelector
+    (VCC
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -109,23 +126,12 @@
       (FullPartName "R.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (VCC
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (SPX1117_5
       (FullPartName "SPX1117_5.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (CON4
       (FullPartName "CON4.Normal")
-      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CON2
-      (FullPartName "CON2.Normal")
-      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CON3
-      (FullPartName "CON3.Normal")
       (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (IRL3205

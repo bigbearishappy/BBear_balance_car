@@ -1,0 +1,258 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd                       |
+|                                                    Sat Oct 22 21:37:57 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  BAT_D        pins ADDED TO this new net
+                                 C8.1           C10.2          L1.1           
+                                 U4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT0        pins ADDED TO this new net
+                                 R1.2           U1.44          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT1        pins ADDED TO this new net
+                                 R2.2           U1.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.1           C2.1           C3.1           
+                                 C4.1           C5.1           C6.1           
+                                 C7.1           C8.2           C9.1           
+                                 C10.1          K1.1           L1.3           
+                                 R4.2           R5.2           S1.2           
+                                 U1.8           U1.23          U1.35          
+                                 U1.47          U2.3           U3.2           
+                                 U5.3           U6.4           U7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HEART_LED    pins ADDED TO this new net
+                                 LED1.2         U1.41          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LEFT_BACK    pins ADDED TO this new net
+                                 U1.43          U11.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LEFT_FOR     pins ADDED TO this new net
+                                 U1.42          U11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOTOR_BAT    pins ADDED TO this new net
+                                 U4.2           U7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03806       pins ADDED TO this new net
+                                 LED2.1         R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07785       pins ADDED TO this new net
+                                 LED1.1         R4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23990       pins ADDED TO this new net
+                                 U9.1           U10.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23994       pins ADDED TO this new net
+                                 U9.2           U10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23998       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd                       |
+|                                                    Sat Oct 22 21:37:57 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U12.1          U13.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24002       pins ADDED TO this new net
+                                 U12.2          U13.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N073361      pins ADDED TO this new net
+                                 R1.1           U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N073541      pins ADDED TO this new net
+                                 R2.1           U5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSCIN        pins ADDED TO this new net
+                                 C6.2           U1.5           X1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSCOUT       pins ADDED TO this new net
+                                 C7.2           U1.6           X1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA9          pins ADDED TO this new net
+                                 U1.31          U3.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA10         pins ADDED TO this new net
+                                 U1.30          U3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins ADDED TO this new net
+                                 C5.2           K1.2           R3.2           
+                                 U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RIGHT_BACK   pins ADDED TO this new net
+                                 U1.46          U8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RIGHT_FOR    pins ADDED TO this new net
+                                 U1.45          U8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this new net
+                                 S1.3           U1.19          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this new net
+                                 S1.4           U1.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWCLK        pins ADDED TO this new net
+                                 U1.37          U6.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWIO         pins ADDED TO this new net
+                                 U1.34          U6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd                       |
+|                                                    Sat Oct 22 21:37:57 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  VCC3.3       pins ADDED TO this new net
+                                 C1.2           C2.2           C3.2           
+                                 C4.2           C9.2           L1.2           
+                                 L1.4           LED2.2         R3.1           
+                                 S1.1           U1.1           U1.9           
+                                 U1.24          U1.36          U1.48          
+                                 U2.1           U3.1           U4.1           
+                                 U5.1           U6.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd                       |
+|                                                    Sat Oct 22 21:37:57 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP_C-0805_0.1UF
+ CAP_C-0805_10UF
+ CAP_C-0805_1UF
+ CAP_C-0805_22PF
+ CON2_C-0805_MOTOR0805
+ CON2_CON2_R2_54_CON2
+ CON2_CON2_R2_54_MOTOR-A
+ CON2_CON2_R2_54_MOTOR-B
+ CON2_CON2_R2_54_POWER
+ CON3_CON3_BOOT0
+ CON3_CON3_BOOT1
+ CON3_CON3_SWITCH
+ CON4_CON4_CON4
+ CON4_CON4_SWD
+ CON8_CON8_MPU6050
+ KEY-4_BUTTON_6X6X5_KEY-4
+ LED_C-0805_HEARTLED
+ LED_C-0805_POWER
+ LM1117_LM1117_3_3_LM1117
+ R_C-0805_10K
+ R_C-0805_1K
+ STM32F103C8T6_NCU100_LQFP_48_ST
+ XTAL_XTAL_XTAL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd                       |
+|                                                    Sat Oct 22 21:37:57 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP_C-0805_0.1UF      
+ C2                  CAP_C-0805_0.1UF      
+ C3                  CAP_C-0805_0.1UF      
+ C4                  CAP_C-0805_0.1UF      
+ C5                  CAP_C-0805_1UF        
+ C6                  CAP_C-0805_22PF       
+ C7                  CAP_C-0805_22PF       
+ C8                  CAP_C-0805_0.1UF      
+ C9                  CAP_C-0805_10UF       
+ C10                 CON2_CON2_R2_54_POWER 
+ K1                  KEY-4_BUTTON_6X6X5_KEY-4 
+ L1                  LM1117_LM1117_3_3_LM1117 
+ LED1                LED_C-0805_HEARTLED   
+ LED2                LED_C-0805_POWER      
+ R1                  R_C-0805_10K          
+ R2                  R_C-0805_10K          
+ R3                  R_C-0805_10K          
+ R4                  R_C-0805_1K           
+ R5                  R_C-0805_1K           
+ S1                  CON8_CON8_MPU6050     
+ U1                  STM32F103C8T6_NCU100_LQFP_48_ST 
+ U2                  CON3_CON3_BOOT0       
+ U3                  CON4_CON4_CON4        
+ U4                  CON3_CON3_SWITCH      
+ U5                  CON3_CON3_BOOT1       
+ U6                  CON4_CON4_SWD         
+ U7                  CON2_CON2_R2_54_CON2  
+ U8                  CON2_CON2_R2_54_CON2  
+ U9                  CON2_CON2_R2_54_MOTOR-A 
+ U10                 CON2_C-0805_MOTOR0805 
+ U11                 CON2_CON2_R2_54_CON2  
+ U12                 CON2_CON2_R2_54_MOTOR-B 
+ U13                 CON2_C-0805_MOTOR0805 
+ X1                  XTAL_XTAL_XTAL        
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd                       |
+|                                                    Sat Oct 22 21:37:57 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.1                          PRIM_FILE      .\pstchip.dat
+ K1.4                           PRIM_FILE      .\pstchip.dat
+ L1.1                           PRIM_FILE      .\pstchip.dat
+ LED1.2                         PRIM_FILE      .\pstchip.dat
+ LED2.2                         PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ S1.8                           PRIM_FILE      .\pstchip.dat
+ U1.47                          PRIM_FILE      .\pstchip.dat
+ U2.3                           PRIM_FILE      .\pstchip.dat
+ U3.4                           PRIM_FILE      .\pstchip.dat
+ U4.3                           PRIM_FILE      .\pstchip.dat
+ U5.3                           PRIM_FILE      .\pstchip.dat
+ U6.4                           PRIM_FILE      .\pstchip.dat
+ U7.2                           PRIM_FILE      .\pstchip.dat
+ U8.2                           PRIM_FILE      .\pstchip.dat
+ U9.2                           PRIM_FILE      .\pstchip.dat
+ U10.2                          PRIM_FILE      .\pstchip.dat
+ U11.2                          PRIM_FILE      .\pstchip.dat
+ U12.2                          PRIM_FILE      .\pstchip.dat
+ U13.2                          PRIM_FILE      .\pstchip.dat
+ X1.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  193                                            |
+|------------------------------------------------------------------------------|

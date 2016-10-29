@@ -1,0 +1,70 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : BBear_balance_carv2_0.brd                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sat Oct 22 23:56:33 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for the top of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : Silkscreen
+ Device Type          : Silkscreen
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : Silkscreen
+ User Part Number     : Silkscreen
+
+Text string 'U9' is not at a suitable location
+(location: -270.00, 360.00)
+Text string 'U12' is not at a suitable location
+(location: -40.00, 360.00)
+Text string '0.1UF' is not at a suitable location
+(location: 536.00, -313.00)
+Text string '10K' is not at a suitable location
+(location: -493.00, 291.00)
+Text string 'R5' is not at a suitable location
+(location: -808.00, -179.00)
+Text string '0.1UF' is not at a suitable location
+(location: 932.00, -300.00)
+Text string 'C3' is not at a suitable location
+(location: 932.00, -300.00)
+Text string '0.1UF' is not at a suitable location
+(location: 920.00, 157.00)
+Text string 'C7' is not at a suitable location
+(location: 269.00, -243.00)
+Text string '0.1UF' is not at a suitable location
+(location: 401.00, 175.00)
+Text string 'C8' is not at a suitable location
+(location: 401.00, 175.00)
+Text string 'POWER' is not at a suitable location
+(location: -807.00, -68.00)
+Text string 'LED2' is not at a suitable location
+(location: -807.00, -68.00)
+Text string 'U4' is not at a suitable location
+(location: -142.00, 198.00)
+Text string 'U5' is not at a suitable location
+(location: -410.00, 365.00)
+Text string 'U3' is not at a suitable location
+(location: 210.00, -286.00)
+Text string 'S1' is not at a suitable location
+(location: 594.00, -367.00)
+Text string 'STM32F103C8T6' is not at a suitable location
+(location: 737.00, 126.54)
+
+Total Failures: 18
+
+Log End
+

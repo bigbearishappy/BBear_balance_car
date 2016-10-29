@@ -1,0 +1,50 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : BBear_balance_carv2_0.brd                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sun Oct 23 00:10:16 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for both sides of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : None
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : None
+
+
+     ----- Top Silkscreen -----
+
+Text string 'U9' is not at a suitable location
+(location: -270.00, 360.00)
+Text string 'U12' is not at a suitable location
+(location: -40.00, 360.00)
+Text string 'C3' is not at a suitable location
+(location: 932.00, -300.00)
+Text string 'LED2' is not at a suitable location
+(location: -807.00, -68.00)
+Text string 'U4' is not at a suitable location
+(location: -142.00, 198.00)
+
+     ----- Bottom Silkscreen -----
+
+
+Total Failures: 5
+
+Log End
+

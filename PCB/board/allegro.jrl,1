@@ -1,385 +1,521 @@
-\t (00:00:03) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:03)     Journal start - Fri Oct 14 00:08:13 2016
-\t (00:00:03)         Host=DAXIONG-PC User=daxiong Pid=11556 CPUs=4
-\t (00:00:03) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Database opened: E:/嵌入式/git/PCB/board/BBear_balance_car.brd
-\i (00:00:05) trapsize 2534
-\i (00:00:05) trapsize 2464
-\i (00:00:06) trapsize 2546
-\i (00:00:06) trapsize 2063
-\i (00:00:06) trapsize 2063
-\i (00:00:07) generaledit 
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in -816.20 -268.19
-\i (00:00:09) trapsize 1032
-\i (00:00:10) zoom in 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom in -816.19 -268.19
-\i (00:00:10) trapsize 516
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out -817.22 -271.28
-\i (00:00:10) trapsize 1032
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out -823.41 -285.73
-\i (00:00:10) trapsize 2063
-\i (00:00:14) color192 
-\i (00:00:14) setwindow cvf.dialog
-\i (00:00:14) cvf layer_mode
-\i (00:00:14) setwindow pcb
-\i (00:00:14) generaledit 
-\i (00:00:18) setwindow cvf.dialog
-\i (00:00:18) cvf global_invisible
-\i (00:00:19) cvf layers_visible manufacturing/nclegend-1-2 TRUE
-\i (00:00:20) cvf layers_visible manufacturing/nclegend-1-2 FALSE
-\i (00:00:21) cvf layer_tree_item 'Board Geometry'
-\i (00:00:23) cvf layers_visible board_geometry/outline TRUE
-\i (00:00:24) cvf apply
-\i (00:00:25) cvf okay
-\i (00:00:26) setwindow pcb
-\i (00:00:26) save 
-\i (00:00:27) fillin yes 
-\i (00:00:27) generaledit 
-\i (00:00:29) artwork 
-\i (00:00:33) setwindow form.film_control
-\i (00:00:33) FORM film_control filmtree popup Add BOTTOM 
-\i (00:00:48) fillin "SILKSCREEN_TOP"
-\i (00:00:50) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:00:51) FORM film_control filmtree popup Add SILKSCREEN_TOP 
-\i (00:01:03) fillin "SILKSCREEN_BOTTOM"
-\i (00:01:27) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:01:28) FORM film_control filmtree popup Add SILKSCREEN_BOTTOM 
-\i (00:01:36) fillin "SOLDERMASK_TOP"
-\i (00:01:38) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:01:39) FORM film_control filmtree popup Add SOLDERMASK_TOP 
-\i (00:01:46) fillin "SOLDERMASK_BOTTOM"
-\i (00:01:49) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:01:57) FORM film_control filmtree popup Add SOLDERMASK_BOTTOM 
-\i (00:02:09) fillin "PASTEMASK_TOP"
-\i (00:02:11) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:02:12) FORM film_control filmtree popup Add PASTEMASK_TOP 
-\i (00:02:22) fillin "PASTEMASK_BOTTOM"
-\i (00:02:23) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:02:28) FORM film_control filmtree popup Add PASTEMASK_BOTTOM 
-\i (00:02:31) fillin "OUTLINE"
-\i (00:02:34) FORM film_control filmtree  OUTLINE 
-\i (00:02:35) FORM film_control filmtree popup Add OUTLINE 
-\i (00:02:49) fillin "DRILL_DRAW"
-\i (00:03:09) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:03:20) FORM film_control ok  
-\i (00:03:20) setwindow pcb
-\i (00:03:20) generaledit 
-\i (00:03:23) artwork 
-\i (00:03:45) setwindow form.film_control
-\i (00:03:45) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:03:55) FORM film_control ok  
-\i (00:03:55) setwindow pcb
-\i (00:03:55) generaledit 
-\i (00:03:57) color192 
-\i (00:03:57) setwindow cvf.dialog
-\i (00:03:57) cvf layer_mode
-\i (00:03:57) setwindow pcb
-\i (00:03:57) generaledit 
-\i (00:04:09) setwindow cvf.dialog
-\i (00:04:09) cvf layer_tree_item 'Board Geometry'
-\i (00:04:20) cvf layer_tree_item 'Package Geometry'
-\i (00:04:21) cvf layer_tree_item 'Board Geometry'
-\i (00:04:44) cvf layers_visible board_geometry/silkscreen_top TRUE
-\i (00:04:46) cvf layer_tree_item 'Package Geometry'
-\i (00:04:50) cvf layers_visible package_geometry/silkscreen_top TRUE
-\i (00:04:51) cvf layer_tree_item 'Embedded Geomerty'
-\i (00:04:53) cvf layer_tree_item 'Manufacturing'
-\i (00:05:07) cvf layer_tree_item 'Drawing Format'
-\i (00:05:08) cvf layer_tree_item 'Manufacturing'
-\i (00:05:11) cvf layer_tree_item 'Components'
-\i (00:05:11) cvf layer_tree_item 'Embedded Geomerty'
-\i (00:05:12) cvf layer_tree_item 'Package Geometry'
-\i (00:05:14) cvf layer_tree_item 'Board Geometry'
-\i (00:05:15) cvf layer_tree_item 'Areas'
-\i (00:05:45) cvf apply
-\i (00:05:46) cvf okay
-\i (00:05:50) setwindow pcb
-\i (00:05:50) artwork 
-\i (00:05:52) setwindow form.film_control
-\i (00:05:52) FORM film_control general_parameters  
-\i (00:05:55) FORM film_control ok  
-\i (00:05:55) setwindow pcb
-\i (00:05:55) generaledit 
-\i (00:07:52) color192 
-\i (00:07:52) setwindow cvf.dialog
-\i (00:07:52) cvf layer_mode
-\i (00:07:52) setwindow pcb
-\i (00:07:52) generaledit 
-\i (00:07:57) setwindow cvf.dialog
-\i (00:07:57) cvf layers_visible manufacturing/autosilk_top TRUE
-\i (00:07:58) cvf apply
-\i (00:08:00) cvf okay
-\i (00:08:01) setwindow pcb
-\i (00:08:01) zoom in 1 
-\i (00:08:01) setwindow pcb
-\i (00:08:01) zoom in -212.73 -186.70
-\i (00:08:01) trapsize 1032
-\i (00:08:01) zoom in 1 
-\i (00:08:01) setwindow pcb
-\i (00:08:01) zoom in -212.73 -186.70
-\i (00:08:01) trapsize 516
-\i (00:08:02) zoom out 1 
-\i (00:08:02) setwindow pcb
-\i (00:08:02) zoom out -212.72 -186.70
-\i (00:08:02) trapsize 1032
-\i (00:08:10) zoom out 1 
-\i (00:08:10) setwindow pcb
-\i (00:08:10) zoom out -247.80 -558.05
-\i (00:08:10) trapsize 2063
-\i (00:08:12) zoom in 1 
-\i (00:08:12) setwindow pcb
-\i (00:08:12) zoom in 32.78 19.61
-\i (00:08:12) trapsize 1032
-\i (00:08:27) artwork 
-\i (00:08:32) setwindow form.film_control
-\i (00:08:32) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:08:37) FORM film_control filmtree popup 'Match Display' SILKSCREEN_TOP 
-\i (00:08:46) FORM film_control ok  
-\i (00:08:46) setwindow pcb
-\i (00:08:46) generaledit 
-\i (00:08:55) color192 
-\i (00:08:55) setwindow cvf.dialog
-\i (00:08:55) cvf layer_mode
-\i (00:08:55) setwindow pcb
-\i (00:08:55) generaledit 
-\i (00:08:58) setwindow cvf.dialog
-\i (00:08:58) cvf layer_tree_item 'Components'
-\i (00:08:58) cvf layer_tree_item 'Embedded Geomerty'
-\i (00:08:59) cvf layer_tree_item 'Package Geometry'
-\i (00:09:01) cvf layer_tree_item 'Embedded Geomerty'
-\i (00:09:02) cvf layer_tree_item 'Board Geometry'
-\i (00:09:03) cvf layers_visible board_geometry/outline FALSE
-\i (00:09:05) cvf apply
-\i (00:09:05) cvf okay
-\i (00:09:08) setwindow pcb
-\i (00:09:08) artwork 
-\i (00:09:09) setwindow form.film_control
-\i (00:09:09) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:09:10) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:09:12) FORM film_control filmtree popup 'Match Display' SILKSCREEN_TOP 
-\i (00:09:28) FORM film_control ok  
-\i (00:09:28) setwindow pcb
-\i (00:09:28) generaledit 
-\i (00:09:30) color192 
-\i (00:09:30) setwindow cvf.dialog
-\i (00:09:30) cvf layer_mode
-\i (00:09:30) setwindow pcb
-\i (00:09:30) generaledit 
-\i (00:09:32) setwindow cvf.dialog
-\i (00:09:32) cvf layer_tree_item 'Conductor' 'Stack-Up'
-\i (00:09:33) cvf layer_tree_item 'Stack-Up'
-\i (00:09:34) cvf layer_tree_item 'Board Geometry'
-\i (00:09:38) cvf layers_visible board_geometry/silkscreen_bottom TRUE
-\i (00:09:38) cvf layers_visible board_geometry/silkscreen_top FALSE
-\i (00:09:39) cvf layer_tree_item 'Package Geometry'
-\i (00:09:41) cvf layers_visible package_geometry/silkscreen_bottom TRUE
-\i (00:09:42) cvf layers_visible package_geometry/silkscreen_top FALSE
-\i (00:09:44) cvf layer_tree_item 'Manufacturing'
-\i (00:09:46) cvf layers_visible manufacturing/autosilk_top FALSE
-\i (00:09:46) cvf layers_visible manufacturing/autosilk_bottom TRUE
-\i (00:09:48) cvf apply
-\i (00:09:50) cvf okay
-\i (00:09:55) setwindow pcb
-\i (00:09:55) artwork 
-\i (00:09:56) setwindow form.film_control
-\i (00:09:56) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:10:00) FORM film_control filmtree popup 'Match Display' SILKSCREEN_BOTTOM 
-\i (00:10:13) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:10:22) FORM film_control ok  
-\i (00:10:22) setwindow pcb
-\i (00:10:22) generaledit 
-\i (00:10:24) color192 
-\i (00:10:24) setwindow cvf.dialog
-\i (00:10:24) cvf layer_mode
-\i (00:10:24) setwindow pcb
-\i (00:10:24) generaledit 
-\i (00:10:28) setwindow cvf.dialog
-\i (00:10:28) cvf global_invisible
-\i (00:10:33) cvf layer_tree_item 'Stack-Up'
-\i (00:10:41) cvf layer_tree_item 'Conductor' 'Stack-Up'
-\i (00:10:42) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
-\i (00:10:43) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
-\i (00:10:47) cvf layer_tree_item 'Stack-Up'
-\i (00:12:11) cvf layers_visible stack-up stack-up/soldermask_top TRUE
-\i (00:12:26) cvf layer_tree_item 'Board Geometry'
-\i (00:12:30) cvf layers_visible board_geometry/soldermask_top TRUE
-\i (00:12:32) cvf layer_tree_item 'Package Geometry'
-\i (00:12:37) cvf layers_visible package_geometry/soldermask_top TRUE
-\i (00:12:39) cvf layer_tree_item 'Manufacturing'
-\i (00:13:02) cvf apply
-\i (00:13:06) cvf layer_tree_item 'Stack-Up'
-\i (00:13:09) cvf layer_tree_item 'Board Geometry'
-\i (00:13:12) cvf layer_tree_item 'Package Geometry'
-\i (00:13:18) cvf layer_tree_item 'Embedded Geomerty'
-\i (00:13:19) cvf layer_tree_item 'Manufacturing'
-\i (00:13:19) cvf layer_tree_item 'Components'
-\i (00:13:21) cvf layer_tree_item 'Manufacturing'
-\i (00:15:11) cvf layer_tree_item 'Stack-Up'
-\i (00:15:14) cvf layers_visible stack-up drc/soldermask_top FALSE
-\i (00:16:00) cvf apply
-\i (00:16:03) cvf layer_tree_item 'Package Geometry'
-\i (00:16:06) cvf layer_tree_item 'Embedded Geomerty'
-\i (00:16:08) cvf layer_tree_item 'Board Geometry'
-\i (00:16:11) cvf okay
-\i (00:17:24) setwindow pcb
-\i (00:17:24) zoom out 1 
-\i (00:17:24) setwindow pcb
-\i (00:17:24) zoom out -272.56 87.69
-\i (00:17:24) trapsize 2063
-\i (00:17:27) artwork 
-\i (00:17:31) setwindow form.film_control
-\i (00:17:31) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:17:33) FORM film_control filmtree popup 'Match Display' SOLDERMASK_TOP 
-\i (00:17:43) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:17:46) setwindow pcb
-\i (00:17:46) color192 
-\i (00:17:46) setwindow cvf.dialog
-\i (00:17:46) cvf layer_mode
-\i (00:17:47) cvf layer_tree_item 'Stack-Up'
-\i (00:17:51) cvf layers_visible stack-up pin/soldermask_top FALSE
-\i (00:17:51) cvf layers_visible stack-up via/soldermask_top FALSE
-\i (00:17:52) cvf layers_visible stack-up via/soldermask_bottom TRUE
-\i (00:17:53) cvf layers_visible stack-up pin/soldermask_bottom TRUE
-\i (00:17:55) cvf layer_tree_item 'Board Geometry'
-\i (00:17:57) cvf layers_visible board_geometry/soldermask_bottom TRUE
-\i (00:17:58) cvf layers_visible board_geometry/soldermask_top FALSE
-\i (00:17:59) cvf layer_tree_item 'Package Geometry'
-\i (00:18:02) cvf layers_visible package_geometry/soldermask_bottom TRUE
-\i (00:18:04) cvf layers_visible package_geometry/soldermask_top FALSE
-\i (00:18:06) cvf apply
-\i (00:18:07) cvf okay
-\i (00:18:11) setwindow form.film_control
-\i (00:18:11) FORM film_control filmtree popup 'Match Display' SOLDERMASK_BOTTOM 
-\i (00:18:34) setwindow pcb
-\i (00:18:34) color192 
-\i (00:18:34) setwindow cvf.dialog
-\i (00:18:34) cvf layer_mode
-\i (00:18:37) cvf layer_tree_item 'Stack-Up'
-\i (00:18:42) cvf global_invisible
-\i (00:18:43) cvf apply
-\i (00:19:03) cvf layers_visible stack-up pin/pastemask_top TRUE
-\i (00:19:03) cvf layers_visible stack-up via/pastemask_top TRUE
-\i (00:19:05) cvf layer_tree_item 'Package Geometry'
-\i (00:19:12) cvf layer_tree_item 'Board Geometry'
-\i (00:19:22) cvf layer_tree_item 'Package Geometry'
-\i (00:19:26) cvf layers_visible package_geometry/pastemask_top TRUE
-\i (00:19:27) cvf apply
-\i (00:19:29) cvf okay
-\i (00:19:33) setwindow form.film_control
-\i (00:19:33) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:19:35) FORM film_control filmtree popup 'Match Display' PASTEMASK_TOP 
-\i (00:19:46) setwindow pcb
-\i (00:19:46) color192 
-\i (00:19:46) setwindow cvf.dialog
-\i (00:19:46) cvf layer_mode
-\i (00:19:48) cvf layer_tree_item 'Stack-Up'
-\i (00:19:49) cvf layers_visible stack-up pin/pastemask_top FALSE
-\i (00:19:49) cvf layers_visible stack-up pin/pastemask_top TRUE
-\i (00:19:50) cvf layers_visible stack-up pin/pastemask_top FALSE
-\i (00:19:51) cvf layers_visible stack-up via/pastemask_top FALSE
-\i (00:19:52) cvf layers_visible stack-up via/pastemask_bottom TRUE
-\i (00:19:53) cvf layers_visible stack-up pin/pastemask_bottom TRUE
-\i (00:19:55) cvf layer_tree_item 'Board Geometry'
-\i (00:20:00) cvf layer_tree_item 'Package Geometry'
-\i (00:20:02) cvf layers_visible package_geometry/pastemask_top FALSE
-\i (00:20:03) cvf layers_visible package_geometry/pastemask_bottom TRUE
-\i (00:20:06) cvf apply
-\i (00:20:09) cvf okay
-\i (00:20:13) setwindow form.film_control
-\i (00:20:13) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:20:15) FORM film_control filmtree popup 'Match Display' PASTEMASK_BOTTOM 
-\i (00:20:27) FORM film_control filmtree  OUTLINE 
-\i (00:20:29) FORM film_control filmtree popup 'Display for Visibility' OUTLINE 
-\i (00:20:32) FORM film_control filmtree  DRILL_DRAW 
-\i (00:21:20) setwindow pcb
-\i (00:21:20) color192 
-\i (00:21:20) setwindow cvf.dialog
-\i (00:21:20) cvf layer_mode
-\i (00:21:23) cvf layers_visible manufacturing/nclegend-1-2 TRUE
-\i (00:21:25) cvf apply
-\i (00:21:26) cvf okay
-\i (00:21:30) setwindow form.film_control
-\i (00:21:30) FORM film_control filmtree popup 'Match Display' DRILL_DRAW 
-\i (00:22:03) FORM film_control ok  
-\i (00:22:03) setwindow pcb
-\i (00:22:03) generaledit 
-\i (00:23:20) artwork 
-\i (00:23:48) setwindow form.film_control
-\i (00:23:48) FORM film_control undefined_line_width 6 
-\i (00:23:48) FORM film_control filmtree  DRILL_DRAW 
-\i (00:23:50) FORM film_control undefined_line_width 6 
-\i (00:23:50) FORM film_control filmtree  OUTLINE 
-\i (00:23:52) FORM film_control undefined_line_width 6 
-\i (00:23:52) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:23:54) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:23:56) FORM film_control undefined_line_width 6 
-\i (00:23:57) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:23:59) FORM film_control undefined_line_width 6 
-\i (00:24:00) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:24:02) FORM film_control undefined_line_width 6 
-\i (00:24:03) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:24:05) FORM film_control undefined_line_width 6 
-\i (00:24:06) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:24:08) FORM film_control undefined_line_width 6 
-\i (00:24:09) FORM film_control filmtree  TOP 
-\i (00:24:12) FORM film_control undefined_line_width 6 
-\i (00:24:12) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:24:13) FORM film_control filmtree  TOP 
-\i (00:24:27) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:24:28) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:24:28) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:24:29) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:24:29) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:24:30) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:24:35) FORM film_control undefined_line_width 6 
-\i (00:24:35) FORM film_control filmtree  OUTLINE 
-\i (00:24:36) FORM film_control filmtree  DRILL_DRAW 
-\i (00:24:36) FORM film_control filmtree  BOTTOM 
-\i (00:24:37) FORM film_control filmtree  DRILL_DRAW 
-\i (00:24:37) FORM film_control filmtree  OUTLINE 
-\i (00:24:38) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:24:39) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:24:39) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:24:40) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:24:41) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:24:41) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:24:42) FORM film_control filmtree  TOP 
-\i (00:25:25) FORM film_control ok  
-\i (00:25:25) setwindow pcb
-\i (00:25:25) generaledit 
-\i (00:25:29) silkscreen param 
-\i (00:25:31) setwindow form.autosilk
-\i (00:25:31) FORM autosilk close  
-\i (00:25:31) setwindow pcb
-\i (00:25:31) generaledit 
-\i (00:25:34) artwork 
-\i (00:25:46) setwindow form.film_control
-\i (00:25:46) FORM film_control general_parameters  
-\i (00:27:14) FORM film_control film_control  
-\i (00:27:17) FORM film_control filmtree  'VIA CLASS/BOTTOM' BOTTOM 
-\i (00:27:17) FORM film_control filmtree  PIN/BOTTOM BOTTOM 
-\i (00:27:18) FORM film_control filmtree  ETCH/BOTTOM BOTTOM 
-\i (00:27:18) FORM film_control filmtree  BOTTOM 
-\i (00:28:37) FORM film_control select_all  
-\i (00:28:38) FORM film_control create  
-\t (00:28:38) Checking db records
-\t (00:28:38)     checking for orphans...
-\t (00:28:38)     Checked 100 percent
-\t (00:28:38) Done dbdoctor.
-\t (00:28:38) Starting Create artwork films...
-\t (00:28:41) Plot generated.
-\i (00:28:44) FORM film_control ok  
-\i (00:28:44) setwindow pcb
-\i (00:28:44) generaledit 
-\i (00:35:55) exit 
-\e (00:35:55) Do you want to save the changes you made to E:/嵌入式/git/PCB/board/BBear_balance_car.brd?
-\i (00:35:56) fillin yes 
-\t (00:35:57)     Journal end - Fri Oct 14 00:44:07 2016
+\t (00:00:13) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:13)     Journal start - Mon Oct 17 20:47:06 2016
+\t (00:00:13)         Host=DAXIONG-PC User=daxiong Pid=5656 CPUs=4
+\t (00:00:13) 
+\t (00:00:15) Opening existing design...
+\d (00:00:16) Database opened: E:/嵌入式/git/PCB/board/BBear_balance_car.brd
+\i (00:00:16) trapsize 2534
+\i (00:00:16) trapsize 2464
+\i (00:00:16) trapsize 2546
+\i (00:00:17) trapsize 2063
+\i (00:00:17) trapsize 2063
+\i (00:00:18) generaledit 
+\i (00:00:21) color192 
+\i (00:00:21) setwindow cvf.dialog
+\i (00:00:21) cvf layer_mode
+\i (00:00:21) setwindow pcb
+\i (00:00:21) generaledit 
+\i (00:00:22) setwindow cvf.dialog
+\i (00:00:22) cvf layer_tree_item 'Stack-Up'
+\i (00:00:24) cvf layers_visible stack-up pin/all_row TRUE
+\i (00:00:25) cvf layers_visible stack-up via/all_row TRUE
+\i (00:00:26) cvf layers_visible stack-up etch/all_row TRUE
+\i (00:00:28) cvf apply
+\i (00:00:29) cvf okay
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 853.89 273.37
+\i (00:00:30) trapsize 1032
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 853.89 273.37
+\i (00:00:31) trapsize 516
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 847.71 274.40
+\i (00:00:31) trapsize 258
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 781.69 219.21
+\i (00:00:33) trapsize 129
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 784.79 211.48
+\i (00:00:34) trapsize 64
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out 811.86 215.73
+\i (00:00:35) trapsize 129
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 773.18 199.75
+\i (00:00:38) trapsize 258
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 711.29 198.20
+\i (00:00:38) trapsize 516
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 1015.62 335.41
+\i (00:04:52) trapsize 1032
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 1023.88 335.40
+\i (00:04:52) trapsize 2063
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 1193.06 405.56
+\i (00:04:52) trapsize 4126
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in -622.54 -328.95
+\i (00:04:53) trapsize 2063
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in -606.03 -324.82
+\i (00:04:53) trapsize 1032
+\i (00:04:54) zoom in 1 
+\i (00:04:54) setwindow pcb
+\i (00:04:54) zoom in -542.07 -438.29
+\i (00:04:54) trapsize 516
+\i (00:04:54) zoom in 1 
+\i (00:04:54) setwindow pcb
+\i (00:04:54) zoom in -542.07 -438.29
+\i (00:04:54) trapsize 258
+\i (00:04:55) zoom out 1 
+\i (00:04:55) setwindow pcb
+\i (00:04:55) zoom out -633.88 -427.97
+\i (00:04:55) trapsize 516
+\i (00:05:01) zoom in 1 
+\i (00:05:01) setwindow pcb
+\i (00:05:01) zoom in -581.27 -331.00
+\i (00:05:01) trapsize 258
+\i (00:05:02) zoom in 1 
+\i (00:05:02) setwindow pcb
+\i (00:05:02) zoom in -581.26 -331.00
+\i (00:05:02) trapsize 129
+\i (00:05:04) zoom out 1 
+\i (00:05:04) setwindow pcb
+\i (00:05:04) zoom out -581.77 -331.00
+\i (00:05:04) trapsize 258
+\i (00:16:28) zoom out 1 
+\i (00:16:28) setwindow pcb
+\i (00:16:28) zoom out -584.36 -325.84
+\i (00:16:28) trapsize 516
+\i (00:16:28) zoom out 1 
+\i (00:16:28) setwindow pcb
+\i (00:16:28) zoom out -584.35 -325.84
+\i (00:16:28) trapsize 1032
+\i (00:16:28) zoom out 1 
+\i (00:16:28) setwindow pcb
+\i (00:16:28) zoom out -584.34 -325.83
+\i (00:16:28) trapsize 2063
+\i (00:16:32) layer priority 
+\i (00:16:33) setwindow form.layerdlg
+\i (00:16:33) FORM layerdlg cancel  
+\i (00:16:35) setwindow pcb
+\i (00:16:35) color192 
+\i (00:16:35) setwindow cvf.dialog
+\i (00:16:35) cvf layer_mode
+\i (00:16:35) setwindow pcb
+\i (00:16:35) generaledit 
+\i (00:16:37) setwindow cvf.dialog
+\i (00:16:37) cvf layer_tree_item 'Stack-Up'
+\i (00:16:38) cvf layer_tree_item 'Components'
+\i (00:16:43) cvf layer_tree_item 'Drawing Format'
+\i (00:16:44) cvf layer_tree_item 'Manufacturing'
+\i (00:16:47) cvf layers_visible manufacturing/autosilk_bottom TRUE
+\i (00:16:48) cvf layers_visible manufacturing/autosilk_top TRUE
+\i (00:16:49) cvf layers_visible manufacturing/autosilk_bottom FALSE
+\i (00:16:51) cvf apply
+\i (00:16:52) cvf okay
+\i (00:16:54) setwindow pcb
+\i (00:16:54) zoom in 1 
+\i (00:16:54) setwindow pcb
+\i (00:16:54) zoom in -229.47 144.58
+\i (00:16:54) trapsize 1032
+\i (00:16:55) zoom out 1 
+\i (00:16:55) setwindow pcb
+\i (00:16:55) zoom out -679.25 -501.20
+\i (00:16:55) trapsize 2063
+\i (00:16:56) color192 
+\i (00:16:57) setwindow cvf.dialog
+\i (00:16:57) cvf layer_mode
+\i (00:16:57) setwindow pcb
+\i (00:16:57) generaledit 
+\i (00:16:58) setwindow cvf.dialog
+\i (00:16:58) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:16:59) cvf layer_tree_item 'Stack-Up'
+\i (00:17:00) cvf layers_visible stack-up etch/all_row TRUE
+\i (00:17:00) cvf layers_visible stack-up etch/all_row FALSE
+\i (00:17:02) cvf apply
+\i (00:17:02) cvf okay
+\i (00:17:03) setwindow pcb
+\i (00:17:03) zoom in 1 
+\i (00:17:03) setwindow pcb
+\i (00:17:03) zoom in -448.17 192.04
+\i (00:17:03) trapsize 1032
+\i (00:17:04) zoom in 1 
+\i (00:17:04) setwindow pcb
+\i (00:17:04) zoom in -468.80 136.33
+\i (00:17:04) trapsize 516
+\i (00:17:07) zoom out 1 
+\i (00:17:07) setwindow pcb
+\i (00:17:07) zoom out -497.68 99.19
+\i (00:17:07) trapsize 1032
+\i (00:51:42) zoom out 1 
+\i (00:51:42) setwindow pcb
+\i (00:51:42) zoom out 360.62 202.36
+\i (00:51:42) trapsize 2063
+\i (00:51:43) zoom in 1 
+\i (00:51:43) setwindow pcb
+\i (00:51:43) zoom in -683.37 -152.52
+\i (00:51:43) trapsize 1032
+\i (00:51:46) color192 
+\i (00:51:46) setwindow cvf.dialog
+\i (00:51:46) cvf layer_mode
+\i (00:51:46) setwindow pcb
+\i (00:51:46) generaledit 
+\i (00:51:48) setwindow cvf.dialog
+\i (00:51:48) cvf layer_tree_item 'Stack-Up'
+\i (00:51:49) cvf layers_visible stack-up etch/all_row TRUE
+\i (00:51:50) cvf apply
+\i (00:51:51) cvf okay
+\i (00:51:54) setwindow pcb
+\i (00:51:54) zoom in 1 
+\i (00:51:54) setwindow pcb
+\i (00:51:54) zoom in -516.24 239.49
+\i (00:51:54) trapsize 516
+\i (00:51:54) zoom in 1 
+\i (00:51:54) setwindow pcb
+\i (00:51:54) zoom in -516.24 239.49
+\i (00:51:54) trapsize 258
+\i (00:51:54) zoom in 1 
+\i (00:51:54) setwindow pcb
+\i (00:51:54) zoom in -517.27 240.00
+\i (00:51:54) trapsize 129
+\i (00:51:55) zoom in 1 
+\i (00:51:55) setwindow pcb
+\i (00:51:55) zoom in -520.37 234.07
+\i (00:51:55) trapsize 64
+\i (00:51:56) zoom out 1 
+\i (00:51:56) setwindow pcb
+\i (00:51:56) zoom out -516.50 230.46
+\i (00:51:56) trapsize 129
+\i (00:51:56) zoom out 1 
+\i (00:51:56) setwindow pcb
+\i (00:51:56) zoom out -515.73 233.31
+\i (00:51:56) trapsize 258
+\i (00:51:56) zoom out 1 
+\i (00:51:56) setwindow pcb
+\i (00:51:56) zoom out -514.69 240.01
+\i (00:51:56) trapsize 516
+\i (00:51:57) zoom out 1 
+\i (00:51:57) setwindow pcb
+\i (00:51:57) zoom out -486.83 232.79
+\i (00:51:57) trapsize 1032
+\i (00:55:51) zoom out 1 
+\i (00:55:51) setwindow pcb
+\i (00:55:51) zoom out -864.40 -140.66
+\i (00:55:51) trapsize 2063
+\i (00:55:52) zoom in 1 
+\i (00:55:52) setwindow pcb
+\i (00:55:52) zoom in -554.91 -49.88
+\i (00:55:52) trapsize 1032
+\i (00:55:53) zoom in 1 
+\i (00:55:53) setwindow pcb
+\i (00:55:53) zoom in -565.22 -18.93
+\i (00:55:53) trapsize 516
+\i (00:55:56) zoom in 1 
+\i (00:55:56) setwindow pcb
+\i (00:55:56) zoom in -498.17 96.62
+\i (00:55:56) trapsize 258
+\i (00:56:11) zoom out 1 
+\i (00:56:11) setwindow pcb
+\i (00:56:11) zoom out -498.17 -8.09
+\i (00:56:11) trapsize 516
+\i (00:56:16) zoom in 1 
+\i (00:56:16) setwindow pcb
+\i (00:56:16) zoom in -463.09 85.80
+\i (00:56:16) trapsize 258
+\i (00:56:16) zoom in 1 
+\i (00:56:16) setwindow pcb
+\i (00:56:16) zoom in -461.03 91.99
+\i (00:56:16) trapsize 129
+\i (00:56:24) zoom out 1 
+\i (00:56:24) setwindow pcb
+\i (00:56:24) zoom out -469.28 107.21
+\i (00:56:24) trapsize 258
+\i (00:56:25) zoom out 1 
+\i (00:56:25) setwindow pcb
+\i (00:56:25) zoom out -468.76 107.20
+\i (00:56:25) trapsize 516
+\i (00:57:08) zoom out 1 
+\i (00:57:08) setwindow pcb
+\i (00:57:08) zoom out -592.55 76.26
+\i (00:57:08) trapsize 1032
+\i (00:57:10) zoom in 1 
+\i (00:57:10) setwindow pcb
+\i (00:57:10) zoom in -268.62 -194.02
+\i (00:57:10) trapsize 516
+\i (00:57:16) zoom in 1 
+\i (00:57:16) setwindow pcb
+\i (00:57:16) zoom in -417.17 123.72
+\i (00:57:16) trapsize 258
+\i (25:32:51) zoom out 1 
+\i (25:32:51) setwindow pcb
+\i (25:32:51) zoom out -403.24 29.84
+\i (25:32:51) trapsize 516
+\i (25:32:52) zoom out 1 
+\i (25:32:52) setwindow pcb
+\i (25:32:52) zoom out -174.23 90.71
+\i (25:32:52) trapsize 1032
+\i (25:32:54) zoom in 1 
+\i (25:32:54) setwindow pcb
+\i (25:32:54) zoom in -646.70 -99.11
+\i (25:32:54) trapsize 516
+\i (25:32:55) zoom in 1 
+\i (25:32:55) setwindow pcb
+\i (25:32:55) zoom in -660.11 -79.51
+\i (25:32:55) trapsize 258
+\i (25:33:01) zoom out 1 
+\i (25:33:01) setwindow pcb
+\i (25:33:01) zoom out -665.78 -112.01
+\i (25:33:01) trapsize 516
+\i (25:33:22) zoom out 1 
+\i (25:33:22) setwindow pcb
+\i (25:33:22) zoom out -635.87 -83.12
+\i (25:33:22) trapsize 1032
+\i (25:33:23) zoom in 1 
+\i (25:33:23) setwindow pcb
+\i (25:33:23) zoom in -87.05 -241.98
+\i (25:33:23) trapsize 516
+\i (25:33:24) zoom in 1 
+\i (25:33:24) setwindow pcb
+\i (25:33:24) zoom in -246.95 -39.78
+\i (25:33:24) trapsize 258
+\i (25:33:25) zoom in 1 
+\i (25:33:25) setwindow pcb
+\i (25:33:25) zoom in -278.42 -40.30
+\i (25:33:25) trapsize 129
+\i (25:33:26) zoom out 1 
+\i (25:33:26) setwindow pcb
+\i (25:33:26) zoom out -206.46 -24.56
+\i (25:33:26) trapsize 258
+\i (25:33:27) zoom out 1 
+\i (25:33:27) setwindow pcb
+\i (25:33:27) zoom out -182.21 -11.15
+\i (25:33:27) trapsize 516
+\i (25:33:29) zoom in 1 
+\i (25:33:29) setwindow pcb
+\i (25:33:29) zoom in -306.01 -217.48
+\i (25:33:29) trapsize 258
+\i (25:33:29) zoom in 1 
+\i (25:33:29) setwindow pcb
+\i (25:33:29) zoom in -306.01 -217.47
+\i (25:33:29) trapsize 129
+\i (25:33:31) zoom out 1 
+\i (25:33:31) setwindow pcb
+\i (25:33:31) zoom out -308.84 -217.73
+\i (25:33:31) trapsize 258
+\i (25:33:31) zoom out 1 
+\i (25:33:31) setwindow pcb
+\i (25:33:31) zoom out -308.84 -217.72
+\i (25:33:31) trapsize 516
+\i (25:33:32) zoom out 1 
+\i (25:33:32) setwindow pcb
+\i (25:33:32) zoom out -298.53 -237.32
+\i (25:33:32) trapsize 1032
+\i (25:33:33) zoom in 1 
+\i (25:33:33) setwindow pcb
+\i (25:33:33) zoom in -232.50 -97.02
+\i (25:33:33) trapsize 516
+\i (25:33:39) zoom in 1 
+\i (25:33:39) setwindow pcb
+\i (25:33:39) zoom in -334.62 110.33
+\i (25:33:39) trapsize 258
+\i (25:33:39) zoom in 1 
+\i (25:33:39) setwindow pcb
+\i (25:33:39) zoom in -334.63 110.33
+\i (25:33:39) trapsize 129
+\i (25:33:40) zoom out 1 
+\i (25:33:40) setwindow pcb
+\i (25:33:40) zoom out -336.69 90.21
+\i (25:33:40) trapsize 258
+\i (25:33:41) zoom out 1 
+\i (25:33:41) setwindow pcb
+\i (25:33:41) zoom out -291.81 113.94
+\i (25:33:41) trapsize 516
+\i (25:40:35) zoom out 1 
+\i (25:40:35) setwindow pcb
+\i (25:40:35) zoom out -451.70 44.83
+\i (25:40:35) trapsize 1032
+\i (25:40:36) zoom out 1 
+\i (25:40:36) setwindow pcb
+\i (25:40:36) zoom out -761.18 -169.74
+\i (25:40:36) trapsize 2063
+\i (25:40:38) zoom in 1 
+\i (25:40:38) setwindow pcb
+\i (25:40:38) zoom in 126.01 -161.48
+\i (25:40:38) trapsize 1032
+\i (25:40:39) zoom out 1 
+\i (25:40:39) setwindow pcb
+\i (25:40:39) zoom out 6.35 -345.11
+\i (25:40:39) trapsize 2063
+\i (48:07:55) zoom in 1 
+\i (48:07:55) setwindow pcb
+\i (48:07:55) zoom in 881.15 315.13
+\i (48:07:55) trapsize 1032
+\i (48:07:55) zoom in 1 
+\i (48:07:55) setwindow pcb
+\i (48:07:55) zoom in 881.15 315.13
+\i (48:07:55) trapsize 516
+\i (48:07:57) zoom in 1 
+\i (48:07:57) setwindow pcb
+\i (48:07:57) zoom in 853.30 201.66
+\i (48:07:57) trapsize 258
+\i (48:07:57) zoom in 1 
+\i (48:07:57) setwindow pcb
+\i (48:07:57) zoom in 853.30 204.75
+\i (48:07:57) trapsize 129
+\i (48:07:59) zoom out 1 
+\i (48:07:59) setwindow pcb
+\i (48:07:59) zoom out 883.22 217.65
+\i (48:07:59) trapsize 258
+\i (48:17:54) zoom out 1 
+\i (48:17:54) setwindow pcb
+\i (48:17:54) zoom out 778.00 228.99
+\i (48:17:54) trapsize 516
+\i (48:17:54) zoom out 1 
+\i (48:17:54) setwindow pcb
+\i (48:17:54) zoom out 721.26 211.46
+\i (48:17:54) trapsize 1032
+\i (48:17:55) zoom out 1 
+\i (48:17:55) setwindow pcb
+\i (48:17:55) zoom out 1587.82 442.53
+\i (48:17:55) trapsize 2063
+\i (48:19:23) zoom in 1 
+\i (48:19:23) setwindow pcb
+\i (48:19:23) zoom in -702.36 413.65
+\i (48:19:23) trapsize 1032
+\i (48:19:23) zoom in 1 
+\i (48:19:23) setwindow pcb
+\i (48:19:23) zoom in -749.82 423.96
+\i (48:19:23) trapsize 516
+\i (48:19:24) zoom in 1 
+\i (48:19:24) setwindow pcb
+\i (48:19:24) zoom in -751.88 424.99
+\i (48:19:24) trapsize 258
+\i (48:19:29) zoom out 1 
+\i (48:19:29) setwindow pcb
+\i (48:19:29) zoom out -595.59 412.10
+\i (48:19:29) trapsize 516
+\i (48:19:29) zoom out 1 
+\i (48:19:29) setwindow pcb
+\i (48:19:29) zoom out -600.75 401.79
+\i (48:19:29) trapsize 1032
+\i (48:19:30) zoom out 1 
+\i (48:19:30) setwindow pcb
+\i (48:19:30) zoom out -1428.09 428.61
+\i (48:19:30) trapsize 2063
+\i (48:19:30) zoom out 1 
+\i (48:19:30) setwindow pcb
+\i (48:19:30) zoom out -2051.19 416.23
+\i (48:19:30) trapsize 4126
+\i (48:19:31) zoom in 1 
+\i (48:19:31) setwindow pcb
+\i (48:19:31) zoom in -359.56 176.89
+\i (48:19:31) trapsize 2063
+\i (48:19:31) zoom in 1 
+\i (48:19:31) setwindow pcb
+\i (48:19:31) zoom in -417.33 152.13
+\i (48:19:31) trapsize 1032
+\i (48:19:34) zoom in 1 
+\i (48:19:34) setwindow pcb
+\i (48:19:34) zoom in 34.52 59.29
+\i (48:19:34) trapsize 516
+\i (48:19:34) zoom in 1 
+\i (48:19:34) setwindow pcb
+\i (48:19:34) zoom in 36.59 59.29
+\i (48:19:34) trapsize 258
+\i (48:19:34) zoom in 1 
+\i (48:19:34) setwindow pcb
+\i (48:19:34) zoom in 36.59 59.30
+\i (48:19:34) trapsize 129
+\i (48:19:36) zoom out 1 
+\i (48:19:36) setwindow pcb
+\i (48:19:36) zoom out 37.63 59.30
+\i (48:19:36) trapsize 258
+\i (48:19:36) zoom out 1 
+\i (48:19:36) setwindow pcb
+\i (48:19:36) zoom out 37.62 59.31
+\i (48:19:36) trapsize 516
+\i (48:19:36) zoom out 1 
+\i (48:19:36) setwindow pcb
+\i (48:19:36) zoom out 37.64 59.30
+\i (48:19:36) trapsize 1032
+\i (48:19:38) zoom in 1 
+\i (48:19:38) setwindow pcb
+\i (48:19:38) zoom in -981.60 471.95
+\i (48:19:38) trapsize 516
+\i (48:19:38) zoom in 1 
+\i (48:19:38) setwindow pcb
+\i (48:19:38) zoom in -981.60 471.96
+\i (48:19:38) trapsize 258
+\i (48:19:40) zoom out 1 
+\i (48:19:40) setwindow pcb
+\i (48:19:40) zoom out -961.49 431.72
+\i (48:19:40) trapsize 516
+\i (48:19:41) zoom out 1 
+\i (48:19:41) setwindow pcb
+\i (48:19:41) zoom out -914.02 411.10
+\i (48:19:41) trapsize 1032
+\i (48:19:41) zoom out 1 
+\i (48:19:41) setwindow pcb
+\i (48:19:41) zoom out -942.91 413.16
+\i (48:19:41) trapsize 2063
+\i (49:18:43) zoom in 1 
+\i (49:18:43) setwindow pcb
+\i (49:18:43) zoom in -418.86 8.77
+\i (49:18:43) trapsize 1032
+\i (49:18:43) zoom in 1 
+\i (49:18:43) setwindow pcb
+\i (49:18:43) zoom in -418.85 8.78
+\i (49:18:43) trapsize 516
+\i (49:18:43) zoom in 1 
+\i (49:18:43) setwindow pcb
+\i (49:18:43) zoom in -418.85 8.78
+\i (49:18:43) trapsize 258
+\i (49:18:43) zoom in 1 
+\i (49:18:44) setwindow pcb
+\i (49:18:44) zoom in -418.34 0.53
+\i (49:18:44) trapsize 129
+\i (49:18:44) zoom out 1 
+\i (49:18:45) setwindow pcb
+\i (49:18:45) zoom out -412.14 2.08
+\i (49:18:45) trapsize 258
+\i (49:18:45) zoom out 1 
+\i (49:18:45) setwindow pcb
+\i (49:18:45) zoom out -425.56 -4.10
+\i (49:18:45) trapsize 516
+\i (49:18:50) zoom out 1 
+\i (49:18:50) setwindow pcb
+\i (49:18:50) zoom out -483.32 -106.23
+\i (49:18:50) trapsize 1032
+\i (49:22:33) zoom in 1 
+\i (49:22:33) setwindow pcb
+\i (49:22:33) zoom in -111.95 310.54
+\i (49:22:33) trapsize 516
+\i (49:22:39) zoom out 1 
+\i (49:22:39) setwindow pcb
+\i (49:22:39) zoom out -42.83 300.23
+\i (49:22:39) trapsize 1032
+\i (49:22:40) zoom out 1 
+\i (49:22:40) setwindow pcb
+\i (49:22:40) zoom out -667.98 291.97
+\i (49:22:40) trapsize 2063
+\i (72:42:24) exit 
+\e (72:42:25) Do you want to save the changes you made to BBear_balance_car.brd?
+\i (72:42:27) fillin yes 
+\t (72:42:32)     Journal end - Thu Oct 20 21:29:25 2016
