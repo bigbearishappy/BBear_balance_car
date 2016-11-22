@@ -1,0 +1,51 @@
+\t (00:00:06) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:06)     Journal start - Sat Oct 29 17:09:47 2016
+\t (00:00:06)         Host=DAXIONG-PC User=daxiong Pid=10076 CPUs=4
+\t (00:00:06) 
+\t (00:00:08) Opening existing design...
+\d (00:00:09) Database opened: E:/«∂»Î Ω/git/PCB/boardv2_0/BBear_balance_carv2_0.brd
+\i (00:00:10) trapsize 2102
+\i (00:00:10) trapsize 2044
+\i (00:00:10) trapsize 2112
+\i (00:00:11) trapsize 1711
+\i (00:00:11) trapsize 1711
+\i (00:00:12) generaledit 
+\i (00:00:16) pick grid 1298.91 67.79
+\t (00:00:16) last pick:  1299.00  68.00
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 1298.91 67.79
+\i (00:00:16) trapsize 3422
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 1298.90 40.41
+\i (00:00:17) trapsize 1711
+\i (00:00:19) zoom fit 
+\i (00:00:19) trapsize 986
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 1287.55 -178.46
+\i (00:00:21) trapsize 1972
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out -2384.17 180.43
+\i (00:00:22) trapsize 3944
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in -289.57 -324.38
+\i (00:00:23) trapsize 1972
+\i (00:00:25) 3d_viewer 
+\i (00:00:25) setwindow pcb3D
+\i (00:00:25) trapsize 1972
+\i (00:00:25) setwindow pcb
+\i (00:00:25) generaledit 
+\i (04:02:30) setwindow pcb3D
+\i (04:02:30) view3d zoom_fit 
+\i (04:02:30) trapsize 1972
+\i (04:02:34) view3d top 
+\i (04:04:45) view3d front 
+\i (04:04:49) view3d bottom 
+\i (04:04:51) view3d top 
+\i (04:28:55) setwindow pcb
+\i (04:28:55) exit 
+\t (04:28:56)     Journal end - Sat Oct 29 21:38:36 2016
