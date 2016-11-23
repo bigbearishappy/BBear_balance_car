@@ -1,13 +1,93 @@
-\t (00:12:54) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:12:54)     Journal start - Wed Oct 12 21:18:09 2016
-\t (00:12:54)         Host=DAXIONG-PC User=daxiong Pid=12928 CPUs=4
-\t (00:12:54) 
-\d (00:12:54) Database opened: E:/嵌入式/git/PCB/pcb_lib/CON4.dra
-\i (00:12:54) generaledit 
-\i (00:12:56) zoom out 1 
-\i (00:12:56) setwindow pcb
-\i (00:12:56) zoom out 11.0614 -2.3708
-\i (00:12:56) trapsize 2478
-\i (00:22:59) new 
-\i (00:23:25) newdrawfillin "BBear_balance_car.brd" "Board (Wizard)"
-\t (00:23:25)     Journal end - Wed Oct 12 21:28:39 2016
+\t (03:11:49) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (03:11:49)     Journal start - Thu Nov 24 01:19:29 2016
+\t (03:11:49)         Host=DAXIONG-PC User=daxiong Pid=15532 CPUs=4
+\t (03:11:49) 
+\d (03:11:49) Database opened: E:/嵌入式/git/PCB/pcb_lib/tp2_54_5.dra
+\i (03:11:49) etchedit 
+\i (03:11:50) zoom out 1 
+\i (03:11:50) setwindow pcb
+\i (03:11:50) zoom out 4.1273 5.0708
+\i (03:11:50) trapsize 2358
+\i (03:11:50) zoom out 1 
+\i (03:11:50) setwindow pcb
+\i (03:11:50) zoom out 18.5377 4.1038
+\i (03:11:50) trapsize 2358
+\i (03:11:54) trapsize 1992
+\i (03:11:55) zoom in 1 
+\i (03:11:55) setwindow pcb
+\i (03:11:55) zoom in -0.4781 -0.5578
+\i (03:11:55) trapsize 996
+\i (03:11:55) zoom in 1 
+\i (03:11:55) setwindow pcb
+\i (03:11:55) zoom in -5.2390 -0.5578
+\t (03:11:55) Grids are drawn 0.0512, 0.0512 apart for enhanced viewability.
+\i (03:11:55) trapsize 498
+\i (03:11:56) zoom out 1 
+\i (03:11:56) setwindow pcb
+\i (03:11:56) zoom out -2.7689 -0.9063
+\t (03:11:56) Grids are drawn 0.2048, 0.2048 apart for enhanced viewability.
+\i (03:11:56) trapsize 996
+\i (03:11:56) zoom out 1 
+\i (03:11:56) setwindow pcb
+\i (03:11:56) zoom out -1.0757 -1.5239
+\i (03:11:56) trapsize 1992
+\i (03:11:57) zoom in 1 
+\i (03:11:57) setwindow pcb
+\i (03:11:57) zoom in -0.6374 2.7490
+\i (03:11:57) trapsize 996
+\i (03:12:01) zoom out 1 
+\i (03:12:01) setwindow pcb
+\i (03:12:01) zoom out 2.2510 2.1912
+\i (03:12:01) trapsize 1992
+\e (03:12:26) Command not found: xhilite
+\i (03:12:26) xname_flush 
+\i (03:12:26) done 
+\i (03:12:26) etchedit 
+\e (03:12:28) Command not found: xdehilite
+\i (03:12:28) xname_flush 
+\i (03:12:28) done 
+\i (03:12:28) etchedit 
+\e (03:12:28) Command not found: xhilite
+\i (03:12:28) xname_flush 
+\i (03:12:28) done 
+\i (03:12:28) etchedit 
+\e (03:12:40) Command not found: xdehilite
+\i (03:12:40) xname_flush 
+\i (03:12:40) done 
+\e (03:12:41) Command not found: xhilite
+\i (03:12:41) xname_flush 
+\e (03:12:41) No command active
+\i (03:12:41) done 
+\e (03:12:41) No command active
+\i (03:12:41) etchedit 
+\e (03:12:59) Command not found: xdehilite
+\i (03:12:59) xname_flush 
+\i (03:12:59) done 
+\e (03:12:59) Command not found: xhilite
+\i (03:12:59) xname_flush 
+\e (03:12:59) No command active
+\i (03:12:59) done 
+\e (03:12:59) No command active
+\i (03:12:59) etchedit 
+\e (03:13:02) Command not found: xhilite
+\i (03:13:02) xname_flush 
+\i (03:13:02) done 
+\i (03:13:02) etchedit 
+\e (03:13:05) Command not found: xdehilite
+\i (03:13:05) xname_flush 
+\i (03:13:05) done 
+\e (03:13:05) Command not found: xhilite
+\i (03:13:05) xname_flush 
+\e (03:13:05) No command active
+\i (03:13:05) done 
+\e (03:13:05) No command active
+\i (03:13:05) etchedit 
+\i (03:13:44) open 
+\i (03:13:51) fillin "E:\嵌入式\git\PCB\boardv2_0\BBear_balance_carv2_0.brd"
+\i (03:13:51) cd "E:\嵌入式\git\PCB\boardv2_0"
+\t (03:13:51) Opening existing design...
+\i (03:13:52) trapsize 516
+\i (03:13:52) trapsize 502
+\i (03:13:52) trapsize 516
+\i (03:13:53) trapsize 516
+\t (03:13:53)     Journal end - Thu Nov 24 01:21:33 2016

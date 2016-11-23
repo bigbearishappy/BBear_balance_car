@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : BBear_balance_carv2_0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sun Oct 23 00:10:16 2016                      )
+(    Date/Time        : Thu Nov 24 02:24:30 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -30,21 +30,31 @@ Subclass Selections:
 
      ----- Top Silkscreen -----
 
-Text string 'U9' is not at a suitable location
-(location: -270.00, 360.00)
-Text string 'U12' is not at a suitable location
+Text string 'U10' is not at a suitable location
 (location: -40.00, 360.00)
+Text string 'R4' is not at a suitable location
+(location: -556.00, 150.00)
+Text string 'C10' is not at a suitable location
+(location: 133.00, 401.00)
+Text string 'R2' is not at a suitable location
+(location: -454.00, 313.00)
 Text string 'C3' is not at a suitable location
-(location: 932.00, -300.00)
-Text string 'LED2' is not at a suitable location
-(location: -807.00, -68.00)
-Text string 'U4' is not at a suitable location
+(location: -398.00, 86.00)
+Text string 'R1' is not at a suitable location
+(location: 136.00, 282.00)
+Text string 'U12' is not at a suitable location
 (location: -142.00, 198.00)
+Text string 'U20' is not at a suitable location
+(location: 419.00, 384.00)
+Text string 'U3' is not at a suitable location
+(location: 226.00, 0.00)
 
      ----- Bottom Silkscreen -----
 
+Text string 'R6' is not at a suitable location
+(location: 423.00, 215.00)
 
-Total Failures: 5
+Total Failures: 10
 
 Log End
 

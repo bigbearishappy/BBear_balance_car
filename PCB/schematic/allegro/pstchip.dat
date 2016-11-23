@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Oct-22-2016 at 22:41:09}
+{ Using PSTWRITER 16.6.0 d001Nov-24-2016 at 01:23:09}
 primitive 'CAP_C-0805_0.1UF';
   pin
     '1':
@@ -15,19 +15,64 @@ primitive 'CAP_C-0805_0.1UF';
     VALUE='0.1UF';
   end_body;
 end_primitive;
-primitive 'CON2_CON2_R2_54_POWER';
+primitive 'CAP NP_C-0805_CL4.7UF';
   pin
-    '-':
+    '1':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    '+':
+    '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CON2';
-    JEDEC_TYPE='CON2_R2_54';
-    VALUE='POWER';
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='c-0805';
+    VALUE='CL4.7uF';
+  end_body;
+end_primitive;
+primitive 'CAP_C-0805_10UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP';
+    JEDEC_TYPE='c-0805';
+    VALUE='10UF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_C-0805_CFB1000PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='c-0805';
+    VALUE='CFB1000pF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_C-0805_CSS0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='c-0805';
+    VALUE='CSS0.1uF';
   end_body;
 end_primitive;
 primitive 'CAP_C-0805_1UF';
@@ -60,7 +105,7 @@ primitive 'CAP_C-0805_22PF';
     VALUE='22PF';
   end_body;
 end_primitive;
-primitive 'CAP_C-0805_10UF';
+primitive 'CAP NP_C-0805_CIN4.7UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -70,12 +115,12 @@ primitive 'CAP_C-0805_10UF';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CAP';
+    PART_NAME='CAP NP';
     JEDEC_TYPE='c-0805';
-    VALUE='10UF';
+    VALUE='CIN4.7uF';
   end_body;
 end_primitive;
-primitive 'KEY-4_BUTTON_6X6X5_KEY-4';
+primitive 'CDRH104R_330UH_CD43_L_4.7UH';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -83,17 +128,11 @@ primitive 'KEY-4_BUTTON_6X6X5_KEY-4';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='KEY-4';
-    JEDEC_TYPE='button_6x6x5';
-    VALUE='KEY-4';
+    PART_NAME='CDRH104R_330uH';
+    JEDEC_TYPE='CD43';
+    VALUE='L_4.7uH';
   end_body;
 end_primitive;
 primitive 'LM1117_LM1117_3_3_LM1117';
@@ -147,6 +186,21 @@ primitive 'LED_C-0805_POWER';
     VALUE='POWER';
   end_body;
 end_primitive;
+primitive '1N5819_SOD-123_SD_XBS104S14R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='1N5819';
+    JEDEC_TYPE='SOD-123';
+    VALUE='SD_XBS104S14R';
+  end_body;
+end_primitive;
 primitive 'R_C-0805_10K';
   pin
     '1':
@@ -160,6 +214,51 @@ primitive 'R_C-0805_10K';
     PART_NAME='R';
     JEDEC_TYPE='c-0805';
     VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'R_C-0805_RSS220K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='c-0805';
+    VALUE='RSS220K';
+  end_body;
+end_primitive;
+primitive 'R_C-0805_RFB1_300K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='c-0805';
+    VALUE='RFB1_300K';
+  end_body;
+end_primitive;
+primitive 'R_C-0805_RFB2_75K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='c-0805';
+    VALUE='RFB2_75K';
   end_body;
 end_primitive;
 primitive 'R_C-0805_1K';
@@ -363,36 +462,6 @@ primitive 'STM32F103C8T6_NCU100_LQFP_48_ST';
     VALUE='STM32F103C8T6';
   end_body;
 end_primitive;
-primitive 'CON2_C-0805_MOTOR0805';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON2';
-    JEDEC_TYPE='c-0805';
-    VALUE='MOTOR0805';
-  end_body;
-end_primitive;
-primitive 'CON2_CON2_R2_54_CON2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON2';
-    JEDEC_TYPE='CON2_R2_54';
-    VALUE='CON2';
-  end_body;
-end_primitive;
 primitive 'CON2_CON2_R2_54_MOTOR-B';
   pin
     '1':
@@ -406,6 +475,81 @@ primitive 'CON2_CON2_R2_54_MOTOR-B';
     PART_NAME='CON2';
     JEDEC_TYPE='CON2_R2_54';
     VALUE='MOTOR-B';
+  end_body;
+end_primitive;
+primitive 'CON3_CON3_SWITCH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON3';
+    JEDEC_TYPE='CON3';
+    VALUE='switch';
+  end_body;
+end_primitive;
+primitive 'CON2_3_6KEY_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='3_6key';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'CON3_CON3_KEY';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON3';
+    JEDEC_TYPE='CON3';
+    VALUE='KEY';
+  end_body;
+end_primitive;
+primitive 'CON5_TP2_54_5_CON5';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON5';
+    JEDEC_TYPE='tp2_54_5';
+    VALUE='CON5';
   end_body;
 end_primitive;
 primitive 'CON3_CON3_BOOT0';
@@ -447,7 +591,7 @@ primitive 'CON4_CON4_CON4';
     VALUE='CON4';
   end_body;
 end_primitive;
-primitive 'CON3_CON3_SWITCH';
+primitive 'CON2_CON2_R2_54_CON2';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -455,17 +599,14 @@ primitive 'CON3_CON3_SWITCH';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CON3';
-    JEDEC_TYPE='CON3';
-    VALUE='switch';
+    PART_NAME='CON2';
+    JEDEC_TYPE='CON2_R2_54';
+    VALUE='CON2';
   end_body;
 end_primitive;
-primitive 'CON3_CON3_BOOT1';
+primitive 'CON2_CON2_R2_54_MOTOR-A';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -473,14 +614,11 @@ primitive 'CON3_CON3_BOOT1';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CON3';
-    JEDEC_TYPE='CON3';
-    VALUE='BOOT1';
+    PART_NAME='CON2';
+    JEDEC_TYPE='CON2_R2_54';
+    VALUE='MOTOR-A';
   end_body;
 end_primitive;
 primitive 'CON4_CON4_SWD';
@@ -504,21 +642,6 @@ primitive 'CON4_CON4_SWD';
     VALUE='SWD';
   end_body;
 end_primitive;
-primitive 'CON2_CON2_R2_54_MOTOR-A';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON2';
-    JEDEC_TYPE='CON2_R2_54';
-    VALUE='MOTOR-A';
-  end_body;
-end_primitive;
 primitive 'XTAL_XTAL_XTAL';
   pin
     '1':
@@ -532,6 +655,30 @@ primitive 'XTAL_XTAL_XTAL';
     PART_NAME='XTAL';
     JEDEC_TYPE='xtal';
     VALUE='XTAL';
+  end_body;
+end_primitive;
+primitive 'XC9119_XC9119_XC9119';
+  pin
+    'LX':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'VSS':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'FB':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'CE/SS':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='XC9119';
+    JEDEC_TYPE='XC9119';
+    VALUE='XC9119';
   end_body;
 end_primitive;
 END.

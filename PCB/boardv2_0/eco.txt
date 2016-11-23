@@ -3,15 +3,35 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  E:/«∂»Î Ω/git/PCB/boardv2_0/BBear_balance_carv2_0.brd                       |
-|                                                    Sat Oct 22 22:41:25 2016  |
+|                                                    Thu Nov 24 01:23:21 2016  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  VCC3.3       pins MOVED FROM this net (to net name listed on right)
-                                 U3.1             144.00 -136.00
-                                                                          BAT_D
+  MOTORA+      pins DELETED FROM this net (pin now not on any net)
+                                 U16.1           -950.00  140.94
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U16.3           -550.00  140.94
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOTORA-      pins DELETED FROM this net (pin now not on any net)
+                                 U16.4           -850.00  259.06
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U16.5           -650.00  259.06
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOTORB+      pins DELETED FROM this net (pin now not on any net)
+                                 U17.3            950.00  140.94
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U17.1            550.00  140.94
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOTORB-      pins DELETED FROM this net (pin now not on any net)
+                                 U17.5            850.00  259.06
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U17.4            650.00  259.06
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  1                                              |
+|   total ECO changes reported  8                                              |
 |------------------------------------------------------------------------------|

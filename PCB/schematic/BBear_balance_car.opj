@@ -74,6 +74,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs"))
     (HierarchyView)
@@ -86,17 +90,37 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 1102 25 357")
-        (Scroll "-221 0")
-        (Zoom "51")
+        (Scroll "3099 1064")
+        (Zoom "368")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAIN_SCHEMATIC")))
   (PartMRUSelector
-    (VCC
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (GND
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (VCC
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (CDRH104R_330uH
@@ -121,14 +145,6 @@
       (FullPartName "XC9119.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
       (DeviceIndex "0"))
-    (CON3
-      (FullPartName "CON3.Normal")
-      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CON2
-      (FullPartName "CON2.Normal")
-      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
-      (DeviceIndex "0"))
     (KEY-4
       (FullPartName "KEY-4.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
@@ -141,20 +157,12 @@
       (FullPartName "SPX1117_5.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
       (DeviceIndex "0"))
-    (CON4
-      (FullPartName "CON4.Normal")
-      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
-      (DeviceIndex "0"))
     (IRL3205
       (FullPartName "IRL3205.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (IRF4905
       (FullPartName "IRF4905.Normal")
-      (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CON8
-      (FullPartName "CON8.Normal")
       (LibraryName "E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (LED

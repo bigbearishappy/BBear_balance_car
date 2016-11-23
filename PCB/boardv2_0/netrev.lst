@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : BBear_balance_carv2_0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sat Oct 22 22:41:25 2016                      )
+(    Date/Time        : Thu Nov 24 01:23:21 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -21,12 +21,12 @@ BOARD_DIRECTORY '';
 OLD_BOARD_NAME 'E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd';
 NEW_BOARD_NAME 'E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd';
 
-CmdLine: netrev -$ -i E:/嵌入式/git/PCB/schematic/allegro -y 1 E:/嵌入式/git/PCB/boardv2_0/#Taaaaaf12268.tmp
+CmdLine: netrev -$ -i E:/嵌入式/git/PCB/schematic/allegro -y 1 E:/嵌入式/git/PCB/boardv2_0/#Taaaadc15532.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read E:/嵌入式/git/PCB/schematic/allegro/pstchip.dat 
-   Finished reading E:/嵌入式/git/PCB/schematic/allegro/pstchip.dat (00:00:00.06)
+   Finished reading E:/嵌入式/git/PCB/schematic/allegro/pstchip.dat (00:00:00.08)
 Starting to read E:/嵌入式/git/PCB/schematic/allegro/pstxprt.dat 
    Finished reading E:/嵌入式/git/PCB/schematic/allegro/pstxprt.dat (00:00:00.00)
 Starting to read E:/嵌入式/git/PCB/schematic/allegro/pstxnet.dat 
@@ -52,6 +52,7 @@ PSMPATH =  .
            E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/光照/lib/ 
            E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/温湿度V1.2/lib_thsensor/ 
            E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/CO2/lib_CO2/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/土壤PH值/lib_soil_water_percent/ 
 
 PADPATH =  . 
            symbols 
@@ -66,12 +67,13 @@ PADPATH =  .
            E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/光照/lib/ 
            E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/温湿度V1.2/lib_thsensor/ 
            E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/CO2/lib_CO2/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/土壤PH值/lib_soil_water_percent/ 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Oct 22 22:41:25 2016
+netrev run on Nov 24 1:23:21 2016
    DESIGN NAME : 'BBEAR_BALANCE_CAR'
    PACKAGING ON Sep 10 2012 04:46:09
 
@@ -96,6 +98,6 @@ netrev run on Oct 22 22:41:25 2016
  No oversight detected
  No warning detected
 
-cpu time      0:01:02
-elapsed time  0:00:01
+cpu time      0:01:04
+elapsed time  0:00:00
 

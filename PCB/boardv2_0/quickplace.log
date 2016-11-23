@@ -4,50 +4,20 @@
 (                                                                     )
 (    Drawing          : BBear_balance_carv2_0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sat Oct 22 21:38:18 2016                      )
+(    Date/Time        : Wed Nov 23 22:36:19 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 State: Placing on layer TOP
 
-         Placed symbol:  U1 / STM32F103C8T6_NCU100_LQFP_48_ST / NCU100_LQFP_48 at (-781.37 718.63)
-         Placed symbol:  S1 / CON8_CON8_MPU6050 / CON8 at (-507.74 1245.40)
-         Placed symbol:  U3 / CON4_CON4_CON4 / CON4 at (-389.74 854.85)
-         Placed symbol:  U6 / CON4_CON4_SWD / CON4 at (-271.74 854.85)
-         Placed symbol:  L1 / LM1117_LM1117_3_3_LM1117 / LM1117_3_3 at (-162.74 536.00)
-         Placed symbol:  K1 / KEY-4_BUTTON_6X6X5_KEY-4 / BUTTON_6X6X5 at (317.06 646.00)
-         Placed symbol:  U5 / CON3_CON3_BOOT1 / CON3 at (572.86 765.48)
-         Placed symbol:  U4 / CON3_CON3_SWITCH / CON3 at (690.86 765.48)
-         Placed symbol:  U2 / CON3_CON3_BOOT0 / CON3 at (808.86 765.48)
-         Placed symbol:  C9 / CAP_C-0805_10UF / C-0805 at (934.85 546.39)
-         Placed symbol:  LED2 / LED_C-0805_POWER / C-0805 at (1070.99 453.61)
-         Placed symbol:  C10 / CON2_CON2_R2_54_POWER / CON2_R2_54 at (1063.00 356.98)
-         Placed symbol:  C5 / CAP_C-0805_1UF / C-0805 at (1070.99 140.35)
-         Placed symbol:  LED1 / LED_C-0805_HEARTLED / C-0805 at (1070.99 55.57)
-         Placed symbol:  R1 / R_C-0805_10K / C-0805 at (1070.99 -29.21)
-         Placed symbol:  C8 / CAP_C-0805_0.1UF / C-0805 at (1070.99 -113.99)
-         Placed symbol:  R3 / R_C-0805_10K / C-0805 at (1070.99 -198.77)
-         Placed symbol:  C7 / CAP_C-0805_22PF / C-0805 at (1070.99 -283.55)
-         Placed symbol:  C4 / CAP_C-0805_0.1UF / C-0805 at (1070.99 -368.33)
-         Placed symbol:  C3 / CAP_C-0805_0.1UF / C-0805 at (1070.99 -453.11)
-         Placed symbol:  C2 / CAP_C-0805_0.1UF / C-0805 at (-1070.99 453.61)
-         Placed symbol:  U10 / CON2_C-0805_MOTOR0805 / C-0805 at (-1070.99 368.83)
-         Placed symbol:  U13 / CON2_C-0805_MOTOR0805 / C-0805 at (-1070.99 284.05)
-         Placed symbol:  U11 / CON2_CON2_R2_54_CON2 / CON2_R2_54 at (-1063.00 187.42)
-         Placed symbol:  U7 / CON2_CON2_R2_54_CON2 / CON2_R2_54 at (-1063.00 -41.06)
-         Placed symbol:  U8 / CON2_CON2_R2_54_CON2 / CON2_R2_54 at (-1063.00 -269.54)
-         Placed symbol:  U12 / CON2_CON2_R2_54_MOTOR-B / CON2_R2_54 at (-937.00 1461.04)
-         Placed symbol:  R5 / R_C-0805_1K / C-0805 at (-811.01 1329.19)
-         Placed symbol:  R2 / R_C-0805_10K / C-0805 at (-677.03 1329.19)
-         Placed symbol:  C6 / CAP_C-0805_22PF / C-0805 at (-543.05 1329.19)
-         Placed symbol:  C1 / CAP_C-0805_0.1UF / C-0805 at (-409.07 1329.19)
-         Placed symbol:  R4 / R_C-0805_1K / C-0805 at (-275.09 1329.19)
-         Placed symbol:  U9 / CON2_CON2_R2_54_MOTOR-A / CON2_R2_54 at (-149.10 1461.04)
-         Placed symbol:  X1 / XTAL_XTAL_XTAL / XTAL at (-48.70 1340.01)
+         Placed symbol:  U16 / CON5_TP2_54_5_CON5 / TP2_54_5 at (1133.06 257.07)
+         Placed symbol:  U17 / CON5_TP2_54_5_CON5 / TP2_54_5 at (1133.06 -225.14)
+         Placed symbol:  U18 / CON5_TP2_54_5_CON5 / TP2_54_5 at (-1128.66 -75.93)
+         Placed symbol:  U19 / CON5_TP2_54_5_CON5 / TP2_54_5 at (-866.94 1530.08)
 
 
-Placed 34 of 34 applicable (34 total) symbols.
+Placed 4 of 4 applicable (4 total) symbols.
 
 -----------------------------------------------------------------------
 
