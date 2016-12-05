@@ -1,3 +1,4 @@
+//refer to the 红外遥控解码原理 in wenku.baidu.com
 #include "HX1838.h"
 
 /*
