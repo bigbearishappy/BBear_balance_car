@@ -11,7 +11,7 @@ INSUFFICIENT:
 unsigned int temp,timeL2H,timeL2H2;
 unsigned int remote_data = 0x00000000,data = 0x00000000;
 unsigned char RASE_FALL = 0x01,flag = 0x00,data_cnt = 0x00;
-unsigned char repeat_flag = 0x00;
+unsigned char repeat_flag = 0x0000;
 
 void HX1838_Init()
 {
