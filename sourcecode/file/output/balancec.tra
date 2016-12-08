@@ -1,0 +1,51 @@
+*** Creating Trace Output File '.\file\output\balancec.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\file\output\main.o"'
+### List of Objects: adding '".\file\output\i2c.o"'
+### List of Objects: adding '".\file\output\mpu6050.o"'
+### List of Objects: adding '".\file\output\printf.o"'
+### List of Objects: adding '".\file\output\pwm.o"'
+### List of Objects: adding '".\file\output\filter.o"'
+### List of Objects: adding '".\file\output\pid.o"'
+### List of Objects: adding '".\file\output\bsp.o"'
+### List of Objects: adding '".\file\output\misc.o"'
+### List of Objects: adding '".\file\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\file\output\stm32f10x_bkp.o"'
+### List of Objects: adding '".\file\output\stm32f10x_can.o"'
+### List of Objects: adding '".\file\output\stm32f10x_cec.o"'
+### List of Objects: adding '".\file\output\stm32f10x_crc.o"'
+### List of Objects: adding '".\file\output\stm32f10x_dac.o"'
+### List of Objects: adding '".\file\output\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\file\output\stm32f10x_dma.o"'
+### List of Objects: adding '".\file\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\file\output\stm32f10x_flash.o"'
+### List of Objects: adding '".\file\output\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\file\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\file\output\stm32f10x_i2c.o"'
+### List of Objects: adding '".\file\output\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\file\output\stm32f10x_pwr.o"'
+### List of Objects: adding '".\file\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\file\output\stm32f10x_rtc.o"'
+### List of Objects: adding '".\file\output\stm32f10x_sdio.o"'
+### List of Objects: adding '".\file\output\stm32f10x_spi.o"'
+### List of Objects: adding '".\file\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\file\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\file\output\stm32f10x_wwdg.o"'
+### List of Objects: adding '".\file\output\core_cm3.o"'
+### List of Objects: adding '".\file\output\startup_stm32f10x_hd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\file\output\main.o" ".\file\output\i2c.o" ".\file\output\mpu6050.o" ".\file\output\printf.o" ".\file\output\pwm.o" ".\file\output\filter.o" ".\file\output\pid.o" ".\file\output\bsp.o" ".\file\output\misc.o" ".\file\output\stm32f10x_adc.o" ".\file\output\stm32f10x_bkp.o" ".\file\output\stm32f10x_can.o" ".\file\output\stm32f10x_cec.o" ".\file\output\stm32f10x_crc.o" ".\file\output\stm32f10x_dac.o" ".\file\output\stm32f10x_dbgmcu.o" ".\file\output\stm32f10x_dma.o" ".\file\output\stm32f10x_exti.o" ".\file\output\stm32f10x_flash.o" ".\file\output\stm32f10x_fsmc.o" ".\file\output\stm32f10x_gpio.o" ".\file\output\stm32f10x_i2c.o" ".\file\output\stm32f10x_iwdg.o" ".\file\output\stm32f10x_pwr.o" ".\file\output\stm32f10x_rcc.o" ".\file\output\stm32f10x_rtc.o" ".\file\output\stm32f10x_sdio.o" ".\file\output\stm32f10x_spi.o" ".\file\output\stm32f10x_tim.o" ".\file\output\stm32f10x_usart.o" ".\file\output\stm32f10x_wwdg.o" ".\file\output\core_cm3.o" ".\file\output\startup_stm32f10x_hd.o" --library_type=microlib --strict --scatter ".\file\output\balancec.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\file\list\balancec.map" -o ".\file\output\balancec.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\file\output\balancec.axf'
+### ADS-LD Command File: '.\file\output\balancec.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\file\output\balancec.lnp', Handle=0x0000033C
+### Writing '.lnp' file
+### ADS-LD Command file '.\file\output\balancec.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
