@@ -45,7 +45,8 @@
     (Netlist_TAB "0")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "E:\嵌入式\git\PCB\bom\BBear_balance_car20161023.BOM")
+    (BOM_Report_File
+       "E:\嵌入式\git\PCB\boardv2_0\BBear_balance_car20161128.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_Header "Item\tQuantity\tReference\tPart")
@@ -69,6 +70,8 @@
     (File "..\board\bbear_balance_car20161015.bom"
       (Type "Report"))
     (File "..\bom\bbear_balance_car20161023.bom"
+      (Type "Report"))
+    (File "..\boardv2_0\bbear_balance_car20161128.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
@@ -79,19 +82,22 @@
       (Path "Design Resources"
          "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1"
+         "MAIN_SCHEMATIC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 269"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1102 25 357")
-        (Scroll "3099 1064")
-        (Zoom "368")
+        (Placement "44 2 3 -1 -1 -8 -30 25 1102 25 357")
+        (Scroll "8 204")
+        (Zoom "172")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")

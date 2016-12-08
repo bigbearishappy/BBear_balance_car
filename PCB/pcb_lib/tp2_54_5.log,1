@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : tp2_54_5.dra                                  )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Nov 23 22:28:13 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/«∂»Î Ω/git/PCB/pcb_lib
+    Name      = tp2_54_5.psm
+    User      = daxiong
+    Machine   = DAXIONG-PC
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

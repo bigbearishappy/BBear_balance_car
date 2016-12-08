@@ -1,0 +1,60 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : #Taaaaar12268.tmp                             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sun Oct 23 00:17:08 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING(SPMHMF-358): Design precision is the same as that of the drill output file data.
+ WARNING(SPMHMF-359): Data rounding errors may still be possible.
+
+
+ Drill files being output to directory 'E:/«∂»Î Ω/git/PCB/boardv2_0' ...
+
+
+
+     'BBear_balance_carv2_0-1-2.drl' created for holes connecting TOP and BOTTOM
+     ---------------------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  13.0000    0.0000/  0.0000      PLATED         28
+            2.  39.3700    0.0000/  0.0000      PLATED         27
+            3.  43.3000    0.0000/  0.0000      PLATED         12
+            4.  49.0000    0.0000/  0.0000      PLATED          2
+            5.  58.0000    0.0000/  0.0000      PLATED          2
+
+     ---- Total holes:                                         71
+
+     ---- Total head travel:              2.51 feet (0.77 meters)
+

@@ -1,0 +1,60 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : BBear_balance_carv2_0.brd                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Nov 24 02:18:56 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for both sides of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.00
+Max Text displacement is 100.00
+Min Line Length is 0.00
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : None
+ Component Value      : None
+ Device Type          : None
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : None
+ User Part Number     : None
+
+
+     ----- Top Silkscreen -----
+
+Text string 'U10' is not at a suitable location
+(location: -40.00, 360.00)
+Text string 'R4' is not at a suitable location
+(location: -556.00, 150.00)
+Text string 'C10' is not at a suitable location
+(location: 133.00, 401.00)
+Text string 'R2' is not at a suitable location
+(location: -454.00, 313.00)
+Text string 'C3' is not at a suitable location
+(location: -398.00, 86.00)
+Text string 'R1' is not at a suitable location
+(location: 136.00, 282.00)
+Text string 'U12' is not at a suitable location
+(location: -142.00, 198.00)
+Text string 'U20' is not at a suitable location
+(location: 419.00, 384.00)
+Text string 'U3' is not at a suitable location
+(location: 226.00, 0.00)
+
+     ----- Bottom Silkscreen -----
+
+Text string 'R6' is not at a suitable location
+(location: 423.00, 215.00)
+
+Total Failures: 10
+
+Log End
+
