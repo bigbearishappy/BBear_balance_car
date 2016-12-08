@@ -6,4 +6,4 @@ draw the schematic library
 2016-10-11
 work out the netlist and import it into the board files
 
-![image](https://github.com/bigbearishappy/BBear_balance_car/tree/master/doc/car_picture/title1.png)
+![image text](https://github.com/bigbearishappy/BBear_balance_car/tree/master/doc/car_picture/title1.png)
