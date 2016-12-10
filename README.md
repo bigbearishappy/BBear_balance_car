@@ -5,4 +5,4 @@ it'a mini auto balance car which use the mini motor to drive the car
 draw the schematic library
 2016-10-11
 work out the netlist and import it into the board files
-![index](https://github.com/bigbearishappy/BBear_balance_car/tree/master/doc/car_picture/title1.png)
+![index](https://github.com/bigbearishappy/BBear_balance_car/raw/master/doc/car_picture/title1.png)
