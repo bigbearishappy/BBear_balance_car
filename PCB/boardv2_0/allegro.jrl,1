@@ -1,68 +1,20 @@
-\t (00:00:06) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:06)     Journal start - Tue Nov 29 19:42:21 2016
-\t (00:00:06)         Host=DAXIONG-PC User=daxiong Pid=8448 CPUs=4
-\t (00:00:06) 
-\t (00:00:07) Opening existing design...
-\d (00:00:07) Database opened: E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd
-\i (00:00:07) trapsize 5069
-\i (00:00:07) trapsize 4929
-\i (00:00:07) trapsize 5093
-\i (00:00:08) trapsize 4126
-\i (00:00:08) trapsize 4126
-\i (00:00:08) generaledit 
-\i (00:00:10) zoom fit 
-\i (00:00:10) trapsize 986
-\i (00:00:13) color192 
-\i (00:00:13) setwindow cvf.dialog
-\i (00:00:13) cvf layer_mode
-\i (00:00:13) setwindow pcb
-\i (00:00:13) generaledit 
-\i (00:00:15) setwindow cvf.dialog
-\i (00:00:15) cvf layer_tree_item 'Stack-Up'
-\i (00:00:16) cvf layers_visible stack-up etch/all_row TRUE
-\i (00:00:17) cvf layers_visible stack-up etch/all_row FALSE
-\i (00:00:18) cvf apply
-\i (00:00:19) cvf okay
-\i (00:00:21) setwindow pcb
-\i (00:00:21) color192 
-\i (00:00:21) setwindow cvf.dialog
-\i (00:00:21) cvf layer_mode
-\i (00:00:21) setwindow pcb
-\i (00:00:21) generaledit 
-\i (00:00:24) setwindow cvf.dialog
-\i (00:00:24) cvf layers_visible manufacturing/autosilk_top TRUE
-\i (00:00:25) cvf apply
-\i (00:00:26) cvf okay
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom in 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom in -648.88 281.00
-\i (00:00:28) trapsize 493
-\i (00:00:33) drag_start grid -477.32 101.56
-\i (00:00:33) move 
-\t (00:00:33) last pick:  -462.00  81.00
-\t (00:00:33) Pick new location for the element(s).
-\i (00:00:36) drag_stop grid -310.69 173.54
-\i (00:00:36) generaledit 
-\i (00:00:38) drag_start grid -593.66 193.25
-\i (00:00:38) move 
-\t (00:00:38) last pick:  -556.00  150.00
-\t (00:00:38) Pick new location for the element(s).
-\i (00:00:40) drag_stop grid -553.24 141.00
-\i (00:00:40) generaledit 
-\i (00:04:29) zoom out 1 
-\i (00:04:29) setwindow pcb
-\i (00:04:29) zoom out -386.61 280.02
-\i (00:04:29) trapsize 986
-\i (00:04:29) zoom out 1 
-\i (00:04:29) setwindow pcb
-\i (00:04:29) zoom out -351.11 230.72
-\i (00:04:29) trapsize 1972
-\i (00:04:30) zoom in 1 
-\i (00:04:30) setwindow pcb
-\i (00:04:30) zoom in -359.01 218.89
-\i (00:04:30) trapsize 986
-\i (03:12:11) exit 
-\e (03:12:11) Do you want to save the changes you made to BBear_balance_carv2_0.brd?
-\i (03:12:12) fillin no 
-\t (03:12:13)     Journal end - Tue Nov 29 22:54:28 2016
+\t (00:00:20) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:20)     Journal start - Sat Dec 17 14:07:11 2016
+\t (00:00:20)         Host=DAXIONG-PC User=daxiong Pid=7108 CPUs=4
+\t (00:00:20) 
+\t (00:00:23) Opening existing design...
+\d (00:00:23) Database opened: E:/嵌入式/git/PCB/boardv2_0/BBear_balance_carv2_0.brd
+\i (00:00:24) trapsize 5069
+\i (00:00:24) trapsize 4929
+\i (00:00:24) trapsize 5093
+\i (00:00:24) trapsize 4126
+\i (00:00:24) trapsize 4126
+\i (00:00:25) generaledit 
+\i (00:00:29) zoom fit 
+\i (00:00:29) trapsize 986
+\i (00:00:37) open 
+\i (00:00:54) fillin "E:\嵌入式\百度云同步盘\16年联点数据\PCB\380V控制器\380V控制器V2.0\PCB\380V-V2.0.brd"
+\i (00:00:54) cd "E:\嵌入式\百度云同步盘\16年联点数据\PCB\380V控制器\380V控制器V2.0\PCB"
+\t (00:00:54) Opening existing design...
+\i (00:00:54) trapsize 825243
+\t (00:00:54)     Journal end - Sat Dec 17 14:07:45 2016
