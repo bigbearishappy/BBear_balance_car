@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CIRCLE_R_3_20.dra                             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon May 09 19:41:36 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FLASH
+    Directory = E:/嵌入式/百度云同步盘/毕业论文/毕业设计/PCB_Design/PCB_lib
+    Name      = circle_r_3_20.fsm
+    User      = daxiong
+    Machine   = DAXIONG-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

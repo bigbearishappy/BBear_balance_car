@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Nov-28-2016 at 20:02:32}
+{ Using PSTWRITER 16.6.0 d001Dec-31-2016 at 13:44:51}
 primitive 'CAP_C-0805_0.1UF';
   pin
     '1':
@@ -462,6 +462,63 @@ primitive 'STM32F103C8T6_NCU100_LQFP_48_ST';
     VALUE='STM32F103C8T6';
   end_body;
 end_primitive;
+primitive 'CON5_TP2_54_5_CON5';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON5';
+    JEDEC_TYPE='tp2_54_5';
+    VALUE='CON5';
+  end_body;
+end_primitive;
+primitive 'CON3_CON3_KEY';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON3';
+    JEDEC_TYPE='CON3';
+    VALUE='KEY';
+  end_body;
+end_primitive;
+primitive 'CON2_CON2_R2_54_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='CON2_R2_54';
+    VALUE='CON2';
+  end_body;
+end_primitive;
 primitive 'CON2_CON2_R2_54_MOTOR-B';
   pin
     '1':
@@ -510,48 +567,6 @@ primitive 'CON2_3_6KEY_CON2';
     VALUE='CON2';
   end_body;
 end_primitive;
-primitive 'CON3_CON3_KEY';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON3';
-    JEDEC_TYPE='CON3';
-    VALUE='KEY';
-  end_body;
-end_primitive;
-primitive 'CON5_TP2_54_5_CON5';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON5';
-    JEDEC_TYPE='tp2_54_5';
-    VALUE='CON5';
-  end_body;
-end_primitive;
 primitive 'CON3_CON3_BOOT0';
   pin
     '1':
@@ -568,6 +583,21 @@ primitive 'CON3_CON3_BOOT0';
     PART_NAME='CON3';
     JEDEC_TYPE='CON3';
     VALUE='BOOT0';
+  end_body;
+end_primitive;
+primitive 'CON2_P4_003_20_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='P4_003_20';
+    VALUE='CON2';
   end_body;
 end_primitive;
 primitive 'CON4_CON4_CON4';
@@ -591,36 +621,6 @@ primitive 'CON4_CON4_CON4';
     VALUE='CON4';
   end_body;
 end_primitive;
-primitive 'CON2_CON2_R2_54_CON2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON2';
-    JEDEC_TYPE='CON2_R2_54';
-    VALUE='CON2';
-  end_body;
-end_primitive;
-primitive 'CON2_CON2_R2_54_MOTOR-A';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON2';
-    JEDEC_TYPE='CON2_R2_54';
-    VALUE='MOTOR-A';
-  end_body;
-end_primitive;
 primitive 'CON4_CON4_SWD';
   pin
     '1':
@@ -640,6 +640,21 @@ primitive 'CON4_CON4_SWD';
     PART_NAME='CON4';
     JEDEC_TYPE='CON4';
     VALUE='SWD';
+  end_body;
+end_primitive;
+primitive 'CON2_CON2_R2_54_MOTOR-A';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='CON2_R2_54';
+    VALUE='MOTOR-A';
   end_body;
 end_primitive;
 primitive 'XTAL_XTAL_XTAL';

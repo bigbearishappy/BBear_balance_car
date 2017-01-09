@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Nov-24-2016 at 01:23:09 }
+{ Using PSTWRITER 16.6.0 d001Dec-31-2016 at 10:45:47 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='BBEAR_BALANCE_CAR';
@@ -258,57 +258,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U10 'CON2_CON2_R2_54_MOTOR-B':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23810@LIBRARY1.CON2.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins23810@library1.\con2.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23810@library1.\con2.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U12 'CON3_CON3_SWITCH':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS26752@LIBRARY1.CON3.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins26752@library1.\con3.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins26752@library1.\con3.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U14 'CON2_3_6KEY_CON2':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS31645@LIBRARY1.CON2.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins31645@library1.\con2.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins31645@library1.\con2.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U15 'CON3_CON3_KEY':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS31544@LIBRARY1.CON3.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins31544@library1.\con3.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins31544@library1.\con3.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U16 'CON5_TP2_54_5_CON5':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS32602@LIBRARY1.CON5.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins32602@library1.\con5.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins32602@library1.\con5.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U17 'CON5_TP2_54_5_CON5':;
+ U10 'CON5_TP2_54_5_CON5':;
 
 SECTION_NUMBER 1
  '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS32624@LIBRARY1.CON5.NORMAL(CHIPS)':
@@ -318,7 +268,57 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U18 'CON5_TP2_54_5_CON5':;
+ U11 'CON3_CON3_KEY':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS33934@LIBRARY1.CON3.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins33934@library1.\con3.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins33934@library1.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U12 'CON2_CON2_R2_54_CON2':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23778@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins23778@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23778@library1.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U13 'CON2_CON2_R2_54_MOTOR-B':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23810@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins23810@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23810@library1.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U14 'CON3_CON3_KEY':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS33952@LIBRARY1.CON3.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins33952@library1.\con3.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins33952@library1.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U15 'CON5_TP2_54_5_CON5':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS32668@LIBRARY1.CON5.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins32668@library1.\con5.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins32668@library1.\con5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U16 'CON5_TP2_54_5_CON5':;
 
 SECTION_NUMBER 1
  '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS32646@LIBRARY1.CON5.NORMAL(CHIPS)':
@@ -328,12 +328,32 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U19 'CON5_TP2_54_5_CON5':;
+ U17 'CON2_CON2_R2_54_CON2':;
 
 SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS32668@LIBRARY1.CON5.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins32668@library1.\con5.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins32668@library1.\con5.normal\(chips)',
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS34927@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins34927@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins34927@library1.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U18 'CON3_CON3_SWITCH':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS26752@LIBRARY1.CON3.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins26752@library1.\con3.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins26752@library1.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U19 'CON2_3_6KEY_CON2':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS31645@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins31645@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins31645@library1.\con2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -348,12 +368,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U20 'CON4_CON4_CON4':;
+ U20 'CON3_CON3_KEY':;
 
 SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS32933@LIBRARY1.CON4.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins32933@library1.\con4.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins32933@library1.\con4.normal\(chips)',
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS31544@LIBRARY1.CON3.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins31544@library1.\con3.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins31544@library1.\con3.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -368,37 +388,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U4 'CON2_CON2_R2_54_CON2':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23860@LIBRARY1.CON2.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins23860@library1.\con2.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23860@library1.\con2.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U5 'CON2_CON2_R2_54_CON2':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23762@LIBRARY1.CON2.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins23762@library1.\con2.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23762@library1.\con2.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U6 'CON2_CON2_R2_54_MOTOR-A':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23794@LIBRARY1.CON2.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins23794@library1.\con2.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23794@library1.\con2.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U8 'CON4_CON4_SWD':;
+ U4 'CON4_CON4_SWD':;
 
 SECTION_NUMBER 1
  '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS4461@LIBRARY1.CON4.NORMAL(CHIPS)':
@@ -408,12 +398,52 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U9 'CON2_CON2_R2_54_CON2':;
+ U5 'CON2_CON2_R2_54_CON2':;
 
 SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23778@LIBRARY1.CON2.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins23778@library1.\con2.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23778@library1.\con2.normal\(chips)',
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23860@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins23860@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23860@library1.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'CON3_CON3_KEY':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS34569@LIBRARY1.CON3.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins34569@library1.\con3.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins34569@library1.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'CON2_CON2_R2_54_CON2':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23762@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins23762@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23762@library1.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'CON2_CON2_R2_54_MOTOR-A':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS23794@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins23794@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins23794@library1.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 'CON5_TP2_54_5_CON5':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS32602@LIBRARY1.CON5.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins32602@library1.\con5.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins32602@library1.\con5.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

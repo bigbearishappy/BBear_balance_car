@@ -253,9 +253,9 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>96</ColumnNumber>
+      <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>15</TopLine>
+      <TopLine>11</TopLine>
       <CurrentLine>22</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\main.c</PathWithFileName>
@@ -267,10 +267,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>8</ColumnNumber>
+      <ColumnNumber>35</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>49</TopLine>
-      <CurrentLine>49</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\i2c.c</PathWithFileName>
       <FilenameWithoutPath>i2c.c</FilenameWithoutPath>
@@ -358,10 +358,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>30</ColumnNumber>
+      <ColumnNumber>20</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>414</TopLine>
-      <CurrentLine>435</CurrentLine>
+      <TopLine>337</TopLine>
+      <CurrentLine>337</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\BSP\BSP.C</PathWithFileName>
       <FilenameWithoutPath>BSP.C</FilenameWithoutPath>

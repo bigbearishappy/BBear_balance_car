@@ -356,13 +356,13 @@ void TIM3_IRQHandler(void)
 		}
 			
 		
-//		if(heart_flag >= 100)
-//			 heart_flag = 0;
-//		if(heart_flag >= 0 && heart_flag <= 50)
-//			GPIO_SetBits(GPIOB, GPIO_Pin_5);
-//		if(heart_flag > 50 && heart_flag < 100)
-//			GPIO_ResetBits(GPIOB, GPIO_Pin_5);
-//		heart_flag++;
+		if(heart_flag >= 100)
+			 heart_flag = 0;
+		if(heart_flag >= 0 && heart_flag <= 50)
+			GPIO_SetBits(GPIOB, GPIO_Pin_5);
+		if(heart_flag > 50 && heart_flag < 100)
+			GPIO_ResetBits(GPIOB, GPIO_Pin_5);
+		heart_flag++;
 	}	
 }
 

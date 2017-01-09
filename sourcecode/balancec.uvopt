@@ -253,10 +253,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>27</ColumnNumber>
+      <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>18</CurrentLine>
+      <TopLine>11</TopLine>
+      <CurrentLine>22</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -358,10 +358,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>30</ColumnNumber>
+      <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>414</TopLine>
-      <CurrentLine>435</CurrentLine>
+      <TopLine>349</TopLine>
+      <CurrentLine>358</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\BSP\BSP.C</PathWithFileName>
       <FilenameWithoutPath>BSP.C</FilenameWithoutPath>

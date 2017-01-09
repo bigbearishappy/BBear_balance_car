@@ -1,0 +1,134 @@
+\t (00:00:18) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:18)     Journal start - Sat Jan 07 22:20:31 2017
+\t (00:00:18)         Host=DAXIONG-PC User=daxiong Pid=7480 CPUs=4
+\t (00:00:18) 
+\t (00:00:20) Opening existing design...
+\d (00:00:20) Database opened: E:/«∂»Î Ω/git/PCB/boardv2_01231/BBear_balance_carv2_0.brd
+\i (00:00:21) trapsize 2534
+\i (00:00:21) trapsize 2464
+\i (00:00:21) trapsize 2546
+\i (00:00:21) trapsize 2063
+\i (00:00:21) trapsize 2063
+\i (00:00:22) generaledit 
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 282.90 270.75
+\i (00:00:23) trapsize 1032
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 282.90 270.76
+\i (00:00:23) trapsize 516
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 277.74 285.20
+\i (00:00:24) trapsize 258
+\i (00:00:30) drag_start grid 71.43 223.31
+\i (00:00:30) move 
+\t (00:00:30) last pick:  88.00  180.00
+\t (00:00:30) Pick new location for the element(s).
+\i (00:00:34) drag_stop grid 81.75 183.08
+\i (00:00:34) generaledit 
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out 150.35 219.70
+\i (00:00:35) trapsize 516
+\i (00:33:28) drag_start grid 62.66 354.82
+\i (00:33:28) move 
+\t (00:33:28) last pick:  18.00  339.00
+\t (00:33:28) Pick new location for the element(s).
+\i (00:33:32) drag_stop grid 22.43 339.35
+\i (00:33:32) generaledit 
+\i (00:46:46) zoom out 1 
+\i (00:46:46) setwindow pcb
+\i (00:46:46) zoom out 308.17 259.92
+\i (00:46:46) trapsize 1032
+\i (00:46:46) zoom out 1 
+\i (00:46:46) setwindow pcb
+\i (00:46:46) zoom out 630.01 356.89
+\i (00:46:46) trapsize 2063
+\i (00:46:47) zoom out 1 
+\i (00:46:47) setwindow pcb
+\i (00:46:47) zoom out 704.28 398.15
+\i (00:46:47) trapsize 4126
+\i (00:46:47) zoom in 1 
+\i (00:46:47) setwindow pcb
+\i (00:46:47) zoom in -606.36 117.56
+\i (00:46:47) trapsize 2063
+\i (00:46:48) zoom in 1 
+\i (00:46:48) setwindow pcb
+\i (00:46:48) zoom in -474.32 179.46
+\i (00:46:48) trapsize 1032
+\i (00:46:48) zoom in 1 
+\i (00:46:48) setwindow pcb
+\i (00:46:48) zoom in -492.89 173.27
+\i (00:46:48) trapsize 516
+\i (00:46:49) zoom in 1 
+\i (00:46:49) setwindow pcb
+\i (00:46:49) zoom in -405.21 135.11
+\i (00:46:49) trapsize 258
+\i (00:46:50) zoom out 1 
+\i (00:46:50) setwindow pcb
+\i (00:46:50) zoom out -389.73 192.36
+\i (00:46:50) trapsize 516
+\i (00:46:52) drag_start grid -442.34 -16.01
+\i (00:46:52) move 
+\t (00:46:52) last pick:  -421.00  -18.00
+\t (00:46:52) Pick new location for the element(s).
+\i (00:46:54) drag_stop grid -427.90 -18.08
+\i (00:46:54) generaledit 
+\i (00:49:49) xrefdes C5 
+\i (00:49:49) xname_flush 
+\i (00:51:53) zoom out 1 
+\i (00:51:53) setwindow pcb
+\i (00:51:53) zoom out -718.79 71.67
+\i (00:51:53) trapsize 1032
+\i (00:51:55) zoom in 1 
+\i (00:51:55) setwindow pcb
+\i (00:51:55) zoom in -434.09 335.74
+\i (00:51:55) trapsize 516
+\i (00:51:55) zoom in 1 
+\i (00:51:55) setwindow pcb
+\i (00:51:55) zoom in -440.28 344.00
+\i (00:51:55) trapsize 258
+\i (00:51:57) drag_start grid -478.45 407.44
+\i (00:51:57) move 
+\t (00:51:57) last pick:  -463.00  379.00
+\t (00:51:57) Pick new location for the element(s).
+\i (00:51:59) drag_stop grid -463.49 396.61
+\i (00:51:59) generaledit 
+\i (00:53:44) zoom out 1 
+\i (00:53:44) setwindow pcb
+\i (00:53:44) zoom out -253.57 305.83
+\i (00:53:44) trapsize 516
+\i (00:53:45) zoom in 1 
+\i (00:53:45) setwindow pcb
+\i (00:53:45) zoom in -595.01 420.34
+\i (00:53:45) trapsize 258
+\i (00:53:45) zoom in 1 
+\i (00:53:45) setwindow pcb
+\i (00:53:45) zoom in -589.85 387.85
+\i (00:53:45) trapsize 129
+\i (00:53:47) zoom out 1 
+\i (00:53:47) setwindow pcb
+\i (00:53:47) zoom out -467.87 399.20
+\i (00:53:47) trapsize 258
+\i (02:18:33) zoom out 1 
+\i (02:18:33) setwindow pcb
+\i (02:18:33) zoom out -551.42 377.02
+\i (02:18:33) trapsize 516
+\i (02:18:33) zoom out 1 
+\i (02:18:33) setwindow pcb
+\i (02:18:33) zoom out -551.42 377.03
+\i (02:18:33) trapsize 1032
+\i (02:18:33) zoom out 1 
+\i (02:18:33) setwindow pcb
+\i (02:18:33) zoom out -636.00 377.03
+\i (02:18:33) trapsize 2063
+\i (02:18:33) zoom out 1 
+\i (02:18:33) setwindow pcb
+\i (02:18:33) zoom out -640.13 377.03
+\i (02:18:33) trapsize 4126
+\i (02:18:35) exit 
+\e (02:18:35) Do you want to save the changes you made to BBear_balance_carv2_0.brd?
+\i (02:18:37) fillin no 
+\t (02:18:37)     Journal end - Sun Jan 08 00:38:50 2017
