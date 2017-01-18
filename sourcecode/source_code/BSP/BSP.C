@@ -11,12 +11,14 @@ float radian_pt = 0, radian_temp1 = 0, radian_temp2 = 0;	//radian_pt:the angle w
 float radian = 0;											//the angle which is calculated by the acceleration
 int16_t *p;													//a pointer point to the array which store the mpu6050 data
 int16_t leftspeed = 0,rightspeed = 0;						//the car's left wheel and right wheel	
-pid_s sPID;													//struct to store the PID data
+short res_l = 0,res_r = 0;
+pid_s Angle_PID;											//struct to store the angle PID data
+pid_s Speed_PID;											//struct to store the speed PID data
 
 uint8_t flag_l = 1, flag_r = 1;
 uint8_t heart_flag = 0;
 uint8_t remote_flag = 0x00;
-int balan_pwm;
+int balan_pwm_ang = 0,balan_pwm_spd = 0,balan_pwm = 0;
 
 unsigned char control_data = 0x00;
 int32_t run_l = 0x00,run_r = 0x00;
@@ -197,12 +199,12 @@ void NVIC_Configuration(void)
   
    /* Configure the NVIC Preemption Priority Bits */  
    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0);  
-   /* Enable the USART1 Interrupt */
-   NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;       //通道设置为串口1中断
-   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;//占优先级 
-   NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;//used to be 0	   //中断响应优先级0
-   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;		   //打开中断
-   NVIC_Init(&NVIC_InitStructure); 						   //初始化
+//   /* Enable the USART1 Interrupt */
+//   NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;       //通道设置为串口1中断
+//   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;//占优先级 
+//   NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;//used to be 0	   //中断响应优先级0
+//   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;		   //打开中断
+//   NVIC_Init(&NVIC_InitStructure); 						   //初始化
   
    NVIC_InitStructure.NVIC_IRQChannel = TIM3_IRQn;  
    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;//占优先级 
@@ -216,11 +218,11 @@ void NVIC_Configuration(void)
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
   NVIC_Init(&NVIC_InitStructure);
  
-//  NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		//指定中断源
-//  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
-//  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;        //指定响应优先级别2
-//  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;	        //使能外部中断通道
-//  NVIC_Init(&NVIC_InitStructure);
+  NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		//指定中断源
+  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;        //指定响应优先级别2
+  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;	        //使能外部中断通道
+  NVIC_Init(&NVIC_InitStructure);
 }
 
 /************************************************************************************************ 
@@ -252,7 +254,7 @@ void EXTI_Configuration(void)
 
   EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
   EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
-  EXTI_InitStructure.EXTI_Line = EXTI_Line11;//EXTI_Line10;
+  EXTI_InitStructure.EXTI_Line = EXTI_Line11;//EXTI_Line11;
   EXTI_InitStructure.EXTI_LineCmd = ENABLE;
   EXTI_Init(&EXTI_InitStructure);
   GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource11);//
@@ -274,25 +276,14 @@ void EXTI15_10_IRQHandler(void)
   
   	if(EXTI_GetITStatus(EXTI_Line10) != RESET)  //
     {
-     //添加中断处理程序
 	 leftspeed++;
-	 /*if(leftspeed%2)	 
-	 	GPIO_ResetBits(GPIOB , GPIO_Pin_0);
-	 else
-		GPIO_SetBits(GPIOB , GPIO_Pin_0);*/	 
-	 //printf("left = %d\r\n",left);
-	 EXTI_ClearFlag(EXTI_Line10);			       //清除中断标志（必须）
+	 //EXTI_ClearFlag(EXTI_Line10);			       //清除中断标志（必须）
      EXTI_ClearITPendingBit(EXTI_Line10);//	 
      }
 	 if(EXTI_GetITStatus(EXTI_Line11) != RESET)
 	 {
 	 rightspeed++;
-	 if(rightspeed%2)	 
-	 	GPIO_ResetBits(GPIOB , GPIO_Pin_0);
-	 else
-		GPIO_SetBits(GPIOB , GPIO_Pin_0);
-	 //printf("right = %d\r\n",right);
-	 EXTI_ClearFlag(EXTI_Line11);
+	 //EXTI_ClearFlag(EXTI_Line11);
 	 EXTI_ClearITPendingBit(EXTI_Line11);
 	 }
 	
@@ -311,7 +302,7 @@ Description:
 ************************************************************************************************/
 void USART1_IRQHandler(void)            
 {
-  u8 dat;
+  volatile unsigned char dat;
    
   if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)    //若接收数据寄存器满
   {     
@@ -338,31 +329,45 @@ Description:
 ************************************************************************************************/
 void TIM3_IRQHandler(void)
 {
-	uint16_t res_l,res_r;
+	//short res_l,res_r;
 	if(TIM_GetITStatus(TIM3, TIM_IT_Update) == SET)
 	{
 		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
-		res_l = leftspeed * 2;
+		if(leftspeed <= 20)
+			res_l = leftspeed;
+		else
+			res_l = 20;
 		leftspeed = 0;
-		//printf("resl = %d\r\n",res_l); 
-		res_r = rightspeed * 2;
+
+		if(res_r <= 20)
+			res_r = rightspeed;
+		else
+			res_r = 20 ;
 		rightspeed = 0;
-		//printf("resr = %d\r\n",res_r);
+
+#if 0
+		if(radian_filted < 0)
+		{
+			res_l = res_l * -1;
+			res_r = res_r * -1;
+		}
+		printf("resl = %d ",res_l); 
+		printf("resr = %d\r\n",res_r);
+#endif
 
 		remote_flag++;
 		if(remote_flag >= 10){
 			remote_flag = 0;
 			control_data = Remote_Scan();
-		}
-			
+		} 			
 		
-		if(heart_flag >= 100)
-			 heart_flag = 0;
-		if(heart_flag >= 0 && heart_flag <= 50)
-			GPIO_SetBits(GPIOB, GPIO_Pin_5);
-		if(heart_flag > 50 && heart_flag < 100)
-			GPIO_ResetBits(GPIOB, GPIO_Pin_5);
-		heart_flag++;
+//		if(heart_flag >= 100)
+//			 heart_flag = 0;
+//		if(heart_flag >= 0 && heart_flag <= 50)
+//			GPIO_SetBits(GPIOB, GPIO_Pin_5);
+//		if(heart_flag > 50 && heart_flag < 100)
+//			GPIO_ResetBits(GPIOB, GPIO_Pin_5);
+//		heart_flag++;
 	}	
 }
 
@@ -418,7 +423,19 @@ void TIM2_IRQHandler(void)
 			radian_pt += radian_temp1;
 
 		radian_filted = Kaerman_Filter(radian_filted, -radian, radian_temp1/*radian_pt*/);		// 互补滤波得到小车的倾斜角度20161113
-		balan_pwm = PID_Cal(&sPID, -radian_filted, radian_temp1);
+		//if(radian_filted < 0 && res_l > 0 && res_r > 0)
+		if(speed_dir == 2 && res_l > 0 && res_r > 0)
+		{
+			res_l = res_l * -1;
+			res_r = res_r * -1;
+		}
+		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1);
+		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l);
+//		if(radian_filted < 0.5 && radian_filted > -0.5)
+//			balan_pwm =  balan_pwm_ang;
+//		else
+			balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
+		//balan_pwm =  balan_pwm_ang;
 		if(control_data == 0x18 && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE))
 		{
 			run_l = F_B;
@@ -441,6 +458,14 @@ void TIM2_IRQHandler(void)
 			run_r = 0;
 		}
 		PWM_Control(balan_pwm + run_l, balan_pwm + run_r);
+//		printf("%x\n",speed_dir);
+//		printf("%d ",balan_pwm);
+//		printf("l=%d ",res_l); 
+//		printf("r=%d ",res_r);
+//		printf("%.1lf ",radian_filted);
+//		printf(" %d",balan_pwm_ang);
+//		printf(" %d\n",balan_pwm_spd);
+		//printf("%.1lf\r\n",radian_filted);
 		//printf("%.1lf,%.1lf,%.1lf\r\n",radian_filted,-radian,radian_pt);
 		TIM_ClearITPendingBit(TIM2, TIM_FLAG_Update);
 	} 

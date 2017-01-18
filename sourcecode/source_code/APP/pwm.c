@@ -1,5 +1,7 @@
 #include"pwm.h"
 
+char speed_dir = 1;//1:forward 2:back
+
 /************************************************************************************************ 
 Name£ºPWM_left_Configuration 
 Function:	
@@ -113,7 +115,7 @@ void Heart_TIM()
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);//open the clock of tim3
 
 	TIM_DeInit(TIM3);
-	TIM_TimeBaseStructure.TIM_Period = 20 - 1; //0.5s(1000)  0.1s(200)
+	TIM_TimeBaseStructure.TIM_Period = 100 - 1;//20 - 1; //0.5s(1000)  0.1s(200)
 	TIM_TimeBaseStructure.TIM_Prescaler = 36000-1;
 	TIM_TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV1;
 	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
@@ -158,6 +160,11 @@ void PWM_Control(int32_t motorL, int32_t motorR)
 //	if(motorL < -32760)motorL = -32760;
 //	if(motorR >= 32760)motorR = 32760;
 //	if(motorR < -32760)motorR = -32760;
+
+	if(motorL >= 0)
+		speed_dir = 1;
+	else
+		speed_dir = 2;
 
 	if(motorL >= 1000)motorL = 1000;
 	if(motorL < -1000)motorL = -1000;

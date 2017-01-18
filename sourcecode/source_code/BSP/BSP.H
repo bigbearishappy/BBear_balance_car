@@ -43,7 +43,8 @@ extern float radian_pt, radian_temp1, radian_temp2;			//radian_pt:the angle whic
 extern float radian;										//the angle which is calculated by the acceleration
 extern int16_t *p;											//a pointer point to the array which store the mpu6050 data
 extern int16_t leftspeed,rightspeed;						//the car's left wheel and right wheel	
-extern pid_s sPID;											//struct to store the PID data
+extern pid_s Angle_PID;										//struct to store the PID data
+extern pid_s Speed_PID;
 
 extern unsigned char control_data;
 extern int32_t run_l,run_r;

@@ -2,6 +2,8 @@
 #define PWM_H
 #include"stm32f10x.h"
 
+extern char speed_dir;
+
 void PWM_Motor_Configuration(void);					//TIM4
 void Heart_TIM(void);								//TIM3
 void Cal_angle(void);								//TIM2
