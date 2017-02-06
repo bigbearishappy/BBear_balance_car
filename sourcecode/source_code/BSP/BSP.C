@@ -75,7 +75,7 @@ void GPIO_Configuration()
 {
 /*****************************************I2C GPIO**********************************************/
 	GPIO_InitTypeDef GPIO_InitStructure;
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB | RCC_APB2Periph_GPIOC, ENABLE);
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB | RCC_APB2Periph_GPIOC | RCC_APB2Periph_AFIO, ENABLE);
 
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;						//SCL
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
@@ -333,16 +333,20 @@ void TIM3_IRQHandler(void)
 	if(TIM_GetITStatus(TIM3, TIM_IT_Update) == SET)
 	{
 		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
-		if(leftspeed <= 20)
+		if(leftspeed <= 20 && leftspeed > 3)
 			res_l = leftspeed;
-		else
+		else if(leftspeed > 20)
 			res_l = 20;
+		else
+			res_l = 3;
 		leftspeed = 0;
 
-		if(res_r <= 20)
+		if(rightspeed <= 20 && rightspeed > 3)
 			res_r = rightspeed;
-		else
+		else if(rightspeed >20)
 			res_r = 20 ;
+		else
+			res_r = 3;
 		rightspeed = 0;
 
 #if 0
@@ -359,6 +363,7 @@ void TIM3_IRQHandler(void)
 		if(remote_flag >= 10){
 			remote_flag = 0;
 			control_data = Remote_Scan();
+			//printf("0x%x\n",control_data);
 		} 			
 		
 //		if(heart_flag >= 100)
@@ -386,6 +391,8 @@ u8 	RmtSta=0;
 u16 Dval;		//下降沿时计数器的值
 u32 RmtRec=0;	//红外接收到的数据	   		    
 u8  RmtCnt=0;	//按键按下的次数
+
+int8_t dir = 0;
 
 void TIM2_IRQHandler(void)
 {
@@ -429,34 +436,38 @@ void TIM2_IRQHandler(void)
 			res_l = res_l * -1;
 			res_r = res_r * -1;
 		}
+
+		if(control_data == 0x18)
+			dir = 1;
+		else if(control_data == 0x4a)
+			dir = -1;
+		else
+			dir = 0;
+
 		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1);
-		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l);
-//		if(radian_filted < 0.5 && radian_filted > -0.5)
-//			balan_pwm =  balan_pwm_ang;
-//		else
-			balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
-		//balan_pwm =  balan_pwm_ang;
-		if(control_data == 0x18 && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE))
-		{
-			run_l = F_B;
-			run_r = F_B;
-		}
-		else if(control_data == 0x4a && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
-			run_l = -F_B;
-			run_r = -F_B;
-		}
-		else if(control_data == 0x10 && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
-			run_l = 0;//L_R;
-			run_r = -L_R;
-		}
-		else if(control_data == 0x5a && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
-			run_l = 0;//-L_R;
-			run_r = L_R;
-		}
-		else{
-			run_l = 0;
-			run_r = 0;
-		}
+		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,dir);
+		balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
+//		if(control_data == 0x18 && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE))
+//		{
+//			run_l = F_B;
+//			run_r = F_B;
+//		}
+//		else if(control_data == 0x4a && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
+//			run_l = -F_B;
+//			run_r = -F_B;
+//		}
+//		else if(control_data == 0x10 && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
+//			run_l = 0;//L_R;
+//			run_r = -L_R;
+//		}
+//		else if(control_data == 0x5a && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
+//			run_l = 0;//-L_R;
+//			run_r = L_R;
+//		}
+//		else{
+//			run_l = 0;
+//			run_r = 0;
+//		}
 		PWM_Control(balan_pwm + run_l, balan_pwm + run_r);
 //		printf("%x\n",speed_dir);
 //		printf("%d ",balan_pwm);

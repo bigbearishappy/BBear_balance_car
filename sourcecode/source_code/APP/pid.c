@@ -59,15 +59,18 @@ Description:
 			null
 ************************************************************************************************/
 int32_t spd_length = 0;
-int32_t PID_Cal_Speed(pid_s *p, int32_t current)
+int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 {
 	float temp;
-	current = current - 0;//target speed is 0
-	temp = (float)(current * 0.3);
+	if(target > 0)
+		current = current + 0;//target speed is 0
+	else
+		current = current - 0;//target speed is 0
+	temp = (float)(current) * 0.3;
 	spd_length += (int32_t)temp;
-	if(spd_length > 30)
-		spd_length = 30;
-	if(spd_length < -30)
-		spd_length = -30;	
+	if(spd_length > 20)
+		spd_length = 20;
+	if(spd_length < -20)
+		spd_length = -20;	
 	return (int32_t)(p->Kp * temp + p->Ki * spd_length);
 }

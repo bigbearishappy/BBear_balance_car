@@ -20,8 +20,8 @@ int main()
 	GPIO_Configuration();
 	NVIC_Configuration();
 	EXTI_Configuration();
-	PID_Init(&Angle_PID, 210, 0,-140); //300 0 -200
-	PID_Init(&Speed_PID, 0, 15, 0); //300 0 -200
+	PID_Init(&Angle_PID, 180, 0,-120); //300 0 -200 //210,0,-140
+	PID_Init(&Speed_PID, 10, 70, 0); //300 0 -200
 	PWM_Motor_Configuration();
 	InitMPU6050();
 	Cal_angle();
