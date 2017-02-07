@@ -333,20 +333,24 @@ void TIM3_IRQHandler(void)
 	if(TIM_GetITStatus(TIM3, TIM_IT_Update) == SET)
 	{
 		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
-		if(leftspeed <= 20 && leftspeed > 3)
+//		if(leftspeed <= 20 && leftspeed > 1) //3
+		if(leftspeed > 20)
+			leftspeed = 20;
 			res_l = leftspeed;
-		else if(leftspeed > 20)
-			res_l = 20;
-		else
-			res_l = 3;
+//		else if(leftspeed > 20)
+//			res_l = 20;
+//		else
+//			res_l = 1;
 		leftspeed = 0;
 
-		if(rightspeed <= 20 && rightspeed > 3)
+//		if(rightspeed <= 20 && rightspeed > 1)
+		if(rightspeed >20)
+			rightspeed = 20 ;
 			res_r = rightspeed;
-		else if(rightspeed >20)
-			res_r = 20 ;
-		else
-			res_r = 3;
+//		else if(rightspeed >20)
+//			res_r = 20 ;
+//		else		 
+//			res_r = 1;
 		rightspeed = 0;
 
 #if 0
