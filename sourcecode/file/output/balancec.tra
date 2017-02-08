@@ -42,7 +42,7 @@
 ### ADS-LD Output File: '.\file\output\balancec.axf'
 ### ADS-LD Command File: '.\file\output\balancec.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\file\output\balancec.lnp', Handle=0x00002780
+### Creating CmdFile '.\file\output\balancec.lnp', Handle=0x00001678
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\file\output\balancec.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
