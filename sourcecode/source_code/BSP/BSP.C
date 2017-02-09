@@ -364,9 +364,21 @@ void TIM3_IRQHandler(void)
 #endif
 
 		remote_flag++;
-		if(remote_flag >= 10){
+		
+		if(remote_flag >= 5){
 			remote_flag = 0;
 			control_data = Remote_Scan();
+			if(control_data)
+			{
+			heart_flag++;
+			if(heart_flag % 2)
+				GPIO_SetBits(GPIOB, GPIO_Pin_5);
+			else
+				GPIO_ResetBits(GPIOB, GPIO_Pin_5);
+
+			if(heart_flag >= 2)
+				heart_flag = 0;
+			}
 			//printf("0x%x\n",control_data);
 		} 			
 		
@@ -451,16 +463,8 @@ void TIM2_IRQHandler(void)
 		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1);
 		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,dir);
 		balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
-//		if(control_data == 0x18 && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE))
-//		{
-//			run_l = F_B;
-//			run_r = F_B;
-//		}
-//		else if(control_data == 0x4a && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
-//			run_l = -F_B;
-//			run_r = -F_B;
-//		}
-//		else if(control_data == 0x10 && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
+
+//		if(control_data == 0x10 && (radian_filted > -STOP_BT_ANGLE && radian_filted < STOP_BT_ANGLE)){
 //			run_l = 0;//L_R;
 //			run_r = -L_R;
 //		}
@@ -472,6 +476,18 @@ void TIM2_IRQHandler(void)
 //			run_l = 0;
 //			run_r = 0;
 //		}
+		if(control_data == 0x10){
+			run_l = L_R;
+			run_r = -L_R;
+		}
+		else if(control_data == 0x5a){
+			run_l = -L_R;
+			run_r = L_R;
+		}
+		else{
+			run_l = 0;
+			run_r = 0;
+		}
 		PWM_Control(balan_pwm + run_l, balan_pwm + run_r);
 //		printf("%x\n",speed_dir);
 //		printf("%d ",balan_pwm);

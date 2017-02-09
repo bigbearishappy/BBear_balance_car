@@ -63,10 +63,12 @@ float spd_v = 0;	 //滤波后的速度
 int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 {
 	float temp;
-//	if(target > 0)
-//		current = current + 0;//target speed is 0
-//	else
-		current = current + 10;//target speed is 0
+	if(target > 0)
+		current = current + 8;//target speed is 0
+	else if(target < 0)
+		current = current - 8;//target speed is 0
+	else
+		current = current + 0;//target speed is 0
 	temp = (float)(current) * 0.2;
 	spd_v = spd_v * 0.8 + (float)(current) * 0.2;
 	spd_length += (int32_t)temp;
