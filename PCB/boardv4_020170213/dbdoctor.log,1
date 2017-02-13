@@ -1,0 +1,15 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : BBear_balance_carv2_0.brd                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jan 03 00:01:35 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
+
+1 warnings, 0 errors detected, 0 errors could be fixed.
