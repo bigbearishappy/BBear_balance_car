@@ -1,0 +1,73 @@
+(ExpressProject "BBear_balance_car_motor"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\bbear_balance_car_motor.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB_MOTOR\schematic\bbear_balance_car_motor.dsn")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB_MOTOR\schematic\bbear_balance_car_motor.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB_MOTOR\schematic\bbear_balance_car_motor.dsn"
+         "Design Cache")
+      (Select "Design Resources"
+         "E:\嵌入式\git\PCB_MOTOR\schematic\bbear_balance_car_motor.dsn"
+         "SCHEMATIC1" "MOTOR"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 332"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 50 840 50 424")
+        (Scroll "-227 -14")
+        (Zoom "127")
+        (Occurrence "/"))
+      (Path "E:\嵌入式\GIT\PCB_MOTOR\SCHEMATIC\BBEAR_BALANCE_CAR_MOTOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MOTOR")))
+  (PartMRUSelector
+    (GND
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CDRH104R_330uH
+      (FullPartName "CDRH104R_330uH.Normal")
+      (LibraryName
+         "E:\嵌入式\百度云同步盘\16年联点数据\PCB\熊健20160729\土壤PH值\SENSOR-V0.4\SCH\LIBRARY_ADDED.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SDB628
+      (FullPartName "SDB628.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB_MOTOR\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "E:\嵌入式\git\PCB_MOTOR\schematic_lib"))

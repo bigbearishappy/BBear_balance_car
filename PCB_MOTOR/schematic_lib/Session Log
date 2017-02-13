@@ -1,0 +1,561 @@
+INI File Location:D:\Users\daxiong\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture/16.6.0/capture.ini
+Unable to open link http://www.cadence.com/html/orcad/start/
+ERROR(ORCAP-1639): Design cache update failed while updating 'CAP' in library 'E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB'.
+ERROR(ORDBDLL-1021): Object Not Found
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(73.66, 193.04)
+ERROR(ORCAP-1639): Design cache update failed while updating 'CAP' in library 'E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB'.
+ERROR(ORDBDLL-1021): Object Not Found
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(76.20, 185.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(76.20, 198.12)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(73.66, 187.96)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(83.82, 190.50)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(76.20, 195.58)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(73.66, 177.80)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(40.64, 187.96)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(40.64, 187.96)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(40.64, 187.96)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(40.64, 193.04)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(27.94, 195.58)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(45.72, 203.20)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(73.66, 193.04)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(71.12, 144.78)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(48.26, 144.78)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(71.12, 162.56)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(58.42, 165.10)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(25.40, 104.14)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(25.40, 124.46)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(25.40, 121.92)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(25.40, 139.70)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(25.40, 142.24)
+ERROR(ORCAP-1639): Design cache update failed while updating 'STM32F103C8T6' in library 'E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB'.
+ERROR(ORDBDLL-1021): Object Not Found
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 3 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(27.94, 50.80)
+(27.94, 55.88)
+(27.94, 53.34)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 3 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(27.94, 55.88)
+(27.94, 53.34)
+(27.94, 58.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 3 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(27.94, 55.88)
+(27.94, 53.34)
+(27.94, 58.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(73.66, 86.87)
+ERROR(ORCAP-1639): Design cache update failed while updating 'STM32F103C8T6' in library 'E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB'.
+ERROR(ORDBDLL-1021): Object Not Found
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 7 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(27.94, 40.64)
+(73.66, 86.87)
+(27.94, 50.80)
+(27.94, 55.88)
+(27.94, 53.34)
+(91.44, 40.64)
+(45.72, 22.86)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(25.40, 109.22)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 2 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(48.26, 109.22)
+(25.40, 109.22)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 3 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(48.26, 109.22)
+(25.40, 109.22)
+(68.58, 109.22)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 4 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(48.26, 109.22)
+(25.40, 109.22)
+(68.58, 109.22)
+(88.90, 109.22)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(25.40, 119.38)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 2 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(48.26, 119.38)
+(25.40, 119.38)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 3 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(48.26, 119.38)
+(25.40, 119.38)
+(68.58, 119.38)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 4 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(88.90, 119.38)
+(48.26, 119.38)
+(25.40, 119.38)
+(68.58, 119.38)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(157.48, 200.66)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(170.18, 200.66)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(127.00, 200.66)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(170.18, 185.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(170.18, 185.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(127.00, 185.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(129.54, 139.70)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(137.16, 142.24)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(127.00, 104.14)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(127.00, 111.76)
+ERROR(ORCAP-1639): Design cache update failed while updating 'IRF4905' in library 'E:\嵌入式\GIT\PCB\SCHEMATIC_LIB\LIBRARY1.OLB'.
+ERROR(ORDBDLL-1021): Object Not Found
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(157.48, 71.12)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(157.48, 30.48)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(157.48, 27.94)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(210.82, 25.40)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(213.36, 30.48)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(213.36, 73.66)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(228.60, 48.26)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(157.48, 68.58)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(213.36, 33.02)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(134.62, 35.56)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 2 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(134.62, 35.56)
+(134.62, 60.96)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(134.62, 30.48)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 2 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(134.62, 30.48)
+(134.62, 55.88)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(134.62, 33.02)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(134.62, 58.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(157.48, 185.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(205.74, 58.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(254.00, 58.42)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(205.74, 139.70)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(254.00, 139.70)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(218.44, 30.48)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 2 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(218.44, 111.76)
+(218.44, 30.48)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(218.44, 83.82)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 2 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(218.44, 83.82)
+(218.44, 165.10)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 1 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(218.44, 167.64)
+--------------------------------------------------------------------------------------------------------------------------------------
+INFO(ORCAP-2282): The following 2 points have been identified as net connectivity change points from the last operation
+--------------------------------------------------------------------------------------------------------------------------------------
+(218.44, 86.36)
+(218.44, 167.64)
+INFO(ORCAP-2363): Total number of: PARTS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'C6' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'C7' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'C8' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'C9' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'C10' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'C11' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'C12' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'C16' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'K1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'LL1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'L1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'R1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'S1' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'U2' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 1
+INFO(ORCAP-2363): Total number of: OFF PAGE CONNECTORS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: BOOKMARKS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: COMMENT TEXT for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: NETS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PORTS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: DRCS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: TITLEBLOCKS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: POWER SYMBOLS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: HIER PINS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: PARTS PINS(Logical) for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+INFO(ORCAP-2363): Total number of: SINGLE NODE NETS for: 'U3' [ in PAGE: , Mode: Inst, MatchCase: No, DESIGN: E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN ] : 0
+
+
+********************************************************************************
+*
+*  Performing annotation.
+*
+********************************************************************************
+INFO(ORCAP-1379): Done updating part references
+
+
+********************************************************************************
+*
+*  Performing annotation.
+*
+********************************************************************************
+
+INFO(ORCAP-1378): LAST USED REFERENCES
+
+        U4
+        R9
+        I8
+        C12
+        X1
+        S1
+        K1
+        LED2
+        L1
+
+INFO(ORCAP-1379): Done updating part references
+INFO(ORCAP-32002): Netlisting the design
+INFO(ORCAP-32004): Design Name:
+E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN
+Netlist Directory:
+E:\嵌入式\GIT\PCB\SCHEMATIC\allegro
+Configuration File:
+D:\Cadence\SPB_16.6\tools/capture/allegro.cfg
+
+Spawning... "D:\Cadence\SPB_16.6\tools\capture\pstswp.exe" -pst -d "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN" -n "E:\嵌入式\GIT\PCB\SCHEMATIC\allegro" -c "D:\Cadence\SPB_16.6\tools/capture/allegro.cfg" -v 3   -l 31 -s "" -j "PCB Footprint" -hpath "HPathForCollision"
+#1 WARNING(ORCAP-36006): Part Name "STM32F103C8T6_NCU100_LQFP_48_STM32F103C8T6" is renamed to "STM32F103C8T6_NCU100_LQFP_48_ST".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... E:\嵌入式\GIT\PCB\SCHEMATIC\allegro/pstchip.dat
+
+Loading... E:\嵌入式\GIT\PCB\SCHEMATIC\allegro/pstchip.dat
+
+Loading... E:\嵌入式\GIT\PCB\SCHEMATIC\allegro/pstxprt.dat
+
+Loading... E:\嵌入式\GIT\PCB\SCHEMATIC\allegro/pstxnet.dat
+packaging the design view...
+
+Exiting... "D:\Cadence\SPB_16.6\tools\capture\pstswp.exe" -pst -d "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN" -n "E:\嵌入式\GIT\PCB\SCHEMATIC\allegro" -c "D:\Cadence\SPB_16.6\tools/capture/allegro.cfg" -v 3   -l 31 -s "" -j "PCB Footprint" -hpath "HPathForCollision"
+INFO(ORCAP-32005): *** Done ***
