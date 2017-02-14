@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : BBear_balance_carv2_0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Tue Jan 03 00:02:12 2017                      )
+(    Date/Time        : Tue Feb 14 22:40:26 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -28,7 +28,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/TOP.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -57,17 +57,13 @@ Results from parameter file ...
   CIRCLE     0.15748                                  DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
   SQUARE     0.07280                     0.000 NO     DARK 
-  RECTANGLE  0.01969     x 0.02756      90.000 NO     DARK 
-  RECTANGLE  0.02165     x 0.02756       0.000 NO     DARK 
   RECTANGLE  0.06890     x 0.03937       0.000 NO     DARK 
   RECTANGLE  0.08465     x 0.03740       0.000 NO     DARK 
   RECTANGLE  0.08465     x 0.12795       0.000 NO     DARK 
-  RECTANGLE  0.17717     x 0.06890       0.000 NO     DARK 
   OBLONG     0.06500     x 0.00980       0.000 NO     DARK 
   OBLONG     0.06500     x 0.00980      90.000 NO     DARK 
   PAD SHAPE  SRX0_85Y1_45R0_10           0.000 NO     DARK 
   PAD SHAPE  SRX0_85Y1_45R0_10          90.000 NO     DARK 
-  PAD SHAPE  SRX0_85Y1_45R0_10         180.000 NO     DARK 
   PAD SHAPE  SRX0_85Y1_45R0_10         270.000 NO     DARK 
 
      TOP created.
@@ -75,7 +71,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/BOTTOM.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -111,7 +107,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILKSCREEN_TOP >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/SILKSCREEN_TOP.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/SILKSCREEN_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -125,7 +121,7 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: text composed 0 width line found at (-1346.00 -405.00)
+    WARNING: text composed 0 width line found at (-1342.00 -327.00)
            ... using undefined line width of 6.00
 
     WARNING: 0 width line found at (-1337.48 463.00)
@@ -156,7 +152,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILKSCREEN_BOTTOM >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/SILKSCREEN_BOTTOM.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/SILKSCREEN_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -186,7 +182,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SOLDERMASK_TOP >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/SOLDERMASK_TOP.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/SOLDERMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -212,17 +208,13 @@ Results from parameter file ...
   CIRCLE     0.16142                                  DARK 
   SQUARE     0.07480                     0.000 NO     DARK 
   SQUARE     0.07680                     0.000 NO     DARK 
-  RECTANGLE  0.02362     x 0.03150      90.000 NO     DARK 
-  RECTANGLE  0.02559     x 0.03150       0.000 NO     DARK 
   RECTANGLE  0.07283     x 0.04331       0.000 NO     DARK 
   RECTANGLE  0.08858     x 0.04134       0.000 NO     DARK 
   RECTANGLE  0.08858     x 0.13189       0.000 NO     DARK 
-  RECTANGLE  0.18110     x 0.07283       0.000 NO     DARK 
   OBLONG     0.07280     x 0.01770       0.000 NO     DARK 
   OBLONG     0.07280     x 0.01770      90.000 NO     DARK 
   PAD SHAPE  SRX0_95Y1_55R0_10           0.000 NO     DARK 
   PAD SHAPE  SRX0_95Y1_55R0_10          90.000 NO     DARK 
-  PAD SHAPE  SRX0_95Y1_55R0_10         180.000 NO     DARK 
   PAD SHAPE  SRX0_95Y1_55R0_10         270.000 NO     DARK 
 
      SOLDERMASK_TOP created.
@@ -230,7 +222,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SOLDERMASK_BOTTOM >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/SOLDERMASK_BOTTOM.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/SOLDERMASK_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -264,7 +256,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < PASTEMASK_TOP >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/PASTEMASK_TOP.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/PASTEMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -287,17 +279,13 @@ Results from parameter file ...
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.15748                                  DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
-  RECTANGLE  0.01969     x 0.02756      90.000 NO     DARK 
-  RECTANGLE  0.02165     x 0.02756       0.000 NO     DARK 
   RECTANGLE  0.06890     x 0.03937       0.000 NO     DARK 
   RECTANGLE  0.08465     x 0.03740       0.000 NO     DARK 
   RECTANGLE  0.08465     x 0.12795       0.000 NO     DARK 
-  RECTANGLE  0.17717     x 0.06890       0.000 NO     DARK 
   OBLONG     0.06500     x 0.00980       0.000 NO     DARK 
   OBLONG     0.06500     x 0.00980      90.000 NO     DARK 
   PAD SHAPE  SRX0_85Y1_45R0_10           0.000 NO     DARK 
   PAD SHAPE  SRX0_85Y1_45R0_10          90.000 NO     DARK 
-  PAD SHAPE  SRX0_85Y1_45R0_10         180.000 NO     DARK 
   PAD SHAPE  SRX0_85Y1_45R0_10         270.000 NO     DARK 
 
      PASTEMASK_TOP created.
@@ -305,7 +293,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < PASTEMASK_BOTTOM >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/PASTEMASK_BOTTOM.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/PASTEMASK_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -336,7 +324,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < OUTLINE >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/OUTLINE.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/OUTLINE.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -363,7 +351,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < DRILL_DRAW >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/DRILL_DRAW.art > ...
+     TO FILE < E:/嵌入式/git/PCB_MCU/boardv4_020170213/DRILL_DRAW.art > ...
 ================================================================
 
   FILM PARAMETERS :

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : BBear_balance_carv2_0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sat Dec 31 14:07:38 2016                      )
+(    Date/Time        : Tue Feb 14 22:18:48 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -30,34 +30,20 @@ Subclass Selections:
 
      ----- Top Silkscreen -----
 
-Text string 'U22' is not at a suitable location
-(location: 1030.00, 343.00)
 Text string 'U17' is not at a suitable location
 (location: -302.00, -364.00)
 Text string 'U13' is not at a suitable location
 (location: -40.00, 360.00)
-Text string 'C8' is not at a suitable location
-(location: -738.00, 156.00)
-Text string 'R5' is not at a suitable location
-(location: -412.00, 171.00)
-Text string 'R4' is not at a suitable location
-(location: -556.00, 150.00)
-Text string 'C10' is not at a suitable location
-(location: 133.00, 401.00)
-Text string 'R2' is not at a suitable location
-(location: -454.00, 313.00)
+Text string 'R8' is not at a suitable location
+(location: 132.00, 421.00)
 Text string 'R7' is not at a suitable location
 (location: -808.00, -179.00)
-Text string 'C3' is not at a suitable location
-(location: -398.00, 86.00)
 Text string 'C11' is not at a suitable location
 (location: 401.00, 175.00)
 Text string 'R1' is not at a suitable location
 (location: 136.00, 282.00)
 Text string 'C12' is not at a suitable location
 (location: -596.00, -236.00)
-Text string 'U11' is not at a suitable location
-(location: -1012.00, 306.00)
 Text string 'U6' is not at a suitable location
 (location: 370.00, 384.00)
 Text string 'U2' is not at a suitable location
@@ -76,7 +62,7 @@ Text string 'R6' is not at a suitable location
 Text string 'LED1' is not at a suitable location
 (location: 423.00, 137.00)
 
-Total Failures: 21
+Total Failures: 14
 
 Log End
 

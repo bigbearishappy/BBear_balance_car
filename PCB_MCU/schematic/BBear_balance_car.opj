@@ -27,7 +27,7 @@
     (width_start "80")
     (width_End "80")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "E:\嵌入式\GIT\PCB\SCHEMATIC\ALLEGRO")
+    ("Allegro Netlist Directory" "E:\嵌入式\GIT\PCB_MCU\SCHEMATIC\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -79,41 +79,30 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn")
-      (Path "Design Resources"
-         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
+      (Path "Design Resources" ".\bbear_balance_car.dsn")
+      (Path "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "E:\嵌入式\git\PCB\schematic\bbear_balance_car.dsn" "SCHEMATIC1"
-         "MAIN_SCHEMATIC"))
+      (Select "Design Resources" ".\bbear_balance_car.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 269"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 1102 25 357")
-        (Scroll "1666 1178")
-        (Zoom "248")
-        (Occurrence "/"))
-      (Path "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MAIN_SCHEMATIC")))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
+      (Tab 0)))
   (PartMRUSelector
-    (CON2
-      (FullPartName "CON2.Normal")
-      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
-      (DeviceIndex "0"))
     (GND
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (VCC
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (CON3
       (FullPartName "CON3.Normal")
@@ -140,10 +129,6 @@
       (FullPartName "1N5819.Normal")
       (LibraryName
          "E:\嵌入式\百度云同步盘\16年联点数据\PCB\熊健20160729\土壤PH值\SENSOR-V0.4\SCH\LIBRARY_ADDED.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")

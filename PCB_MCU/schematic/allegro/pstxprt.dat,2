@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Dec-31-2016 at 10:45:47 }
+{ Using PSTWRITER 16.6.0 d001Dec-31-2016 at 13:42:02 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='BBEAR_BALANCE_CAR';
@@ -374,6 +374,26 @@ SECTION_NUMBER 1
  '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS31544@LIBRARY1.CON3.NORMAL(CHIPS)':
  C_PATH='@bbear_balance_car.schematic1(sch_1):ins31544@library1.\con3.normal\(chips)',
  P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins31544@library1.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U21 'CON2_P4_003_20_CON2':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS35472@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins35472@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins35472@library1.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U22 'CON2_P4_003_20_CON2':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS35488@LIBRARY1.CON2.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins35488@library1.\con2.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins35488@library1.\con2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
