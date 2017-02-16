@@ -1,0 +1,107 @@
+\t (01:10:26) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (01:10:26)     Journal start - Thu Feb 16 21:42:38 2017
+\t (01:10:26)         Host=DAXIONG-PC User=daxiong Pid=11572 CPUs=4
+\t (01:10:26) 
+\d (01:10:26) Database opened: E:/嵌入式/git/PCB_MOTOR/pcb/bbear_balance_car_motor.brd
+\i (01:10:26) generaledit 
+\i (01:10:31) artwork 
+\i (01:11:08) color192 
+\i (01:11:08) setwindow cvf.dialog
+\i (01:11:08) cvf layer_mode
+\i (01:11:10) cvf cancel
+\i (01:11:15) setwindow pcb
+\i (01:11:15) color192 
+\i (01:11:21) setwindow cvf.dialog
+\i (01:11:21) cvf global_invisible
+\i (01:11:23) cvf layers_visible manufacturing/nclegend-1-2 TRUE
+\i (01:11:24) cvf layer_tree_item 'Components'
+\i (01:11:25) cvf layer_tree_item 'Embedded Geomerty'
+\i (01:11:25) cvf layer_tree_item 'Package Geometry'
+\i (01:11:30) cvf layer_tree_item 'Board Geometry'
+\i (01:11:31) cvf layers_visible board_geometry/outline TRUE
+\i (01:11:33) cvf apply
+\i (01:11:34) cvf okay
+\i (01:11:37) setwindow form.film_control
+\i (01:11:37) FORM film_control filmtree  DRILL_DRAW 
+\i (01:11:39) FORM film_control filmtree popup 'Match Display' DRILL_DRAW 
+\i (01:13:20) FORM film_control filmtree  'VIA CLASS/PASTEMASK_BOTTOM' PASTEMASK_BOTTOM 
+\i (01:13:25) FORM film_control filmtree  PASTEMASK_BOTTOM 
+\i (01:13:33) FORM film_control select_all  
+\i (01:13:34) FORM film_control create  
+\t (01:13:34) Checking db records
+\t (01:13:34)     checking for orphans...
+\t (01:13:34)     Checked 100 percent
+\t (01:13:34) Done dbdoctor.
+\t (01:13:34) Starting Create artwork films...
+\t (01:13:36) Plot generated.
+\i (01:13:39) FORM film_control ok  
+\i (01:13:39) setwindow pcb
+\i (01:13:39) generaledit 
+\i (01:13:45) color192 
+\i (01:13:45) setwindow cvf.dialog
+\i (01:13:45) cvf layer_mode
+\i (01:13:46) setwindow pcb
+\i (01:13:46) generaledit 
+\i (01:13:52) setwindow cvf.dialog
+\i (01:13:52) cvf layer_tree_item 'Stack-Up'
+\i (01:14:07) cvf global_visible
+\i (01:14:08) cvf apply
+\i (01:14:10) cvf okay
+\i (01:14:12) setwindow pcb
+\i (01:14:12) zoom in 1 
+\i (01:14:12) setwindow pcb
+\i (01:14:12) zoom in 1052.85 -13.14
+\i (01:14:12) trapsize 1035
+\i (01:14:12) zoom in 1 
+\i (01:14:12) setwindow pcb
+\i (01:14:12) zoom in 1108.75 5.50
+\i (01:14:12) trapsize 518
+\i (01:14:13) zoom out 1 
+\i (01:14:13) setwindow pcb
+\i (01:14:13) zoom out 1592.19 -81.45
+\i (01:14:13) trapsize 1035
+\i (01:14:15) zoom out 1 
+\i (01:14:15) setwindow pcb
+\i (01:14:15) zoom out 1693.63 -56.61
+\i (01:14:15) trapsize 2070
+\i (01:14:16) zoom in 1 
+\i (01:14:16) setwindow pcb
+\i (01:14:16) zoom in 1428.62 -93.88
+\i (01:14:16) trapsize 1035
+\i (01:14:21) zoom in 1 
+\i (01:14:21) setwindow pcb
+\i (01:14:21) zoom in 987.64 177.35
+\i (01:14:21) trapsize 518
+\i (01:14:21) zoom in 1 
+\i (01:14:21) setwindow pcb
+\i (01:14:21) zoom in 987.64 177.35
+\i (01:14:21) trapsize 259
+\i (01:14:21) zoom in 1 
+\i (01:14:21) setwindow pcb
+\i (01:14:21) zoom in 987.64 182.01
+\i (01:14:21) trapsize 129
+\i (01:14:22) zoom out 1 
+\i (01:14:22) setwindow pcb
+\i (01:14:22) zoom out 1000.58 171.40
+\i (01:14:22) trapsize 259
+\i (01:14:23) zoom out 1 
+\i (01:14:23) setwindow pcb
+\i (01:14:23) zoom out 1006.79 168.29
+\i (01:14:23) trapsize 518
+\i (01:14:23) zoom out 1 
+\i (01:14:23) setwindow pcb
+\i (01:14:23) zoom out 1049.24 116.54
+\i (01:14:23) trapsize 1035
+\i (01:14:23) zoom out 1 
+\i (01:14:23) setwindow pcb
+\i (01:14:23) zoom out 1049.24 116.53
+\i (01:14:23) trapsize 2070
+\i (01:14:26) save 
+\i (01:14:27) fillin yes 
+\i (01:14:27) generaledit 
+\i (01:14:28) open 
+\i (01:14:34) fillin "E:\嵌入式\git\PCB_MCU\boardv4_020170213\BBear_balance_carv2_0.brd"
+\i (01:14:34) cd "E:\嵌入式\git\PCB_MCU\boardv4_020170213"
+\t (01:14:34) Opening existing design...
+\i (01:14:34) trapsize 854
+\t (01:14:34)     Journal end - Thu Feb 16 21:46:46 2017

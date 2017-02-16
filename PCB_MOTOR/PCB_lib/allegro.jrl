@@ -1,0 +1,65 @@
+\t (01:02:42) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (01:02:42)     Journal start - Wed Feb 15 23:59:41 2017
+\t (01:02:42)         Host=DAXIONG-PC User=daxiong Pid=11644 CPUs=4
+\t (01:02:42) 
+\t (01:02:42) Starting new design...
+\i (01:02:42) trapsize 2581
+\i (01:02:42) trapsize 2581
+\i (01:02:42) package symbol wizard 
+\i (01:02:42) generaledit 
+   (01:02:44) Loading signal.cxt 
+\i (01:02:44) setwindow form.sym_wizard
+\i (01:02:44) FORM sym_wizard zip YES 
+\i (01:02:45) FORM sym_wizard sip YES 
+\i (01:02:47) FORM sym_wizard wiz_next  
+\i (01:02:49) FORM sym_wizard load_template  
+\t (01:02:49) Opening existing design...
+\t (01:02:49) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (01:02:49) setwindow pcb
+\i (01:02:49) trapsize 366
+\d (01:02:49) Database opened: D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (01:02:51) setwindow form.sym_wizard
+\i (01:02:51) FORM sym_wizard wiz_next  
+\i (01:03:00) FORM sym_wizard pack_precision 4 
+\i (01:03:02) FORM sym_wizard pack_precision_create 4 
+\i (01:03:06) FORM sym_wizard ref_des S* 
+\i (01:03:06) FORM sym_wizard wiz_next  
+\i (01:03:48) FORM sym_wizard sip_pin_count 6 
+\i (01:03:58) FORM sym_wizard sip_pin_count 5 
+\i (01:04:36) FORM sym_wizard sip_len 550.0000 
+\i (01:04:36) FORM sym_wizard wiz_next  
+\i (01:04:40) FORM sym_wizard default_pad_browse  
+\i (01:04:49) fillin "Pad1_80_D1_00_1"
+\i (01:04:50) FORM sym_wizard pin1_pad_browse  
+\i (01:05:00) fillin "Pad1_80_D1_00S_1"
+\i (01:05:02) FORM sym_wizard wiz_next  
+\i (01:05:06) FORM sym_wizard origin_at_pin1 YES 
+\i (01:05:18) FORM sym_wizard wiz_next  
+\i (01:05:21) FORM sym_wizard wiz_finish  
+\t (01:05:21) Grids are drawn 400.0000, 400.0000 apart for enhanced viewability.
+\i (01:05:21) setwindow pcb
+\i (01:05:21) trapsize 3655914
+\t (01:05:21) Performing DRC...
+\t (01:05:22) No DRC errors detected.
+\w (01:05:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:05:22) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:05:22) trapsize 3892473
+\i (01:05:22) trapsize 96774
+\i (01:05:22) trapsize 64516
+\i (01:05:22) trapsize 64516
+\t (01:05:22) Creating package symbol 'E:/嵌入式/git/PCB_MOTOR/PCB_lib/con5.psm'.
+\t (01:05:22) Starting Create symbol...
+\i (01:05:25) generaledit 
+\i (01:05:36) save 
+\i (01:05:37) fillin yes 
+\t (01:05:38) Symbol 'con5.psm' created.
+\i (01:05:38) generaledit 
+\i (01:08:05) open 
+\i (01:08:19) fillin "E:\嵌入式\git\PCB_MCU\boardv4_020170213\BBear_balance_carv2_0.brd"
+\i (01:08:19) cd "E:\嵌入式\git\PCB_MCU\boardv4_020170213"
+\t (01:08:19) Opening existing design...
+\i (01:08:20) trapsize 1708
+\i (01:08:20) trapsize 1664
+\i (01:08:20) trapsize 1708
+\i (01:08:21) trapsize 1708
+\t (01:08:21)     Journal end - Thu Feb 16 00:05:20 2017

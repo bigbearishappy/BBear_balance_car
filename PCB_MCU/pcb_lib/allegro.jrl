@@ -1,48 +1,39 @@
-\t (00:16:33) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:16:33)     Journal start - Sat Dec 31 13:43:32 2016
-\t (00:16:33)         Host=DAXIONG-PC User=daxiong Pid=13072 CPUs=4
-\t (00:16:33) 
-\d (00:16:33) Database opened: E:/嵌入式/git/PCB/pcb_lib/P4_003_20.dra
-\i (00:16:33) generaledit 
-\i (00:16:41) pick grid -1.6129 -4.6667
-\t (00:16:41) last pick:  -1.6002  -4.6736
-\i (00:16:42) delete 
-\i (00:16:42) generaledit 
-\i (00:16:43) pick grid 0.7527 4.6667
-\t (00:16:43) last pick:  0.7620  4.6736
-\i (00:16:44) delete 
-\i (00:16:44) generaledit 
-\i (00:16:46) add pin 
-\t (00:16:46) Using 'PAD4_00D3_20.pad'.
-\i (00:16:51) setwindow form.mini
-\i (00:16:51) FORM mini next_pin_number 1 
-\i (00:17:02) setwindow pcb
-\i (00:17:02) pick -1.25 y -4.25 
-\t (00:17:02) last pick:  -1.2500  -4.2500
-\t (00:17:02) Using 'PAD4_00D3_20.pad'.
-\i (00:17:09) pick 1.25 y 4.25 
-\t (00:17:09) last pick:  1.2500  4.2500
-\t (00:17:09) Using 'PAD4_00D3_20.pad'.
-\i (00:17:11) prepopup 5.7419 4.8817
-\i (00:17:12) done 
-\t (00:17:12) Exiting from Add Pin.
-\i (00:17:12) generaledit 
-\i (00:17:13) save 
-\i (00:17:14) fillin yes 
-\t (00:17:15) Symbol 'p4_003_20.psm' created.
-\i (00:17:15) generaledit 
-\i (00:17:28) pick grid 8.6667 1.3118
-\t (00:17:28) last pick:  8.6614  1.3208
-\i (00:17:28) save 
-\i (00:17:30) fillin yes 
-\t (00:17:30) Symbol 'p4_003_20.psm' created.
-\i (00:17:30) generaledit 
-\i (00:17:34) open 
-\i (00:17:41) fillin "E:\嵌入式\git\PCB\boardv2_01231\BBear_balance_carv2_0.brd"
-\i (00:17:41) cd "E:\嵌入式\git\PCB\boardv2_01231"
-\t (00:17:42) Opening existing design...
-\i (00:17:42) trapsize 1624
-\i (00:17:42) trapsize 1581
-\i (00:17:42) trapsize 1624
-\i (00:17:42) trapsize 1624
-\t (00:17:43)     Journal end - Sat Dec 31 13:44:41 2016
+\t (01:00:32) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (01:00:32)     Journal start - Wed Feb 15 23:57:31 2017
+\t (01:00:32)         Host=DAXIONG-PC User=daxiong Pid=11644 CPUs=4
+\t (01:00:32) 
+\d (01:00:32) Database opened: E:/嵌入式/git/PCB_MCU/pcb_lib/CON3.dra
+\i (01:00:32) generaledit 
+\i (01:00:33) zoom in 1 
+\i (01:00:33) setwindow pcb
+\i (01:00:33) zoom in -3.5497 -0.6242
+\i (01:00:33) trapsize 874
+\i (01:00:35) zoom in 1 
+\i (01:00:35) setwindow pcb
+\i (01:00:35) zoom in 0.4356 0.2323
+\i (01:00:35) trapsize 437
+\i (01:00:40) zoom out 1 
+\i (01:00:40) setwindow pcb
+\i (01:00:40) zoom out 0.4356 0.2323
+\i (01:00:40) trapsize 874
+\i (01:00:41) zoom out 1 
+\i (01:00:41) setwindow pcb
+\i (01:00:41) zoom out 0.4356 0.2323
+\i (01:00:41) trapsize 1748
+\i (01:00:50) zoom in 1 
+\i (01:00:50) setwindow pcb
+\i (01:00:50) zoom in 0.0861 -0.8164
+\i (01:00:50) trapsize 874
+\i (01:00:52) zoom in 1 
+\i (01:00:52) setwindow pcb
+\i (01:00:52) zoom in 0.5405 -0.4143
+\i (01:00:52) trapsize 437
+\i (01:00:59) zoom out 1 
+\i (01:00:59) setwindow pcb
+\i (01:00:59) zoom out 0.4794 -0.2569
+\i (01:00:59) trapsize 874
+\i (01:02:10) pick grid 5.6795 -2.0924
+\t (01:02:10) last pick:  5.0800  -2.5400
+\i (01:02:13) new 
+\i (01:02:41) newdrawfillin "CON5.dra" "Package Symbol (Wizard)"
+\t (01:02:41)     Journal end - Wed Feb 15 23:59:41 2017

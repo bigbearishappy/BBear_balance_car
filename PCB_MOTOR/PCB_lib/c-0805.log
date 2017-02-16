@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : c-0805.dra                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sun Aug 21 18:36:06 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/温湿度V1.2/lib_thsensor
+    Name      = c-0805.psm
+    User      = daxiong
+    Machine   = DAXIONG-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

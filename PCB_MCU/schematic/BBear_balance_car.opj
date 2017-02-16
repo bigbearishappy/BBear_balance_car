@@ -82,12 +82,13 @@
       (Path "Design Resources" ".\bbear_balance_car.dsn")
       (Path "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\bbear_balance_car.dsn"))
+      (Select "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1"
+         "MAIN_SCHEMATIC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 269"))
       (Tab 0)))
   (PartMRUSelector
     (GND

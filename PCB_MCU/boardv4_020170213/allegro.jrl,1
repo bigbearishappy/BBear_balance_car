@@ -1,34 +1,19 @@
-\t (00:00:09) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:09)     Journal start - Thu Jan 19 21:39:08 2017
-\t (00:00:09)         Host=DAXIONG-PC User=daxiong Pid=4504 CPUs=4
-\t (00:00:09) 
-\t (00:00:11) Opening existing design...
-\d (00:00:12) Database opened: E:/嵌入式/git/PCB/boardv2_01231/BBear_balance_carv2_0.brd
-\i (00:00:13) trapsize 2534
-\i (00:00:13) trapsize 2464
-\i (00:00:13) trapsize 2546
-\i (00:00:13) trapsize 2063
-\i (00:00:14) trapsize 2063
-\i (00:00:14) generaledit 
-\i (00:00:16) zoom in 1 
-\i (00:00:16) setwindow pcb
-\i (00:00:16) zoom in 646.01 320.27
-\i (00:00:16) trapsize 1032
-\i (00:00:17) zoom in 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom in 575.87 357.41
-\i (00:00:17) trapsize 516
-\i (00:00:17) zoom in 1 
-\i (00:00:17) setwindow pcb
-\i (00:00:17) zoom in 497.47 334.72
-\i (00:00:17) trapsize 258
-\i (00:00:18) zoom in 1 
-\i (00:00:18) setwindow pcb
-\i (00:00:18) zoom in 482.52 316.16
-\i (00:00:18) trapsize 129
-\i (00:00:18) zoom out 1 
-\i (00:00:18) setwindow pcb
-\i (00:00:18) zoom out 484.59 313.33
-\i (00:00:18) trapsize 258
-\i (00:22:19) exit 
-\t (00:22:19)     Journal end - Thu Jan 19 22:01:19 2017
+\t (01:09:09) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (01:09:09)     Journal start - Thu Feb 16 21:41:21 2017
+\t (01:09:09)         Host=DAXIONG-PC User=daxiong Pid=11572 CPUs=4
+\t (01:09:09) 
+\d (01:09:09) Database opened: E:/嵌入式/git/PCB_MCU/boardv4_020170213/BBear_balance_carv2_0.brd
+\i (01:09:09) generaledit 
+\i (01:09:12) artwork 
+\i (01:10:09) setwindow form.film_control
+\i (01:10:09) FORM film_control ok  
+\i (01:10:09) setwindow pcb
+\i (01:10:09) generaledit 
+\i (01:10:11) open 
+\e (01:10:11) Do you want to save the changes you made to BBear_balance_carv2_0.brd?
+\i (01:10:12) fillin yes 
+\i (01:10:26) fillin "E:\嵌入式\git\PCB_MOTOR\pcb\bbear_balance_car_motor.brd"
+\i (01:10:26) cd "E:\嵌入式\git\PCB_MOTOR\pcb"
+\t (01:10:26) Opening existing design...
+\i (01:10:26) trapsize 2070
+\t (01:10:26)     Journal end - Thu Feb 16 21:42:38 2017

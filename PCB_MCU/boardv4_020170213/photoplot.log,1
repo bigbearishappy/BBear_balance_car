@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : BBear_balance_carv2_0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Thu Nov 24 02:42:32 2016                      )
+(    Date/Time        : Tue Jan 03 00:02:12 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -28,7 +28,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/TOP.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -54,6 +54,7 @@ Results from parameter file ...
   CIRCLE     0.03000                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.07280                                  DARK 
+  CIRCLE     0.15748                                  DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
   SQUARE     0.07280                     0.000 NO     DARK 
   RECTANGLE  0.01969     x 0.02756      90.000 NO     DARK 
@@ -74,7 +75,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/BOTTOM.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -99,6 +100,7 @@ Results from parameter file ...
   CIRCLE     0.02400                                  DARK 
   CIRCLE     0.07087                                  DARK 
   CIRCLE     0.07280                                  DARK 
+  CIRCLE     0.15748                                  DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
   SQUARE     0.07280                     0.000 NO     DARK 
   RECTANGLE  0.11811     x 0.05906      90.000 NO     DARK 
@@ -109,7 +111,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILKSCREEN_TOP >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/SILKSCREEN_TOP.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/SILKSCREEN_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -123,16 +125,16 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: text composed 0 width line found at (-793.00 -443.00)
+    WARNING: text composed 0 width line found at (-1346.00 -405.00)
            ... using undefined line width of 6.00
 
-    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 6.00
-
-    WARNING: 0 width line found at (-509.00 -481.00)
+    WARNING: 0 width line found at (-1337.48 463.00)
            ... using undefined line width of 6.00
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 6.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
            ... using undefined line width of 6.00
 
 
@@ -146,6 +148,7 @@ Results from parameter file ...
   CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00787                                  DARK 
   CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01575                                  DARK 
 
      SILKSCREEN_TOP created with warnings
@@ -153,7 +156,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SILKSCREEN_BOTTOM >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/SILKSCREEN_BOTTOM.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/SILKSCREEN_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -173,6 +176,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00197                                  DARK 
   CIRCLE     0.00394                                  DARK 
   CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00787                                  DARK 
@@ -182,7 +186,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SOLDERMASK_TOP >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/SOLDERMASK_TOP.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/SOLDERMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -205,6 +209,7 @@ Results from parameter file ...
   CIRCLE     0.04400                                  DARK 
   CIRCLE     0.07480                                  DARK 
   CIRCLE     0.07680                                  DARK 
+  CIRCLE     0.16142                                  DARK 
   SQUARE     0.07480                     0.000 NO     DARK 
   SQUARE     0.07680                     0.000 NO     DARK 
   RECTANGLE  0.02362     x 0.03150      90.000 NO     DARK 
@@ -225,7 +230,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < SOLDERMASK_BOTTOM >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/SOLDERMASK_BOTTOM.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/SOLDERMASK_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -248,6 +253,7 @@ Results from parameter file ...
   CIRCLE     0.04400                                  DARK 
   CIRCLE     0.07480                                  DARK 
   CIRCLE     0.07680                                  DARK 
+  CIRCLE     0.16142                                  DARK 
   SQUARE     0.07480                     0.000 NO     DARK 
   SQUARE     0.07680                     0.000 NO     DARK 
   RECTANGLE  0.12205     x 0.06299      90.000 NO     DARK 
@@ -258,7 +264,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < PASTEMASK_TOP >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/PASTEMASK_TOP.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/PASTEMASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -279,6 +285,7 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.15748                                  DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
   RECTANGLE  0.01969     x 0.02756      90.000 NO     DARK 
   RECTANGLE  0.02165     x 0.02756       0.000 NO     DARK 
@@ -298,7 +305,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < PASTEMASK_BOTTOM >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/PASTEMASK_BOTTOM.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/PASTEMASK_BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -319,6 +326,7 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.07087                                  DARK 
+  CIRCLE     0.15748                                  DARK 
   SQUARE     0.07087                     0.000 NO     DARK 
   RECTANGLE  0.11811     x 0.05906      90.000 NO     DARK 
   PAD SHAPE  SRX0_85Y1_45R0_10         180.000 YES    DARK 
@@ -328,7 +336,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < OUTLINE >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/OUTLINE.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/OUTLINE.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -355,7 +363,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < DRILL_DRAW >
-     TO FILE < E:/嵌入式/git/PCB/boardv2_0/DRILL_DRAW.art > ...
+     TO FILE < E:/嵌入式/git/PCB/boardv2_01231/DRILL_DRAW.art > ...
 ================================================================
 
   FILM PARAMETERS :

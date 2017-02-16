@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : BBear_balance_carv2_0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Tue Feb 14 21:42:48 2017                      )
+(    Date/Time        : Wed Feb 15 22:59:25 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -21,14 +21,14 @@ BOARD_DIRECTORY '';
 OLD_BOARD_NAME 'E:/嵌入式/git/PCB_MCU/boardv4_020170213/BBear_balance_carv2_0.brd';
 NEW_BOARD_NAME 'E:/嵌入式/git/PCB_MCU/boardv4_020170213/BBear_balance_carv2_0.brd';
 
-CmdLine: netrev -$ -i E:/嵌入式/git/PCB_MCU/schematic/allegro -y 1 E:/嵌入式/git/PCB_MCU/boardv4_020170213/#Taaaaac07464.tmp
+CmdLine: netrev -$ -i E:/嵌入式/git/PCB_MCU/schematic/allegro -y 1 E:/嵌入式/git/PCB_MCU/boardv4_020170213/#Taaaaab11644.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read E:/嵌入式/git/PCB_MCU/schematic/allegro/pstchip.dat 
-   Finished reading E:/嵌入式/git/PCB_MCU/schematic/allegro/pstchip.dat (00:00:00.09)
+   Finished reading E:/嵌入式/git/PCB_MCU/schematic/allegro/pstchip.dat (00:00:00.11)
 Starting to read E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxprt.dat 
-   Finished reading E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxprt.dat (00:00:00.00)
+   Finished reading E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxprt.dat (00:00:00.03)
 Starting to read E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxnet.dat 
    Finished reading E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxnet.dat (00:00:00.00)
 
@@ -73,7 +73,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Feb 14 21:42:48 2017
+netrev run on Feb 15 22:59:25 2017
    DESIGN NAME : 'BBEAR_BALANCE_CAR'
    PACKAGING ON Sep 10 2012 04:46:09
 
@@ -98,6 +98,6 @@ netrev run on Feb 14 21:42:48 2017
  No oversight detected
  No warning detected
 
-cpu time      0:02:01
+cpu time      0:03:44
 elapsed time  0:00:01
 

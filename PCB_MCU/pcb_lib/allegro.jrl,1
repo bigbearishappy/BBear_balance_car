@@ -1,60 +1,48 @@
-\t (00:12:53) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:12:53)     Journal start - Sat Dec 31 13:39:52 2016
-\t (00:12:53)         Host=DAXIONG-PC User=daxiong Pid=13072 CPUs=4
-\t (00:12:53) 
-\d (00:12:53) Database opened: E:/嵌入式/git/PCB/pcb_lib/P4_003_20.dra
-\i (00:12:53) generaledit 
-\i (00:12:54) pick grid -1.6989 -3.4624
-\t (00:12:54) last pick:  -1.7018  -3.4544
-\i (00:12:55) delete 
-\i (00:12:56) generaledit 
-\i (00:12:56) pick grid 1.0538 5.0538
-\t (00:12:56) last pick:  1.0414  5.0546
-\i (00:12:57) delete 
-\i (00:12:57) generaledit 
-\i (00:13:02) add pin 
-\t (00:13:02) Using 'PAD4_00D3_20.pad'.
-\i (00:13:23) pick -1.25 y -4.25 
-\t (00:13:23) last pick:  -1.2500  -4.2500
-\t (00:13:23) Using 'PAD4_00D3_20.pad'.
-\i (00:13:30) pick 1.25 y 4.25 
-\t (00:13:30) last pick:  1.2500  4.2500
-\t (00:13:30) Using 'PAD4_00D3_20.pad'.
-\i (00:13:32) prepopup 6.3441 5.9570
-\i (00:13:33) done 
-\t (00:13:33) Exiting from Add Pin.
-\i (00:13:33) generaledit 
-\i (00:13:34) save 
-\i (00:13:35) fillin yes 
-\t (00:13:36) Symbol 'p4_003_20.psm' created.
-\i (00:13:36) generaledit 
-\e (00:13:53) Command not found: xhilite
-\i (00:13:53) xname_flush 
-\i (00:13:53) done 
-\i (00:13:53) generaledit 
-\e (00:13:55) Command not found: xdehilite
-\i (00:13:55) xname_flush 
-\i (00:13:55) done 
-\i (00:13:55) generaledit 
-\e (00:13:55) Command not found: xhilite
-\i (00:13:55) xname_flush 
-\i (00:13:55) done 
-\i (00:13:55) generaledit 
-\e (00:13:58) Command not found: xdehilite
-\i (00:13:58) xname_flush 
-\i (00:13:58) done 
-\e (00:13:58) Command not found: xhilite
-\i (00:13:58) xname_flush 
-\e (00:13:58) No command active
-\i (00:13:58) done 
-\e (00:13:58) No command active
-\i (00:13:58) generaledit 
-\i (00:15:09) open 
-\i (00:15:17) fillin "E:\嵌入式\git\PCB\boardv2_01231\BBear_balance_carv2_0.brd"
-\i (00:15:17) cd "E:\嵌入式\git\PCB\boardv2_01231"
-\t (00:15:17) Opening existing design...
-\i (00:15:17) trapsize 812
-\i (00:15:17) trapsize 791
-\i (00:15:17) trapsize 812
-\i (00:15:18) trapsize 812
-\t (00:15:18)     Journal end - Sat Dec 31 13:42:17 2016
+\t (00:16:33) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:16:33)     Journal start - Sat Dec 31 13:43:32 2016
+\t (00:16:33)         Host=DAXIONG-PC User=daxiong Pid=13072 CPUs=4
+\t (00:16:33) 
+\d (00:16:33) Database opened: E:/嵌入式/git/PCB/pcb_lib/P4_003_20.dra
+\i (00:16:33) generaledit 
+\i (00:16:41) pick grid -1.6129 -4.6667
+\t (00:16:41) last pick:  -1.6002  -4.6736
+\i (00:16:42) delete 
+\i (00:16:42) generaledit 
+\i (00:16:43) pick grid 0.7527 4.6667
+\t (00:16:43) last pick:  0.7620  4.6736
+\i (00:16:44) delete 
+\i (00:16:44) generaledit 
+\i (00:16:46) add pin 
+\t (00:16:46) Using 'PAD4_00D3_20.pad'.
+\i (00:16:51) setwindow form.mini
+\i (00:16:51) FORM mini next_pin_number 1 
+\i (00:17:02) setwindow pcb
+\i (00:17:02) pick -1.25 y -4.25 
+\t (00:17:02) last pick:  -1.2500  -4.2500
+\t (00:17:02) Using 'PAD4_00D3_20.pad'.
+\i (00:17:09) pick 1.25 y 4.25 
+\t (00:17:09) last pick:  1.2500  4.2500
+\t (00:17:09) Using 'PAD4_00D3_20.pad'.
+\i (00:17:11) prepopup 5.7419 4.8817
+\i (00:17:12) done 
+\t (00:17:12) Exiting from Add Pin.
+\i (00:17:12) generaledit 
+\i (00:17:13) save 
+\i (00:17:14) fillin yes 
+\t (00:17:15) Symbol 'p4_003_20.psm' created.
+\i (00:17:15) generaledit 
+\i (00:17:28) pick grid 8.6667 1.3118
+\t (00:17:28) last pick:  8.6614  1.3208
+\i (00:17:28) save 
+\i (00:17:30) fillin yes 
+\t (00:17:30) Symbol 'p4_003_20.psm' created.
+\i (00:17:30) generaledit 
+\i (00:17:34) open 
+\i (00:17:41) fillin "E:\嵌入式\git\PCB\boardv2_01231\BBear_balance_carv2_0.brd"
+\i (00:17:41) cd "E:\嵌入式\git\PCB\boardv2_01231"
+\t (00:17:42) Opening existing design...
+\i (00:17:42) trapsize 1624
+\i (00:17:42) trapsize 1581
+\i (00:17:42) trapsize 1624
+\i (00:17:42) trapsize 1624
+\t (00:17:43)     Journal end - Sat Dec 31 13:44:41 2016

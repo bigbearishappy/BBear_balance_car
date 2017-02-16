@@ -1,0 +1,114 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Feb-16-2017 at 20:54:15}
+primitive 'SDB628_SDB628_SDB628';
+  pin
+    'SW':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'FB':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'EN':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'IN':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SDB628';
+    JEDEC_TYPE='SDB628';
+    VALUE='SDB628';
+  end_body;
+end_primitive;
+primitive 'CAP NP_C-0805_22UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='c-0805';
+    VALUE='22uF';
+  end_body;
+end_primitive;
+primitive 'CDRH104R_330UH_CDRH104R_22UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CDRH104R_330uH';
+    JEDEC_TYPE='CDRH104R';
+    VALUE='22uH';
+  end_body;
+end_primitive;
+primitive 'DIODE_1N5819_SS34';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='1N5819';
+    VALUE='SS34';
+  end_body;
+end_primitive;
+primitive 'R_C-0805_R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='c-0805';
+    VALUE='R';
+  end_body;
+end_primitive;
+primitive 'CON5_CON5_CON5';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON5';
+    JEDEC_TYPE='CON5';
+    VALUE='CON5';
+  end_body;
+end_primitive;
+END.

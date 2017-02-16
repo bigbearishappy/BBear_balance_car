@@ -1,0 +1,30 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : bbear_balance_car_motor.brd                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Thu Feb 16 01:02:02 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  B1 / SDB628_SDB628_SDB628 / SDB628 at (-1254.24 405.14)
+         Placed symbol:  U4 / CON5_CON5_CON5 / CON5 at (-1113.60 823.00)
+         Placed symbol:  U2 / CON5_CON5_CON5 / CON5 at (-995.60 823.00)
+         Placed symbol:  U1 / CON5_CON5_CON5 / CON5 at (-877.60 823.00)
+         Placed symbol:  U3 / CON5_CON5_CON5 / CON5 at (-759.60 823.00)
+         Placed symbol:  D1 / DIODE_CDRH104R_SS34 / CDRH104R at (-488.60 583.00)
+         Placed symbol:  C3 / CDRH104R_330UH_C-0805_22UH / C-0805 at (-207.61 386.39)
+         Placed symbol:  C1 / CAP NP_C-0805_22UF / C-0805 at (-73.63 386.39)
+         Placed symbol:  C2 / CAP NP_C-0805_22UF / C-0805 at (60.35 386.39)
+         Placed symbol:  R2 / R_C-0805_R / C-0805 at (194.33 386.39)
+         Placed symbol:  R1 / R_C-0805_R / C-0805 at (328.31 386.39)
+
+
+Placed 11 of 11 applicable (11 total) symbols.
+
+-----------------------------------------------------------------------
+

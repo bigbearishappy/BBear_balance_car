@@ -2,9 +2,9 @@
 (                                                                     )
 (    NC DRILL Log                                                     )
 (                                                                     )
-(    Drawing          : #Taaaafe15532.tmp                             )
+(    Drawing          : #Taaaabv07464.tmp                             )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Thu Nov 24 02:41:17 2016                      )
+(    Date/Time        : Tue Feb 14 22:39:30 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -39,7 +39,7 @@
  WARNING(SPMHMF-359): Data rounding errors may still be possible.
 
 
- Drill files being output to directory 'E:/嵌入式/git/PCB/boardv2_0' ...
+ Drill files being output to directory 'E:/嵌入式/git/PCB_MCU/boardv4_020170213' ...
 
 
 
@@ -48,11 +48,12 @@
 
            Num     Size      +/- Tolerance     Plating   Quantity
 
-            1.  13.0000    0.0000/  0.0000      PLATED         36
-            2.  39.3700    0.0000/  0.0000      PLATED         31
-            3.  43.3000    0.0000/  0.0000      PLATED         10
+            1.  13.0000    0.0000/  0.0000      PLATED         40
+            2.  39.3700    0.0000/  0.0000      PLATED         36
+            3.  43.3000    0.0000/  0.0000      PLATED         12
+            4. 125.9800    0.0000/  0.0000      PLATED          4
 
-     ---- Total holes:                                         77
+     ---- Total holes:                                         92
 
-     ---- Total head travel:              2.59 feet (0.79 meters)
+     ---- Total head travel:              3.48 feet (1.06 meters)
 
