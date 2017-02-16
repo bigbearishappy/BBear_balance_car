@@ -16,7 +16,7 @@
 #define	TRUE	1
 
 #define F_B  1050
-#define L_R  200
+#define L_R  100
 #define STOP_BT_ANGLE	5
 
 //#define gyro_y_offset	4.37040//4.37043
