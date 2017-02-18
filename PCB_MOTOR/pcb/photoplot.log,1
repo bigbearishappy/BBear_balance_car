@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : bbear_balance_car_motor.brd                   )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Fri Feb 17 19:51:42 2017                      )
+(    Date/Time        : Thu Feb 16 21:45:46 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -33,7 +33,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -70,7 +70,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -103,7 +103,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -113,16 +113,11 @@ Results from parameter file ...
   Draw holes only                     NO
 
     WARNING: 0 width line found at (-1340.00 -315.00)
-           ... using undefined line width of 6.00
+           ... ignored.
 
 
 
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.00600                                  DARK 
-
+  APERTURES USED:  NONE
      OUTLINE created with warnings
 
 
@@ -133,7 +128,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -167,7 +162,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -197,7 +192,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -207,13 +202,13 @@ Results from parameter file ...
   Draw holes only                     NO
 
     WARNING: text composed 0 width line found at (-1024.00 -124.00)
-           ... using undefined line width of 6.00
+           ... ignored.
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 6.00
+           ... ignored.
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 6.00
+           ... ignored.
 
 
 
@@ -223,7 +218,6 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00200                                  DARK 
   CIRCLE     0.00394                                  DARK 
-  CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00787                                  DARK 
   CIRCLE     0.01000                                  DARK 
 
@@ -237,7 +231,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -252,7 +246,6 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00787                                  DARK 
 
      SILKSCREEN_BOTTOM created.
@@ -265,7 +258,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -298,7 +291,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -327,7 +320,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                6.00
+  Undefined line width                0.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -336,15 +329,13 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: rectangle or unfilled shape composed 0 width line found at (-1365.00 -1925.00)
+           ... ignored.
 
 
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.00600                                  DARK 
 
-     DRILL_DRAW created.
+  APERTURES USED:  NONE
+     DRILL_DRAW created with warnings
 
 
 ------------------------------------------------------
@@ -358,6 +349,6 @@ Results from parameter file ...
         SILKSCREEN_BOTTOM created.
         PASTEMASK_TOP created.
         PASTEMASK_BOTTOM created.
-        DRILL_DRAW created.
+        DRILL_DRAW created with warnings
 
  ARTWORK finished

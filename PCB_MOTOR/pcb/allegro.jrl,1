@@ -1,160 +1,58 @@
-\t (00:56:31) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:56:31)     Journal start - Thu Feb 16 21:28:42 2017
-\t (00:56:31)         Host=DAXIONG-PC User=daxiong Pid=11572 CPUs=4
-\t (00:56:31) 
-\d (00:56:31) Database opened: E:/嵌入式/git/PCB_MOTOR/pcb/bbear_balance_car_motor.brd
-\i (00:56:31) generaledit 
-\i (00:56:33) artwork 
-\i (00:56:39) setwindow form.film_control
-\i (00:56:39) FORM film_control general_parameters  
-\i (00:56:54) FORM film_control film_control  
-\i (00:57:05) FORM film_control filmtree popup Add BOTTOM 
-\i (00:57:25) fillin "OUTLINE"
-\i (00:57:27) FORM film_control filmtree  OUTLINE 
-\i (00:57:34) FORM film_control filmtree popup Add OUTLINE 
-\i (00:57:56) fillin "SOLDERMASK_TOP"
-\i (00:57:57) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:57:59) FORM film_control filmtree popup Add SOLDERMASK_TOP 
-\i (00:58:08) fillin "SOLDERMASK_BOTTOM"
-\i (00:58:10) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:58:11) FORM film_control filmtree popup Add SOLDERMASK_BOTTOM 
-\i (00:58:24) fillin "SILKSCREEN_TOP"
-\i (00:58:27) FORM film_control filmtree popup Add SILKSCREEN_TOP 
-\i (00:58:36) fillin "SILKSCREEN_BOTTOM"
-\i (00:58:42) FORM film_control filmtree popup Add SILKSCREEN_BOTTOM 
-\i (00:58:54) fillin "PASTEMASK_TOP"
-\i (00:58:58) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:59:00) FORM film_control filmtree popup Add PASTEMASK_TOP 
-\i (00:59:10) fillin "PASTEMASK_BOTTOM"
-\i (00:59:21) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:59:22) FORM film_control filmtree popup Add PASTEMASK_BOTTOM 
-\i (00:59:28) fillin "DRILL_DRAW"
-\i (00:59:32) FORM film_control ok  
-\i (00:59:32) setwindow pcb
-\i (00:59:32) generaledit 
-\i (00:59:34) artwork 
-\i (01:00:05) setwindow form.film_control
-\i (01:00:05) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (01:00:29) setwindow pcb
-\i (01:00:29) color192 
-\i (01:00:29) setwindow cvf.dialog
-\i (01:00:29) cvf layer_mode
-\i (01:00:49) cvf layer_tree_item 'Stack-Up'
-\i (01:01:06) cvf layer_tree_item 'Conductor' 'Stack-Up'
-\i (01:01:06) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
-\i (01:01:07) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
-\i (01:01:10) cvf layer_tree_item 'Stack-Up'
-\i (01:01:24) cvf layers_visible stack-up pin/soldermask_top TRUE
-\i (01:01:26) cvf layers_visible stack-up via/soldermask_top TRUE
-\i (01:01:43) cvf layer_tree_item 'Board Geometry'
-\i (01:01:47) cvf layers_visible board_geometry/soldermask_top TRUE
-\i (01:01:48) cvf layer_tree_item 'Package Geometry'
-\i (01:01:54) cvf layers_visible package_geometry/soldermask_top TRUE
-\i (01:01:55) cvf apply
-\i (01:02:00) cvf layer_tree_item 'Embedded Geomerty'
-\i (01:02:00) cvf layer_tree_item 'Components'
-\i (01:02:01) cvf layer_tree_item 'Manufacturing'
-\i (01:02:04) cvf layer_tree_item 'Drawing Format'
-\i (01:02:05) cvf layer_tree_item 'Manufacturing'
-\i (01:02:07) cvf layer_tree_item 'Areas'
-\i (01:02:08) cvf layer_tree_item 'Board Geometry'
-\i (01:02:10) cvf layers_visible board_geometry/outline FALSE
-\i (01:02:11) cvf apply
-\i (01:02:13) cvf okay
-\i (01:02:25) setwindow form.film_control
-\i (01:02:25) FORM film_control filmtree popup 'Match Display' SOLDERMASK_TOP 
-\i (01:02:32) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (01:02:34) setwindow pcb
-\i (01:02:34) color192 
-\i (01:02:34) setwindow cvf.dialog
-\i (01:02:34) cvf layer_mode
-\i (01:04:26) cvf layer_tree_item 'Stack-Up'
-\i (01:04:27) cvf layers_visible stack-up pin/soldermask_top FALSE
-\i (01:04:28) cvf layers_visible stack-up via/soldermask_top FALSE
-\i (01:04:28) cvf layers_visible stack-up via/soldermask_bottom TRUE
-\i (01:04:29) cvf layers_visible stack-up pin/soldermask_bottom TRUE
-\i (01:04:31) cvf layer_tree_item 'Board Geometry'
-\i (01:04:33) cvf layers_visible board_geometry/soldermask_top FALSE
-\i (01:04:35) cvf layers_visible board_geometry/soldermask_bottom TRUE
-\i (01:04:36) cvf layer_tree_item 'Package Geometry'
-\i (01:04:39) cvf layers_visible package_geometry/soldermask_top FALSE
-\i (01:04:39) cvf layers_visible package_geometry/soldermask_bottom TRUE
-\i (01:04:41) cvf apply
-\i (01:04:49) setwindow form.film_control
-\i (01:04:49) FORM film_control filmtree popup 'Match Display' SOLDERMASK_BOTTOM 
-\i (01:04:52) FORM film_control filmtree  PIN/SOLDERMASK_BOTTOM SOLDERMASK_BOTTOM 
-\i (01:04:57) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (01:04:57) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (01:05:13) setwindow cvf.dialog
-\i (01:05:13) cvf global_invisible
-\i (01:05:16) cvf apply
-\i (01:05:25) cvf layer_tree_item 'Board Geometry'
-\i (01:05:29) cvf layers_visible board_geometry/silkscreen_top TRUE
-\i (01:05:30) cvf layer_tree_item 'Package Geometry'
-\i (01:05:34) cvf layers_visible package_geometry/silkscreen_top TRUE
-\i (01:05:38) cvf layer_tree_item 'Manufacturing'
-\i (01:05:40) cvf layers_visible manufacturing/autosilk_top TRUE
-\i (01:05:41) cvf apply
-\i (01:05:48) setwindow form.film_control
-\i (01:05:48) FORM film_control filmtree popup 'Match Display' SILKSCREEN_TOP 
-\i (01:05:54) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (01:06:00) setwindow cvf.dialog
-\i (01:06:00) cvf layer_tree_item 'Components'
-\i (01:06:03) cvf global_invisible
-\i (01:06:04) cvf layer_tree_item 'Board Geometry'
-\i (01:06:10) cvf layers_visible board_geometry/silkscreen_bottom TRUE
-\i (01:06:11) cvf layer_tree_item 'Package Geometry'
-\i (01:06:14) cvf layers_visible package_geometry/silkscreen_bottom TRUE
-\i (01:06:16) cvf layer_tree_item 'Manufacturing'
-\i (01:06:19) cvf layers_visible manufacturing/autosilk_bottom TRUE
-\i (01:06:20) cvf apply
-\i (01:06:29) setwindow form.film_control
-\i (01:06:29) FORM film_control filmtree popup 'Match Display' SILKSCREEN_BOTTOM 
-\i (01:06:30) FORM film_control filmtree  PASTEMASK_TOP 
-\i (01:06:50) setwindow cvf.dialog
-\i (01:06:50) cvf global_invisible
-\i (01:06:51) cvf layer_tree_item 'Board Geometry'
-\i (01:07:00) cvf layer_tree_item 'Package Geometry'
-\i (01:07:04) cvf layers_visible package_geometry/pastemask_top TRUE
-\i (01:07:06) cvf layer_tree_item 'Board Geometry'
-\i (01:07:13) cvf layer_tree_item 'Stack-Up'
-\i (01:07:19) cvf layers_visible stack-up pin/pastemask_top TRUE
-\i (01:07:21) cvf layers_visible stack-up via/pastemask_top TRUE
-\i (01:07:30) cvf apply
-\i (01:07:37) setwindow form.film_control
-\i (01:07:37) FORM film_control filmtree popup 'Match Display' PASTEMASK_TOP 
-\i (01:07:39) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (01:07:43) FORM film_control filmtree  PIN/PASTEMASK_TOP PASTEMASK_TOP 
-\i (01:07:45) FORM film_control filmtree  PASTEMASK_TOP 
-\i (01:07:46) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (01:07:50) setwindow cvf.dialog
-\i (01:07:50) cvf layers_visible stack-up pin/pastemask_top FALSE
-\i (01:07:51) cvf layers_visible stack-up pin/pastemask_bottom TRUE
-\i (01:07:52) cvf layers_visible stack-up via/pastemask_top FALSE
-\i (01:07:52) cvf layers_visible stack-up via/pastemask_bottom TRUE
-\i (01:07:56) cvf layer_tree_item 'Package Geometry'
-\i (01:07:58) cvf layers_visible package_geometry/pastemask_top FALSE
-\i (01:07:59) cvf layers_visible package_geometry/pastemask_bottom TRUE
-\i (01:08:02) cvf apply
-\i (01:08:07) setwindow form.film_control
-\i (01:08:07) FORM film_control filmtree popup 'Match Display' PASTEMASK_BOTTOM 
-\i (01:08:08) FORM film_control filmtree  OUTLINE 
-\i (01:08:14) FORM film_control filmtree  DRILL_DRAW 
-\i (01:08:25) setwindow cvf.dialog
-\i (01:08:25) cvf global_invisible
-\i (01:08:26) cvf layer_tree_item 'Manufacturing'
-\i (01:08:32) cvf layers_visible manufacturing/nclegend-1-2 TRUE
-\i (01:08:34) cvf apply
-\i (01:08:43) setwindow form.film_control
-\i (01:08:43) FORM film_control filmtree popup 'Match Display' DRILL_DRAW 
-\i (01:08:58) FORM film_control ok  
-\i (01:08:59) setwindow pcb
-\i (01:08:59) generaledit 
-\i (01:09:01) open 
-\e (01:09:01) Do you want to save the changes you made to bbear_balance_car_motor.brd?
-\i (01:09:02) fillin yes 
-\i (01:09:09) fillin "E:\嵌入式\git\PCB_MCU\boardv4_020170213\BBear_balance_carv2_0.brd"
-\i (01:09:09) cd "E:\嵌入式\git\PCB_MCU\boardv4_020170213"
-\t (01:09:09) Opening existing design...
-\i (01:09:09) trapsize 854
-\t (01:09:09)     Journal end - Thu Feb 16 21:41:21 2017
+\t (00:00:39) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:39)     Journal start - Fri Feb 17 19:43:53 2017
+\t (00:00:39)         Host=DAXIONG-PC User=daxiong Pid=7260 CPUs=4
+\t (00:00:39) 
+\d (00:00:39) Database opened: E:/嵌入式/git/PCB_MOTOR/pcb/bbear_balance_car_motor.brd
+\i (00:00:39) generaledit 
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 1405.33 58.57
+\i (00:00:41) trapsize 1035
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 1206.58 70.99
+\i (00:00:42) trapsize 2070
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in -1335.83 278.03
+\i (00:00:44) trapsize 1035
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in -1331.68 275.96
+\i (00:00:44) trapsize 518
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in -1331.68 275.96
+\i (00:00:44) trapsize 259
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in -1330.64 271.82
+\i (00:00:44) trapsize 129
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out -1337.11 264.84
+\i (00:00:51) trapsize 259
+\i (00:00:52) zoom out 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom out -1346.42 262.77
+\i (00:00:52) trapsize 518
+\i (00:00:52) zoom out 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom out -1446.83 345.58
+\i (00:00:52) trapsize 1035
+\i (00:00:52) zoom out 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom out -1459.26 362.15
+\i (00:00:52) trapsize 2070
+\i (00:00:57) artwork 
+\i (00:04:13) datatips toggle 
+\i (00:04:14) setwindow form.film_control
+\i (00:04:14) FORM film_control cancel  
+\i (00:04:14) setwindow pcb
+\i (00:04:14) generaledit 
+\i (00:04:16) open 
+\i (00:04:26) fillin "E:\嵌入式\git\PCB_MCU\boardv4_020170213\BBear_balance_carv2_0.brd"
+\i (00:04:26) cd "E:\嵌入式\git\PCB_MCU\boardv4_020170213"
+\t (00:04:26) Opening existing design...
+\i (00:04:26) trapsize 2063
+\t (00:04:26)     Journal end - Fri Feb 17 19:47:40 2017
