@@ -24,6 +24,8 @@ unsigned char control_data = 0x00;
 int32_t run_l = 0x00,run_r = 0x00;
 
 char first_time_flag = 1;									//for the first time to calculate the angle of the car use the acc_x
+
+int8_t dir = 0;
 /************************************************************************************************ 
 Name：RCC_Configration 
 Function:	
@@ -220,7 +222,7 @@ void NVIC_Configuration(void)
  
   NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		//指定中断源
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;        //指定响应优先级别2
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;        //指定响应优先级别
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;	        //使能外部中断通道
   NVIC_Init(&NVIC_InitStructure);
 }
@@ -274,18 +276,22 @@ Description:
 void EXTI15_10_IRQHandler(void)
 {
   
-  	if(EXTI_GetITStatus(EXTI_Line10) != RESET)  //
-    {
-	 leftspeed++;
-	 //EXTI_ClearFlag(EXTI_Line10);			       //清除中断标志（必须）
-     EXTI_ClearITPendingBit(EXTI_Line10);//	 
-     }
-	 if(EXTI_GetITStatus(EXTI_Line11) != RESET)
-	 {
-	 rightspeed++;
-	 //EXTI_ClearFlag(EXTI_Line11);
-	 EXTI_ClearITPendingBit(EXTI_Line11);
-	 }
+	if(EXTI_GetITStatus(EXTI_Line10) != RESET)  //
+	{
+	if(speed_dir == 1)	
+		leftspeed++; 
+	if(speed_dir == 2)
+		leftspeed--;
+	EXTI_ClearITPendingBit(EXTI_Line10);//
+	}
+	if(EXTI_GetITStatus(EXTI_Line11) != RESET)
+	{
+	if(speed_dir == 1)
+		rightspeed++;
+	if(speed_dir == 2)
+		rightspeed--;
+	EXTI_ClearITPendingBit(EXTI_Line11);
+	}
 	
 }
 
@@ -332,41 +338,39 @@ void TIM3_IRQHandler(void)
 	//short res_l,res_r;
 	if(TIM_GetITStatus(TIM3, TIM_IT_Update) == SET)
 	{
-		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
-//		if(leftspeed <= 20 && leftspeed > 1) //3
 		if(leftspeed > 20)
 			leftspeed = 20;
 			res_l = leftspeed;
-//		else if(leftspeed > 20)
-//			res_l = 20;
-//		else
-//			res_l = 1;
+
 		leftspeed = 0;
 
-//		if(rightspeed <= 20 && rightspeed > 1)
 		if(rightspeed >20)
 			rightspeed = 20 ;
 			res_r = rightspeed;
-//		else if(rightspeed >20)
-//			res_r = 20 ;
-//		else		 
-//			res_r = 1;
+
 		rightspeed = 0;
 
+		if((leftspeed == 0 && rightspeed != 0)||(leftspeed != 0 && rightspeed == 0))
+			dir = 5;
+		if(leftspeed - rightspeed > 10 || leftspeed - rightspeed < -10)
+			dir = 5;
+
+		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
+
 #if 0
-		if(radian_filted < 0)
-		{
-			res_l = res_l * -1;
-			res_r = res_r * -1;
-		}
-		printf("resl = %d ",res_l); 
-		printf("resr = %d\r\n",res_r);
+//		if(radian_filted < 0)
+//		{
+//			res_l = res_l * -1;
+//			res_r = res_r * -1;
+//		}
+//		printf("resl = %d ",res_l); 
+//		printf("resr = %d\r\n",res_r);
 #endif
 
-		remote_flag++;
+		//remote_flag++;
 		
-		if(remote_flag >= 5){
-			remote_flag = 0;
+		//if(remote_flag >= 2){
+			//remote_flag = 0;
 			control_data = Remote_Scan();
 			if(control_data)
 			{
@@ -380,15 +384,8 @@ void TIM3_IRQHandler(void)
 				heart_flag = 0;
 			}
 			//printf("0x%x\n",control_data);
-		} 			
+		//} 			
 		
-//		if(heart_flag >= 100)
-//			 heart_flag = 0;
-//		if(heart_flag >= 0 && heart_flag <= 50)
-//			GPIO_SetBits(GPIOB, GPIO_Pin_5);
-//		if(heart_flag > 50 && heart_flag < 100)
-//			GPIO_ResetBits(GPIOB, GPIO_Pin_5);
-//		heart_flag++;
 	}	
 }
 
@@ -407,8 +404,6 @@ u8 	RmtSta=0;
 u16 Dval;		//下降沿时计数器的值
 u32 RmtRec=0;	//红外接收到的数据	   		    
 u8  RmtCnt=0;	//按键按下的次数
-
-int8_t dir = 0;
 
 void TIM2_IRQHandler(void)
 {
@@ -457,8 +452,21 @@ void TIM2_IRQHandler(void)
 			dir = 1;
 		else if(control_data == 0x4a)
 			dir = -1;
-		else
+		else if(control_data == 0x10){
+			run_l = L_R;
+			run_r = -L_R;
+			dir = 3;
+		}
+		else if(control_data == 0x5a){
+			run_l = -L_R;
+			run_r = L_R;
+			dir = 4;
+		}
+		else{
+			run_l = 0;
+			run_r = 0;
 			dir = 0;
+		}
 
 		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1);
 		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,dir);
@@ -476,23 +484,25 @@ void TIM2_IRQHandler(void)
 //			run_l = 0;
 //			run_r = 0;
 //		}
-		if(control_data == 0x10){
-			run_l = L_R;
-			run_r = -L_R;
-		}
-		else if(control_data == 0x5a){
-			run_l = -L_R;
-			run_r = L_R;
-		}
-		else{
-			run_l = 0;
-			run_r = 0;
-		}
+//		if(control_data == 0x10){
+//			run_l = L_R;
+//			run_r = -L_R;
+//			dir = 3;
+//		}
+//		else if(control_data == 0x5a){
+//			run_l = -L_R;
+//			run_r = L_R;
+//			dir = 4;
+//		}
+//		else{
+//			run_l = 0;
+//			run_r = 0;
+//		}
 		PWM_Control(balan_pwm + run_l, balan_pwm + run_r);
 //		printf("%x\n",speed_dir);
 //		printf("%d ",balan_pwm);
-//		printf("l=%d ",res_l); 
-//		printf("r=%d ",res_r);
+//		printf("%d ",res_l); 
+//		printf("%d\r\n",res_r);
 //		printf("%.1lf ",radian_filted);
 //		printf(" %d",balan_pwm_ang);
 //		printf(" %d\n",balan_pwm_spd);

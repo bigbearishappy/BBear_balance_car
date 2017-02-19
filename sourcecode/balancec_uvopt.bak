@@ -253,10 +253,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>5</ColumnNumber>
+      <ColumnNumber>32</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>7</TopLine>
-      <CurrentLine>18</CurrentLine>
+      <TopLine>4</TopLine>
+      <CurrentLine>23</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -267,10 +267,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>35</ColumnNumber>
+      <ColumnNumber>48</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>267</TopLine>
+      <CurrentLine>267</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\i2c.c</PathWithFileName>
       <FilenameWithoutPath>i2c.c</FilenameWithoutPath>
@@ -281,10 +281,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>5</ColumnNumber>
+      <ColumnNumber>36</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>28</TopLine>
+      <CurrentLine>28</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\mpu6050.c</PathWithFileName>
       <FilenameWithoutPath>mpu6050.c</FilenameWithoutPath>
@@ -297,8 +297,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\printf.c</PathWithFileName>
       <FilenameWithoutPath>printf.c</FilenameWithoutPath>
@@ -309,10 +309,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>39</ColumnNumber>
+      <ColumnNumber>30</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>110</TopLine>
-      <CurrentLine>124</CurrentLine>
+      <TopLine>146</TopLine>
+      <CurrentLine>146</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\pwm.c</PathWithFileName>
       <FilenameWithoutPath>pwm.c</FilenameWithoutPath>
@@ -323,10 +323,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>19</ColumnNumber>
+      <ColumnNumber>44</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>5</TopLine>
+      <CurrentLine>17</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\filter.c</PathWithFileName>
       <FilenameWithoutPath>filter.c</FilenameWithoutPath>
@@ -337,10 +337,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>43</ColumnNumber>
+      <ColumnNumber>34</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>56</TopLine>
-      <CurrentLine>71</CurrentLine>
+      <TopLine>59</TopLine>
+      <CurrentLine>80</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\APP\pid.c</PathWithFileName>
       <FilenameWithoutPath>pid.c</FilenameWithoutPath>
@@ -358,10 +358,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>11</ColumnNumber>
+      <ColumnNumber>33</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>464</TopLine>
-      <CurrentLine>484</CurrentLine>
+      <TopLine>483</TopLine>
+      <CurrentLine>489</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\BSP\BSP.C</PathWithFileName>
       <FilenameWithoutPath>BSP.C</FilenameWithoutPath>
@@ -381,8 +381,8 @@
       <Focus>0</Focus>
       <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>75</TopLine>
-      <CurrentLine>95</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c</PathWithFileName>
       <FilenameWithoutPath>misc.c</FilenameWithoutPath>
@@ -507,8 +507,8 @@
       <Focus>0</Focus>
       <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>208</TopLine>
-      <CurrentLine>208</CurrentLine>
+      <TopLine>199</TopLine>
+      <CurrentLine>199</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_exti.c</FilenameWithoutPath>
@@ -661,8 +661,8 @@
       <Focus>0</Focus>
       <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>2304</TopLine>
+      <CurrentLine>2304</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_tim.c</FilenameWithoutPath>

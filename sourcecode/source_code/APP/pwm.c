@@ -115,7 +115,7 @@ void Heart_TIM()
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);//open the clock of tim3
 
 	TIM_DeInit(TIM3);
-	TIM_TimeBaseStructure.TIM_Period = 100 - 1;//20 - 1; //0.5s(1000)  0.1s(200)
+	TIM_TimeBaseStructure.TIM_Period = 200 - 1;//20 - 1; //0.5s(1000)  0.1s(200) 0.05s(100)
 	TIM_TimeBaseStructure.TIM_Prescaler = 36000-1;
 	TIM_TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV1;
 	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;

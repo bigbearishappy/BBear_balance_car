@@ -1,6 +1,7 @@
 #ifndef PID_H
 #define PID_H
 #include<stdint.h>
+#include"printf.h"
 
 typedef struct PID
 {
