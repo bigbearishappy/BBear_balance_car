@@ -8,18 +8,947 @@ Project File Date:  08/29/2016
 
 <h2>Output:</h2>
 Build target 'Balance_car'
+compiling main.c...
+compiling i2c.c...
+compiling mpu6050.c...
+compiling BSP.C...
 linking...
-Program Size: Code=18768 RO-data=560 RW-data=132 ZI-data=1068  
+Program Size: Code=18776 RO-data=560 RW-data=132 ZI-data=1068  
 FromELF: creating hex file...
 ".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
 Build target 'Balance_car'
 linking...
-Program Size: Code=18768 RO-data=560 RW-data=132 ZI-data=1068  
+Program Size: Code=18776 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.215V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling main.c...
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
 FromELF: creating hex file...
 ".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
 Build target 'Balance_car'
 linking...
-Program Size: Code=18768 RO-data=560 RW-data=132 ZI-data=1068  
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.157V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.118V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.112V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.092V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.099V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.028V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.054V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.060V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.054V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.054V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=19280 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.021V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=21344 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.034V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=21344 RO-data=560 RW-data=136 ZI-data=1064  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.008V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling main.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.002V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 2.957V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 2.963V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling pid.c...
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=18784 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\嵌入式\git\sourcecode\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 2.937V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'Balance_car'
+compiling main.c...
+compiling pid.c...
+linking...
+Program Size: Code=18776 RO-data=560 RW-data=132 ZI-data=1068  
+FromELF: creating hex file...
+".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Balance_car'
+linking...
+Program Size: Code=18776 RO-data=560 RW-data=132 ZI-data=1068  
 FromELF: creating hex file...
 ".\file\output\balancec.axf" - 0 Error(s), 0 Warning(s).
 Load "E:\\嵌入式\\git\\sourcecode\\file\\output\\balancec.AXF" 
@@ -64,7 +993,7 @@ Verify OK.
 * JLink Info: Found Cortex-M3 r1p1, Little endian.
 Application running ...
 Build target 'Balance_car'
-compiling pid.c...
+compiling main.c...
 linking...
 Program Size: Code=18776 RO-data=560 RW-data=132 ZI-data=1068  
 FromELF: creating hex file...
@@ -99,7 +1028,7 @@ ROMTableAddr = 0xE00FF003
 Target info:
 ------------
 Device: STM32F103C8
-VTarget = 2.905V
+VTarget = 2.918V
 State of Pins: 
 TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
 Hardware-Breakpoints: 6
@@ -116,6 +1045,7 @@ Verify OK.
 * JLink Info: Found Cortex-M3 r1p1, Little endian.
 Application running ...
 Build target 'Balance_car'
+compiling main.c...
 linking...
 Program Size: Code=18776 RO-data=560 RW-data=132 ZI-data=1068  
 FromELF: creating hex file...

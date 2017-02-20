@@ -74,14 +74,16 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 	if(target == 0)
 		spd_length += (int32_t)temp;
 //	if(target == -1)
-//		spd_length += 100;
+//		spd_length += 2;
 //	if(target == 1)
-//		spd_length -= 100;
+//		spd_length -= 2;
 
-	if(spd_length > 1000)//20
+	if(spd_length > 1000)//1000
 		spd_length = 1000;
 	if(spd_length < -1000)
 		spd_length = -1000;
-//	printf("spd=%.1lf\r\n",spd_v);	
+//	printf("spd=%.1lf\r\n",spd_v);
+//	printf("len=%d ",spd_length);
+//	printf("tem=%.1lf\r\n",temp);	
 	return (int32_t)(p->Kp * spd_v + p->Ki * (float)spd_length + p->Kd * temp);
 }
