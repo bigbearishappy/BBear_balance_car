@@ -1,0 +1,20 @@
+RTU_BBear  Revised: Thursday, February 16, 2017
+          Revision: v1.0
+
+
+
+
+
+
+
+Bill Of Materials       February 21,2017      20:20:27	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	B1	SDB628
+2	2	C1,C2	22uF
+3	1	C3	22uH
+4	1	D1	SS34
+5	4	R1,R2,R3,R4	R
+6	4	U1,U2,U3,U4	CON5

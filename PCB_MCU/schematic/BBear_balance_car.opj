@@ -45,8 +45,7 @@
     (Netlist_TAB "0")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File
-       "E:\嵌入式\git\PCB\boardv2_01231\BBear_balance_car20170107.BOM")
+    (BOM_Report_File "E:\嵌入式\git\PCB_MCU\bom\BBear_balance_car20170221.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_Header "Item\tQuantity\tReference\tPart")
@@ -74,22 +73,36 @@
     (File "..\boardv2_0\bbear_balance_car20161128.bom"
       (Type "Report"))
     (File "..\boardv2_01231\bbear_balance_car20170107.bom"
+      (Type "Report"))
+    (File "..\bom\bbear_balance_car20170221.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bbear_balance_car.dsn")
-      (Path "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn")
+      (Path "Design Resources"
+         "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1"
-         "MAIN_SCHEMATIC"))
+      (Select "Design Resources"
+         "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 200 0 269"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1107 25 399")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\嵌入式\GIT\PCB_MCU\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MAIN_SCHEMATIC")))
   (PartMRUSelector
     (GND
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
