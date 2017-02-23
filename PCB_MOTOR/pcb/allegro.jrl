@@ -1,99 +1,16 @@
-\t (00:04:52) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:04:52)     Journal start - Fri Feb 17 19:48:06 2017
-\t (00:04:52)         Host=DAXIONG-PC User=daxiong Pid=7260 CPUs=4
-\t (00:04:52) 
-\d (00:04:52) Database opened: E:/嵌入式/git/PCB_MOTOR/pcb/bbear_balance_car_motor.brd
-\i (00:04:52) generaledit 
-\i (00:04:54) artwork 
-\i (00:05:00) setwindow form.film_control
-\i (00:05:00) FORM film_control undefined_line_width 6 
-\i (00:05:00) FORM film_control filmtree  DRILL_DRAW 
-\i (00:05:02) FORM film_control undefined_line_width 6 
-\i (00:05:02) FORM film_control filmtree  OUTLINE 
-\i (00:05:04) FORM film_control undefined_line_width 6 
-\i (00:05:04) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:05:06) FORM film_control undefined_line_width 6 
-\i (00:05:06) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:05:08) FORM film_control undefined_line_width 6 
-\i (00:05:08) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:05:10) FORM film_control undefined_line_width 6 
-\i (00:05:10) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:05:13) FORM film_control undefined_line_width 6 
-\i (00:05:13) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:05:15) FORM film_control undefined_line_width 6 
-\i (00:05:15) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:05:17) FORM film_control undefined_line_width 6 
-\i (00:05:17) FORM film_control filmtree  TOP 
-\i (00:05:19) FORM film_control undefined_line_width 6 
-\i (00:05:22) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:05:23) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:05:23) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:05:23) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:05:23) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:05:24) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:05:24) FORM film_control filmtree  OUTLINE 
-\i (00:05:24) FORM film_control filmtree  DRILL_DRAW 
-\i (00:05:24) FORM film_control filmtree  BOTTOM 
-\i (00:05:25) FORM film_control filmtree  DRILL_DRAW 
-\i (00:05:26) FORM film_control filmtree  OUTLINE 
-\i (00:05:26) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:05:26) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:05:26) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:05:26) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:05:26) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:05:26) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:05:26) FORM film_control filmtree  TOP 
-\i (00:05:29) FORM film_control ok  
-\i (00:05:29) setwindow pcb
-\i (00:05:29) generaledit 
-\i (00:07:18) artwork 
-\i (00:07:22) setwindow form.film_control
-\i (00:07:22) FORM film_control select_all  
-\i (00:07:24) FORM film_control create  
-\t (00:07:24) Checking db records
-\t (00:07:24)     checking for orphans...
-\t (00:07:24)     Checked 100 percent
-\t (00:07:24) Done dbdoctor.
-\t (00:07:24) Starting Create artwork films...
-\t (00:07:26) Plot generated.
-\i (00:07:27) FORM film_control ok  
-\i (00:07:27) setwindow pcb
-\i (00:07:27) generaledit 
-\i (00:08:16) nctape_full 
-\i (00:08:17) setwindow form.nc_drill
-\i (00:08:17) FORM nc_drill execute  
-\t (00:08:17) Starting NC Drill...
-\i (00:08:22) FORM nc_drill cancel  
-\i (00:08:22) setwindow pcb
-\i (00:08:22) generaledit 
-\i (00:08:25) artwork 
-\i (00:08:26) setwindow form.film_control
-\i (00:08:26) FORM film_control select_all  
-\i (00:08:27) FORM film_control create  
-\t (00:08:27) Checking db records
-\t (00:08:27)     checking for orphans...
-\t (00:08:27)     Checked 100 percent
-\t (00:08:27) Done dbdoctor.
-\t (00:08:27) Starting Create artwork films...
-\t (00:08:29) Plot generated.
-\i (00:08:30) FORM film_control ok  
-\i (00:08:30) setwindow pcb
-\i (00:08:30) generaledit 
-\i (00:25:35) artwork 
-\i (00:25:38) setwindow form.film_control
-\i (00:25:38) FORM film_control filmtree  DRILL_DRAW 
-\i (00:25:38) FORM film_control filmtree  OUTLINE 
-\i (00:25:38) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (00:25:38) FORM film_control filmtree  PASTEMASK_TOP 
-\i (00:25:39) FORM film_control filmtree  SILKSCREEN_BOTTOM 
-\i (00:25:39) FORM film_control filmtree  SILKSCREEN_TOP 
-\i (00:25:39) FORM film_control filmtree  SOLDERMASK_BOTTOM 
-\i (00:25:39) FORM film_control filmtree  SOLDERMASK_TOP 
-\i (00:25:39) FORM film_control filmtree  TOP 
-\i (00:25:43) FORM film_control ok  
-\i (00:25:43) setwindow pcb
-\i (00:25:43) generaledit 
-\i (00:25:46) exit 
-\e (00:25:46) Do you want to save the changes you made to bbear_balance_car_motor.brd?
-\i (00:25:47) fillin yes 
-\t (00:25:48)     Journal end - Fri Feb 17 20:09:03 2017
+\t (00:00:07) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:07)     Journal start - Wed Feb 22 22:47:03 2017
+\t (00:00:07)         Host=DAXIONG-PC User=daxiong Pid=7980 CPUs=4
+\t (00:00:07) 
+\t (00:00:08) Opening existing design...
+\d (00:00:09) Database opened: E:/嵌入式/git/PCB_MOTOR/pcb/bbear_balance_car_motor.brd
+\i (00:00:09) trapsize 2543
+\i (00:00:09) trapsize 2473
+\i (00:00:09) trapsize 2555
+\i (00:00:10) trapsize 2070
+\i (00:00:10) trapsize 2070
+\i (00:00:11) generaledit 
+\i (00:00:20) opencd E:/嵌入式/git/PCB_MCU/boardv4_020170213/BBear_balance_carv2_0.brd 
+\t (00:00:20) Opening existing design...
+\i (00:00:20) trapsize 2063
+\t (00:00:20)     Journal end - Wed Feb 22 22:47:17 2017

@@ -55,21 +55,24 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bbear_balance_car_motor.dsn")
-      (Path "Design Resources" ".\bbear_balance_car_motor.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "e:\嵌入式\git\pcb_motor\schematic\bbear_balance_car_motor.dsn")
+      (Path "Design Resources"
+         "e:\嵌入式\git\pcb_motor\schematic\bbear_balance_car_motor.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\bbear_balance_car_motor.dsn"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 332"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 332"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 840 50 424")
-        (Scroll "-1 0")
+        (Placement "44 2 3 -1 -1 -8 -30 50 840 50 424")
+        (Scroll "-242 -14")
         (Zoom "127")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB_MOTOR\SCHEMATIC\BBEAR_BALANCE_CAR_MOTOR.DSN")
