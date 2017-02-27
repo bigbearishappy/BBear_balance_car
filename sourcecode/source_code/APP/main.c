@@ -15,7 +15,7 @@ Description:
 void SystemInit(){}
 int main()
 {
-	//RCC_Configuration();				//initialize the system clock
+	RCC_Configuration();				//initialize the system clock
 	USART_Configuration();				//initialize the usart
 	GPIO_Configuration();
 	NVIC_Configuration();
@@ -26,7 +26,6 @@ int main()
 	InitMPU6050();
 	Cal_angle();
 	Heart_TIM();
-
 	while(1)
 	{
 	}

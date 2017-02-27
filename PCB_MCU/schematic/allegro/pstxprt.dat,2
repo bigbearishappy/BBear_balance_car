@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Dec-31-2016 at 13:44:51 }
+{ Using PSTWRITER 16.6.0 d001Feb-25-2017 at 11:23:43 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='BBEAR_BALANCE_CAR';
@@ -14,16 +14,6 @@ SECTION_NUMBER 1
  '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS2708@LIBRARY1.CAP.NORMAL(CHIPS)':
  C_PATH='@bbear_balance_car.schematic1(sch_1):ins2708@library1.\cap.normal\(chips)',
  P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins2708@library1.\cap.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C10 'CAP NP_C-0805_CL4.7UF':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28541@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28541@discrete.\cap np.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28541@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -58,26 +48,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C3 'CAP NP_C-0805_CFB1000PF':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28525@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28525@discrete.\cap np.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28525@discrete.\cap np.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C4 'CAP NP_C-0805_CSS0.1UF':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28509@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28509@discrete.\cap np.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28509@discrete.\cap np.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  C5 'CAP_C-0805_1UF':;
 
 SECTION_NUMBER 1
@@ -104,26 +74,6 @@ SECTION_NUMBER 1
  '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS752@LIBRARY1.CAP.NORMAL(CHIPS)':
  C_PATH='@bbear_balance_car.schematic1(sch_1):ins752@library1.\cap.normal\(chips)',
  P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins752@library1.\cap.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C8 'CAP NP_C-0805_CIN4.7UF':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28493@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28493@discrete.\cap np.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28493@discrete.\cap np.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C9 'CDRH104R_330UH_CD43_L_4.7UH':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28648@LIBRARY_ADDED.CDRH104R_330UH.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28648@library_added.\cdrh104r_330uh.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28648@library_added.\cdrh104r_330uh.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -158,16 +108,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- N1 '1N5819_SOD-123_SD_XBS104S14R':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28623@LIBRARY_ADDED.1N5819.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28623@library_added.\1n5819.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28623@library_added.\1n5819.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  R1 'R_C-0805_10K':;
 
 SECTION_NUMBER 1
@@ -188,36 +128,6 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R3 'R_C-0805_RSS220K':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28566@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28566@discrete.\r.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28566@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R4 'R_C-0805_RFB1_300K':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28582@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28582@discrete.\r.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28582@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R5 'R_C-0805_RFB2_75K':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28598@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28598@discrete.\r.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28598@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  R6 'R_C-0805_1K':;
 
 SECTION_NUMBER 1
@@ -234,6 +144,16 @@ SECTION_NUMBER 1
  '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS3790@DISCRETE.R.NORMAL(CHIPS)':
  C_PATH='@bbear_balance_car.schematic1(sch_1):ins3790@discrete.\r.normal\(chips)',
  P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins3790@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_C-0805_10K':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS36613@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins36613@discrete.\r.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins36613@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -398,6 +318,26 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ U23 'CON3_CON3_KEY':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS38214@LIBRARY1.CON3.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins38214@library1.\con3.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins38214@library1.\con3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U24 'CON4_CON4_CON4':;
+
+SECTION_NUMBER 1
+ '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS38245@LIBRARY1.CON4.NORMAL(CHIPS)':
+ C_PATH='@bbear_balance_car.schematic1(sch_1):ins38245@library1.\con4.normal\(chips)',
+ P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins38245@library1.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  U3 'CON4_CON4_CON4':;
 
 SECTION_NUMBER 1
@@ -474,16 +414,6 @@ SECTION_NUMBER 1
  '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS383@LIBRARY1.XTAL.NORMAL(CHIPS)':
  C_PATH='@bbear_balance_car.schematic1(sch_1):ins383@library1.\xtal.normal\(chips)',
  P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins383@library1.\xtal.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- XC1 'XC9119_XC9119_XC9119':;
-
-SECTION_NUMBER 1
- '@BBEAR_BALANCE_CAR.SCHEMATIC1(SCH_1):INS28462@LIBRARY1.XC9119.NORMAL(CHIPS)':
- C_PATH='@bbear_balance_car.schematic1(sch_1):ins28462@library1.\xc9119.normal\(chips)',
- P_PATH='@bbear_balance_car.schematic1(sch_1):page1_ins28462@library1.\xc9119.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

@@ -1,16 +1,13 @@
-\t (00:00:07) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:07)     Journal start - Wed Feb 22 22:47:03 2017
-\t (00:00:07)         Host=DAXIONG-PC User=daxiong Pid=7980 CPUs=4
-\t (00:00:07) 
-\t (00:00:08) Opening existing design...
-\d (00:00:09) Database opened: E:/嵌入式/git/PCB_MOTOR/pcb/bbear_balance_car_motor.brd
-\i (00:00:09) trapsize 2543
-\i (00:00:09) trapsize 2473
-\i (00:00:09) trapsize 2555
-\i (00:00:10) trapsize 2070
-\i (00:00:10) trapsize 2070
-\i (00:00:11) generaledit 
-\i (00:00:20) opencd E:/嵌入式/git/PCB_MCU/boardv4_020170213/BBear_balance_carv2_0.brd 
-\t (00:00:20) Opening existing design...
-\i (00:00:20) trapsize 2063
-\t (00:00:20)     Journal end - Wed Feb 22 22:47:17 2017
+\t (00:01:51) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:01:51)     Journal start - Sat Feb 25 11:47:10 2017
+\t (00:01:51)         Host=DAXIONG-PC User=daxiong Pid=7236 CPUs=4
+\t (00:01:51) 
+\d (00:01:51) Database opened: E:/嵌入式/git/PCB_MOTOR/pcb/bbear_balance_car_motor.brd
+\i (00:01:51) generaledit 
+\i (00:01:53) open 
+\i (00:01:59) fillin "E:\嵌入式\git\PCB_MCU\boardv4_020170213\BBear_balance_carv2_0.brd"
+\i (00:01:59) cd "E:\嵌入式\git\PCB_MCU\boardv4_020170213"
+\t (00:01:59) Opening existing design...
+\i (00:02:00) fillin yes 
+\i (00:02:00) trapsize 589
+\t (00:02:00)     Journal end - Sat Feb 25 11:47:19 2017

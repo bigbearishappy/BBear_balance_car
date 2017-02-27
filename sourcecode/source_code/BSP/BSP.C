@@ -420,12 +420,13 @@ void TIM2_IRQHandler(void)
 				RmtSta&=0XF0;	//Çå¿Õ¼ÆÊýÆ÷	
 			}						 	   	
 		}
-
+		
 		p = buf;
 		READ_MPU6050(p);
 		acc_x = p[0];
 		acc_z = p[1];
 		gyro_y = p[2];
+		//printf("x:%d z:%d y:%d \r\n",acc_x,acc_z,gyro_y);
 
 		acc_x += acc_x_offset;
 		acc_z += acc_z_offset;
@@ -507,7 +508,7 @@ void TIM2_IRQHandler(void)
 //		printf(" %d",balan_pwm_ang);
 //		printf(" %d\n",balan_pwm_spd);
 		//printf("%.1lf\r\n",radian_filted);
-		//printf("%.1lf,%.1lf,%.1lf\r\n",radian_filted,-radian,radian_pt);
+//		printf("%.1lf,%.1lf,%.1lf\r\n",radian_filted,-radian,radian_pt);
 		TIM_ClearITPendingBit(TIM2, TIM_FLAG_Update);
 	} 
 	 	

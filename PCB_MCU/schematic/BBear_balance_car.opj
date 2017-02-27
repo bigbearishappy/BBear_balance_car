@@ -86,7 +86,8 @@
          "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn"))
+         "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn" "SCHEMATIC1"
+         "MAIN_SCHEMATIC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -97,17 +98,25 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 25 1107 25 399")
-        (Scroll "0 0")
+        (Scroll "0 513")
         (Zoom "248")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB_MCU\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAIN_SCHEMATIC")))
   (PartMRUSelector
-    (GND
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (VCC
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (R
@@ -116,14 +125,6 @@
       (DeviceIndex "0"))
     (CON2
       (FullPartName "CON2.Normal")
-      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CON3
-      (FullPartName "CON3.Normal")
-      (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (CON4
-      (FullPartName "CON4.Normal")
       (LibraryName "E:\TRAINEE_WEEK_PLAN\CADENCE\LEARN_PLAN\FA\LIBRARY1.OLB")
       (DeviceIndex "0"))
     (CON5

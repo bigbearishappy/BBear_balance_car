@@ -13,11 +13,14 @@ Description:
 ************************************************************************************************/
 void InitMPU6050(void)
 {
+	int i = 0;
+	for(i = 0;i < 7; i++){
 	Single_Write(MPU6050_Addr, PWR_MGMT_1, 0x00);	//½â³ýÐÝÃß×´Ì¬
 	Single_Write(MPU6050_Addr, SMPLRT_DIV, 0x07);
 	Single_Write(MPU6050_Addr, CONFIG, 0x00);
 	Single_Write(MPU6050_Addr, GYRO_CONFIG, 0x18);	//set the gyro range :+-2000'/s	 
 	Single_Write(MPU6050_Addr, ACCEL_CONFIG, 0x28);	//0x09 = 00001000  +-4g
+	}
 }
 
 void Cal_Init_angle(void)
@@ -39,6 +42,7 @@ Description:
 void READ_MPU6050(int16_t *p)
 {
 	uint8_t BUF[6];
+
    	BUF[0]=Single_Read(MPU6050_Addr,ACCEL_XOUT_L); 	//X AXIS ACC
    	BUF[1]=Single_Read(MPU6050_Addr,ACCEL_XOUT_H);
    	p[0] = (BUF[1]<<8)|BUF[0];
