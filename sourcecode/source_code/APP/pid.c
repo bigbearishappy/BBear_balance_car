@@ -75,9 +75,9 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 	if(target == 0)
 		spd_length += (int32_t)temp;
 //	if(target == -1)
-//		spd_length += 2;
+//		spd_length += 20;
 //	if(target == 1)
-//		spd_length -= 2;
+//		spd_length -= 20;
 
 	if(spd_length > 1000)//1000
 		spd_length = 1000;

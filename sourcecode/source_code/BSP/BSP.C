@@ -203,19 +203,19 @@ void NVIC_Configuration(void)
   
 	NVIC_InitStructure.NVIC_IRQChannel = TIM3_IRQn;  
 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
-	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0; 
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1; 
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE; 
 	NVIC_Init(&NVIC_InitStructure); 
 
   NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 2;  
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;  
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
   NVIC_Init(&NVIC_InitStructure);
  
   NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;        
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;//3        
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;	        
   NVIC_Init(&NVIC_InitStructure);
 }
@@ -360,7 +360,7 @@ void TIM3_IRQHandler(void)
 		//remote_flag++;
 		
 			control_data = Remote_Scan();
-			if(control_data){
+//			if(control_data){
 			heart_flag++;
 			if(heart_flag % 2)
 				GPIO_SetBits(GPIOB, GPIO_Pin_5);
@@ -369,7 +369,7 @@ void TIM3_IRQHandler(void)
 
 			if(heart_flag >= 2)
 				heart_flag = 0;
-			}		
+//			}		
 	}	
 }
 
@@ -414,6 +414,7 @@ void TIM2_IRQHandler(void)
 		acc_x += acc_x_offset;
 		acc_z += acc_z_offset;
 		gyro_y += gyro_y_offset;
+		//printf("x:%d z:%d y:%d \r\n",acc_x,acc_z,gyro_y);
 
 		radian = (float)((float)acc_x / 8192);
 		radian = asin(radian);

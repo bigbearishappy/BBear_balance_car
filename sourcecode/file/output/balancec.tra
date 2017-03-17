@@ -35,15 +35,14 @@
 ### List of Objects: adding '".\file\output\core_cm3.o"'
 ### List of Objects: adding '".\file\output\startup_stm32f10x_hd.o"'
 ### ADS-LD Command completed:
---cpu Cortex-M3 ".\file\output\main.o" ".\file\output\i2c.o" ".\file\output\mpu6050.o" ".\file\output\printf.o" ".\file\output\pwm.o" ".\file\output\filter.o" ".\file\output\pid.o" ".\file\output\bsp.o" ".\file\output\misc.o" ".\file\output\stm32f10x_adc.o" ".\file\output\stm32f10x_bkp.o" ".\file\output\stm32f10x_can.o" ".\file\output\stm32f10x_cec.o" ".\file\output\stm32f10x_crc.o" ".\file\output\stm32f10x_dac.o" ".\file\output\stm32f10x_dbgmcu.o" ".\file\output\stm32f10x_dma.o" ".\file\output\stm32f10x_exti.o" ".\file\output\stm32f10x_flash.o" ".\file\output\stm32f10x_fsmc.o" ".\file\output\stm32f10x_gpio.o" ".\file\output\stm32f10x_i2c.o" ".\file\output\stm32f10x_iwdg.o" ".\file\output\stm32f10x_pwr.o" ".\file\output\stm32f10x_rcc.o" ".\file\output\stm32f10x_rtc.o" ".\file\output\stm32f10x_sdio.o" ".\file\output\stm32f10x_spi.o" ".\file\output\stm32f10x_tim.o" ".\file\output\stm32f10x_usart.o" ".\file\output\stm32f10x_wwdg.o" ".\file\output\core_cm3.o" ".\file\output\startup_stm32f10x_hd.o" 
---library_type=microlib --strict --scatter ".\file\output\balancec.sct" 
+--cpu Cortex-M3 ".\file\output\main.o" ".\file\output\i2c.o" ".\file\output\mpu6050.o" ".\file\output\printf.o" ".\file\output\pwm.o" ".\file\output\filter.o" ".\file\output\pid.o" ".\file\output\bsp.o" ".\file\output\misc.o" ".\file\output\stm32f10x_adc.o" ".\file\output\stm32f10x_bkp.o" ".\file\output\stm32f10x_can.o" ".\file\output\stm32f10x_cec.o" ".\file\output\stm32f10x_crc.o" ".\file\output\stm32f10x_dac.o" ".\file\output\stm32f10x_dbgmcu.o" ".\file\output\stm32f10x_dma.o" ".\file\output\stm32f10x_exti.o" ".\file\output\stm32f10x_flash.o" ".\file\output\stm32f10x_fsmc.o" ".\file\output\stm32f10x_gpio.o" ".\file\output\stm32f10x_i2c.o" ".\file\output\stm32f10x_iwdg.o" ".\file\output\stm32f10x_pwr.o" ".\file\output\stm32f10x_rcc.o" ".\file\output\stm32f10x_rtc.o" ".\file\output\stm32f10x_sdio.o" ".\file\output\stm32f10x_spi.o" ".\file\output\stm32f10x_tim.o" ".\file\output\stm32f10x_usart.o" ".\file\output\stm32f10x_wwdg.o" ".\file\output\core_cm3.o" ".\file\output\startup_stm32f10x_hd.o" --library_type=microlib --strict --scatter ".\file\output\balancec.sct" 
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
- --list ".\file\list\balancec.map" -o .\file\output\balancec.axf### Preparing Environment (PrepEnvAds)
+ --list ".\file\list\balancec.map" -o ".\file\output\balancec.axf"### Preparing Environment (PrepEnvAds)
 ### ADS-LD Output File: '.\file\output\balancec.axf'
 ### ADS-LD Command File: '.\file\output\balancec.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\file\output\balancec.lnp', Handle=0x00001480
+### Creating CmdFile '.\file\output\balancec.lnp', Handle=0x00000380
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\file\output\balancec.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

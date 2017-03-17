@@ -1,7 +1,7 @@
 /*************************************HEAD FILES******************************/
 #include"pwm.h"
 
-char speed_dir = 1;//1:forward 2:back
+char speed_dir = 0;//1:forward 2:back
 
 /******************************************************************************
 Name£ºPWM_left_Configuration 
@@ -157,9 +157,9 @@ Description:
 ******************************************************************************/
 void PWM_Control(int32_t motorL, int32_t motorR)
 {
-	if(motorL >= 0)
+	if(motorL >= 0 && motorR >= 0)
 		speed_dir = 1;
-	else
+	if(motorL < -250 && motorR < -250)
 		speed_dir = 2;
 
 	if(motorL >= 1000)motorL = 1000;
