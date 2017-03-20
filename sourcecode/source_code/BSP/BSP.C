@@ -362,10 +362,14 @@ void TIM3_IRQHandler(void)
 			control_data = Remote_Scan();
 //			if(control_data){
 			heart_flag++;
-			if(heart_flag % 2)
+			if(heart_flag % 2){
 				GPIO_SetBits(GPIOB, GPIO_Pin_5);
-			else
+				//GPIO_SetBits(GPIOC, GPIO_Pin_13);
+				}
+			else{
 				GPIO_ResetBits(GPIOB, GPIO_Pin_5);
+				//GPIO_ResetBits(GPIOC, GPIO_Pin_13);
+				}
 
 			if(heart_flag >= 2)
 				heart_flag = 0;

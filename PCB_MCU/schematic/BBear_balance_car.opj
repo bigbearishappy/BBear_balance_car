@@ -82,10 +82,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bbear_balance_car.dsn")
-      (Path "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "e:\嵌入式\git\pcb_mcu\schematic\bbear_balance_car.dsn")
+      (Path "Design Resources"
+         "e:\嵌入式\git\pcb_mcu\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\bbear_balance_car.dsn"))
+      (Select "Design Resources"
+         "e:\嵌入式\git\pcb_mcu\schematic\bbear_balance_car.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -95,9 +98,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 1107 25 399")
-        (Scroll "0 1110")
-        (Zoom "232")
+        (Placement "44 0 1 -1 -1 -8 -30 25 1107 25 399")
+        (Scroll "-271 0")
+        (Zoom "43")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB_MCU\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")
