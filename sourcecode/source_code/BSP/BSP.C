@@ -469,7 +469,7 @@ void TIM2_IRQHandler(void)
 //		printf(" %d",balan_pwm_ang);
 //		printf(" %d\n",balan_pwm_spd);
 //		printf("%.1lf\r\n",radian_filted);
-//		printf("%.1lf,%.1lf,%.1lf\r\n",radian_filted,-radian,radian_pt);
+		printf("%.1lf,%.1lf,%.1lf\r\n",radian_filted,-radian,radian_pt);
 		TIM_ClearITPendingBit(TIM2, TIM_FLAG_Update);
 	} 
 	 	
