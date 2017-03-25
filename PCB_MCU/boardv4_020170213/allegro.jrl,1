@@ -1,74 +1,54 @@
-\t (00:01:57) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:01:57)     Journal start - Sat Feb 25 19:27:59 2017
-\t (00:01:57)         Host=DAXIONG-PC User=daxiong Pid=3564 CPUs=4
-\t (00:01:57) 
-\t (00:01:59) Opening existing design...
-\d (00:01:59) Database opened: E:/嵌入式/git/PCB_MCU/boardv4_020170213/BBear_balance_carv2_0.brd
-\i (00:01:59) trapsize 1448
-\i (00:01:59) trapsize 1408
-\i (00:01:59) trapsize 1455
-\i (00:02:00) trapsize 1178
-\i (00:02:00) trapsize 1178
-\i (00:02:00) generaledit 
-\i (00:02:02) zoom out 1 
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom out -1169.33 -573.31
-\i (00:02:02) trapsize 2357
-\i (00:02:03) zoom in 1 
-\i (00:02:03) setwindow pcb
-\i (00:02:03) zoom in -1070.35 -111.36
-\i (00:02:03) trapsize 1178
-\i (00:02:04) zoom in 1 
-\i (00:02:04) setwindow pcb
-\i (00:02:04) zoom in -844.09 119.61
-\i (00:02:04) trapsize 589
-\i (00:02:04) zoom in 1 
-\i (00:02:04) setwindow pcb
-\i (00:02:04) zoom in -851.16 144.36
-\i (00:02:04) trapsize 295
-\i (00:03:14) zoom out 1 
-\i (00:03:14) setwindow pcb
-\i (00:03:14) zoom out -841.73 94.87
-\i (00:03:14) trapsize 589
-\i (00:03:15) zoom in 1 
-\i (00:03:15) setwindow pcb
-\i (00:03:15) zoom in -932.47 211.52
-\i (00:03:15) trapsize 295
-\i (00:05:10) zoom out 1 
-\i (00:05:10) setwindow pcb
-\i (00:05:10) zoom out -871.19 239.22
-\i (00:05:10) trapsize 589
-\i (00:05:11) zoom out 1 
-\i (00:05:11) setwindow pcb
-\i (00:05:11) zoom out -852.34 246.29
-\i (00:05:11) trapsize 1178
-\i (00:05:11) zoom in 1 
-\i (00:05:11) setwindow pcb
-\i (00:05:11) zoom in -984.32 -128.45
-\i (00:05:11) trapsize 589
-\i (00:05:12) zoom in 1 
-\i (00:05:12) setwindow pcb
-\i (00:05:12) zoom in -950.15 -169.69
-\i (00:05:12) trapsize 295
-\i (03:03:01) zoom out 1 
-\i (03:03:01) setwindow pcb
-\i (03:03:01) zoom out -705.03 -55.39
-\i (03:03:01) trapsize 589
-\i (03:03:01) zoom out 1 
-\i (03:03:01) setwindow pcb
-\i (03:03:01) zoom out -733.32 -119.02
-\i (03:03:01) trapsize 1178
-\i (03:03:02) zoom out 1 
-\i (03:03:02) setwindow pcb
-\i (03:03:02) zoom out -1268.32 -446.61
-\i (03:03:02) trapsize 2357
-\i (03:03:02) zoom out 1 
-\i (03:03:02) setwindow pcb
-\i (03:03:02) zoom out -2465.59 -1016.96
-\i (03:03:02) trapsize 4714
-\i (03:03:03) zoom in 1 
-\i (03:03:03) setwindow pcb
-\i (03:03:03) zoom in -211.29 -460.75
-\i (03:03:03) trapsize 2357
-\i (03:03:05) exit 
-\t (03:03:07)     Journal end - Sat Feb 25 22:29:09 2017
+\t (00:00:04) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:04)     Journal start - Sat Feb 25 22:29:35 2017
+\t (00:00:04)         Host=DAXIONG-PC User=daxiong Pid=10496 CPUs=4
+\t (00:00:04) 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Database opened: E:/嵌入式/git/PCB_MCU/boardv4_020170213/BBear_balance_carv2_0.brd
+\i (00:00:07) trapsize 1448
+\i (00:00:07) trapsize 1408
+\i (00:00:07) trapsize 1455
+\i (00:00:08) trapsize 1178
+\i (00:00:08) trapsize 1178
+\i (00:00:09) generaledit 
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out -662.61 -59.52
+\i (00:00:23) trapsize 2357
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out -681.48 -78.37
+\i (00:00:23) trapsize 4714
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 1033.12 -342.34
+\i (00:00:24) trapsize 2357
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 420.34 -40.66
+\i (00:00:25) trapsize 1178
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 1320.65 -804.27
+\i (00:00:27) trapsize 2357
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 1377.20 -625.15
+\i (00:00:27) trapsize 1178
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 1429.05 -620.44
+\i (00:00:28) trapsize 2357
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 1466.75 -394.18
+\i (00:00:30) trapsize 1178
+\i (00:03:08) zoom out 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom out 1690.65 145.53
+\i (00:03:08) trapsize 2357
+\i (00:03:09) zoom in 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom in 1775.49 197.38
+\i (00:03:09) trapsize 1178
+\i (00:40:37) exit 
+\t (00:40:37)     Journal end - Sat Feb 25 23:10:08 2017

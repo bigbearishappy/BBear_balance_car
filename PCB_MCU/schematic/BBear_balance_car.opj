@@ -45,14 +45,15 @@
     (Netlist_TAB "0")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "E:\嵌入式\git\PCB_MCU\bom\BBear_balance_car20170304.BOM")
+    (BOM_Report_File "E:\嵌入式\git\PCB_MCU\bom\smt_test3.BOM")
     (BOM_Merge_Include "FALSE")
-    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
-    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Property_Combine_7.0
+       "{Value}\t{Reference}\t{PCB Footprint}\t{PCB Pins}\t{Quantity}")
+    (BOM_Header "Comment\tDesignator\tFootprint\tPins\tQuantity")
     (BOM_Include_File "E:\嵌入式\GIT\PCB\SCHEMATIC\BBEAR_BALANCE_CAR.INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
-    (Open_BOM_in_Excel "FALSE")
+    (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
@@ -77,18 +78,25 @@
     (File "..\bom\bbear_balance_car20170221.bom"
       (Type "Report"))
     (File "..\bom\bbear_balance_car20170304.bom"
+      (Type "Report"))
+    (File "..\bom\smt_test.bom"
+      (Type "Report"))
+    (File "..\bom\smt_test2.bom"
+      (Type "Report"))
+    (File "..\bom\smt_test3.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "e:\嵌入式\git\pcb_mcu\schematic\bbear_balance_car.dsn")
+         "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn")
       (Path "Design Resources"
-         "e:\嵌入式\git\pcb_mcu\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
+         "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "e:\嵌入式\git\pcb_mcu\schematic\bbear_balance_car.dsn"))
+         "E:\嵌入式\git\PCB_MCU\schematic\bbear_balance_car.dsn" "SCHEMATIC1"
+         "MAIN_SCHEMATIC"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -98,9 +106,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1107 25 399")
-        (Scroll "-271 0")
-        (Zoom "43")
+        (Placement "44 2 3 -1 -1 -8 -30 25 1107 25 399")
+        (Scroll "776 1001")
+        (Zoom "172")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB_MCU\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")

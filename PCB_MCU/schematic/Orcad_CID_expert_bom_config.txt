@@ -1,0 +1,8 @@
+Origin:
+Item\tQuantity\tReference\tPart
+
+{Item}\t{Quantity}\t{Reference}\t{Value}
+
+Changed:
+Comment\tDesignator\tFootprint\tPins\tQuantity
+{Value}\t{Reference}\t{Footprint}\t{Pins}\t{Quantity}

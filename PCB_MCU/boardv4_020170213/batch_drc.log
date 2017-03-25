@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : BBear_balance_carv2_0.brd                     )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sat Feb 25 12:54:58 2017                      )
+(    Date/Time        : Sat Mar 25 20:04:56 2017                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  4
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
