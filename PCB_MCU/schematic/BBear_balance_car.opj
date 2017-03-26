@@ -107,8 +107,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 25 1107 25 399")
-        (Scroll "776 1001")
-        (Zoom "172")
+        (Scroll "0 0")
+        (Zoom "108")
         (Occurrence "/"))
       (Path "E:\«∂»Î Ω\GIT\PCB_MCU\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")
