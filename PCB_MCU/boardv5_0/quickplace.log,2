@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : BBear_balance_carv2_0.brd                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Nov 23 22:06:38 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U13 / CON8_CON8_CON8 / CON8 at (-937.00 1245.40)
+         Placed symbol:  XC1 / XC9119_XC9119_XC9119 / XC9119 at (-770.60 570.74)
+         Placed symbol:  U15 / CON3_CON3_KEY / CON3 at (-657.11 765.48)
+         Placed symbol:  R4 / R_C-0805_RFB1_300K / C-0805 at (-531.12 546.39)
+         Placed symbol:  N1 / 1N5819_SOD-123_SD_XBS104S14R / SOD-123 at (-325.23 528.00)
+         Placed symbol:  C9 / CDRH104R_330UH_CD43_L_4.7UH / CD43 at (-83.23 651.00)
+         Placed symbol:  U14 / CON2_3_6KEY_CON2 / 3_6KEY at (293.33 530.00)
+         Placed symbol:  R5 / R_C-0805_RFB2_75K / C-0805 at (554.32 546.39)
+         Placed symbol:  C8 / CAP NP_C-0805_CIN4.7UF / C-0805 at (688.30 546.39)
+
+
+Placed 9 of 9 applicable (9 total) symbols.
+
+-----------------------------------------------------------------------
+

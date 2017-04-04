@@ -1,39 +1,62 @@
-\t (01:00:32) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (01:00:32)     Journal start - Wed Feb 15 23:57:31 2017
-\t (01:00:32)         Host=DAXIONG-PC User=daxiong Pid=11644 CPUs=4
-\t (01:00:32) 
-\d (01:00:32) Database opened: E:/嵌入式/git/PCB_MCU/pcb_lib/CON3.dra
-\i (01:00:32) generaledit 
-\i (01:00:33) zoom in 1 
-\i (01:00:33) setwindow pcb
-\i (01:00:33) zoom in -3.5497 -0.6242
-\i (01:00:33) trapsize 874
-\i (01:00:35) zoom in 1 
-\i (01:00:35) setwindow pcb
-\i (01:00:35) zoom in 0.4356 0.2323
-\i (01:00:35) trapsize 437
-\i (01:00:40) zoom out 1 
-\i (01:00:40) setwindow pcb
-\i (01:00:40) zoom out 0.4356 0.2323
-\i (01:00:40) trapsize 874
-\i (01:00:41) zoom out 1 
-\i (01:00:41) setwindow pcb
-\i (01:00:41) zoom out 0.4356 0.2323
-\i (01:00:41) trapsize 1748
-\i (01:00:50) zoom in 1 
-\i (01:00:50) setwindow pcb
-\i (01:00:50) zoom in 0.0861 -0.8164
-\i (01:00:50) trapsize 874
-\i (01:00:52) zoom in 1 
-\i (01:00:52) setwindow pcb
-\i (01:00:52) zoom in 0.5405 -0.4143
-\i (01:00:52) trapsize 437
-\i (01:00:59) zoom out 1 
-\i (01:00:59) setwindow pcb
-\i (01:00:59) zoom out 0.4794 -0.2569
-\i (01:00:59) trapsize 874
-\i (01:02:10) pick grid 5.6795 -2.0924
-\t (01:02:10) last pick:  5.0800  -2.5400
-\i (01:02:13) new 
-\i (01:02:41) newdrawfillin "CON5.dra" "Package Symbol (Wizard)"
-\t (01:02:41)     Journal end - Wed Feb 15 23:59:41 2017
+\t (00:39:41) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:39:41)     Journal start - Tue Apr 04 16:01:46 2017
+\t (00:39:41)         Host=DAXIONG-PC User=daxiong Pid=216 CPUs=4
+\t (00:39:41) 
+\d (00:39:41) Database opened: E:/嵌入式/git/PCB_MCU/pcb_lib/CIRCLE_R_3_20.dra
+\i (00:39:41) generaledit 
+\i (00:39:42) zoom out 1 
+\i (00:39:42) setwindow pcb
+\i (00:39:42) zoom out 3.3611 -1.0694
+\i (00:39:42) trapsize 848
+\i (00:39:42) zoom out 1 
+\i (00:39:42) setwindow pcb
+\i (00:39:42) zoom out 3.3610 -1.0694
+\i (00:39:42) trapsize 1455
+\i (00:39:44) open 
+\i (00:39:57) fillin "menu_cancel"
+\i (00:39:57) generaledit 
+\i (00:40:31) open 
+\i (00:40:38) fillin "P4_003_20.dra"
+\t (00:40:38) Opening existing design...
+\t (00:40:38) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:40:38) trapsize 2151
+\d (00:40:38) Database opened: E:/嵌入式/git/PCB_MCU/pcb_lib/P4_003_20.dra
+\i (00:40:38) generaledit 
+\i (00:40:39) zoom in 1 
+\i (00:40:39) setwindow pcb
+\i (00:40:39) zoom in -0.9247 5.3118
+\t (00:40:39) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:40:39) trapsize 1075
+\i (00:40:40) zoom in 1 
+\i (00:40:40) setwindow pcb
+\i (00:40:40) zoom in -5.4624 5.3118
+\i (00:40:40) trapsize 538
+\i (00:40:40) zoom in 1 
+\i (00:40:40) setwindow pcb
+\i (00:40:40) zoom in -5.0860 5.1398
+\i (00:40:40) trapsize 269
+\i (00:40:40) zoom out 1 
+\i (00:40:40) setwindow pcb
+\i (00:40:40) zoom out -4.2419 4.6345
+\i (00:40:40) trapsize 538
+\i (00:40:40) zoom out 1 
+\i (00:40:40) setwindow pcb
+\i (00:40:40) zoom out -5.1344 4.5915
+\i (00:40:40) trapsize 1075
+\i (00:41:13) pick grid -6.7742 3.9462
+\t (00:41:13) last pick:  -6.7818  3.9370
+\i (00:41:36) pick grid -5.5054 8.3979
+\t (00:41:36) last pick:  -5.5118  8.4074
+\i (00:41:37) open 
+\i (00:41:43) fillin "menu_cancel"
+\i (00:41:43) generaledit 
+\i (00:43:51) open 
+\i (00:44:01) fillin "E:\嵌入式\git\PCB_MCU\boardv5_0\BBear_balance_carv2_0.brd"
+\i (00:44:01) cd "E:\嵌入式\git\PCB_MCU\boardv5_0"
+\t (00:44:01) Opening existing design...
+\t (00:44:01) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:44:01) trapsize 5488
+\i (00:44:01) trapsize 5344
+\i (00:44:01) trapsize 5488
+\i (00:44:02) trapsize 5488
+\t (00:44:02)     Journal end - Tue Apr 04 16:06:06 2017
