@@ -1,6 +1,10 @@
 # BBear_balance_car
 it'a mini auto balance car which use the mini motor to drive the car
 
+20170405
+The newest version of the car is version 5.0.
+I have fix some error of the PCB schematic to make the PCB work better.
+
 the catalog explanation of the project:
 
 1 PCB:
