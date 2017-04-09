@@ -17,8 +17,8 @@ void InitMPU6050(void)
 	int i = 0;
 	for(i = 0;i < 10; i++){
 	Single_Write(MPU6050_Addr, PWR_MGMT_1, 0x00);	//½â³ýÐÝÃß×´Ì¬
-	Single_Write(MPU6050_Addr, SMPLRT_DIV, 0x07);
-	Single_Write(MPU6050_Addr, CONFIG, 0x00);
+	Single_Write(MPU6050_Addr, SMPLRT_DIV, 0x07);	//ÉèÖÃ²ÉÑùÆµÂÊ
+	Single_Write(MPU6050_Addr, CONFIG, 0x00);		//ÉèÖÃµÍÍ¨ÂË²¨
 	Single_Write(MPU6050_Addr, GYRO_CONFIG, 0x18);	//set the gyro range :+-2000'/s	 
 	Single_Write(MPU6050_Addr, ACCEL_CONFIG, 0x28);	//0x09 = 00001000  +-4g
 	}
