@@ -33,3 +33,6 @@ the car can be devided into many parts,just as the following picture show:
 and the car's wheel use the 3D printer:
 
 ![index](https://github.com/bigbearishappy/BBear_balance_car/raw/master/doc/car_picture/BBear_balancecar11.jpg)
+
+I have work on this project for about half a year.I will appreciate that if you can join in the work of the car!!!
+In the future, I prepare to add a bootloader and a RTOS to the balance car.
