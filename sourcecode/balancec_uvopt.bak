@@ -331,10 +331,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>1</ColumnNumber>
+      <ColumnNumber>8</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>402</TopLine>
-      <CurrentLine>410</CurrentLine>
+      <CurrentLine>415</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\source_code\BSP\BSP.C</PathWithFileName>
       <FilenameWithoutPath>BSP.C</FilenameWithoutPath>
