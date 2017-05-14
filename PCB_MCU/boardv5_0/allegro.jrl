@@ -1,244 +1,32 @@
-\t (00:00:04) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:04)     Journal start - Tue Apr 04 18:28:51 2017
-\t (00:00:04)         Host=DAXIONG-PC User=daxiong Pid=11200 CPUs=4
-\t (00:00:04) 
-\t (00:00:06) Opening existing design...
-\d (00:00:06) Database opened: E:/嵌入式/git/PCB_MCU/boardv5_0/BBear_balance_carv2_0.brd
-\t (00:00:06) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (00:00:06) trapsize 13483
-\i (00:00:06) trapsize 13110
-\i (00:00:06) trapsize 13547
-\i (00:00:07) trapsize 10976
-\i (00:00:07) trapsize 10976
-\i (00:00:08) generaledit 
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in 21.4404 24.1385
-\i (00:00:09) trapsize 5488
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in 21.0013 24.2483
-\t (00:00:09) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
-\i (00:00:09) trapsize 2744
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in 19.0256 23.0958
-\i (00:00:09) trapsize 1372
-\i (00:00:15) color192 
-\i (00:00:15) setwindow cvf.dialog
-\i (00:00:15) cvf layer_mode
-\i (00:00:15) setwindow pcb
-\i (00:00:15) generaledit 
-\i (00:00:16) setwindow cvf.dialog
-\i (00:00:16) cvf layers_visible stack-up etch/all_row TRUE
-\i (00:00:17) cvf layers_visible stack-up etch/all_row FALSE
-\i (00:00:18) cvf apply
-\i (00:00:19) cvf okay
-\i (00:00:21) setwindow pcb
-\i (00:00:21) drag_start grid 11.5071 20.7360
-\i (00:00:21) move 
-\t (00:00:21) last pick:  9.5250  20.2184
-\t (00:00:21) Pick new location for the element(s).
-\i (00:00:27) drag_stop grid 16.4188 18.9250
-\i (00:00:27) generaledit 
-\i (00:00:30) save 
-\i (00:00:31) fillin yes 
-\i (00:00:31) generaledit 
-\i (00:00:35) add text 
-\t (00:00:35) Pick text location.
-\i (00:00:38) setwindow form.mini
-\i (00:00:38) FORM mini class MANUFACTURING 
-\i (00:00:40) FORM mini subclass AUTOSILK_TOP 
-\i (00:00:49) setwindow pcb
-\i (00:00:49) pick grid 10.4095 21.2299
-\t (00:00:49) last pick:  10.4140  21.2344
-\t (00:00:49) Enter text string.
-\i (00:00:55) setwindow pcb
-\i (00:00:55) prepopup 10.6016 20.6811
-\i (00:00:56) done 
-\i (00:00:56) setwindow pcb
-\i (00:00:56) pick 10.4140 21.2344
-\i (00:00:56) setwindow pcb
-\i (00:00:56) generaledit 
-\i (00:00:57) pick grid 13.4005 21.5592
-\t (00:00:57) last pick:  13.4112  21.5646
-\i (00:00:59) add text 
-\t (00:01:00) Pick text location.
-\i (00:01:04) pick grid 13.4279 21.4220
-\t (00:01:04) last pick:  13.4366  21.4122
-\t (00:01:04) Enter text string.
-\i (00:01:08) setwindow pcb
-\i (00:01:08) prepopup 11.3699 19.4738
-\i (00:01:09) done 
-\i (00:01:09) setwindow pcb
-\i (00:01:09) pick 13.4366 21.4122
-\i (00:01:09) setwindow pcb
-\i (00:01:09) generaledit 
-\i (00:01:12) add text 
-\t (00:01:12) Pick text location.
-\i (00:01:13) pick grid 16.1444 21.4494
-\t (00:01:13) last pick:  16.1544  21.4376
-\t (00:01:13) Enter text string.
-\i (00:01:18) setwindow pcb
-\i (00:01:18) prepopup 15.8152 20.9555
-\i (00:01:18) done 
-\i (00:01:18) setwindow pcb
-\i (00:01:18) pick 16.1544 21.4376
-\i (00:01:19) setwindow pcb
-\i (00:01:19) generaledit 
-\i (00:01:21) add text 
-\t (00:01:21) Pick text location.
-\i (00:01:27) pick grid 16.3365 20.7085
-\t (00:01:27) last pick:  16.3322  20.7010
-\t (00:01:27) Enter text string.
-\i (00:01:30) setwindow pcb
-\i (00:01:30) prepopup 11.7815 20.1598
-\i (00:01:31) done 
-\i (00:01:31) setwindow pcb
-\i (00:01:31) pick 16.3322 20.7010
-\i (00:01:31) setwindow pcb
-\i (00:01:31) generaledit 
-\i (00:01:33) drag_start grid 12.0010 21.2848
-\i (00:01:33) move 
-\t (00:01:33) last pick:  10.4140  21.2344
-\t (00:01:33) Pick new location for the element(s).
-\i (00:01:35) drag_stop grid 9.4766 21.1750
-\i (00:01:35) generaledit 
-\i (00:01:36) drag_start grid 13.9767 21.6141
-\i (00:01:36) move 
-\t (00:01:36) last pick:  13.4366  21.4122
-\t (00:01:36) Pick new location for the element(s).
-\i (00:01:37) drag_stop grid 12.2206 20.9006
-\i (00:01:38) generaledit 
-\i (00:01:38) drag_start grid 10.7937 21.4494
-\i (00:01:38) move 
-\t (00:01:38) last pick:  9.4742  21.1836
-\t (00:01:38) Pick new location for the element(s).
-\i (00:01:42) drag_stop grid 9.7236 20.8732
-\i (00:01:42) generaledit 
-\i (00:01:42) zoom in 1 
-\i (00:01:42) setwindow pcb
-\i (00:01:42) zoom in 12.7419 21.5866
-\t (00:01:42) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
-\i (00:01:42) trapsize 686
-\i (00:01:43) drag_start grid 12.6184 21.1888
-\i (00:01:43) move 
-\t (00:01:44) last pick:  12.2174  20.9042
-\t (00:01:44) Pick new location for the element(s).
-\i (00:01:45) drag_stop grid 12.1382 20.8458
-\i (00:01:45) generaledit 
-\i (00:01:46) drag_start grid 16.4325 21.8062
-\i (00:01:46) move 
-\t (00:01:46) last pick:  16.1544  21.4376
-\t (00:01:46) Pick new location for the element(s).
-\i (00:01:48) drag_stop grid 14.7862 20.8458
-\i (00:01:48) generaledit 
-\i (00:01:49) drag_start grid 18.4082 20.9144
-\i (00:01:49) move 
-\t (00:01:49) last pick:  16.3322  20.7010
-\t (00:01:49) Pick new location for the element(s).
-\i (00:01:52) drag_stop grid 17.4615 20.7909
-\i (00:01:52) generaledit 
-\i (00:01:53) save 
-\i (00:01:55) fillin yes 
-\i (00:01:55) generaledit 
-\i (00:01:57) zoom out 1 
-\i (00:01:57) setwindow pcb
-\i (00:01:57) zoom out 18.9707 20.9967
-\t (00:01:57) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
-\i (00:01:57) trapsize 1372
-\i (00:01:58) drag_start grid 17.2695 19.0485
-\i (00:01:58) move 
-\t (00:01:58) last pick:  16.4084  18.9230
-\t (00:01:58) Pick new location for the element(s).
-\i (00:02:02) drag_stop grid 16.2542 19.1857
-\i (00:02:02) generaledit 
-\i (00:02:04) save 
-\i (00:02:05) fillin yes 
-\i (00:02:05) generaledit 
-\i (00:02:10) ncdrill param 
-\i (00:02:10) generaledit 
-\i (00:02:11) setwindow form.nc_parameters
-\i (00:02:11) FORM nc_parameters done  
-\i (00:02:14) setwindow pcb
-\i (00:02:14) nctape_full 
-\i (00:02:16) setwindow form.nc_drill
-\i (00:02:16) FORM nc_drill execute  
-\t (00:02:16) Starting NC Drill...
-\i (00:02:20) FORM nc_drill close  
-\i (00:02:20) setwindow pcb
-\i (00:02:20) generaledit 
-\i (00:02:24) ncdrill legend 
-\i (00:02:26) setwindow form.nc_drilllegend
-\i (00:02:26) FORM nc_drilllegend done  
-   (00:02:26) Loading cmds.cxt 
-   (00:02:26) Loading mfg.cxt 
-   (00:02:26) Loading axlcore.cxt 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) zoom out 1 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) zoom out 9.6961 20.1735
-\i (00:02:26) trapsize 2744
-\i (00:02:27) zoom out 1 
-\i (00:02:27) setwindow pcb
-\i (00:02:27) zoom out 8.7082 21.3809
-\t (00:02:27) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (00:02:27) trapsize 5488
-\i (00:02:27) zoom out 1 
-\i (00:02:27) setwindow pcb
-\i (00:02:27) zoom out 5.7448 24.8932
-\i (00:02:27) trapsize 10976
-\i (00:02:27) zoom out 1 
-\i (00:02:27) setwindow pcb
-\i (00:02:27) zoom out -23.5608 27.0884
-\t (00:02:27) Grids are drawn 6.5024, 6.5024 apart for enhanced viewability.
-\i (00:02:27) trapsize 20961
-\i (00:02:29) pick grid -5.1871 -6.3747
-\t (00:02:29) last pick:  -5.1816  -6.3754
-\t (00:02:29) NC Drill Legend generation successful
-\i (00:02:29) done 
-\i (00:02:30) generaledit 
-\i (00:02:32) zoom in 1 
-\i (00:02:32) setwindow pcb
-\i (00:02:32) zoom in 34.2199 -24.8205
-\t (00:02:32) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (00:02:32) trapsize 10481
-\i (00:02:49) pick grid -36.0123 26.5344
-\t (00:02:49) last pick:  -36.0172  26.5430
-\i (00:02:55) artwork 
-\i (00:02:57) setwindow form.film_control
-\i (00:02:57) FORM film_control select_all  
-\i (00:02:58) FORM film_control create  
-\t (00:02:58) Checking db records
-\t (00:02:58)     checking for orphans...
-\t (00:02:58)     Checked 100 percent
-\t (00:02:58) Done dbdoctor.
-\t (00:02:58) Starting Create artwork films...
-\t (00:03:00) Plot generated.
-\i (00:03:01) FORM film_control ok  
-\i (00:03:01) setwindow pcb
-\i (00:03:01) generaledit 
-\i (00:03:03) zoom in 1 
-\i (00:03:03) setwindow pcb
-\i (00:03:03) zoom in 30.8538 23.3902
-\i (00:03:03) trapsize 5240
-\i (00:03:03) zoom in 1 
-\i (00:03:03) setwindow pcb
-\i (00:03:03) zoom in 30.8538 23.3902
-\t (00:03:03) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
-\i (00:03:03) trapsize 2620
-\i (00:03:09) zoom out 1 
-\i (00:03:09) setwindow pcb
-\i (00:03:09) zoom out 32.7404 24.4383
-\t (00:03:09) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (00:03:09) trapsize 5240
-\i (00:03:09) zoom out 1 
-\i (00:03:09) setwindow pcb
-\i (00:03:09) zoom out 32.5308 23.5999
-\i (00:03:09) trapsize 10481
-\i (00:03:12) pick grid -35.3835 -20.8378
-\t (00:03:12) last pick:  -35.3822  -20.8280
-\i (00:04:41) exit 
-\e (00:04:41) Do you want to save the changes you made to E:/嵌入式/git/PCB_MCU/boardv5_0/BBear_balance_carv2_0.brd?
-\i (00:04:43) fillin yes 
-\t (00:04:43)     Journal end - Tue Apr 04 18:33:30 2017
+\t (00:00:35) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:35)     Journal start - Wed May 10 22:34:18 2017
+\t (00:00:35)         Host=DAXIONG-PC User=daxiong Pid=6732 CPUs=4
+\t (00:00:35) 
+\t (00:00:37) Opening existing design...
+\d (00:00:38) Database opened: E:/嵌入式/git/PCB_MCU/boardv5_0/BBear_balance_carv2_0.brd
+\t (00:00:39) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:00:39) trapsize 12875
+\i (00:00:39) trapsize 12519
+\i (00:00:39) trapsize 12936
+\i (00:00:40) trapsize 10481
+\i (00:00:40) trapsize 10481
+\i (00:00:41) generaledit 
+\i (00:00:44) open 
+\i (00:02:01) fillin "menu_cancel"
+\i (00:02:01) generaledit 
+\i (00:02:02) zoom in 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom in 71.0993 18.9885
+\i (00:02:02) trapsize 5240
+\i (00:02:02) zoom in 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom in 61.8764 18.1500
+\t (00:02:02) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:02:02) trapsize 2620
+\i (00:02:03) zoom out 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom out 71.3090 15.0058
+\t (00:02:03) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:02:03) trapsize 5240
+\i (00:12:48) exit 
+\t (00:12:49)     Journal end - Wed May 10 22:46:32 2017
