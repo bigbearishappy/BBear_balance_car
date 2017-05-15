@@ -101,9 +101,11 @@ Returns£º
 Description:
 			null
 ******************************************************************************/
-int32_t PID_Cal_LR(pid_s *p, int32_t current, int32_t target)
+int32_t PID_Cal_LR(pid_s *p, int32_t current, int32_t target, int32_t wheel_dir)
 {
 	int offset = 0;
+	if(wheel_dir < 0)
+		target = -target;
 	offset = target - current;
 	
 	return p->Kp * offset + p->Kd * current;
