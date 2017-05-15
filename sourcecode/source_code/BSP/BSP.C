@@ -15,6 +15,7 @@ int16_t leftspeed = 0,rightspeed = 0;			//the car's left wheel and right wheel
 short res_l = 0,res_r = 0;
 pid_s Angle_PID;													//struct to store the angle PID data
 pid_s Speed_PID;													//struct to store the speed PID data
+pid_s LEFT_PID,RIGHT_PID;
 
 uint8_t flag_l = 1, flag_r = 1;
 uint8_t heart_flag = 0;

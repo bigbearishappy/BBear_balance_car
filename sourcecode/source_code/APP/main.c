@@ -22,6 +22,8 @@ int main()
 	EXTI_Configuration();
 	PID_Init(&Angle_PID, 150, 0,-100); //20170219 150,0,-100
 	PID_Init(&Speed_PID, 50, 0.5, 0);  //20170219 50,0.5,0
+	PID_Init(&TURNLEFT_PID, 0, 0, 0);
+	PID_Init(&TURNRIGHT_PID, 0, 0, 0);
 	PWM_Motor_Configuration();
 	InitMPU6050();
 	Cal_angle();
