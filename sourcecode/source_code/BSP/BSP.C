@@ -15,11 +15,13 @@ int16_t leftspeed = 0,rightspeed = 0;			//the car's left wheel and right wheel
 short res_l = 0,res_r = 0;
 pid_s Angle_PID;													//struct to store the angle PID data
 pid_s Speed_PID;													//struct to store the speed PID data
+pid_s TURNLEFT_PID,TURNRIGHT_PID;
 
 uint8_t flag_l = 1, flag_r = 1;
 uint8_t heart_flag = 0;
 uint8_t remote_flag = 0x00;
 int balan_pwm_ang = 0,balan_pwm_spd = 0,balan_pwm = 0;
+int balan_pwm_left = 0,balan_pwm_right = 0;
 
 unsigned char control_data = 0x00;
 int32_t run_l = 0x00,run_r = 0x00;
@@ -459,6 +461,17 @@ void TIM2_IRQHandler(void)
 		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1);
 		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,dir);
 		balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
+
+		if(run_l && run_r){
+			balan_pwm_left = PID_Cal_LR(&TURNLEFT_PID, res_l, TURN_LEFT_TARGET_SPEED, run_l);
+			balan_pwm_right = PID_Cal_LR(&TURNRIGHT_PID, res_r, TURN_RIGHT_TARGET_SPEED, run_r);
+		}
+		else{
+			balan_pwm_left = 0;
+			balan_pwm_right = 0;
+		}
+		run_l = balan_pwm_left;
+		run_r = balan_pwm_right;
 
 		PWM_Control(balan_pwm + run_l, balan_pwm + run_r);
 //		printf("%x\n",speed_dir);

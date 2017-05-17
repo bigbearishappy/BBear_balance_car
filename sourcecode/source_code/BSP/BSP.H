@@ -15,6 +15,9 @@
 #define	FALSE	0
 #define	TRUE	1
 
+#define TURN_LEFT_TARGET_SPEED	15
+#define TURN_RIGHT_TARGET_SPEED	15
+
 #define F_B  1050
 #define L_R  135
 #define STOP_BT_ANGLE	5
@@ -45,6 +48,7 @@ extern int16_t *p;											//a pointer point to the array which store the mpu6
 extern int16_t leftspeed,rightspeed;						//the car's left wheel and right wheel	
 extern pid_s Angle_PID;										//struct to store the PID data
 extern pid_s Speed_PID;
+extern pid_s TURNLEFT_PID,TURNRIGHT_PID;
 
 extern unsigned char control_data;
 extern int32_t run_l,run_r;

@@ -88,3 +88,25 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 //	printf("tem=%.1lf\r\n",temp);	
 	return (int32_t)(p->Kp * spd_v + p->Ki * (float)spd_length + p->Kd * temp);
 }
+
+/******************************************************************************
+Name£ºPID_Cal_LR
+Function:	
+		  	calculate the PID result value of turning left or right
+Parameters£º
+		   	[in]	-	*p:the pointer point to the speed PID structure
+						current:current stage(speed)
+Returns£º
+			[out]	-	int32_t:the PID value output 
+Description:
+			null
+******************************************************************************/
+int32_t PID_Cal_LR(pid_s *p, int32_t current, int32_t target, int32_t wheel_dir)
+{
+	int offset = 0;
+	if(wheel_dir < 0)
+		target = -target;
+	offset = target - current;
+	
+	return p->Kp * offset + p->Kd * current;
+}
