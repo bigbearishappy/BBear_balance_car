@@ -107,6 +107,7 @@ int32_t PID_Cal_LR(pid_s *p, int32_t current, int32_t target, int32_t wheel_dir)
 	if(wheel_dir < 0)
 		target = -target;
 	offset = target - current;
+	printef("test");
 	
 	return p->Kp * offset + p->Kd * current;
 }
