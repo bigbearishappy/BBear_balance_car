@@ -92,9 +92,7 @@
       (Path "Design Resources" ".\bbear_balance_car.dsn")
       (Path "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1"
-         "MAIN_SCHEMATIC"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -105,13 +103,17 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 1107 25 399")
-        (Scroll "-200 0")
-        (Zoom "55")
+        (Scroll "0 1051")
+        (Zoom "172")
         (Occurrence "/"))
       (Path "E:\嵌入式\GIT\PCB_MCU\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")
       (Page "MAIN_SCHEMATIC")))
   (PartMRUSelector
+    (HT7333
+      (FullPartName "HT7333.Normal")
+      (LibraryName "E:\嵌入式\GIT\PCB_MCU\SCHEMATIC_LIB\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))

@@ -14,21 +14,10 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\design1.dsn")
-      (Path "Design Resources" ".\design1.dsn" "SCHEMATIC1")
-      (Select "Design Resources" ".\design1.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 225"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1182 50 317")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "E:\«∂»Î Ω\GIT\PCB\SCHEMATIC\DESIGN1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 225"))
+      (Tab 0))))

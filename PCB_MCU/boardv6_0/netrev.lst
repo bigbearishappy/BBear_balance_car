@@ -1,0 +1,105 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : BBear_balance_carv2_0.brd                     )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Fri May 26 22:59:47 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'E:/嵌入式/git/PCB_MCU/schematic/allegro';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'E:/嵌入式/git/PCB_MCU/boardv6_0/BBear_balance_carv2_0.brd';
+NEW_BOARD_NAME 'E:/嵌入式/git/PCB_MCU/boardv6_0/BBear_balance_carv2_0.brd';
+
+CmdLine: netrev -$ -i E:/嵌入式/git/PCB_MCU/schematic/allegro -y 1 E:/嵌入式/git/PCB_MCU/boardv6_0/#Taaaaab05208.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read E:/嵌入式/git/PCB_MCU/schematic/allegro/pstchip.dat 
+   Finished reading E:/嵌入式/git/PCB_MCU/schematic/allegro/pstchip.dat (00:00:00.10)
+Starting to read E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxprt.dat 
+   Finished reading E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxprt.dat (00:00:00.00)
+Starting to read E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxnet.dat 
+   Finished reading E:/嵌入式/git/PCB_MCU/schematic/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/嵌入式/git/PCB_MOTOR/PCB_lib/ 
+           E:/嵌入式/git/PCB_MCU/pcb_lib/ 
+           E:/嵌入式/百度云同步盘/毕业论文/毕业设计/PCB_DESIGN/PCB_LIB/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/土壤含水量/lib_soil_water_percent/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/光照/lib/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/温湿度V1.2/lib_thsensor/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/CO2/lib_CO2/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/土壤PH值/lib_soil_water_percent/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           E:/嵌入式/git/PCB_MOTOR/PCB_lib/ 
+           E:/嵌入式/git/PCB_MCU/pcb_lib/ 
+           E:/嵌入式/百度云同步盘/毕业论文/毕业设计/PCB_Design/PCB_lib/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/土壤含水量/lib_soil_water_percent/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/光照/lib/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/温湿度V1.2/lib_thsensor/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/CO2/lib_CO2/ 
+           E:/嵌入式/百度云同步盘/16年联点数据/PCB/熊健20160729/土壤PH值/lib_soil_water_percent/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on May 26 22:59:47 2017
+   DESIGN NAME : 'BBEAR_BALANCE_CAR'
+   PACKAGING ON Sep 10 2012 04:46:09
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:03:12
+elapsed time  0:00:01
+
