@@ -3,3 +3,6 @@
 
 #bak files
 *.bak
+
+#dep files
+*.dep
