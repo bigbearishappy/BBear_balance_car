@@ -360,7 +360,7 @@ void TIM3_IRQHandler(void)
 		//remote_flag++;
 		
 			control_data = Remote_Scan();
-//			if(control_data){
+			if(control_data){
 			heart_flag++;
 			if(heart_flag % 2){
 				GPIO_SetBits(GPIOB, GPIO_Pin_5);
@@ -373,7 +373,7 @@ void TIM3_IRQHandler(void)
 
 			if(heart_flag >= 2)
 				heart_flag = 0;
-//			}		
+			}		
 	}	
 }
 
@@ -456,7 +456,12 @@ void TIM2_IRQHandler(void)
 			dir = 0;
 		}
 
-		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1);
+		if(dir == 1)		//forward
+			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 4);
+		else if(dir == -1)	//backward
+			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, -4);
+		else
+			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
 		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,dir);
 		balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
 
