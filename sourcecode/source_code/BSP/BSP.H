@@ -20,9 +20,9 @@
 #define STOP_BT_ANGLE	5
 
 //#define gyro_y_offset	4.37040//4.37043
-#define	acc_x_offset	-156.8//-83.4
+#define	acc_x_offset	-56.8//-156.8//-83.4
 #define	acc_z_offset	-389.2
-#define gyro_y_offset	20//-56.36
+#define gyro_y_offset	-20//20//-56.36
 
 #define REMOTE_ID 		0 
 
