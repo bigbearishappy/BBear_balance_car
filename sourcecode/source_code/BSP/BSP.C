@@ -207,11 +207,11 @@ void NVIC_Configuration(void)
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE; 
 	NVIC_Init(&NVIC_InitStructure); 
 
-  NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
+/*  NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
   NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;  
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-  NVIC_Init(&NVIC_InitStructure);
+  NVIC_Init(&NVIC_InitStructure);*/
  
   NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
@@ -268,23 +268,33 @@ Description:
 ******************************************************************************/
 void EXTI15_10_IRQHandler(void)
 {  
-	if(EXTI_GetITStatus(EXTI_Line10) != RESET){
+/*	if(EXTI_GetITStatus(EXTI_Line10) != RESET){
 	if(speed_dir == 1)	
 		leftspeed++; 
 	if(speed_dir == 2)
 		leftspeed--;
 	
 	EXTI_ClearITPendingBit(EXTI_Line10);
-	}
+	}*/
 	
 	if(EXTI_GetITStatus(EXTI_Line11) != RESET){
-	if(speed_dir == 1)
+/*	if(speed_dir == 1)
 		rightspeed++;
 	if(speed_dir == 2)
-		rightspeed--;
+		rightspeed--;*/
 	
 	EXTI_ClearITPendingBit(EXTI_Line11);
 	}	
+	if(EXTI_GetITStatus(EXTI_Line10) != RESET){
+		if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_11) == 0){
+			speed_dir = 1;
+			leftspeed++;
+		}else{
+			speed_dir = 2;
+			leftspeed--;
+		}
+		EXTI_ClearITPendingBit(EXTI_Line10);
+	}
 }
 
 /******************************************************************************
@@ -328,7 +338,7 @@ Description:
 void TIM3_IRQHandler(void)
 {
 	if(TIM_GetITStatus(TIM3, TIM_IT_Update) == SET){
-		if(leftspeed > 20)
+/*		if(leftspeed > 20)
 			leftspeed = 20;
 			res_l = leftspeed;
 
@@ -343,7 +353,8 @@ void TIM3_IRQHandler(void)
 		if((leftspeed == 0 && rightspeed != 0)||(leftspeed != 0 && rightspeed == 0))
 			dir = 5;
 		if(leftspeed - rightspeed > 10 || leftspeed - rightspeed < -10)
-			dir = 5;
+			dir = 5;*/
+		printf("dir=%d spd=%d\r\n", speed_dir, leftspeed);
 
 		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
 

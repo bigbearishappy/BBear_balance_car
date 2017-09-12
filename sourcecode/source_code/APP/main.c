@@ -20,11 +20,11 @@ int main()
 	GPIO_Configuration();
 	NVIC_Configuration();
 	EXTI_Configuration();
-	PID_Init(&Angle_PID, 150, 0,-100); //20170219 150,0,-100
-	PID_Init(&Speed_PID, 50, 0.5, 0);  //20170219 50,0.5,0
-	PWM_Motor_Configuration();
-	InitMPU6050();
-	Cal_angle();
+	//PID_Init(&Angle_PID, 150, 0,-100); //20170219 150,0,-100
+	//PID_Init(&Speed_PID, 50, 0.5, 0);  //20170219 50,0.5,0
+	//PWM_Motor_Configuration();
+	//InitMPU6050();
+	//Cal_angle();
 	Heart_TIM();
 	while(1)
 	{
