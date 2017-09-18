@@ -3,6 +3,7 @@
 #include"stm32f10x.h"
 
 extern char speed_dir;
+extern char speed_dir_l,speed_dir_r;
 
 void PWM_Motor_Configuration(void);					//TIM4
 void Heart_TIM(void);								//TIM3

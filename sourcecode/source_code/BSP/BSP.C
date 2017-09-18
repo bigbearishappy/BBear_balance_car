@@ -26,7 +26,7 @@ int32_t run_l = 0x00,run_r = 0x00;
 
 char first_time_flag = 1;									//for the first time to calculate the angle of the car use the acc_x
 
-int8_t dir = 0;
+int8_t target_dir = 0; //0:no target dir 1:forward -1:back 3:left 4:right
 /******************************************************************************
 Name£ºRCC_Configration 
 Function:	
@@ -207,11 +207,11 @@ void NVIC_Configuration(void)
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE; 
 	NVIC_Init(&NVIC_InitStructure); 
 
-/*  NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
+  NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
   NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;  
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-  NVIC_Init(&NVIC_InitStructure);*/
+  NVIC_Init(&NVIC_InitStructure);
  
   NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		
   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
@@ -268,33 +268,27 @@ Description:
 ******************************************************************************/
 void EXTI15_10_IRQHandler(void)
 {  
-/*	if(EXTI_GetITStatus(EXTI_Line10) != RESET){
-	if(speed_dir == 1)	
-		leftspeed++; 
-	if(speed_dir == 2)
-		leftspeed--;
-	
-	EXTI_ClearITPendingBit(EXTI_Line10);
-	}*/
-	
-	if(EXTI_GetITStatus(EXTI_Line11) != RESET){
-/*	if(speed_dir == 1)
-		rightspeed++;
-	if(speed_dir == 2)
-		rightspeed--;*/
-	
-	EXTI_ClearITPendingBit(EXTI_Line11);
-	}	
 	if(EXTI_GetITStatus(EXTI_Line10) != RESET){
-		if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_11) == 0){
-			speed_dir = 1;
+		if(GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_12) == 0){
+			speed_dir_l= 1;
 			leftspeed++;
 		}else{
-			speed_dir = 2;
+			speed_dir_l= 2;
 			leftspeed--;
 		}
 		EXTI_ClearITPendingBit(EXTI_Line10);
 	}
+	
+	if(EXTI_GetITStatus(EXTI_Line11) != RESET){	
+		if(GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_13) == 0){
+			speed_dir_r= 1;
+			rightspeed++;
+		}else{
+			speed_dir_r= 2;
+			rightspeed--;
+		}
+		EXTI_ClearITPendingBit(EXTI_Line11);
+	}	
 }
 
 /******************************************************************************
@@ -338,7 +332,8 @@ Description:
 void TIM3_IRQHandler(void)
 {
 	if(TIM_GetITStatus(TIM3, TIM_IT_Update) == SET){
-/*		if(leftspeed > 20)
+/*
+		if(leftspeed > 20)
 			leftspeed = 20;
 			res_l = leftspeed;
 
@@ -354,7 +349,12 @@ void TIM3_IRQHandler(void)
 			dir = 5;
 		if(leftspeed - rightspeed > 10 || leftspeed - rightspeed < -10)
 			dir = 5;*/
-		printf("dir=%d spd=%d\r\n", speed_dir, leftspeed);
+
+		res_l = leftspeed;
+		res_r = rightspeed;
+		printf("l:%d l_d:%d r:%d r_d:%d\r\n",leftspeed, speed_dir_l, rightspeed, speed_dir_r);
+		leftspeed = 0;
+		rightspeed = 0;
 
 		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
 
@@ -448,32 +448,32 @@ void TIM2_IRQHandler(void)
 		}
 
 		if(control_data == 0x18)
-			dir = 1;
+			target_dir = 1;
 		else if(control_data == 0x4a)
-			dir = -1;
+			target_dir = -1;
 		else if(control_data == 0x10){
 			run_l = L_R;
 			run_r = -L_R;
-			dir = 3;
+			target_dir = 3;
 		}
 		else if(control_data == 0x5a){
 			run_l = -L_R;
 			run_r = L_R;
-			dir = 4;
+			target_dir = 4;
 		}
 		else{
 			run_l = 0;
 			run_r = 0;
-			dir = 0;
+			target_dir = 0;
 		}
 
-		if(dir == 1)		//forward
+		if(target_dir == 1)		//forward
 			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 4);
-		else if(dir == -1)	//backward
+		else if(target_dir == -1)	//backward
 			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, -4);
 		else
 			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
-		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,dir);
+		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,target_dir);
 		balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
 
 		PWM_Control(balan_pwm + run_l, balan_pwm + run_r);

@@ -2,6 +2,7 @@
 #include"pwm.h"
 
 char speed_dir = 0;//1:forward 2:back
+char speed_dir_l = 0,speed_dir_r = 0; //0:stop 1:forward 2:back
 
 /******************************************************************************
 Name£ºPWM_left_Configuration 
