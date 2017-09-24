@@ -66,15 +66,16 @@ float spd_v = 0;	 //the speed after filter
 int32_t last_target = 0;
 int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 {
-	float temp;
+	int32_t temp;
 //	if(target == 1)
 //		current = current + 10;//target speed is 10
 //	else if(target == -1)
 //		current = current - 10;//target speed is -10
 //	else
 		current = current + 0;//target speed is 0
-	temp = (float)(current) * 0.5;
-	spd_v = spd_v * 0.8 + (float)(current) * 0.2;
+	//temp = (float)(current) * 0.5;
+	temp = current;
+	spd_v = spd_v * 4 / 5 + (float)(current) / 5;
 
 	if(target == 0){
 		if(last_target == 0)

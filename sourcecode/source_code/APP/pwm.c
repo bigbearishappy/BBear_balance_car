@@ -158,11 +158,11 @@ Description:
 ******************************************************************************/
 void PWM_Control(int32_t motorL, int32_t motorR)
 {
-	if(motorL >= 0 && motorR >= 0)
-		speed_dir = 1;
-	//if(motorL < -250 && motorR < -250)
-	if(motorL < -0 && motorR < -0)
-		speed_dir = 2;
+//	if(motorL >= 0 && motorR >= 0)
+//		speed_dir = 1;
+//	//if(motorL < -250 && motorR < -250)
+//	if(motorL < -0 && motorR < -0)
+//		speed_dir = 2;
 
 	if(motorL >= 1000)motorL = 1000;
 	if(motorL < -1000)motorL = -1000;

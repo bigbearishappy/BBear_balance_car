@@ -352,7 +352,7 @@ void TIM3_IRQHandler(void)
 
 		res_l = leftspeed;
 		res_r = rightspeed;
-		printf("l:%d l_d:%d r:%d r_d:%d\r\n",leftspeed, speed_dir_l, rightspeed, speed_dir_r);
+		//printf("l:%d l_d:%d r:%d r_d:%d\r\n",leftspeed, speed_dir_l, rightspeed, speed_dir_r);
 		leftspeed = 0;
 		rightspeed = 0;
 
@@ -441,11 +441,11 @@ void TIM2_IRQHandler(void)
 
 		radian_filted = Kaerman_Filter(radian_filted, -radian, radian_temp1);
 		
-		if(speed_dir == 2 && res_l > 0 && res_r > 0)
-		{
-			res_l = res_l * -1;
-			res_r = res_r * -1;
-		}
+//		if(speed_dir == 2 && res_l > 0 && res_r > 0)
+//		{
+//			res_l = res_l * -1;
+//			res_r = res_r * -1;
+//		}
 
 		if(control_data == 0x18)
 			target_dir = 1;
