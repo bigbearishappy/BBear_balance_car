@@ -1,24 +1,45 @@
-\t (00:07:19) pad_designer 16.6 P001 (v16-6-112A) Windows 32
-\t (00:07:19)     Journal start - Fri May 26 22:25:44 2017
-\t (00:07:19)         Host=DAXIONG-PC User=daxiong Pid=8416 CPUs=4
-\t (00:07:19) 
-\i (00:07:20) FORM padedit grid row begin_layer 
-\i (00:07:24) FORM padedit geometry Rectangle 
-\i (00:07:27) FORM padedit width 22 
-\i (00:07:29) FORM padedit height 47 
-\i (00:07:31) FORM padedit crossbox YES 
-\i (00:07:31) FORM padedit stackbox YES 
-\i (00:07:35) FORM padedit grid rpopup begin_layer Copy 
-\i (00:07:37) FORM padedit grid row pastemask_top 
-\i (00:07:39) FORM padedit grid rpopup pastemask_top Paste 
-\i (00:07:42) FORM padedit grid row soldermask_top 
-\i (00:07:45) FORM padedit geometry Rectangle 
-\i (00:07:52) FORM padedit width 26 
-\i (00:07:58) FORM padedit height 51 
-\i (00:07:59) FORM padedit crossbox YES 
-\i (00:08:00) FORM padedit stackbox YES 
-\i (00:08:08) pse_save_as 
-\i (00:08:10) fillin "rectx22y47_mil.pad"
-\i (00:09:50) FORM padedit parameters  
-\i (00:59:44) pse_exit
-\t (00:59:44)     Journal end - Fri May 26 23:18:09 2017
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Tue Sep 26 20:51:35 2017
+\t (00:00:00)         Host=DAXIONG-PC User=daxiong Pid=5644 CPUs=4
+\t (00:00:00) 
+\i (00:00:15) setwindow form.padedit
+\i (00:00:15) FORM padedit layers  
+\i (00:00:46) FORM padedit grid row begin_layer 
+\i (00:00:51) FORM padedit geometry Rectangle 
+\i (00:01:01) FORM padedit width  
+\w (00:01:01) User units conversion failed.
+\i (00:01:17) FORM padedit width 19.2 
+\i (00:01:26) FORM padedit height 60 
+\i (00:01:29) FORM padedit crossbox YES 
+\i (00:01:30) FORM padedit stackbox YES 
+\i (00:06:31) FORM padedit grid row soldermask_top 
+\i (00:07:07) FORM padedit parameters  
+\i (00:07:08) FORM padedit layers  
+\i (00:07:09) FORM padedit parameters  
+\i (00:07:11) FORM padedit units Millimeter 
+\i (00:07:13) fillin yes 
+\w (00:07:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:07:14) FORM padedit layers  
+\i (00:07:26) FORM padedit width 0.48 
+\i (00:07:30) FORM padedit height 1.5 
+\i (00:07:32) FORM padedit grid row begin_layer 
+\i (00:07:37) FORM padedit width 0.48 
+\i (00:07:41) FORM padedit height 1.5 
+\i (00:07:43) FORM padedit crossbox YES 
+\i (00:07:44) FORM padedit stackbox YES 
+\i (00:07:46) FORM padedit grid row soldermask_top 
+\i (00:07:49) FORM padedit geometry Rectangle 
+\i (00:07:58) FORM padedit width 1.58 
+\i (00:08:03) FORM padedit height 1.6 
+\i (00:08:05) FORM padedit width 0.5800 
+\i (00:08:06) FORM padedit crossbox YES 
+\i (00:08:07) FORM padedit stackbox YES 
+\i (00:09:52) FORM padedit grid row pastemask_top 
+\i (00:09:56) FORM padedit grid rpopup begin_layer Copy 
+\i (00:09:58) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:10:03) FORM padedit crossbox YES 
+\i (00:10:04) FORM padedit stackbox YES 
+\i (00:10:28) pse_save_as 
+\i (00:11:28) fillin "E:\«∂»Î Ω\git\PCB_SPEED\pcb_lib\rectx0_48y1_50.pad"
+\i (00:11:33) pse_exit
+\t (00:11:33)     Journal end - Tue Sep 26 21:03:08 2017

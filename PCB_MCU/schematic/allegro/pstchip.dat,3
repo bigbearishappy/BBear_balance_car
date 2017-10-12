@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Apr-04-2017 at 17:30:27}
+{ Using PSTWRITER 16.6.0 d001May-26-2017 at 22:58:44}
 primitive 'CAP_C-0805_0.1UF';
   pin
     '1':
@@ -60,25 +60,25 @@ primitive 'CAP_C-0805_22PF';
     VALUE='22PF';
   end_body;
 end_primitive;
-primitive 'LM1117_LM1117_3_3_LM1117';
+primitive 'HT7333_SOT-89_HT73XX';
   pin
-    'VCC-IN':
+    'OUT':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    'OUT2':
+    'VIN2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
     'GND':
       PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
-    'OUT1':
+    'VIN1':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='LM1117';
-    JEDEC_TYPE='LM1117_3_3';
-    VALUE='LM1117';
+    PART_NAME='HT7333';
+    JEDEC_TYPE='SOT-89';
+    VALUE='HT73XX';
   end_body;
 end_primitive;
 primitive 'LED_C-0805_HEARTLED';

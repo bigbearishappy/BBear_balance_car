@@ -1,32 +1,41 @@
-\t (00:00:02) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:02)     Journal start - Fri May 26 22:56:36 2017
-\t (00:00:02)         Host=DAXIONG-PC User=daxiong Pid=5208 CPUs=4
-\t (00:00:02) 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Database opened: E:/嵌入式/git/PCB_MCU/pcb_lib/SOT-89.dra
-\t (00:00:05) Grids are drawn 4.0, 4.0 apart for enhanced viewability.
-\i (00:00:05) trapsize 42
-\i (00:00:05) trapsize 40
-\i (00:00:05) trapsize 42
-\i (00:00:05) trapsize 43
-\i (00:00:05) trapsize 43
-\i (00:00:06) generaledit 
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in -8.5 -19.7
-\i (00:00:08) trapsize 22
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out 50.0 2.7
-\i (00:00:10) trapsize 43
-\i (00:00:15) open 
-\i (00:00:25) fillin "E:\嵌入式\git\PCB_MCU\boardv6_0\BBear_balance_carv2_0.brd"
-\i (00:00:25) cd "E:\嵌入式\git\PCB_MCU\boardv6_0"
-\t (00:00:25) Opening existing design...
-\t (00:00:26) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (00:00:26) trapsize 13317
-\i (00:00:26) trapsize 12875
-\i (00:00:26) trapsize 13317
-\i (00:00:27) trapsize 10481
-\i (00:00:27) trapsize 10481
-\t (00:00:27)     Journal end - Fri May 26 22:57:00 2017
+\t (02:11:07) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (02:11:07)     Journal start - Tue Sep 26 21:56:16 2017
+\t (02:11:07)         Host=DAXIONG-PC User=daxiong Pid=9644 CPUs=4
+\t (02:11:07) 
+\d (02:11:07) Database opened: E:/嵌入式/git/PCB_MCU/pcb_lib/CON3.dra
+\i (02:11:07) generaledit 
+\i (02:11:08) zoom in 1 
+\i (02:11:08) setwindow pcb
+\i (02:11:08) zoom in -0.5083 -2.4071
+\i (02:11:08) trapsize 874
+\i (02:11:08) zoom in 1 
+\i (02:11:08) setwindow pcb
+\i (02:11:08) zoom in -2.8330 -2.1099
+\i (02:11:08) trapsize 437
+\i (02:11:08) zoom in 1 
+\i (02:11:08) setwindow pcb
+\i (02:11:08) zoom in -2.2300 -1.8914
+\i (02:11:08) trapsize 218
+\i (02:11:09) zoom out 1 
+\i (02:11:09) setwindow pcb
+\i (02:11:09) zoom out -1.4784 -1.6903
+\i (02:11:09) trapsize 437
+\i (02:11:12) zoom in 1 
+\i (02:11:12) setwindow pcb
+\i (02:11:12) zoom in -0.2810 -0.7552
+\i (02:11:12) trapsize 218
+\i (02:11:35) zoom out 1 
+\i (02:11:35) setwindow pcb
+\i (02:11:35) zoom out -0.6655 -1.0873
+\i (02:11:35) trapsize 437
+\i (02:11:35) zoom out 1 
+\i (02:11:35) setwindow pcb
+\i (02:11:35) zoom out -0.8841 -1.2096
+\i (02:11:35) trapsize 874
+\i (02:11:35) zoom out 1 
+\i (02:11:35) setwindow pcb
+\i (02:11:35) zoom out 0.3832 -0.8250
+\i (02:11:35) trapsize 1748
+\i (02:11:37) new 
+\i (02:12:17) newdrawfillin "CON2_3MM.dra" "Package Symbol"
+\t (02:12:17)     Journal end - Tue Sep 26 21:57:26 2017

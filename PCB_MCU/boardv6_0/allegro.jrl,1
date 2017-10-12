@@ -1,16 +1,18 @@
-\t (00:00:13) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:13)     Journal start - Fri May 26 22:05:22 2017
-\t (00:00:13)         Host=DAXIONG-PC User=daxiong Pid=11608 CPUs=4
-\t (00:00:13) 
-\t (00:00:15) Opening existing design...
-\d (00:00:16) Database opened: E:/嵌入式/git/PCB_MCU/boardv5_0/BBear_balance_carv2_0.brd
-\t (00:00:17) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (00:00:17) trapsize 12875
-\i (00:00:17) trapsize 12519
-\i (00:00:17) trapsize 12936
-\i (00:00:18) trapsize 10481
-\i (00:00:18) trapsize 10481
-\i (00:00:19) generaledit 
-\i (00:21:44) new 
-\i (00:22:25) newdrawfillin "SOT-89.dra" "Package Symbol"
-\t (00:22:25)     Journal end - Fri May 26 22:27:34 2017
+\t (48:27:25) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (48:27:25)     Journal start - Fri Sep 29 22:08:34 2017
+\t (48:27:25)         Host=DAXIONG-PC User=daxiong Pid=11224 CPUs=4
+\t (48:27:25) 
+\d (48:27:25) Database opened: E:/嵌入式/git/PCB_MCU/boardv6_0/BBear_balance_carv2_0.brd
+\i (48:27:25) generaledit 
+\i (48:27:28) artwork 
+\i (48:30:23) setwindow form.film_control
+\i (48:30:23) FORM film_control cancel  
+\i (48:30:23) setwindow pcb
+\i (48:30:23) generaledit 
+\i (48:30:25) open 
+\i (48:30:35) fillin "E:\嵌入式\git\PCB_SPEED\pcb\BBear_speed_sensor.brd"
+\i (48:30:35) cd "E:\嵌入式\git\PCB_SPEED\pcb"
+\t (48:30:35) Opening existing design...
+\t (48:30:35) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (48:30:35) trapsize 12231
+\t (48:30:35)     Journal end - Fri Sep 29 22:11:44 2017

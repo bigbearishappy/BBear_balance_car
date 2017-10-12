@@ -92,19 +92,20 @@
       (Path "Design Resources" ".\bbear_balance_car.dsn")
       (Path "Design Resources" ".\bbear_balance_car.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\bbear_balance_car.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 269"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 269"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 1107 25 399")
-        (Scroll "0 1051")
-        (Zoom "172")
+        (Scroll "-200 0")
+        (Zoom "55")
         (Occurrence "/"))
       (Path "E:\«∂»Î Ω\GIT\PCB_MCU\SCHEMATIC\BBEAR_BALANCE_CAR.DSN")
       (Schematic "SCHEMATIC1")

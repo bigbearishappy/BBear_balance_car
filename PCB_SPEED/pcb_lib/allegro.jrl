@@ -1,0 +1,16 @@
+\t (00:00:04) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:04)     Journal start - Wed Sep 27 21:41:13 2017
+\t (00:00:04)         Host=DAXIONG-PC User=daxiong Pid=11224 CPUs=4
+\t (00:00:04) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Database opened: E:/«∂»Î Ω/git/PCB_SPEED/pcb_lib/CON2_3MM_T.dra
+\t (00:00:06) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:00:06) trapsize 624
+\i (00:00:06) trapsize 607
+\i (00:00:06) trapsize 627
+\i (00:00:07) trapsize 645
+\i (00:00:07) trapsize 645
+\i (00:00:07) generaledit 
+\i (00:00:11) new 
+\i (00:01:07) newdrawfillin "BBear_speed_sensor.brd" "Board"
+\t (00:01:07)     Journal end - Wed Sep 27 21:42:16 2017

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CON2_3MM_T.dra                                )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Sep 26 22:06:56 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/«∂»Î Ω/git/PCB_SPEED/pcb_lib
+    Name      = con2_3mm_t.psm
+    User      = daxiong
+    Machine   = DAXIONG-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
