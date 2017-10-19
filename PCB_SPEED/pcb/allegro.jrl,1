@@ -1,80 +1,20 @@
-\t (48:30:35) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (48:30:35)     Journal start - Fri Sep 29 22:11:44 2017
-\t (48:30:35)         Host=DAXIONG-PC User=daxiong Pid=11224 CPUs=4
-\t (48:30:35) 
-\d (48:30:35) Database opened: E:/嵌入式/git/PCB_SPEED/pcb/BBear_speed_sensor.brd
-\i (48:30:35) generaledit 
-\i (48:30:40) artwork 
-\i (48:31:35) layer priority 
-\i (48:31:36) setwindow form.layerdlg
-\i (48:31:36) FORM layerdlg cancel  
-\i (48:31:37) setwindow pcb
-\i (48:31:37) color192 
-\i (48:31:37) setwindow cvf.dialog
-\i (48:31:37) cvf layer_mode
-\i (48:31:43) cvf layer_tree_item 'Components'
-\i (48:31:44) cvf layer_tree_item 'Manufacturing'
-\i (48:31:44) cvf layer_tree_item 'Drawing Format'
-\i (48:31:45) cvf layer_tree_item 'Manufacturing'
-\i (48:31:46) cvf layer_tree_item 'Components'
-\i (48:31:46) cvf layer_tree_item 'Embedded Geomerty'
-\i (48:31:47) cvf layer_tree_item 'Package Geometry'
-\i (48:31:48) cvf layer_tree_item 'Board Geometry'
-\i (48:31:50) cvf layers_visible board_geometry/outline TRUE
-\i (48:31:51) cvf apply
-\i (48:31:53) cvf okay
-\i (48:32:00) setwindow form.film_control
-\i (48:32:00) FORM film_control filmtree  DRILL_DRAW 
-\i (48:32:02) FORM film_control filmtree popup 'Match Display' DRILL_DRAW 
-\i (48:33:33) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' SILKSCREENBOTTOM 
-\i (48:33:36) FORM film_control filmtree  MANUFACTURING/AUTOSILK_BOTTOM SILKSCREENBOTTOM 
-\i (48:33:37) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' SILKSCREENBOTTOM 
-\i (48:33:38) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/OUTLINE' SILKSCREENBOTTOM 
-\i (48:34:24) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' SILKSCREENTOP 
-\i (48:34:25) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/OUTLINE' SILKSCREENTOP 
-\i (48:35:37) FORM film_control ok  
-\i (48:35:37) setwindow pcb
-\i (48:35:37) generaledit 
-\i (48:35:38) zoom out 1 
-\i (48:35:38) setwindow pcb
-\i (48:35:38) zoom out 52.4951 23.6302
-\t (48:35:38) Grids are drawn 6.5024, 6.5024 apart for enhanced viewability.
-\i (48:35:38) trapsize 24462
-\i (48:35:39) zoom in 1 
-\i (48:35:39) setwindow pcb
-\i (48:35:39) zoom in -37.2798 30.2348
-\t (48:35:39) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (48:35:39) trapsize 12231
-\i (48:35:40) zoom out 1 
-\i (48:35:40) setwindow pcb
-\i (48:35:40) zoom out 86.7417 63.7475
-\t (48:35:40) Grids are drawn 6.5024, 6.5024 apart for enhanced viewability.
-\i (48:35:40) trapsize 24462
-\i (48:35:41) zoom in 1 
-\i (48:35:41) setwindow pcb
-\i (48:35:41) zoom in -4.5010 -7.4364
-\t (48:35:41) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (48:35:41) trapsize 12231
-\i (48:35:41) zoom in 1 
-\i (48:35:41) setwindow pcb
-\i (48:35:41) zoom in -4.5010 -7.4364
-\i (48:35:41) trapsize 6115
-\i (48:35:48) save 
-\i (48:35:49) fillin yes 
-\i (48:35:49) generaledit 
-\i (48:35:49) zoom out 1 
-\i (48:35:50) setwindow pcb
-\i (48:35:50) zoom out 27.6664 17.2701
-\i (48:35:50) trapsize 12231
-\i (48:35:53) artwork 
-\i (48:35:57) setwindow form.film_control
-\i (48:35:57) FORM film_control cancel  
-\i (48:35:57) setwindow pcb
-\i (48:35:57) generaledit 
-\i (48:35:58) open 
-\i (48:36:03) fillin "E:\嵌入式\git\PCB_MCU\boardv6_0\BBear_balance_carv2_0.brd"
-\i (48:36:03) cd "E:\嵌入式\git\PCB_MCU\boardv6_0"
-\t (48:36:03) Opening existing design...
-\t (48:36:03) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (48:36:03) trapsize 12850
-\t (48:36:03)     Journal end - Fri Sep 29 22:17:12 2017
+\t (00:00:21) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:21)     Journal start - Sat Oct 14 20:46:16 2017
+\t (00:00:21)         Host=DAXIONG-PC User=daxiong Pid=19384 CPUs=4
+\t (00:00:21) 
+\t (00:00:22) Opening existing design...
+\d (00:00:23) Database opened: E:/嵌入式/git/PCB_SPEED/pcb/BBear_speed_sensor.brd
+\t (00:00:23) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:00:23) trapsize 6127
+\i (00:00:23) trapsize 5958
+\i (00:00:23) trapsize 6157
+\i (00:00:24) trapsize 6116
+\i (00:00:24) trapsize 6116
+\i (00:00:25) generaledit 
+\i (00:00:29) open 
+\i (00:00:38) fillin "E:\嵌入式\git\PCB_MCU\boardv6_0\BBear_balance_carv2_0.brd"
+\i (00:00:38) cd "E:\嵌入式\git\PCB_MCU\boardv6_0"
+\t (00:00:38) Opening existing design...
+\t (00:00:38) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:00:38) trapsize 12850
+\t (00:00:38)     Journal end - Sat Oct 14 20:46:34 2017

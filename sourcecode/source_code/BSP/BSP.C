@@ -79,7 +79,7 @@ void GPIO_Configuration()
 /************************************I2C GPIO*********************************/
 	GPIO_InitTypeDef GPIO_InitStructure;
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB | \
-	RCC_APB2Periph_GPIOC | RCC_APB2Periph_AFIO, ENABLE);
+	RCC_APB2Periph_GPIOC /*| RCC_APB2Periph_AFIO*/, ENABLE);
 
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;						//SCL
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
@@ -113,12 +113,22 @@ void GPIO_Configuration()
   	GPIO_Init(GPIOB, &GPIO_InitStructure);
 /***********************************SPEED*************************************/
 	GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_10;					 		//left speed
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
 	//GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOB, &GPIO_InitStructure);
 	
 
 	GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_11;							//right speed
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+	//GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_Init(GPIOB, &GPIO_InitStructure);
+
+	GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_12;							//speed
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+	//GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_Init(GPIOB, &GPIO_InitStructure);
+
+	GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_13;							//speed
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
 	//GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOB, &GPIO_InitStructure);
@@ -236,23 +246,41 @@ void EXTI_Configuration(void)
   EXTI_InitTypeDef EXTI_InitStructure;
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE); 
 
-  EXTI_ClearITPendingBit(EXTI_Line10);
+  EXTI_DeInit();
 
+  EXTI_ClearITPendingBit(EXTI_Line10);    	
   EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
-  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
+  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising_Falling;
   EXTI_InitStructure.EXTI_Line = EXTI_Line10;
   EXTI_InitStructure.EXTI_LineCmd = ENABLE;
   EXTI_Init(&EXTI_InitStructure);
   GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource10);
 
-  EXTI_ClearITPendingBit(EXTI_Line11);
-
+  
+  EXTI_ClearITPendingBit(EXTI_Line11); 
   EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
-  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
+  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising_Falling;
   EXTI_InitStructure.EXTI_Line = EXTI_Line11;
   EXTI_InitStructure.EXTI_LineCmd = ENABLE;
   EXTI_Init(&EXTI_InitStructure);
   GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource11);
+#if 1
+  EXTI_ClearITPendingBit(EXTI_Line12); 
+  EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
+  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising_Falling;
+  EXTI_InitStructure.EXTI_Line = EXTI_Line12;
+  EXTI_InitStructure.EXTI_LineCmd = ENABLE;
+  EXTI_Init(&EXTI_InitStructure);
+  GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource12);
+
+  EXTI_ClearITPendingBit(EXTI_Line13);		
+  EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
+  EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Rising_Falling;
+  EXTI_InitStructure.EXTI_Line = EXTI_Line13;
+  EXTI_InitStructure.EXTI_LineCmd = ENABLE;
+  EXTI_Init(&EXTI_InitStructure);
+  GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource13);
+#endif
 }
 
 /******************************************************************************
@@ -266,29 +294,143 @@ Returns£º
 Description:
 			the interrupt function of PB10,PB11
 ******************************************************************************/
+#define WAIT_TIME 35
 void EXTI15_10_IRQHandler(void)
 {  
+int i;
+uint16_t GPIOx_val = 0x0000;
+uint8_t gpiob10,gpiob12,gpiob11,gpiob13;
+#if 0
 	if(EXTI_GetITStatus(EXTI_Line10) != RESET){
-		if(GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_12) == 0){
-			speed_dir_l= 1;
+		if(leftspeed == 1)
 			leftspeed++;
-		}else{
-			speed_dir_l= 2;
+		if(leftspeed == 2)
 			leftspeed--;
-		}
 		EXTI_ClearITPendingBit(EXTI_Line10);
 	}
+	if(EXTI_GetITStatus(EXTI_Line12) != RESET){
+		if(leftspeed == 1)
+			leftspeed++;
+		if(leftspeed == 2)
+			leftspeed--;
+		EXTI_ClearITPendingBit(EXTI_Line12);
+	}
 	
-	if(EXTI_GetITStatus(EXTI_Line11) != RESET){	
-		if(GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_13) == 0){
-			speed_dir_r= 1;
+	if(EXTI_GetITStatus(EXTI_Line11) != RESET){
+		if(speed_dir_r == 1)
 			rightspeed++;
-		}else{
-			speed_dir_r= 2;
+		if(speed_dir_r == 2)
 			rightspeed--;
-		}
 		EXTI_ClearITPendingBit(EXTI_Line11);
-	}	
+	}
+	if(EXTI_GetITStatus(EXTI_Line13) != RESET){
+		if(speed_dir_r == 1)
+			rightspeed++;
+		if(speed_dir_r == 2)
+			rightspeed--;
+		EXTI_ClearITPendingBit(EXTI_Line13);
+	}
+#else
+	if(EXTI_GetITStatus(EXTI_Line10) != RESET){
+		for(i = 0;i < WAIT_TIME; i++);
+		GPIOx_val = GPIOB->IDR;//printf("%x\r\n",GPIOx_val);
+		gpiob10 = (GPIOx_val & 0x0400)>>10;
+		gpiob12 = (GPIOx_val & 0x1000)>>12;
+		//printf("%x %x\r\n",gpiob10,gpiob12);
+		if(gpiob10 == 0){
+			if(gpiob12 == 0){
+				speed_dir_l = 1;//FORWARD
+				leftspeed++;//printf("00+\r\n");
+			}else{
+				speed_dir_l = 2;//BACK
+				leftspeed--;//printf("01-\r\n");
+			}
+		}else{
+			 if(gpiob12 == 1){
+				speed_dir_l = 1;//FORWARD
+				leftspeed++;//printf("11+\r\n");
+			}else{
+				speed_dir_l = 2;//BACK
+				leftspeed--;//printf("10-\r\n");
+			}
+		}
+		EXTI_ClearITPendingBit(EXTI_Line10);	
+	}
+	if(EXTI_GetITStatus(EXTI_Line12) != RESET){
+		for(i = 0;i < WAIT_TIME; i++);
+		GPIOx_val = GPIOB->IDR;//printf("%x\r\n",GPIOx_val);
+		gpiob10 = (GPIOx_val & 0x0400)>>10;
+		gpiob12 = (GPIOx_val & 0x1000)>>12;
+		//printf("%x %x\r\n",gpiob10,gpiob12);
+		if(gpiob12 == 0){
+			if(gpiob10 == 1){
+				speed_dir_l = 1;//FORWARD
+				leftspeed++;//printf("10+\r\n");
+			}else{
+				speed_dir_l = 2;//BACK
+				leftspeed--;//printf("00-\r\n");
+			}
+		}else{
+			if(gpiob10 == 0){
+				speed_dir_l = 1;//FORWARD
+				leftspeed++;//printf("01+\r\n");
+			}else{
+				speed_dir_l = 2;//BACK
+				leftspeed--;//printf("11-\r\n");
+			}
+		}		
+		EXTI_ClearITPendingBit(EXTI_Line12);	
+	}
+
+	if(EXTI_GetITStatus(EXTI_Line11) != RESET){
+		for(i = 0;i < WAIT_TIME; i++);
+		GPIOx_val = GPIOB->IDR;
+		gpiob11 = (GPIOx_val & 0x0800)>>11;
+		gpiob13 = (GPIOx_val & 0x2000)>>13;
+		if(gpiob11 == 0){
+			if(gpiob13 == 0){
+				speed_dir_r = 1;//FORWARD
+				rightspeed++;//printf("1 0 3 0 R++\r\n");
+			}else{
+				speed_dir_r = 2;//BACK
+				rightspeed--;//printf("1 0 3 1 L--\r\n");
+			}
+		}else{
+			if(gpiob13 == 1){
+				speed_dir_r = 1;//FORWARD
+				rightspeed++;//printf("1 1 3 1 R++\r\n");
+			}else{
+				speed_dir_r = 2;//BACK
+				rightspeed--;//printf("1 1 3 0 R--\r\n");
+			}
+		}		
+		EXTI_ClearITPendingBit(EXTI_Line11);	
+	}
+	if(EXTI_GetITStatus(EXTI_Line13) != RESET){
+		for(i = 0;i < WAIT_TIME; i++);
+		GPIOx_val = GPIOB->IDR;
+		gpiob11 = (GPIOx_val & 0x0800)>>11;
+		gpiob13 = (GPIOx_val & 0x2000)>>13;
+		if(gpiob13 == 0){
+			if(gpiob11 == 1){
+				speed_dir_r = 1;//FORWARD
+				rightspeed++;//printf("1 1 3 0 R++\r\n");
+			}else{
+				speed_dir_r = 2;//BACK
+				rightspeed--;//printf("1 0 3 0 R--\r\n");
+			}
+		}else{
+			if(gpiob11 == 0){
+				speed_dir_r = 1;//FORWARD
+				rightspeed++;//printf("1 0 3 1 R++\r\n");
+			}else{
+				speed_dir_r = 2;//BACK
+				rightspeed--;//printf("1 1 3 1 R--\r\n");
+			}
+		}
+		EXTI_ClearITPendingBit(EXTI_Line13);	
+	}
+#endif
 }
 
 /******************************************************************************
@@ -350,11 +492,14 @@ void TIM3_IRQHandler(void)
 		if(leftspeed - rightspeed > 10 || leftspeed - rightspeed < -10)
 			dir = 5;*/
 
-		res_l = leftspeed;
-		res_r = rightspeed;
-		//printf("l:%d l_d:%d r:%d r_d:%d\r\n",leftspeed, speed_dir_l, rightspeed, speed_dir_r);
-		leftspeed = 0;
-		rightspeed = 0;
+//		res_l = leftspeed;
+//		res_r = rightspeed;
+//		if(!leftspeed) speed_dir_l = 0;
+//		if(!rightspeed) speed_dir_r = 0;
+//		if(res_l!=0 || res_r!=0)
+//			printf("l:%d    l_d:%d    r:%d    r_d:%d\r\n",leftspeed, speed_dir_l, rightspeed, speed_dir_r);
+//		leftspeed = 0;
+//		rightspeed = 0;
 
 		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
 
@@ -435,7 +580,7 @@ void TIM2_IRQHandler(void)
 		radian = asin(radian);
 		radian = (radian * 180.0) / 3.1415926;
 
-		radian_temp1 = (((float)gyro_y) / 16.4) * 0.01;	
+		radian_temp1 = (((float)gyro_y) / 16.4) * 0.01;//0.05 mean cal the radian every 0.05s	
 		
 		radian_pt += radian_temp1;
 
@@ -467,11 +612,21 @@ void TIM2_IRQHandler(void)
 			target_dir = 0;
 		}
 
-		if(target_dir == 1)		//forward
-			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 4);
-		else if(target_dir == -1)	//backward
-			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, -4);
-		else
+		//get the speed of the car
+		res_l = leftspeed;
+		res_r = rightspeed;
+		//if(!leftspeed) speed_dir_l = 0;
+		//if(!rightspeed) speed_dir_r = 0;
+		//printf("l:%d    l_d:%d    r:%d    r_d:%d\r\n",leftspeed, speed_dir_l, rightspeed, speed_dir_r);
+		leftspeed = 0;
+		rightspeed = 0;
+
+
+//		if(target_dir == 1)		//forward
+//			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 4);
+//		else if(target_dir == -1)	//backward
+//			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, -4);
+//		else
 			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
 		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,target_dir);
 		balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
@@ -481,7 +636,7 @@ void TIM2_IRQHandler(void)
 //		printf("%d ",balan_pwm);
 //		printf("%d ",res_l); 
 //		printf("%d\r\n",res_r);
-//		printf("%.1lf ",radian_filted);
+//		printf(",%.1lf\n",radian_filted);
 //		printf(" %d",balan_pwm_ang);
 //		printf(" %d\n",balan_pwm_spd);
 //		printf(",%.1lf\n",radian_filted);

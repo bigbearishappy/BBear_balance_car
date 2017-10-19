@@ -78,7 +78,7 @@ void Cal_angle(void)
 
 		TIM_DeInit(TIM2);
 
-		TIM_TimeBaseStructure.TIM_Period = 10000-1;
+		TIM_TimeBaseStructure.TIM_Period = 10000 - 1;//10000-1;
 		TIM_TimeBaseStructure.TIM_Prescaler = 72-1;
 		TIM_TimeBaseStructure.TIM_ClockDivision = 0x0; 
 		TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;  
@@ -158,11 +158,15 @@ Description:
 ******************************************************************************/
 void PWM_Control(int32_t motorL, int32_t motorR)
 {
-//	if(motorL >= 0 && motorR >= 0)
-//		speed_dir = 1;
+//	if(motorL >= 0 && motorR >= 0){
+//		speed_dir_l = 1;
+//		speed_dir_r = 1;
+//	}
 //	//if(motorL < -250 && motorR < -250)
-//	if(motorL < -0 && motorR < -0)
-//		speed_dir = 2;
+//	if(motorL < -0 && motorR < -0){
+//		speed_dir_l = 2;
+//		speed_dir_r = 2;
+//	}
 
 	if(motorL >= 1000)motorL = 1000;
 	if(motorL < -1000)motorL = -1000;

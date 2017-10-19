@@ -67,14 +67,8 @@ int32_t last_target = 0;
 int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 {
 	int32_t temp;
-//	if(target == 1)
-//		current = current + 10;//target speed is 10
-//	else if(target == -1)
-//		current = current - 10;//target speed is -10
-//	else
-		current = current + 0;//target speed is 0
-	//temp = (float)(current) * 0.5;
-	temp = current;
+	current = current + 0;//target speed is 0
+	temp = (int32_t)(current/2);
 	spd_v = spd_v * 4 / 5 + (float)(current) / 5;
 
 	if(target == 0){
@@ -83,16 +77,20 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 		else
 			spd_length = 0;
 	} 
-//	if(target == 1)
-//		spd_length -= 15;
-//	if(target == -1)
-//		spd_length += 15;
+	if(target == 1){//forward
+		spd_length += 1;
+	}
+	if(target == -1){//forward
+		spd_length -= 1;
+	}
+
 	if(spd_length > 1000)//1000
 		spd_length = 1000;
 	if(spd_length < -1000)
 		spd_length = -1000;
 
 	last_target = target;
+//	printf("target:%d\r\n",target);
 //	printf("spd=%.1lf\r\n",spd_v);
 //	printf("l=%d\n",spd_length);
 //	printf("tem=%.1lf\r\n",temp);	

@@ -1,18 +1,22 @@
-\t (48:27:25) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (48:27:25)     Journal start - Fri Sep 29 22:08:34 2017
-\t (48:27:25)         Host=DAXIONG-PC User=daxiong Pid=11224 CPUs=4
-\t (48:27:25) 
-\d (48:27:25) Database opened: E:/嵌入式/git/PCB_MCU/boardv6_0/BBear_balance_carv2_0.brd
-\i (48:27:25) generaledit 
-\i (48:27:28) artwork 
-\i (48:30:23) setwindow form.film_control
-\i (48:30:23) FORM film_control cancel  
-\i (48:30:23) setwindow pcb
-\i (48:30:23) generaledit 
-\i (48:30:25) open 
-\i (48:30:35) fillin "E:\嵌入式\git\PCB_SPEED\pcb\BBear_speed_sensor.brd"
-\i (48:30:35) cd "E:\嵌入式\git\PCB_SPEED\pcb"
-\t (48:30:35) Opening existing design...
-\t (48:30:35) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (48:30:35) trapsize 12231
-\t (48:30:35)     Journal end - Fri Sep 29 22:11:44 2017
+\t (48:36:03) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (48:36:03)     Journal start - Fri Sep 29 22:17:12 2017
+\t (48:36:03)         Host=DAXIONG-PC User=daxiong Pid=11224 CPUs=4
+\t (48:36:03) 
+\d (48:36:03) Database opened: E:/嵌入式/git/PCB_MCU/boardv6_0/BBear_balance_carv2_0.brd
+\i (48:36:03) generaledit 
+\i (48:36:06) artwork 
+\i (48:36:20) setwindow form.film_control
+\i (48:36:20) FORM film_control filmtree  DRILL_DRAW 
+\i (48:36:20) FORM film_control filmtree  OUTLINE 
+\i (48:36:21) FORM film_control filmtree  PASTEMASK_BOTTOM 
+\i (48:36:22) FORM film_control filmtree  BOTTOM 
+\i (48:36:23) FORM film_control cancel  
+\i (48:36:23) setwindow pcb
+\i (48:36:23) generaledit 
+\i (48:36:24) open 
+\i (48:36:30) fillin "E:\嵌入式\git\PCB_SPEED\pcb\BBear_speed_sensor.brd"
+\i (48:36:30) cd "E:\嵌入式\git\PCB_SPEED\pcb"
+\t (48:36:30) Opening existing design...
+\t (48:36:30) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (48:36:30) trapsize 6115
+\t (48:36:30)     Journal end - Fri Sep 29 22:17:39 2017
