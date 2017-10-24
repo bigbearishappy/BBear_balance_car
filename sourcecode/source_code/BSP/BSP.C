@@ -613,11 +613,16 @@ void TIM2_IRQHandler(void)
 		}
 
 		//get the speed of the car
-		res_l = leftspeed;
-		res_r = rightspeed;
-		//if(!leftspeed) speed_dir_l = 0;
-		//if(!rightspeed) speed_dir_r = 0;
-		//printf("l:%d    l_d:%d    r:%d    r_d:%d\r\n",leftspeed, speed_dir_l, rightspeed, speed_dir_r);
+		if(leftspeed >= 0)
+			res_l = leftspeed>=3?3:leftspeed;
+		else
+			res_l = leftspeed<=-3?-3:leftspeed;
+
+		if(rightspeed >= 0)
+			res_r = rightspeed>=3?3:rightspeed;
+		else
+			res_r = rightspeed<=-3?-3:rightspeed;
+		//printf("l:%d    l_d:%d    r:%d    r_d:%d\r\n",res_l, speed_dir_l, res_r, speed_dir_r);
 		leftspeed = 0;
 		rightspeed = 0;
 
