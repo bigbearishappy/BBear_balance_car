@@ -20,6 +20,7 @@ uint8_t flag_l = 1, flag_r = 1;
 uint8_t heart_flag = 0;
 uint8_t remote_flag = 0x00;
 int balan_pwm_ang = 0,balan_pwm_spd = 0,balan_pwm = 0;
+int balan_pwm_spd_l,balan_pwm_spd_r;
 
 unsigned char control_data = 0x00;
 int32_t run_l = 0x00,run_r = 0x00;
@@ -203,7 +204,7 @@ void NVIC_Configuration(void)
    //NVIC_SetVectorTable(NVIC_VectTab_FLASH, 0x0);
   
    /* Configure the NVIC Preemption Priority Bits */  
-   NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0);  
+   NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);  
 //   /* Enable the USART1 Interrupt */
 //   NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;       
 //   NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
@@ -212,7 +213,7 @@ void NVIC_Configuration(void)
 //   NVIC_Init(&NVIC_InitStructure); 						   
   
 	NVIC_InitStructure.NVIC_IRQChannel = TIM3_IRQn;  
-	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1; 
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE; 
 	NVIC_Init(&NVIC_InitStructure); 
@@ -224,7 +225,7 @@ void NVIC_Configuration(void)
   NVIC_Init(&NVIC_InitStructure);
  
   NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		
-  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
   NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;//3        
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;	        
   NVIC_Init(&NVIC_InitStructure);
@@ -474,96 +475,9 @@ Description:
 void TIM3_IRQHandler(void)
 {
 	if(TIM_GetITStatus(TIM3, TIM_IT_Update) == SET){
-/*
-		if(leftspeed > 20)
-			leftspeed = 20;
-			res_l = leftspeed;
-
-		leftspeed = 0;
-
-		if(rightspeed >20)
-			rightspeed = 20 ;
-			res_r = rightspeed;
-
-		rightspeed = 0;
-
-		if((leftspeed == 0 && rightspeed != 0)||(leftspeed != 0 && rightspeed == 0))
-			dir = 5;
-		if(leftspeed - rightspeed > 10 || leftspeed - rightspeed < -10)
-			dir = 5;*/
-
-//		res_l = leftspeed;
-//		res_r = rightspeed;
-//		if(!leftspeed) speed_dir_l = 0;
-//		if(!rightspeed) speed_dir_r = 0;
-//		if(res_l!=0 || res_r!=0)
-//			printf("l:%d    l_d:%d    r:%d    r_d:%d\r\n",leftspeed, speed_dir_l, rightspeed, speed_dir_r);
-//		leftspeed = 0;
-//		rightspeed = 0;
-
 		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
-
-#if 0
-//		if(radian_filted < 0)
-//		{
-//			res_l = res_l * -1;
-//			res_r = res_r * -1;
-//		}
-//		printf("resl = %d ",res_l); 
-//		printf("resr = %d\r\n",res_r);
-#endif
-
-		//remote_flag++;
-		
-			control_data = Remote_Scan();
-			if(control_data){
-			heart_flag++;
-			if(heart_flag % 2){
-				GPIO_SetBits(GPIOB, GPIO_Pin_5);
-				//GPIO_SetBits(GPIOC, GPIO_Pin_13);
-				}
-			else{
-				GPIO_ResetBits(GPIOB, GPIO_Pin_5);
-				//GPIO_ResetBits(GPIOC, GPIO_Pin_13);
-				}
-
-			if(heart_flag >= 2)
-				heart_flag = 0;
-			}		
-	}	
-}
-
-/******************************************************************************
-Name：TIM2_IRQHandler 
-Function:	
-		  	TIM2 interrupt function to calculate the angle of the car
-Parameters：
-		   	void
-Returns：
-			void 
-Description:
-			null
-******************************************************************************/
-u8 	RmtSta=0;	  	  
-u16 Dval;		//下降沿时计数器的值
-u32 RmtRec=0;	//红外接收到的数据	   		    
-u8  RmtCnt=0;	//按键按下的次数
-
-void TIM2_IRQHandler(void)
-{
-	if(TIM_GetITStatus(TIM2, TIM_IT_Update) == SET){
-		
-		if(RmtSta&0x80){										//上次有数据被接收到了
-			RmtSta&=~0X10;										//取消上升沿已经被捕获标记
-			if((RmtSta&0X0F)==0X00)RmtSta|=1<<6;				//标记已经完成一次按键的键值信息采集
-			if((RmtSta&0X0F)<14)RmtSta++;
-			else
-			{
-				RmtSta&=~(1<<7);								//清空引导标识
-				RmtSta&=0XF0;									//清空计数器	
-			}						 	   	
-		}
-		
+	
+#if 1		
 		p = buf;
 		READ_MPU6050(p);
 		acc_x = p[0];
@@ -580,18 +494,13 @@ void TIM2_IRQHandler(void)
 		radian = asin(radian);
 		radian = (radian * 180.0) / 3.1415926;
 
-		radian_temp1 = (((float)gyro_y) / 16.4) * 0.01;//0.05 mean cal the radian every 0.05s	
+		radian_temp1 = (((float)gyro_y) / 16.4) * 0.01;//0.01 mean cal the radian every 0.01s	
 		
 		radian_pt += radian_temp1;
 
 		radian_filted = Kaerman_Filter(radian_filted, -radian, radian_temp1);
-		
-//		if(speed_dir == 2 && res_l > 0 && res_r > 0)
-//		{
-//			res_l = res_l * -1;
-//			res_r = res_r * -1;
-//		}
 
+		//printf("0x%x\r\n",control_data);
 		if(control_data == 0x18)
 			target_dir = 1;
 		else if(control_data == 0x4a)
@@ -611,7 +520,7 @@ void TIM2_IRQHandler(void)
 			run_r = 0;
 			target_dir = 0;
 		}
-
+		control_data = 0x00;
 		//get the speed of the car
 		if(leftspeed >= 0)
 			res_l = leftspeed>=3?3:leftspeed;
@@ -626,17 +535,12 @@ void TIM2_IRQHandler(void)
 		leftspeed = 0;
 		rightspeed = 0;
 
+		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
+		balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir);
+		balan_pwm_spd_r  = PID_Cal_Speed(&Speed_PID,res_r,target_dir);
 
-//		if(target_dir == 1)		//forward
-//			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 4);
-//		else if(target_dir == -1)	//backward
-//			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, -4);
-//		else
-			balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
-		balan_pwm_spd = PID_Cal_Speed(&Speed_PID,res_r + res_l,target_dir);
-		balan_pwm =  balan_pwm_ang + balan_pwm_spd;	
+		PWM_Control(balan_pwm_ang + balan_pwm_spd_l + run_l, balan_pwm_ang + balan_pwm_spd_r + run_r);
 
-		PWM_Control(balan_pwm + run_l, balan_pwm + run_r);
 //		printf("%x\n",speed_dir);
 //		printf("%d ",balan_pwm);
 //		printf("%d ",res_l); 
@@ -646,6 +550,72 @@ void TIM2_IRQHandler(void)
 //		printf(" %d\n",balan_pwm_spd);
 //		printf(",%.1lf\n",radian_filted);
 //		printf("%.1lf,%.1lf,%.1lf\r\n",radian_filted,-radian,radian_pt);
+#endif	
+	}	
+}
+
+/******************************************************************************
+Name：TIM2_IRQHandler 
+Function:	
+		  	TIM2 interrupt function to calculate the angle of the car
+Parameters：
+		   	void
+Returns：
+			void 
+Description:
+			null
+******************************************************************************/
+u8 	RmtSta=0;	  	  
+u16 Dval;		//下降沿时计数器的值
+u32 RmtRec=0;	//红外接收到的数据	   		    
+u8  RmtCnt=0;	//按键按下的次数
+u8 t1,t2;
+void TIM2_IRQHandler(void)
+{
+	if(TIM_GetITStatus(TIM2, TIM_IT_Update) == SET){
+		
+		if(RmtSta&0x80){										//上次有数据被接收到了
+			RmtSta&=~0X10;										//取消上升沿已经被捕获标记
+			if((RmtSta&0X0F)==0X00)RmtSta|=1<<6;				//标记已经完成一次按键的键值信息采集
+			if((RmtSta&0X0F)<14)RmtSta++;
+			else
+			{
+				RmtSta&=~(1<<7);								//清空引导标识
+				RmtSta&=0XF0;									//清空计数器	
+			}						 	   	
+		}
+		      
+	if(RmtSta&(1<<6)){															//得到一个按键的所有信息了	 
+	    t1=RmtRec>>24;															//得到地址码
+	    t2=(RmtRec>>16)&0xff;													//得到地址反码 
+ 	    if((t1==(u8)~t2)&&t1==REMOTE_ID){ 										//检验遥控识别码(ID)及地址 	    
+	        t1=RmtRec>>8;
+	        t2=RmtRec; 	
+	        //if(t1==(u8)~t2)
+			//	sta=t1;															//键值正确	 
+			control_data = t1;
+		}   
+		if((control_data==0)||((RmtSta&0X80)==0)){										//按键数据错误/遥控已经没有按下了		
+		 	RmtSta&=~(1<<6);													//清除接收到有效按键标识
+			RmtCnt=0;															//清除按键次数计数器
+		}
+	}
+	if(control_data){
+			//printf("%x\r\n",control_data);
+			heart_flag++;
+			if(heart_flag % 2){
+				GPIO_SetBits(GPIOB, GPIO_Pin_5);
+				//GPIO_SetBits(GPIOC, GPIO_Pin_13);
+				}
+			else{
+				GPIO_ResetBits(GPIOB, GPIO_Pin_5);
+				//GPIO_ResetBits(GPIOC, GPIO_Pin_13);
+				}
+
+			if(heart_flag >= 2)
+				heart_flag = 0;
+			} 
+
 		TIM_ClearITPendingBit(TIM2, TIM_FLAG_Update);
 	} 
 	 	

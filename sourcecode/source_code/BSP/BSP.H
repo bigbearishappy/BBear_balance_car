@@ -47,6 +47,7 @@ extern pid_s Angle_PID;										//struct to store the PID data
 extern pid_s Speed_PID;
 
 extern unsigned char control_data;
+extern uint8_t heart_flag;
 extern int32_t run_l,run_r;
 
 void RCC_Configuration(void);

@@ -80,7 +80,7 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
 	if(target == 1){//forward
 		spd_length += 1;
 	}
-	if(target == -1){//forward
+	if(target == -1){//back
 		spd_length -= 1;
 	}
 
