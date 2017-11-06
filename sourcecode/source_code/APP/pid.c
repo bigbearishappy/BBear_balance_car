@@ -61,38 +61,61 @@ Returns£º
 Description:
 			null
 ******************************************************************************/
-int32_t spd_length = 0;
+float spd_length = 0.0,spd_length_l = 0.0, spd_length_r = 0.0;
 float spd_v = 0;	 //the speed after filter
 int32_t last_target = 0;
-int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target)
+int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target,unsigned char which_wheel)
 {
 	int32_t temp;
+	//target = 1;
 	current = current + 0;//target speed is 0
-	temp = (int32_t)(current/2);
+	//if(target == 1)current += 1;
+	//else if(target == 2) current -= 1;
+	temp = (int32_t)(current);
 	spd_v = spd_v * 4 / 5 + (float)(current) / 5;
 
 	if(target == 0){
-		if(last_target == 0)
-			spd_length += (int32_t)temp;
-		else
-			spd_length = 0;
-	} 
-	if(target == 1){//forward
-		spd_length += 1;
+		if(LEFT_WHEEL == which_wheel)
+			spd_length_l += (int32_t)temp;
+		else if(RIGHT_WHEEL == which_wheel)
+			spd_length_r+= (int32_t)temp;
 	}
-	if(target == -1){//back
-		spd_length -= 1;
+	 
+	if(LEFT_WHEEL == which_wheel){
+		if(target == 1)
+			spd_length_l += ADD_VALUE_FB;
+		else if(target == 2)
+			spd_length_l -= ADD_VALUE_FB;
+		else if(target == 3)
+			spd_length_l += ADD_VALUE_LR;
+		else if(target == 4)
+			spd_length_l -= ADD_VALUE_LR;
+
+		 spd_length = spd_length_l;
 	}
+	else if(RIGHT_WHEEL == which_wheel){
+		if(target == 1)
+			spd_length_r += ADD_VALUE_FB;
+		else if(target == 2)
+			spd_length_r -= ADD_VALUE_FB;
+		else if(target == 3)
+			spd_length_r -= ADD_VALUE_LR;
+		else if(target == 4)
+			spd_length_r += ADD_VALUE_LR;
 
-	if(spd_length > 1000)//1000
-		spd_length = 1000;
-	if(spd_length < -1000)
-		spd_length = -1000;
+		 spd_length = spd_length_r;
+	}
+		 
+#define TEMP 1000
+	if(spd_length > TEMP)//1000
+		spd_length = TEMP;
+	if(spd_length < -TEMP)
+		spd_length = -TEMP;
 
-	last_target = target;
 //	printf("target:%d\r\n",target);
 //	printf("spd=%.1lf\r\n",spd_v);
 //	printf("l=%d\n",spd_length);
-//	printf("tem=%.1lf\r\n",temp);	
+//	printf("tem=%.1lf\r\n",temp);
+//	printf(",%.1lf,%.1lf\n",spd_length_l,spd_length_r);	
 	return (int32_t)(p->Kp * spd_v + p->Ki * (float)spd_length + p->Kd * temp);
 }

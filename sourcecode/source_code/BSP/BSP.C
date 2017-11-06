@@ -504,15 +504,15 @@ void TIM3_IRQHandler(void)
 		if(control_data == 0x18)
 			target_dir = 1;
 		else if(control_data == 0x4a)
-			target_dir = -1;
+			target_dir = 2;
 		else if(control_data == 0x10){
-			run_l = L_R;
-			run_r = -L_R;
+			//run_l = L_R;
+			//run_r = -L_R;
 			target_dir = 3;
 		}
 		else if(control_data == 0x5a){
-			run_l = -L_R;
-			run_r = L_R;
+			//run_l = -L_R;
+			//run_r = L_R;
 			target_dir = 4;
 		}
 		else{
@@ -531,15 +531,18 @@ void TIM3_IRQHandler(void)
 			res_r = rightspeed>=3?3:rightspeed;
 		else
 			res_r = rightspeed<=-3?-3:rightspeed;
-		//printf("l:%d    l_d:%d    r:%d    r_d:%d\r\n",res_l, speed_dir_l, res_r, speed_dir_r);
 		leftspeed = 0;
 		rightspeed = 0;
 
 		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
-		balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir);
-		balan_pwm_spd_r  = PID_Cal_Speed(&Speed_PID,res_r,target_dir);
+		balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir,LEFT_WHEEL);
+		balan_pwm_spd_r  = PID_Cal_Speed(&Speed_PID,res_r,target_dir,RIGHT_WHEEL);
 
-		PWM_Control(balan_pwm_ang + balan_pwm_spd_l + run_l, balan_pwm_ang + balan_pwm_spd_r + run_r);
+		if(radian_filted > -45 && radian_filted < 45)
+			PWM_Control(balan_pwm_ang + balan_pwm_spd_l , balan_pwm_ang + balan_pwm_spd_r );
+		else{
+			PWM_Control(0, 0);
+		}
 
 //		printf("%x\n",speed_dir);
 //		printf("%d ",balan_pwm);
@@ -600,6 +603,7 @@ void TIM2_IRQHandler(void)
 			RmtCnt=0;															//清除按键次数计数器
 		}
 	}
+	#if 0
 	if(control_data){
 			//printf("%x\r\n",control_data);
 			heart_flag++;
@@ -614,7 +618,13 @@ void TIM2_IRQHandler(void)
 
 			if(heart_flag >= 2)
 				heart_flag = 0;
-			} 
+			}
+	#else
+	if(control_data)
+		GPIO_SetBits(GPIOB, GPIO_Pin_5);
+	else
+		GPIO_ResetBits(GPIOB, GPIO_Pin_5);
+	#endif
 
 		TIM_ClearITPendingBit(TIM2, TIM_FLAG_Update);
 	} 
