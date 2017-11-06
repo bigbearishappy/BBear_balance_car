@@ -8,7 +8,7 @@
 #define RIGHT_WHEEL	0x52//'R' 's ascii code is 0x52
 
 #define ADD_VALUE_LR	0.4
-#define ADD_VALUE_FB	1
+#define ADD_VALUE_FB	0.1//1
 
 typedef struct PID
 {
