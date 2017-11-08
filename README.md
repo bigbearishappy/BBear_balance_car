@@ -1,6 +1,16 @@
 # BBear_balance_car
 it'a mini auto balance car which use the mini motor to drive the car
 
+20171108
+Now we have the new speed sensor for the car,and the MCU board had been updated to version 6.0.
+Our new speed sensor picture is as follow:
+![index](https://github.com/bigbearishappy/BBear_balance_car/raw/master/doc/car_picture/BBear_balancecar_speedsensor.jpg)
+![index](https://github.com/bigbearishappy/BBear_balance_car/raw/master/doc/car_picture/BBear_balancecar_speedsensor-1.jpg)
+
+What's more?
+We get the new 3D printing wheel,just as follow picture:
+![index](https://github.com/bigbearishappy/BBear_balance_car/raw/master/doc/car_picture/BBear_balancecar_new_wheel.jpg)
+
 20170405
 The newest version of the car is version 5.0.
 I have fix some error of the PCB schematic to make the PCB work better.
