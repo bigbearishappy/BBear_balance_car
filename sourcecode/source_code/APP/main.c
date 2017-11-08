@@ -14,7 +14,7 @@ Description:
 ******************************************************************************/
 void SystemInit(){}
 int main()
-{
+{	
 	RCC_Configuration();				//initialize the system clock
 	USART_Configuration();				//initialize the usart
 	GPIO_Configuration();

@@ -1,22 +1,168 @@
-\t (48:36:03) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (48:36:03)     Journal start - Fri Sep 29 22:17:12 2017
-\t (48:36:03)         Host=DAXIONG-PC User=daxiong Pid=11224 CPUs=4
-\t (48:36:03) 
-\d (48:36:03) Database opened: E:/嵌入式/git/PCB_MCU/boardv6_0/BBear_balance_carv2_0.brd
-\i (48:36:03) generaledit 
-\i (48:36:06) artwork 
-\i (48:36:20) setwindow form.film_control
-\i (48:36:20) FORM film_control filmtree  DRILL_DRAW 
-\i (48:36:20) FORM film_control filmtree  OUTLINE 
-\i (48:36:21) FORM film_control filmtree  PASTEMASK_BOTTOM 
-\i (48:36:22) FORM film_control filmtree  BOTTOM 
-\i (48:36:23) FORM film_control cancel  
-\i (48:36:23) setwindow pcb
-\i (48:36:23) generaledit 
-\i (48:36:24) open 
-\i (48:36:30) fillin "E:\嵌入式\git\PCB_SPEED\pcb\BBear_speed_sensor.brd"
-\i (48:36:30) cd "E:\嵌入式\git\PCB_SPEED\pcb"
-\t (48:36:30) Opening existing design...
-\t (48:36:30) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (48:36:30) trapsize 6115
-\t (48:36:30)     Journal end - Fri Sep 29 22:17:39 2017
+\t (00:00:29) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:29)     Journal start - Tue Nov 07 21:58:07 2017
+\t (00:00:29)         Host=DAXIONG-PC User=daxiong Pid=23576 CPUs=4
+\t (00:00:29) 
+\d (00:00:29) Database opened: E:/嵌入式/git/PCB_MCU/boardv6_0/BBear_balance_carv2_0.brd
+\i (00:00:29) generaledit 
+\i (00:00:33) color192 
+\i (00:00:33) setwindow cvf.dialog
+\i (00:00:33) cvf layer_mode
+\i (00:00:33) setwindow pcb
+\i (00:00:33) generaledit 
+\i (00:00:36) setwindow cvf.dialog
+\i (00:00:36) cvf layers_visible stack-up etch/all_row TRUE
+\i (00:00:38) cvf apply
+\i (00:00:38) cvf okay
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 44.4595 25.4080
+\i (00:00:39) trapsize 6425
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 44.4595 25.4080
+\t (00:00:39) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:00:39) trapsize 3213
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 56.2175 24.7012
+\t (00:00:42) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:00:42) trapsize 6425
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 39.7691 21.7456
+\t (00:00:43) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:00:43) trapsize 3213
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 39.7691 21.6171
+\i (00:00:43) trapsize 1606
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 45.9372 23.2555
+\t (00:00:44) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:00:44) trapsize 803
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 45.9533 23.4644
+\i (00:00:46) trapsize 402
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 45.9131 23.4564
+\i (00:00:47) trapsize 803
+\i (00:00:49) zoom out 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 45.9613 23.6331
+\t (00:00:49) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:00:49) trapsize 1606
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 45.9614 23.4726
+\t (00:00:52) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:00:52) trapsize 803
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out 45.8329 23.7618
+\t (00:00:53) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:00:53) trapsize 1606
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 46.5718 17.3686
+\t (00:00:55) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:00:55) trapsize 803
+\i (00:00:58) zoom out 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 45.6563 18.0754
+\t (00:00:58) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:00:58) trapsize 1606
+\i (00:01:00) drag_start grid 41.9296 16.9831
+\i (00:01:00) move 
+\t (00:01:01) last pick:  41.8846  17.2212
+\t (00:01:01) Pick new location for the element(s).
+\i (00:01:02) drag_stop grid 41.8654 17.0474
+\i (00:01:02) generaledit 
+\i (00:01:07) setwindow form.find
+\i (00:01:07) FORM find all_on  
+\i (00:01:07) FORM find all_off  
+\i (00:01:09) setwindow pcb
+\i (00:01:09) drag_start grid 42.1545 17.2401
+\i (00:01:09) drag_stop 43.7608 18.8464
+\i (00:01:10) zoom out 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom out 46.7807 19.8744
+\i (00:01:10) trapsize 3213
+\i (00:01:10) zoom out 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom out 49.4792 22.1233
+\t (00:01:10) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:01:10) trapsize 6425
+\i (00:01:11) zoom in 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom in 46.5237 17.2402
+\t (00:01:11) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:01:11) trapsize 3213
+\i (00:01:12) zoom in 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom in 45.1744 18.6538
+\i (00:01:12) trapsize 1606
+\i (00:01:16) zoom out 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom out 40.9017 20.4529
+\i (00:01:16) trapsize 3213
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 40.8374 15.9552
+\i (00:01:19) trapsize 1606
+\i (00:01:31) zoom out 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom out 37.5927 14.6702
+\i (00:01:31) trapsize 3213
+\i (00:01:33) zoom in 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom in 23.2003 12.6785
+\i (00:01:33) trapsize 1606
+\i (00:01:34) zoom out 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom out 23.7464 12.9355
+\i (00:01:34) trapsize 3213
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 24.4532 10.6867
+\i (00:01:35) trapsize 1606
+\i (00:01:36) zoom in 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom in 26.6699 10.9437
+\t (00:01:36) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:01:36) trapsize 803
+\i (00:01:36) zoom in 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom in 26.7181 10.9598
+\i (00:01:36) trapsize 402
+\i (00:01:38) zoom out 1 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) zoom out 26.9430 11.0321
+\i (00:01:38) trapsize 803
+\i (00:01:43) zoom out 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom out 27.3125 11.0482
+\t (00:01:43) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:01:43) trapsize 1606
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 16.6144 10.8232
+\t (00:01:47) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:01:47) trapsize 803
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 16.6145 10.8232
+\i (00:01:47) trapsize 402
+\i (00:01:49) zoom out 1 
+\i (00:01:49) setwindow pcb
+\i (00:01:49) zoom out 19.3774 10.8634
+\i (00:01:49) trapsize 803
+\i (00:03:58) pick grid 19.4898 10.7670
+\t (00:03:58) last pick:  19.4818  10.7696
+\i (00:55:16) exit 
+\e (00:55:16) Do you want to save the changes you made to BBear_balance_carv2_0.brd?
+\i (00:55:18) fillin no 
+\t (00:55:18)     Journal end - Tue Nov 07 22:52:56 2017

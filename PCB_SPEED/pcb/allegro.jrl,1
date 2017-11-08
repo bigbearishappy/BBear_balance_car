@@ -1,20 +1,21 @@
-\t (00:00:21) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:21)     Journal start - Sat Oct 14 20:46:16 2017
-\t (00:00:21)         Host=DAXIONG-PC User=daxiong Pid=19384 CPUs=4
-\t (00:00:21) 
-\t (00:00:22) Opening existing design...
-\d (00:00:23) Database opened: E:/嵌入式/git/PCB_SPEED/pcb/BBear_speed_sensor.brd
-\t (00:00:23) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (00:00:23) trapsize 6127
-\i (00:00:23) trapsize 5958
-\i (00:00:23) trapsize 6157
-\i (00:00:24) trapsize 6116
-\i (00:00:24) trapsize 6116
-\i (00:00:25) generaledit 
-\i (00:00:29) open 
-\i (00:00:38) fillin "E:\嵌入式\git\PCB_MCU\boardv6_0\BBear_balance_carv2_0.brd"
-\i (00:00:38) cd "E:\嵌入式\git\PCB_MCU\boardv6_0"
-\t (00:00:38) Opening existing design...
-\t (00:00:38) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
-\i (00:00:38) trapsize 12850
-\t (00:00:38)     Journal end - Sat Oct 14 20:46:34 2017
+\t (00:00:10) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:10)     Journal start - Tue Nov 07 21:57:48 2017
+\t (00:00:10)         Host=DAXIONG-PC User=daxiong Pid=23576 CPUs=4
+\t (00:00:10) 
+\t (00:00:12) Opening existing design...
+\d (00:00:12) Database opened: E:/嵌入式/git/PCB_SPEED/pcb/BBear_speed_sensor.brd
+\t (00:00:13) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:00:13) trapsize 9275
+\i (00:00:13) trapsize 8892
+\i (00:00:13) trapsize 9342
+\i (00:00:14) trapsize 9248
+\i (00:00:14) trapsize 9248
+\i (00:00:15) generaledit 
+\i (00:00:16) trapsize 6116
+\i (00:00:17) open 
+\i (00:00:29) fillin "E:\嵌入式\git\PCB_MCU\boardv6_0\BBear_balance_carv2_0.brd"
+\i (00:00:29) cd "E:\嵌入式\git\PCB_MCU\boardv6_0"
+\t (00:00:29) Opening existing design...
+\t (00:00:29) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:00:29) trapsize 12850
+\t (00:00:29)     Journal end - Tue Nov 07 21:58:07 2017

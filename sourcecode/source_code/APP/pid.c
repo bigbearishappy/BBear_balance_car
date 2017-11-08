@@ -69,7 +69,7 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target,unsigned char whi
 	int32_t temp;
 	//target = 1;
 	if(target == 1)current += 2.2;
-	else if(target == 2) current -= 2.2;
+	else if(target == 2) current -= 2.0;
 	temp = (int32_t)(current);
 	spd_v = spd_v * 4 / 5 + (float)(current) / 5;
 
@@ -79,14 +79,15 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target,unsigned char whi
 		else if(RIGHT_WHEEL == which_wheel)
 			spd_length_r+= (int32_t)temp;
 	}
-#define TEMP1	3	 
+#define TEMP1_F	30	 
+#define TEMP1_B 3
 	if(LEFT_WHEEL == which_wheel){
 		if(target == 1){
 			spd_length_l += ADD_VALUE_FB;
-			if(spd_length_l > TEMP1) spd_length_l = TEMP1;
+			if(spd_length_l > TEMP1_F) spd_length_l = TEMP1_F;
 		}else if(target == 2){
 			spd_length_l -= ADD_VALUE_FB;
-			if(spd_length_l < -TEMP1) spd_length_l = -TEMP1;
+			if(spd_length_l < -TEMP1_B) spd_length_l = -TEMP1_B;
 		}else if(target == 3)
 			spd_length_l += ADD_VALUE_LR;
 		else if(target == 4)
@@ -97,10 +98,10 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target,unsigned char whi
 	else if(RIGHT_WHEEL == which_wheel){
 		if(target == 1){
 			spd_length_r += ADD_VALUE_FB;
-			if(spd_length_r > TEMP1) spd_length_r = TEMP1;
+			if(spd_length_r > TEMP1_F) spd_length_r = TEMP1_F;
 		}else if(target == 2){
 			spd_length_r -= ADD_VALUE_FB;
-			if(spd_length_r < -TEMP1) spd_length_r = -TEMP1;
+			if(spd_length_r < -TEMP1_B) spd_length_r = -TEMP1_B;
 		}else if(target == 3)
 			spd_length_r -= ADD_VALUE_LR;
 		else if(target == 4)
