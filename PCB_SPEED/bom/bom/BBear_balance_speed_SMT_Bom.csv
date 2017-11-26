@@ -1,0 +1,9 @@
+Comment,Description,Designator,Footprint,Pins,Quantity
+LED 0805 红光,贴片LED,LED1;LED2,C-0805,2,2
+330Ω 0805 ±1%,贴片电阻,R1;R7,C-0805,2,2
+10KΩ 0805 ±1%,贴片电阻,R2;R5;R6;R8,C-0805,2,4
+1KΩ  0805 ±1%,贴片电阻,R3;R9,C-0805,2,2
+CON2 直插器件,两孔直插排针,C1;C3,CON2_3MM,2,2
+CON2 直插器件,两孔直插排针,C2;C4,CON2_3MM,2,2
+CON4 直插器件,四孔直插排针,S1,CON4,4,1
+LM393 SOIC-8,SOIC-8贴片器件,L1,SOIC-8,8,1

@@ -1,0 +1,31 @@
+#
+# Property of Cadence Design Systems, Inc.  All rights reserved.
+#
+# $Header: bom_rep_view.txt.v 1.1 12/11/87 ddd Prealpha 
+#
+# File: bom_rep_view.txt - Component data extract cmd file for 
+#				bill-of-material (bom) report
+#
+# Revision history:
+#	(0.10) ddd 12/11/87	Preliminary initial version
+#       (1.00) rhe 08/10/99     Ignore components (instances)
+#                               with non-blank BOM_IGNORE property.
+#
+#
+COMPONENT
+#
+COMP_BOM_IGNORE = ''
+#
+# Extract: package, refdes, device_type,
+# 	    value, tolerance, comp_class
+#
+SYM_NAME
+COMP_DEVICE_TYPE
+COMP_VALUE
+COMP_TOL
+COMP_CLASS
+REFDES_SORT
+REFDES
+#
+# end of bom_rep_view
+#
