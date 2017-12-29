@@ -79,8 +79,8 @@ int32_t PID_Cal_Speed(pid_s *p, int32_t current,int32_t target,unsigned char whi
 		else if(RIGHT_WHEEL == which_wheel)
 			spd_length_r+= (int32_t)temp;
 	}
-#define TEMP1_F	30	 
-#define TEMP1_B 3
+#define TEMP1_F	20	 
+#define TEMP1_B 2
 	if(LEFT_WHEEL == which_wheel){
 		if(target == 1){
 			spd_length_l += ADD_VALUE_FB;
