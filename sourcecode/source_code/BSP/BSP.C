@@ -39,6 +39,23 @@ Returns£º
 Description:
 			null
 ******************************************************************************/
+int Systeminit(void)
+{
+	RCC_Configuration();				//initialize the system clock
+	USART_Configuration();				//initialize the usart
+	return 0;
+}
+/******************************************************************************
+Name£ºRCC_Configration 
+Function:	
+		  	initialize the system clock
+Parameters£º
+		   	void
+Returns£º
+			void 
+Description:
+			null
+******************************************************************************/
 void RCC_Configuration()
 {
 	ErrorStatus HSEStartUpStatus;

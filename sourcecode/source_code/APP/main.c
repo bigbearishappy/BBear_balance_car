@@ -1,6 +1,27 @@
 /*************************************HEAD FILES******************************/
 #include"BSP.H"
 
+/* Scheduler includes. */
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+
+void LED1_FUN(void *pvParameters)
+{
+	for(;;){
+		vTaskDelay(100);
+		printf("task one!\n");
+	}
+}
+
+void LED2_FUN(void *pvParameters)
+{
+	for(;;){
+		vTaskDelay(200);
+		printf("task two!\n");
+	}
+}
+
 /******************************************************************************
 Name£ºmain 
 Function:	
@@ -15,6 +36,7 @@ Description:
 void SystemInit(){}
 int main()
 {	
+#if 0
 	RCC_Configuration();				//initialize the system clock
 	USART_Configuration();				//initialize the usart
 	GPIO_Configuration();
@@ -29,4 +51,16 @@ int main()
 	while(1)
 	{
 	}
+#else
+	int ret = 0;
+	ret = Systeminit();
+	//if(ret < 0)
+		printf("system init error ret =%d\n", ret);
+
+	xTaskCreate( LED1_FUN, "LED1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
+	xTaskCreate( LED2_FUN, "LED2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
+	
+	vTaskStartScheduler();
+	return 0;
+#endif
 }

@@ -50,6 +50,7 @@ extern unsigned char control_data;
 extern uint8_t heart_flag;
 extern int32_t run_l,run_r;
 
+int Systeminit(void);
 void RCC_Configuration(void);
 void GPIO_Configuration(void);
 void USART_Configuration(void);
