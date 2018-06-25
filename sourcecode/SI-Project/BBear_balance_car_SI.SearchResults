@@ -1,0 +1,100 @@
+---- configSUPPORT_DYNAMIC_ALLOCATION Matches (96 in 22 files) ----
+BlockQ.c (source_code\freertos\common\minimal):#if( configSUPPORT_DYNAMIC_ALLOCATION == 0 )
+Event_groups.c (source_code\freertos\source):	#if( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Event_groups.c (source_code\freertos\source):			#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Event_groups.c (source_code\freertos\source):			#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Event_groups.c (source_code\freertos\source):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Event_groups.c (source_code\freertos\source):#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Event_groups.c (source_code\freertos\source):		#if( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configSUPPORT_STATIC_ALLOCATION == 0 ) )
+Event_groups.c (source_code\freertos\source):		#elif( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configSUPPORT_STATIC_ALLOCATION == 1 ) )
+Event_groups.c (source_code\freertos\source):		#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Event_groups.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+FreeRTOS.h (source_code\freertos\source\include):#ifndef configSUPPORT_DYNAMIC_ALLOCATION
+FreeRTOS.h (source_code\freertos\source\include):	#define configSUPPORT_DYNAMIC_ALLOCATION 1
+FreeRTOS.h (source_code\freertos\source\include):#if( ( configSUPPORT_STATIC_ALLOCATION == 0 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 0 ) )
+FreeRTOS.h (source_code\freertos\source\include):	#error configSUPPORT_STATIC_ALLOCATION and configSUPPORT_DYNAMIC_ALLOCATION cannot both be 0, but can both be 1.
+FreeRTOS.h (source_code\freertos\source\include):	#if( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+FreeRTOS.h (source_code\freertos\source\include):	#if( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+FreeRTOS.h (source_code\freertos\source\include):	#if( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+FreeRTOS.h (source_code\freertos\source\include):	#if( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Heap_1.c (source_code\freertos\source\portable\memmang):#if( configSUPPORT_DYNAMIC_ALLOCATION == 0 )
+Heap_1.c (source_code\freertos\source\portable\memmang):	#error This file must not be used if configSUPPORT_DYNAMIC_ALLOCATION is 0
+Heap_2.c (source_code\freertos\source\portable\memmang):#if( configSUPPORT_DYNAMIC_ALLOCATION == 0 )
+Heap_2.c (source_code\freertos\source\portable\memmang):	#error This file must not be used if configSUPPORT_DYNAMIC_ALLOCATION is 0
+Heap_3.c (source_code\freertos\source\portable\memmang):#if( configSUPPORT_DYNAMIC_ALLOCATION == 0 )
+Heap_3.c (source_code\freertos\source\portable\memmang):	#error This file must not be used if configSUPPORT_DYNAMIC_ALLOCATION is 0
+Heap_4.c (source_code\freertos\source\portable\memmang):#if( configSUPPORT_DYNAMIC_ALLOCATION == 0 )
+Heap_4.c (source_code\freertos\source\portable\memmang):	#error This file must not be used if configSUPPORT_DYNAMIC_ALLOCATION is 0
+Heap_5.c (source_code\freertos\source\portable\memmang):#if( configSUPPORT_DYNAMIC_ALLOCATION == 0 )
+Heap_5.c (source_code\freertos\source\portable\memmang):	#error This file must not be used if configSUPPORT_DYNAMIC_ALLOCATION is 0
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#if( ( configUSE_MUTEXES == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#if( ( configUSE_COUNTING_SEMAPHORES == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#if( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configUSE_TIMERS == 1 ) )
+Mpu_wrappers.c (source_code\freertos\source\portable\common):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Port.c (source_code\freertos\source\portable\gcc\ia32_flat):#if( ( configSUPPORT_FPU == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 0 ) )
+Port.c (source_code\freertos\source\portable\gcc\ia32_flat):	#error configSUPPORT_DYNAMIC_ALLOCATION must be set to 1 to use this port with an FPU
+Port.c (source_code\freertos\source\portable\gcc\microblaze):#if( configSUPPORT_DYNAMIC_ALLOCATION == 0 )
+Port.c (source_code\freertos\source\portable\gcc\microblaze):	#error configSUPPORT_DYNAMIC_ALLOCATION must be set to 1 to use this port.
+Port.c (source_code\freertos\source\portable\renesas\sh2a_fpu):#if( configSUPPORT_DYNAMIC_ALLOCATION == 0 )
+Port.c (source_code\freertos\source\portable\renesas\sh2a_fpu):	#error configSUPPORT_DYNAMIC_ALLOCATION must be 1 to use this port.
+Port.c (source_code\freertos\source\portable\wizc\pic18):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Port.c (source_code\freertos\source\portable\wizc\pic18):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Port.c (source_code\freertos\source\portable\wizc\pic18):#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Queue.c (source_code\freertos\source):	#if( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Queue.c (source_code\freertos\source):			#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Queue.c (source_code\freertos\source):			#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Queue.c (source_code\freertos\source):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Queue.c (source_code\freertos\source):#if( ( configUSE_MUTEXES == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Queue.c (source_code\freertos\source):#endif /* ( ( configUSE_COUNTING_SEMAPHORES == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) ) */
+Queue.c (source_code\freertos\source):#if( ( configUSE_COUNTING_SEMAPHORES == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Queue.c (source_code\freertos\source):#endif /* ( ( configUSE_COUNTING_SEMAPHORES == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) ) */
+Queue.c (source_code\freertos\source):	#if( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configSUPPORT_STATIC_ALLOCATION == 0 ) )
+Queue.c (source_code\freertos\source):	#elif( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configSUPPORT_STATIC_ALLOCATION == 1 ) )
+Queue.c (source_code\freertos\source):	#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Queue.c (source_code\freertos\source):#if( ( configUSE_QUEUE_SETS == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Queue.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Queue.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Semphr.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Semphr.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Semphr.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Semphr.h (source_code\freertos\source\include):#if( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configUSE_RECURSIVE_MUTEXES == 1 ) )
+Semphr.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+StaticAllocation.c (source_code\freertos\common\minimal):	#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Task.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Tasks.c (source_code\freertos\source):#define tskSTATIC_AND_DYNAMIC_ALLOCATION_POSSIBLE ( ( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) ) || ( portUSING_MPU_WRAPPERS == 1 ) )
+Tasks.c (source_code\freertos\source):			#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Tasks.c (source_code\freertos\source):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Tasks.c (source_code\freertos\source):#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Tasks.c (source_code\freertos\source):		#if( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configSUPPORT_STATIC_ALLOCATION == 0 ) && ( portUSING_MPU_WRAPPERS == 0 ) )
+Tasks.c (source_code\freertos\source):		#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Tasks.c (source_code\freertos\source):		configSUPPORT_DYNAMIC_ALLOCATION is set to 0 then pvPortMalloc() will
+Tasks.c (source_code\freertos\source):			/* Free the array again.  NOTE!  If configSUPPORT_DYNAMIC_ALLOCATION
+Tasks.c (source_code\freertos\source):		configSUPPORT_DYNAMIC_ALLOCATION is set to 0 then pvPortMalloc() will
+Tasks.c (source_code\freertos\source):			/* Free the array again.  NOTE!  If configSUPPORT_DYNAMIC_ALLOCATION
+Timers.c (source_code\freertos\source):	#if( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+Timers.c (source_code\freertos\source):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Timers.c (source_code\freertos\source):			#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+Timers.c (source_code\freertos\source):			#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Timers.c (source_code\freertos\source):					#if( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configSUPPORT_STATIC_ALLOCATION == 0 ) )
+Timers.c (source_code\freertos\source):					#elif( ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) && ( configSUPPORT_STATIC_ALLOCATION == 1 ) )
+Timers.c (source_code\freertos\source):					#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
+Timers.c (source_code\freertos\source):				configSUPPORT_DYNAMIC_ALLOCATION is 0. */
+Timers.h (source_code\freertos\source\include):#if( configSUPPORT_DYNAMIC_ALLOCATION == 1 )
+---- configSUPPORT_DYNAMIC_ALLOCATION Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+E:\«∂»Î Ω\git\sourcecode\file\output\balancec.build_log.htm : File could not be opened.

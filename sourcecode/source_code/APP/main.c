@@ -3,6 +3,7 @@
 
 /* Scheduler includes. */
 #include "FreeRTOS.h"
+#include "timers.h"
 #include "task.h"
 #include "queue.h"
 
@@ -19,6 +20,25 @@ void LED2_FUN(void *pvParameters)
 	for(;;){
 		vTaskDelay(200);
 		printf("task two!\n");
+	}
+}
+
+void vCallbackFunctionExample( TimerHandle_t xTimer )
+{
+	printf("tmr callback fun\n");
+}
+
+
+void DEMO_Task(void *pvParameters)
+{
+	TimerHandle_t ret = 0;
+	ret = xTimerCreate("MPU6050TMR", pdMS_TO_TICKS(20), pdTRUE, NULL, vCallbackFunctionExample);
+	if(ret == NULL){
+		printf("timer creat error ret = %d\n", ret);
+	}
+	xTimerStart(ret, pdMS_TO_TICKS(0));
+	for(;;){
+
 	}
 }
 
@@ -54,11 +74,12 @@ int main()
 #else
 	int ret = 0;
 	ret = Systeminit();
-	//if(ret < 0)
+	if(ret < 0)
 		printf("system init error ret =%d\n", ret);
 
 	xTaskCreate( LED1_FUN, "LED1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
 	xTaskCreate( LED2_FUN, "LED2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
+	xTaskCreate( DEMO_Task, "DEMO", 1024, NULL, tskIDLE_PRIORITY, NULL);
 	
 	vTaskStartScheduler();
 	return 0;
