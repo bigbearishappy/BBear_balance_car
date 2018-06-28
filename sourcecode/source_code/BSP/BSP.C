@@ -43,6 +43,12 @@ int Systeminit(void)
 {
 	RCC_Configuration();				//initialize the system clock
 	USART_Configuration();				//initialize the usart
+	GPIO_Configuration();
+	NVIC_Configuration();
+	EXTI_Configuration();
+	PID_Init(&Angle_PID, 150, 0, -100); 	//20170219 150,0,-100
+	PID_Init(&Speed_PID, 360, 37.5, 0);   	//20170219 50,0.5,0   //20171019 100,25,0 //20171024 180,37.5,0
+	PWM_Motor_Configuration();
 	return 0;
 }
 /******************************************************************************
@@ -229,23 +235,23 @@ void NVIC_Configuration(void)
 //   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;		   
 //   NVIC_Init(&NVIC_InitStructure); 						   
   
-	NVIC_InitStructure.NVIC_IRQChannel = TIM3_IRQn;  
+	/*NVIC_InitStructure.NVIC_IRQChannel = TIM3_IRQn;  
 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1; 
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE; 
 	NVIC_Init(&NVIC_InitStructure); 
 
-  NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
-  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;  
-  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-  NVIC_Init(&NVIC_InitStructure);
- 
-  NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		
-  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;//3        
-  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;	        
-  NVIC_Init(&NVIC_InitStructure);
+	NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;  
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+	NVIC_Init(&NVIC_InitStructure);*/
+
+	NVIC_InitStructure.NVIC_IRQChannel = EXTI15_10_IRQn;		
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;//3        
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;	        
+	NVIC_Init(&NVIC_InitStructure);
 }
 
 /******************************************************************************
@@ -489,77 +495,74 @@ Returns£º
 Description:
 			null
 ******************************************************************************/
-void TIM3_IRQHandler(void)
-{
-	if(TIM_GetITStatus(TIM3, TIM_IT_Update) == SET){
-		TIM_ClearITPendingBit(TIM3, TIM_FLAG_Update);
-	
+void Tim3_IRQHandler(void)
+{	
 #if 1		
-		p = buf;
-		READ_MPU6050(p);
-		acc_x = p[0];
-		acc_z = p[1];
-		gyro_y = p[2];
-		//printf("x:%d z:%d y:%d \r\n",acc_x,acc_z,gyro_y);
+	p = buf;
+	READ_MPU6050(p);
+	acc_x = p[0];
+	acc_z = p[1];
+	gyro_y = p[2];
+	//printf("x:%d z:%d y:%d \r\n",acc_x,acc_z,gyro_y);
 
-		acc_x += acc_x_offset;
-		acc_z += acc_z_offset;
-		gyro_y += gyro_y_offset;
-		//printf("x:%d z:%d y:%d \r\n",acc_x,acc_z,gyro_y);
+	acc_x += acc_x_offset;
+	acc_z += acc_z_offset;
+	gyro_y += gyro_y_offset;
+	//printf("x:%d z:%d y:%d \r\n",acc_x,acc_z,gyro_y);
 
-		radian = (float)((float)acc_x / 8192);
-		radian = asin(radian);
-		radian = (radian * 180.0) / 3.1415926;
+	radian = (float)((float)acc_x / 8192);
+	radian = asin(radian);
+	radian = (radian * 180.0) / 3.1415926;
 
-		radian_temp1 = (((float)gyro_y) / 16.4) * 0.01;//0.01 mean cal the radian every 0.01s	
-		
-		radian_pt += radian_temp1;
+	radian_temp1 = (((float)gyro_y) / 16.4) * 0.01;//0.01 mean cal the radian every 0.01s	
+	
+	radian_pt += radian_temp1;
 
-		radian_filted = Kaerman_Filter(radian_filted, -radian, radian_temp1);
+	radian_filted = Kaerman_Filter(radian_filted, -radian, radian_temp1);
 
-		//printf("0x%x\r\n",control_data);
-		if(control_data == 0x18)
-			target_dir = 1;
-		else if(control_data == 0x4a)
-			target_dir = 2;
-		else if(control_data == 0x10){
-			//run_l = L_R;
-			//run_r = -L_R;
-			target_dir = 3;
-		}
-		else if(control_data == 0x5a){
-			//run_l = -L_R;
-			//run_r = L_R;
-			target_dir = 4;
-		}
-		else{
-			run_l = 0;
-			run_r = 0;
-			target_dir = 0;
-		}
-		control_data = 0x00;
-		//get the speed of the car
-		if(leftspeed >= 0)
-			res_l = leftspeed>=3?3:leftspeed;
-		else
-			res_l = leftspeed<=-3?-3:leftspeed;
+	//printf("0x%x\r\n",control_data);
+	if(control_data == 0x18)
+		target_dir = 1;
+	else if(control_data == 0x4a)
+		target_dir = 2;
+	else if(control_data == 0x10){
+		//run_l = L_R;
+		//run_r = -L_R;
+		target_dir = 3;
+	}
+	else if(control_data == 0x5a){
+		//run_l = -L_R;
+		//run_r = L_R;
+		target_dir = 4;
+	}
+	else{
+		run_l = 0;
+		run_r = 0;
+		target_dir = 0;
+	}
+	control_data = 0x00;
+	//get the speed of the car
+	if(leftspeed >= 0)
+		res_l = leftspeed>=3?3:leftspeed;
+	else
+		res_l = leftspeed<=-3?-3:leftspeed;
 
-		if(rightspeed >= 0)
-			res_r = rightspeed>=3?3:rightspeed;
-		else
-			res_r = rightspeed<=-3?-3:rightspeed;
-		leftspeed = 0;
-		rightspeed = 0;
+	if(rightspeed >= 0)
+		res_r = rightspeed>=3?3:rightspeed;
+	else
+		res_r = rightspeed<=-3?-3:rightspeed;
+	leftspeed = 0;
+	rightspeed = 0;
 
-		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
-		balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir,LEFT_WHEEL);
-		balan_pwm_spd_r  = PID_Cal_Speed(&Speed_PID,res_r,target_dir,RIGHT_WHEEL);
+	balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
+	balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir,LEFT_WHEEL);
+	balan_pwm_spd_r  = PID_Cal_Speed(&Speed_PID,res_r,target_dir,RIGHT_WHEEL);
 
-		if(radian_filted > -45 && radian_filted < 45)
-			PWM_Control(balan_pwm_ang + balan_pwm_spd_l , balan_pwm_ang + balan_pwm_spd_r );
-		else{
-			PWM_Control(0, 0);
-		}
+	if(radian_filted > -45 && radian_filted < 45)
+		PWM_Control(balan_pwm_ang + balan_pwm_spd_l , balan_pwm_ang + balan_pwm_spd_r );
+	else{
+		PWM_Control(0, 0);
+	}
 
 //		printf("%x\n",speed_dir);
 //		printf("%d ",balan_pwm);
@@ -570,8 +573,7 @@ void TIM3_IRQHandler(void)
 //		printf(" %d\n",balan_pwm_spd);
 //		printf(",%.1lf\n",radian_filted);
 //		printf("%.1lf,%.1lf,%.1lf\r\n",radian_filted,-radian,radian_pt);
-#endif	
-	}	
+#endif		
 }
 
 /******************************************************************************

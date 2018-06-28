@@ -25,7 +25,7 @@ void LED2_FUN(void *pvParameters)
 
 void vCallbackFunctionExample( TimerHandle_t xTimer )
 {
-	printf("tmr callback fun\n");
+	Tim3_IRQHandler();
 }
 
 
@@ -77,8 +77,8 @@ int main()
 	if(ret < 0)
 		printf("system init error ret =%d\n", ret);
 
-	xTaskCreate( LED1_FUN, "LED1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
-	xTaskCreate( LED2_FUN, "LED2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
+	//xTaskCreate( LED1_FUN, "LED1", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
+	//xTaskCreate( LED2_FUN, "LED2", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY, NULL );
 	xTaskCreate( DEMO_Task, "DEMO", 1024, NULL, tskIDLE_PRIORITY, NULL);
 	
 	vTaskStartScheduler();
