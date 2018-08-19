@@ -21,8 +21,9 @@
 
 //#define gyro_y_offset	4.37040//4.37043
 #define	acc_x_offset	-56.8//-156.8//-83.4
-#define	acc_z_offset	-389.2
+#define	acc_y_offset	111//-389.2
 #define gyro_y_offset	-20//20//-56.36
+#define gyro_x_offset	20
 
 #define REMOTE_ID 		0 
 
@@ -34,7 +35,7 @@
 #define RDATA PAin(3)	  
 
 extern float radian_filted;									//the angle which is filted
-extern int16_t buf[3];										//the array to store the mpu6050 data
+extern int16_t buf[4];										//the array to store the mpu6050 data
 extern uint32_t distance;							   		//the car's total run distance
 extern int16_t acc_x, acc_z;								//acceleration on the x,z axis
 extern int16_t gyro_y ;										//angular speed ont the y axis

@@ -2,12 +2,13 @@
 #include"BSP.H"
 
 /*****************************public values***********************************/
-float radian_filted = 0;									//the angle which is filted
-int16_t buf[3] = {0, 0, 0};								//the array to store the mpu6050 data
+float radian_filted = 0, radian_filted2 = 0;			//the angle which is filted
+int16_t buf[4] = {0, 0, 0, 0};							//the array to store the mpu6050 data
 uint32_t distance = 0;							   		//the car's total run distance
-int16_t acc_x, acc_z;											//acceleration on the x,z axis
-int16_t gyro_y = 0;												//angular speed ont the y axis
-float radian_pt = 0, radian_temp1 = 0, radian_temp2 = 0;	//radian_pt:the angle which is accumulated; radian_temp1:temporary of angle calculate
+int16_t acc_x, acc_y, acc_z;											//acceleration on the x,z axis
+int16_t gyro_y = 0, gyro_x = 0;												//angular speed ont the y axis
+float radian_pt = 0;									//radian_pt:the angle which is accumulated;
+float radian_temp1 = 0, radian_temp2 = 0;				//radian_temp1 and radian_temp2:temporary of angle calculate
 																					//radian_temp2:temporary of angle calculate
 float radian = 0;													//the angle which is calculated by the acceleration
 int16_t *p;																//a pointer point to the array which store the mpu6050 data
@@ -19,7 +20,7 @@ pid_s Speed_PID;													//struct to store the speed PID data
 uint8_t flag_l = 1, flag_r = 1;
 uint8_t heart_flag = 0;
 uint8_t remote_flag = 0x00;
-int balan_pwm_ang = 0,balan_pwm_spd = 0,balan_pwm = 0;
+int balan_pwm_ang = 0,balan_pwm_ang2 = 0,balan_pwm_spd = 0,balan_pwm = 0;
 int balan_pwm_spd_l,balan_pwm_spd_r;
 
 unsigned char control_data = 0x00;
@@ -481,24 +482,31 @@ void TIM3_IRQHandler(void)
 		p = buf;
 		READ_MPU6050(p);
 		acc_x = p[0];
-		acc_z = p[1];
+		acc_y = p[1];
 		gyro_y = p[2];
-		//printf("x:%d z:%d y:%d \r\n",acc_x,acc_z,gyro_y);
+		gyro_x = p[3];
+		//printf("x:%d ygyro:%d y:%d xgyro:%d\r\n",acc_x,acc_y,gyro_y, gyro_x);
 
 		acc_x += acc_x_offset;
-		acc_z += acc_z_offset;
+		acc_y += acc_y_offset;
 		gyro_y += gyro_y_offset;
-		//printf("x:%d z:%d y:%d \r\n",acc_x,acc_z,gyro_y);
+		gyro_x += gyro_x_offset;
+		//printf("x:%d ygyro:%d y:%d xgyro:%d\r\n",acc_x,acc_y,gyro_y, gyro_x);
+		//printf("%d\n",acc_y);
 
 		radian = (float)((float)acc_x / 8192);
 		radian = asin(radian);
 		radian = (radian * 180.0) / 3.1415926;
-
-		radian_temp1 = (((float)gyro_y) / 16.4) * 0.01;//0.01 mean cal the radian every 0.01s	
-		
-		radian_pt += radian_temp1;
-
+		radian_temp1 = (((float)gyro_y) / 16.4) * 0.01;//0.01 mean cal the radian every 0.01s			
+		//radian_pt += radian_temp1;
 		radian_filted = Kaerman_Filter(radian_filted, -radian, radian_temp1);
+
+		radian = (float)((float)acc_y / 8192);
+		radian = asin(radian);
+		radian = (radian * 180.0) / 3.1415926;
+		radian_temp2 = (((float)gyro_x) / 16.4) * 0.01;//0.01 mean cal the radian every 0.01s
+		//radian_pt2 += radian_temp2;
+		radian_filted2 = Kaerman_Filter(radian_filted2, radian, radian_temp2);
 
 		//printf("0x%x\r\n",control_data);
 		if(control_data == 0x18)
@@ -535,11 +543,13 @@ void TIM3_IRQHandler(void)
 		rightspeed = 0;
 
 		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
-		balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir,LEFT_WHEEL);
-		balan_pwm_spd_r  = PID_Cal_Speed(&Speed_PID,res_r,target_dir,RIGHT_WHEEL);
+		balan_pwm_ang2= PID_Cal_Ang(&Angle_PID, radian_filted2, radian_temp2, 0);
+		//balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir,LEFT_WHEEL);
+		//balan_pwm_spd_r  = PID_Cal_Speed(&Speed_PID,res_r,target_dir,RIGHT_WHEEL);
 
 		if(radian_filted > -45 && radian_filted < 45)
-			PWM_Control(balan_pwm_ang + balan_pwm_spd_l , balan_pwm_ang + balan_pwm_spd_r );
+			//PWM_Control(balan_pwm_ang + balan_pwm_spd_l , balan_pwm_ang + balan_pwm_spd_r );
+			PWM_Control(0, balan_pwm_ang);
 		else{
 			PWM_Control(0, 0);
 		}
@@ -549,6 +559,7 @@ void TIM3_IRQHandler(void)
 //		printf("%d ",res_l); 
 //		printf("%d\r\n",res_r);
 //		printf(",%.1lf\n",radian_filted);
+//		printf(",%.1lf\n",radian_filted2);
 //		printf(" %d",balan_pwm_ang);
 //		printf(" %d\n",balan_pwm_spd);
 //		printf(",%.1lf\n",radian_filted);

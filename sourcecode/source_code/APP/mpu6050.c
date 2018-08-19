@@ -42,17 +42,22 @@ Description:
 ******************************************************************************/
 void READ_MPU6050(int16_t *p)
 {
-	uint8_t BUF[6];
+	uint8_t BUF[8];
 
    	BUF[0]=Single_Read(MPU6050_Addr,ACCEL_XOUT_L); 	//X AXIS ACC
    	BUF[1]=Single_Read(MPU6050_Addr,ACCEL_XOUT_H);
    	p[0] = (BUF[1]<<8)|BUF[0];
 
-   	BUF[2]=Single_Read(MPU6050_Addr,ACCEL_YOUT_L);	//Z AXIS ACC
+   	BUF[2]=Single_Read(MPU6050_Addr,ACCEL_YOUT_L);	//Y AXIS ACC
    	BUF[3]=Single_Read(MPU6050_Addr,ACCEL_YOUT_H);
    	p[1] = (BUF[3]<<8)|BUF[2];
 
    	BUF[4]=Single_Read(MPU6050_Addr,GYRO_YOUT_L);	//Y AXIS GYRO
    	BUF[5]=Single_Read(MPU6050_Addr,GYRO_YOUT_H);
    	p[2] = (BUF[5]<<8)|BUF[4];
+
+	BUF[6]=Single_Read(MPU6050_Addr,GYRO_XOUT_L);	//X ASIX GYRO
+	BUF[7]=Single_Read(MPU6050_Addr,GYRO_XOUT_H);
+	p[3] = (BUF[7]<<8)|BUF[6];
+
 }

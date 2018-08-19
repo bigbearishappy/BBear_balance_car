@@ -145,8 +145,8 @@ Name£ºPWM_Control
 Function:	
 		  	pwm control of motor
 Parameters£º
-		   	[in]	-	motorL:pwm value of left motor
-						motorR:pwm value of right motor
+		   	[in]	-	motorL:pwm value of fans
+						motorR:pwm value of wheelbarrow motor
 Returns£º
 			void 
 Description:
