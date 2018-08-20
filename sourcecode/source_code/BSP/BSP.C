@@ -14,7 +14,7 @@ float radian = 0;													//the angle which is calculated by the acceleratio
 int16_t *p;																//a pointer point to the array which store the mpu6050 data
 int16_t leftspeed = 0,rightspeed = 0;			//the car's left wheel and right wheel	
 short res_l = 0,res_r = 0;
-pid_s Angle_PID;													//struct to store the angle PID data
+pid_s Angle_PID, Angle_PID2;													//struct to store the angle PID data
 pid_s Speed_PID;													//struct to store the speed PID data
 
 uint8_t flag_l = 1, flag_r = 1;
@@ -543,13 +543,13 @@ void TIM3_IRQHandler(void)
 		rightspeed = 0;
 
 		balan_pwm_ang = PID_Cal_Ang(&Angle_PID, -radian_filted, radian_temp1, 0);
-		balan_pwm_ang2= PID_Cal_Ang(&Angle_PID, radian_filted2, radian_temp2, 0);
-		//balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir,LEFT_WHEEL);
+		balan_pwm_ang2= PID_Cal_Ang(&Angle_PID2, radian_filted2, radian_temp2, 0);
+		balan_pwm_spd_l  = PID_Cal_Speed(&Speed_PID,res_l,target_dir,LEFT_WHEEL);
 		//balan_pwm_spd_r  = PID_Cal_Speed(&Speed_PID,res_r,target_dir,RIGHT_WHEEL);
 
 		if(radian_filted > -45 && radian_filted < 45)
 			//PWM_Control(balan_pwm_ang + balan_pwm_spd_l , balan_pwm_ang + balan_pwm_spd_r );
-			PWM_Control(0, balan_pwm_ang);
+			PWM_Control(balan_pwm_ang2, 0/*balan_pwm_ang-balan_pwm_spd_l*/);
 		else{
 			PWM_Control(0, 0);
 		}
@@ -557,7 +557,7 @@ void TIM3_IRQHandler(void)
 //		printf("%x\n",speed_dir);
 //		printf("%d ",balan_pwm);
 //		printf("%d ",res_l); 
-//		printf("%d\r\n",res_r);
+//		printf("%d %d\n",res_r, res_l);
 //		printf(",%.1lf\n",radian_filted);
 //		printf(",%.1lf\n",radian_filted2);
 //		printf(" %d",balan_pwm_ang);
